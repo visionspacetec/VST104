@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# empty
+#
+DEF empty U 0 40 Y Y 1 F N
+F0 "U" 0 -50 50 H V C CNN
+F1 "empty" 0 250 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+C 0 100 71 0 1 0 N
+S 0 100 -50 50 0 1 0 N
+S 0 150 50 100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name VST104_footprints)(type KiCad)(uri C:/Users/Filip.Filip/Documents/kiCad/VST104_footprints.pretty)(options "")(descr ""))
+  (lib (name VST104_logos)(type KiCad)(uri C:/Users/Filip.Filip/Documents/kiCad/VST104_logos.pretty)(options "")(descr ""))
+)
