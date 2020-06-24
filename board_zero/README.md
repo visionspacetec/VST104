@@ -5,7 +5,7 @@ This repository contains a KiCad project of a prototype board designed for a Cub
 It is meant to use this board with a connection to other LibreCube boards for hardware and software testing and development.  This board should provide an efficient tool for soldering temporary circuits with THT technology (plus two SO16 chips).
 
 ## Visual teaser
-<img align="center" src="board_zero/gallery/3d_model.png" width=36%/> <img align="center" src="board_zero/gallery/schematic.png" width=62%/>
+<img align="center" src="gallery/3d_model.png" width=36%/> <img align="center" src="gallery/schematic.png" width=62%/>
 
 ## Board layout
 - **soldering array** - A significant part of the board contains a universal soldering array of 2.54[mm] spacing. With dimensions of 25x25 THT pads, it provides sufficient space for any hardware testing or simple development. The array is divided into blocks of 5x5 pads by dashed lines and labeled in a coordinate system (1-5; V-Z) for a better orientation. We have designed the pads in a circular shape with a 0.71[mm] hole and a diameter of 1.685[mm] to increase its robustness.
