@@ -118,10 +118,10 @@ Wire Wire Line
 Wire Wire Line
 	3100 1350 2550 1350
 $Comp
-L Connector:Conn_01x26_Female H2A1
+L Connector:Conn_01x26_Female H2B1
 U 1 1 5EF6095E
 P 4000 2550
-F 0 "H2A1" V 4150 2550 50  0000 C CNN
+F 0 "H2B1" V 4150 2550 50  0000 C CNN
 F 1 "Conn_01x26_Female" V 4050 2550 50  0000 C CNN
 F 2 "footprint_libraries:PinSocket_1x26_P2.54mm_Vertical_EDITED_noLabel" H 4000 2550 50  0001 C CNN
 F 3 "~" H 4000 2550 50  0001 C CNN
@@ -355,10 +355,10 @@ F 3 "~" H 1300 2550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x26_Female H2B1
+L Connector:Conn_01x26_Female H2A1
 U 1 1 5EF5B58A
 P 6000 2550
-F 0 "H2B1" V 6150 3250 50  0000 L CNN
+F 0 "H2A1" V 6150 3250 50  0000 L CNN
 F 1 "Conn_01x26_Female" V 6050 2950 50  0000 L CNN
 F 2 "footprint_libraries:PinSocket_1x26_P2.54mm_Vertical_EDITED_noLabel" H 6000 2550 50  0001 C CNN
 F 3 "~" H 6000 2550 50  0001 C CNN
