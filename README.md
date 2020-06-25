@@ -10,7 +10,7 @@ The following boards have been developed or are currently under development:
 - ### VST104 prototype board - reffered as [board_zero](./board_zero) <img align="right" src="./board_zero/gallery/3d_model.png" width=25%/>
 This board is designed to be connected to other LibreCube boards for hardware and software testing and development. The main working area contains of 25x25 THT universal array and two SO16 footprints. For easier access and cable management, the standard PC104 headers are brought to the sides of the working area. Plus, the shared signals have separate connectors, which might be useful for standalone testing.  Thanks to these features, the board should provide an efficient tool for soldering temporary circuits with THT technology (plus the two SMD chips).
 
-- ### VST single mcu board - referred as [board_alpha](./board_alpha)
+- ### VST104 single MCU board - referred as [board_sierra](./board_sierra)
 The development of this board is currently our main priority. This board could be used to test and develop the onboard mission control system without any excess modules.
 
 ## Libraries
