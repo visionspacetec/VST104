@@ -1,8 +1,10 @@
 # VST104 prototype board
 This repository contains a KiCad project of a prototype board designed for a CubeSat development. The board follows the normative specifications of LibreCube boards in PC104 format defined [at this link](https://wiki.librecube.org/index.php?title=LibreCube_Board_Specification). It includes information about the board layout, stacking, components, and other essential parameters.
 
-## Usage
 It is meant to use this board with a connection to other LibreCube boards for hardware and software testing and development.  This board should provide an efficient tool for soldering temporary circuits with THT technology (plus two SO16 chips).
+
+## Usage
+After opening the project in a KiCad, it is necessary to import the required libraries. These are provided [in the main VST104 repository](https://github.com/visionspacetec/VST104) as *VST_libraries*, *VST_footprints.pretty*, and *VST_logos.pretty*. We recommend to clone them into a local file system and then to link them into the KiCad project using the library management window.
 
 ## Visual teaser
 <img align="center" src="gallery/3d_model.png" width=36%/> <img align="center" src="gallery/schematic.png" width=62%/>
@@ -18,6 +20,7 @@ It is meant to use this board with a connection to other LibreCube boards for ha
 - **layers** - Because of the placement of the headers around the soldering array, we decided to use a 4-layer PCB. The first three layers from the top are used for standard signals. The bottom layer is used for wider power traces and as a common ground. This layer creates a grounded polygon as a way of a standard PCB shielding.
 - **traces** - The common width of a copper trace is 0.35[mm] for standard signals and 0.7[mm] for power traces such as VBAT, CHARGE, and 5V.
 - **silk print** - The minimal width of a silk line is to 0.2[mm], and the minimal size of a silk letter is to 1x1[mm].
+- **vias** - There are no vias used in this board.
 
 ## Notice
 - This development board is not suitable for usage with sensitive analog signals or phenomenally high-frequency signals. The sandwiched nets of traces could create a potential interference.
