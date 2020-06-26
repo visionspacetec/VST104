@@ -20,8 +20,8 @@ After opening the project in a KiCad, it is necessary to import the required lib
 - **layers** - Because of the placement of the headers around the soldering array, we decided to use a 4-layer PCB. The first three layers from the top are used for standard signals. The bottom layer is used for wider power traces and as a common ground. This layer creates a grounded polygon as a way of a standard PCB shielding.
 - **traces** - The common width of a copper trace is 0.35[mm] for standard signals and 0.7[mm] for power traces such as VBAT, CHARGE, and 5V.
 - **silk print** - The minimal width of a silk line is to 0.2[mm], and the minimal size of a silk letter is to 1x1[mm].
-- **vias** - There are no vias used in this board.
+- **vias** - On the whole PCB, there is just a one via used. Its position is at the trace of the analog ground signal near the resistor R3.
 
 ## Notice
-- This development board is not suitable for usage with sensitive analog signals or phenomenally high-frequency signals. The sandwiched nets of traces could create a potential interference.
-- This board passed a DRC check with three courtyards overlap warnings. This issue is known and formed by the small gap between the mounting holes and the headers.
+- This development board is not suitable for usage with sensitive analog signals or phenomenally high-frequency signals. The sandwiched nets of traces could create a potential interference. Thus, a jumper resistor R3 is added in series to the analog ground pin (marked as AGND) at the header H2 (pin 31). Thanks to its placement as near to the header as possible, a user of our board can activate/deactivate the whole AGND trace by connecting/disconnecting this jumper. 
+- This board passed a DRC check with three courtyards overlap warnings. This issue is known and formed by the small gap between the mounting holes and the headers of the standardized layout.
