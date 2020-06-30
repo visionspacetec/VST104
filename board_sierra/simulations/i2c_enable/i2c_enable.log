@@ -1,0 +1,21 @@
+Circuit: * C:\Users\Filip.Filip\Documents\VST104\board_sierra\simulations\i2c_enable\i2c_enable.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Jun 30 19:40:51 2020
+Total elapsed time: 4.389 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2861188
+traniter = 2861178
+tranpoints = 1368966
+accept = 1132019
+rejected = 236947
+matrix size = 20
+fillins = 0
+solver = Normal
+Matrix Compiler1:      58 opcodes  0.2/[0.1]/0.6
+Matrix Compiler2: 1.54 KB object code size  0.1/0.2/[0.1]
+
