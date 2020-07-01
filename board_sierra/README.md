@@ -14,7 +14,7 @@
 | `C7` | 10u | package supply external decoupling capacitor | [2] 2.2 ||
 | `C8` | 100n | external pull-down capacitor for NRST pin | [2] 2.4.3 | not sure |
 | `C9`, `C10` | 17p | capacitors adjusting a load capacitance of `Y1` | [3] 3.3 | stray C assumed to 4[pF] |
-| `C11` | 100n | external decoupling capacitor for `Y2` | `TSn` datasheet fig. 2 | |
+| `C11` | 100n | external decoupling capacitor for `Y2` | `Y2` datasheet tab. 2 | |
 | `C12`, `C13` | 100n | external decoupling capacitors for `TSn` | `TSn` datasheet 2.1 | |
 | `C14`, `C15`, `C16`, `C17` | 100n | external decoupling capacitors for `U1/2` | `U1/2` datasheet fig. 1-4 | |
 
