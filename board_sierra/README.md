@@ -3,9 +3,12 @@
 AEC-Q100 level 1 : temperature <-40, +125>[°C]
 
 ### References
-[1] : [STM32L496xx datasheet](https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STM32L496RGT6_C124720.pdf)  
+[1] : [STM32L496xx datasheet](https://www.st.com/resource/en/datasheet/stm32l496ae.pdf)  
 [2] : [STM32L496xx getting started manual](https://www.st.com/resource/en/application_note/dm00125306-getting-started-with-stm32l4-series-and-stm32l4-series-hardware-development-stmicroelectronics.pdf)  
-[3] : [STM32 oscillator design guide](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf)
+[3] : [STM32 oscillator design guide](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf)  
+[4] : [STM32 Quad-SPI interface](https://www.st.com/resource/en/application_note/dm00227538-quadspi-interface-on-stm32-microcontrollers-and-microprocessors-stmicroelectronics.pdf)  
+[5] : [Common mode chokes in CAN networks](https://www.ti.com/lit/an/slla271/slla271.pdf?ts=1593763769749&ref_url=https%253A%252F%252Fwww.google.com%252F#:~:text=In%20general%2C%20common%2Dmode%20chokes,results%20in%20the%20CAN%20network.&text=Following%20the%20choke%20in%20the,is%20the%20optional%20termination%20circuit.)  
+[6] : [Isolated CAN systems with protection](https://www.ti.com/lit/an/slla419/slla419.pdf?ts=1593773861416&ref_url=https%253A%252F%252Fwww.google.com%252F#:~:text=A%20bidirectional%20TVS%20diode%20can,ratings%20up%20to%20several%20kilowatts.)
 
 ### Capacitors
 | Component | Value [F] | Description | Reference | Note |
