@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SN74LVC1G08-Q1
+F https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594728193357&ref_url=https%253A%252F%252Fwww.mouser.sk%252F
+$ENDCMP
+#
 #End Doc Library
