@@ -1,0 +1,171 @@
+(ExpressProject "TPS22965_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tps22965_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "tps22965_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps22965_trans-pspicefiles\tps22965_sim\tran.sim"
+        (DisplayName "TPS22965_Sim-tran")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tps22965_trans-pspicefiles\tps22965_sim\tran.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tps22965_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tps22965_trans.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DEMO\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TPS22965_TRANS
+      (FullPartName "TPS22965_TRANS.Normal")
+      (LibraryName
+         "D:\WEBENCH\LOAD_SWITCH\ACTIVE\TPS22965\ACTIVE_WORK_KARMIC\PSPICE\TPS22965_PSPICE_TRANS\TPS22965_TRANS.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DEMO\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DEMO\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (D_D
+      (FullPartName "D_D.Normal")
+      (LibraryName "D:\INTERNAL_LIBRARIES\SB0204_DIODES\DIODES.OLB")
+      (DeviceIndex "0"))
+    (D_D1
+      (FullPartName "D_D1.Normal")
+      (LibraryName "D:\INTERNAL_LIBRARIES\SB0204_DIODES\DIODES.OLB")
+      (DeviceIndex "0"))
+    (INV_DELAY_BASIC_GEN
+      (FullPartName "INV_DELAY_BASIC_GEN.Normal")
+      (LibraryName "D:\INTERNAL_LIBRARIES\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (ABM1
+      (FullPartName "ABM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DEMO\ABM.OLB")
+      (DeviceIndex "0"))
+    (SRLATCHRHP_BASIC_GEN
+      (FullPartName "SRLATCHRHP_BASIC_GEN.Normal")
+      (LibraryName "D:\INTERNAL_LIBRARIES\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (ETABLE
+      (FullPartName "ETABLE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DEMO\ABM.OLB")
+      (DeviceIndex "0"))
+    (H
+      (FullPartName "H.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DEMO\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (TPS22965
+      (FullPartName "TPS22965.Normal")
+      (LibraryName
+         "C:\ELAB_MODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\TPS22965\ACTIVE_WORK\PSPICE\TPS22965_PSPICE_TRANS\TPS22965.OLB")
+      (DeviceIndex "0"))
+    (UC1548/LCC
+      (FullPartName "UC1548/LCC.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\MISCPOWER.OLB")
+      (DeviceIndex "0"))
+    (UC1825
+      (FullPartName "UC1825.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\MISC2.OLB")
+      (DeviceIndex "0"))
+    (UC3825
+      (FullPartName "UC3825.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\MISC2.OLB")
+      (DeviceIndex "0"))
+    (UC2825
+      (FullPartName "UC2825.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\MISC2.OLB")
+      (DeviceIndex "0"))
+    (TPS22966
+      (FullPartName "TPS22966.Normal")
+      (LibraryName
+         "C:\ELAB_MODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\TPS22966\ACTIVE_WORK\PSPICE\TPS22966_PSPICE_TRANS\TPS22966.OLB")
+      (DeviceIndex "0"))
+    (IC1
+      (FullPartName "IC1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (ABM1/I
+      (FullPartName "ABM1/I.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (AND2_BASIC_GEN
+      (FullPartName "AND2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\PSPICE_SUBBLK_LIB_WS\PSPICE_SUBBLK_LIB_DS\PSPICE_SUBBLK_LIB\SB02_SUBBLOCKBASIC\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (OR2_BASIC_GEN
+      (FullPartName "OR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\PSPICE_SUBBLK_LIB_WS\PSPICE_SUBBLK_LIB_DS\PSPICE_SUBBLK_LIB\SB02_SUBBLOCKBASIC\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (ABM2
+      (FullPartName "ABM2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TPS22920
+      (FullPartName "TPS22920.Normal")
+      (LibraryName
+         "C:\ELAB_MODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\TPS22920\ACTIVE_WORK\PSPICE\TPS22920_PSPICE_TRANS\TPS22920.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.2\tools\capture\library\pspice")
+  (MPSSessionName "x0232442")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Webench\LOAD_SWITCH\ACTIVE\TPS22965\Release_KarMic\PSPICE\TPS22965_PSPICE_TRANS\tps22965_trans.dsn")
+      (Path "Design Resources"
+         "D:\Webench\LOAD_SWITCH\ACTIVE\TPS22965\Release_KarMic\PSPICE\TPS22965_PSPICE_TRANS\tps22965_trans.dsn"
+         "TPS22965_Sim")
+      (Path "Design Resources"
+         "D:\Webench\LOAD_SWITCH\ACTIVE\TPS22965\Release_KarMic\PSPICE\TPS22965_PSPICE_TRANS\tps22965_trans.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "D:\Webench\LOAD_SWITCH\ACTIVE\TPS22965\Release_KarMic\PSPICE\TPS22965_PSPICE_TRANS\tps22965_trans.olb")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 297"))
+      (Tab 0))))
