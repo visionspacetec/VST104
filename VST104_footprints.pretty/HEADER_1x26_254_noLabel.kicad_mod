@@ -1,5 +1,4 @@
-(module HEADER_1x26_254_noLabel (layer F.Cu) (tedit 5EF31829)
-  (descr "THT socket strip, 1x26, 2.54mm pitch, single row, no labels")
+(module HEADER_1x26_254_noLabel (layer F.Cu) (tedit 5F1447AB)
   (fp_text reference REF** (at 0 -34.52) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

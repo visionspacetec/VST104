@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC1G11-Q100
+D Single 3-input AND gate for mixed 3.3 V and 5 V environment
+F https://www.mouser.sk/datasheet/2/916/74LVC1G11_Q100-1319646.pdf
+$ENDCMP
+#
 $CMP CY15B102Q
 D 2-Mbit (256 K × 8) Serial (SPI) Automotive
 F https://www.mouser.sk/datasheet/2/100/001-89166_CY15B102Q_2-Mbit_256_K_8_Serial_SPI_Auto-837782.pdf
@@ -18,10 +23,6 @@ $ENDCMP
 $CMP S25FL256L
 D 256-Mb (32-MB) 3.0 V FL-L Flash Memory
 F https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-MB_16-MB_3.0_-1082553.pdf
-$ENDCMP
-#
-$CMP SN74LVC1G08-Q1
-F https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594728193357&ref_url=https%253A%252F%252Fwww.mouser.sk%252F
 $ENDCMP
 #
 $CMP SiT8924

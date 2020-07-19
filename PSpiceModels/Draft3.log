@@ -1,0 +1,454 @@
+Circuit: * C:\Users\Filip.Filip\Documents\VST104\PSpiceModels\Draft3.asc
+
+Questionable use of curly braces in "b§e_u4_abm7 u4_fet_mode 0 v=if(v(lc_mode)<0.5,({v(i_sense)*52.3+0.8}*1u),0) "
+    Error: undefined symbol in: "[v](i_sense)*52.3+0.8"
+Questionable use of curly braces in "b§e_u4_abm5 u4_n14601775 0 v=if(v(ilim_en)>0.5,min({v(vin)-2.2-62.22m},6),0) "
+    Error: undefined symbol in: "[v](vin)-2.2-62.22m"
+Questionable use of curly braces in "b§e_u3_abm5 u3_n17091790 0 v={(-2.7848e-04*v(ilim_value)**3+3.5078e-03*v(ilim_value)**2-9.4914e-03*v(ilim_value)+1.6967e-03)*v(u3_vdiff)*2+(-6.7920e-03*v(ilim_value)**3+5.5244e-02*v(ilim_value)**2-1.9168e-01*v(ilim_value)+2.7203e-02)*v(u3_vdiff)+(4.6537e-03*v(ilim_value)**3-3.8618e-02*v(ilim_value)**2+1.5673e-01*v(ilim_value)+3.8883e-02)} "
+    Error: undefined symbol in: "(-2.7848e-04*[v](ilim_value)**3+3.5078e-03*v(ilim_value)**2-9.4914e-03*v(ilim_value)+1.6967e-03)*v(u3_vdiff)*2+(-6.7920e-03*v(ilim_value)**3+5.5244e-02*v(ilim_value)**2-1.9168e-01*v(ilim_value)+2.7203e-02)*v(u3_vdiff)+(4.6537e-03*v(ilim_value)**3-3.8618e-02*v(ilim_value)**2+1.5673e-01*v(ilim_value)+3.8883e-02)"
+Questionable use of curly braces in "b§e_u3_abm7 u3_n17091939 0 v=if(v(u3_vdiff)<1.001,v(ilim_value),(v(ilim_value)+{v(ilim_value)*v(u3_n17091763)/100})) "
+    Error: undefined symbol in: "[v](ilim_value)*v(u3_n17091763)/100"
+Questionable use of curly braces in "b§e_u4_abm7 u4_fet_mode 0 v=if(v(lc_mode)<0.5,({v(i_sense)*52.3+0.8}*1u),0) "
+    Error: undefined symbol in: "[v](i_sense)*52.3+0.8"
+Questionable use of curly braces in "b§e_u4_abm5 u4_n14601775 0 v=if(v(ilim_en)>0.5,min({v(vin)-2.2-62.22m},6),0) "
+    Error: undefined symbol in: "[v](vin)-2.2-62.22m"
+Questionable use of curly braces in "b§e_u3_abm5 u3_n17091790 0 v={(-2.7848e-04*v(ilim_value)**3+3.5078e-03*v(ilim_value)**2-9.4914e-03*v(ilim_value)+1.6967e-03)*v(u3_vdiff)*2+(-6.7920e-03*v(ilim_value)**3+5.5244e-02*v(ilim_value)**2-1.9168e-01*v(ilim_value)+2.7203e-02)*v(u3_vdiff)+(4.6537e-03*v(ilim_value)**3-3.8618e-02*v(ilim_value)**2+1.5673e-01*v(ilim_value)+3.8883e-02)} "
+    Error: undefined symbol in: "(-2.7848e-04*[v](ilim_value)**3+3.5078e-03*v(ilim_value)**2-9.4914e-03*v(ilim_value)+1.6967e-03)*v(u3_vdiff)*2+(-6.7920e-03*v(ilim_value)**3+5.5244e-02*v(ilim_value)**2-1.9168e-01*v(ilim_value)+2.7203e-02)*v(u3_vdiff)+(4.6537e-03*v(ilim_value)**3-3.8618e-02*v(ilim_value)**2+1.5673e-01*v(ilim_value)+3.8883e-02)"
+Questionable use of curly braces in "b§e_u3_abm7 u3_n17091939 0 v=if(v(u3_vdiff)<1.001,v(ilim_value),(v(ilim_value)+{v(ilim_value)*v(u3_n17091763)/100})) "
+    Error: undefined symbol in: "[v](ilim_value)*v(u3_n17091763)/100"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}}&v(c)>{{vthresh}}&v(d)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh))&v(c)>((vthresh))&v(d)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}}&v(c)>{{vthresh}}&v(d)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh))&v(c)>((vthresh))&v(d)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+WARNING: Less than two connections to node KS.  This node is used by V2.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 1.05312e-006
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 87.8995%
+Source Step = 87.9291%
+Source Step = 87.9587%
+Source Step = 87.9883%
+Source Step = 88.0179%
+vernier = 0.00146484
+Source Step = 88.0549%
+Source Step = 88.0993%
+Source Step = 88.1436%
+Source Step = 88.188%
+Source Step = 88.2324%
+vernier = 0.00219727
+Source Step = 88.2857%
+Source Step = 88.3523%
+Source Step = 88.4189%
+Source Step = 88.4854%
+Source Step = 88.552%
+vernier = 0.0032959
+Source Step = 88.6286%
+Source Step = 88.7285%
+Source Step = 88.8283%
+Source Step = 88.9282%
+Source Step = 89.0281%
+vernier = 0.00494385
+Source Step = 89.138%
+Source Step = 89.2878%
+Source Step = 89.4376%
+Source Step = 89.5874%
+Source Step = 89.7372%
+vernier = 0.00741577
+Source Step = 89.8945%
+Source Step = 90.1192%
+vernier = 0.00185394
+Source Step = 90.1529%
+Source Step = 90.2091%
+Source Step = 90.2653%
+Source Step = 90.3215%
+Source Step = 90.3777%
+Source Step = 90.4338%
+Source Step = 90.49%
+Source Step = 90.5462%
+Source Step = 90.6024%
+Source Step = 90.6586%
+Source Step = 90.7147%
+Source Step = 90.7709%
+Source Step = 90.8271%
+Source Step = 90.8833%
+Source Step = 90.9395%
+Source Step = 90.9956%
+vernier = 0.00278091
+Source Step = 91.0799%
+Source Step = 91.1642%
+Source Step = 91.2485%
+Source Step = 91.3327%
+Source Step = 91.417%
+vernier = 0.00417137
+Source Step = 91.5392%
+Source Step = 91.6656%
+Source Step = 91.792%
+Source Step = 91.9184%
+Source Step = 92.0448%
+vernier = 0.00625706
+Source Step = 92.2218%
+Source Step = 92.4114%
+Source Step = 92.601%
+vernier = 0.00156426
+Source Step = 92.6294%
+Source Step = 92.6768%
+Source Step = 92.7242%
+Source Step = 92.7716%
+Source Step = 92.819%
+Source Step = 92.8664%
+Source Step = 92.9138%
+Source Step = 92.9613%
+Source Step = 93.0087%
+Source Step = 93.0561%
+Source Step = 93.1035%
+Source Step = 93.1509%
+Source Step = 93.1983%
+Source Step = 93.2457%
+Source Step = 93.2931%
+Source Step = 93.3405%
+Source Step = 93.3879%
+Source Step = 93.4353%
+Source Step = 93.4827%
+Source Step = 93.5301%
+Source Step = 93.5775%
+Source Step = 93.6249%
+Source Step = 93.6723%
+Source Step = 93.7197%
+Source Step = 93.7671%
+Source Step = 93.8145%
+Source Step = 93.8619%
+Source Step = 93.9093%
+Source Step = 93.9567%
+Source Step = 94.0041%
+Source Step = 94.0515%
+Source Step = 94.0989%
+Source Step = 94.1463%
+Source Step = 94.1937%
+Source Step = 94.2411%
+Source Step = 94.2885%
+Source Step = 94.3359%
+Source Step = 94.3833%
+Source Step = 94.4307%
+Source Step = 94.4781%
+Source Step = 94.5255%
+Source Step = 94.5729%
+Source Step = 94.6203%
+Source Step = 94.6677%
+Source Step = 94.7151%
+Source Step = 94.7625%
+Source Step = 94.8099%
+Source Step = 94.8573%
+Source Step = 94.9047%
+Source Step = 94.9521%
+Source Step = 94.9995%
+Source Step = 95.0469%
+Source Step = 95.0943%
+Source Step = 95.1417%
+Source Step = 95.1891%
+Source Step = 95.2365%
+Source Step = 95.2839%
+Source Step = 95.3313%
+Source Step = 95.3788%
+Source Step = 95.4262%
+Source Step = 95.4736%
+Source Step = 95.521%
+Source Step = 95.5684%
+Source Step = 95.6158%
+Source Step = 95.6632%
+Source Step = 95.7106%
+Source Step = 95.758%
+Source Step = 95.8054%
+Source Step = 95.8528%
+Source Step = 95.9002%
+Source Step = 95.9476%
+Source Step = 95.995%
+Source Step = 96.0424%
+Source Step = 96.0898%
+Source Step = 96.1372%
+Source Step = 96.1846%
+Source Step = 96.232%
+Source Step = 96.2794%
+Source Step = 96.3268%
+Source Step = 96.3742%
+Source Step = 96.4216%
+Source Step = 96.469%
+Source Step = 96.5164%
+Source Step = 96.5638%
+Source Step = 96.6112%
+Source Step = 96.6586%
+Source Step = 96.706%
+Source Step = 96.7534%
+Source Step = 96.8008%
+Source Step = 96.8482%
+Source Step = 96.8956%
+Source Step = 96.943%
+Source Step = 96.9904%
+Source Step = 97.0378%
+Source Step = 97.0852%
+Source Step = 97.1326%
+Source Step = 97.18%
+Source Step = 97.2274%
+Source Step = 97.2748%
+Source Step = 97.3222%
+Source Step = 97.3696%
+Source Step = 97.417%
+Source Step = 97.4644%
+Source Step = 97.5118%
+Source Step = 97.5592%
+Source Step = 97.6066%
+Source Step = 97.654%
+Source Step = 97.7014%
+Source Step = 97.7488%
+Source Step = 97.7962%
+Source Step = 97.8437%
+Source Step = 97.8911%
+Source Step = 97.9385%
+Source Step = 97.9859%
+Source Step = 98.0333%
+Source Step = 98.0807%
+Source Step = 98.1281%
+Source Step = 98.1755%
+Source Step = 98.2229%
+Source Step = 98.2703%
+Source Step = 98.3177%
+Source Step = 98.3651%
+Source Step = 98.4125%
+Source Step = 98.4599%
+Source Step = 98.5073%
+Source Step = 98.5547%
+Source Step = 98.6021%
+Source Step = 98.6495%
+Source Step = 98.6969%
+Source Step = 98.7443%
+Source Step = 98.7917%
+Source Step = 98.8391%
+Source Step = 98.8865%
+Source Step = 98.9339%
+Source Step = 98.9813%
+Source Step = 99.0287%
+Source Step = 99.0761%
+Source Step = 99.1235%
+Source Step = 99.1709%
+Source Step = 99.2183%
+Source Step = 99.2657%
+Source Step = 99.3131%
+Source Step = 99.3605%
+Source Step = 99.4079%
+Source Step = 99.4553%
+Source Step = 99.5027%
+Source Step = 99.5501%
+Source Step = 99.5975%
+Source Step = 99.6449%
+Source Step = 99.6923%
+Source Step = 99.7397%
+Source Step = 99.7871%
+Source Step = 99.8345%
+Source Step = 99.8819%
+Source Step = 99.9293%
+Source Step = 99.9767%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:pgth)
+Ignoring empty pin current: Ix(u1:en_uvlo)
+Ignoring empty pin current: Ix(u1:ovp)
+Ignoring empty pin current: Ix(u1:pad)
+Ignoring empty pin current: Ix(u2:pgth)
+Ignoring empty pin current: Ix(u2:en_uvlo)
+Ignoring empty pin current: Ix(u2:ovp)
+Ignoring empty pin current: Ix(u2:pad)
+Ignoring empty pin current: Ix(u1:pgth)
+Ignoring empty pin current: Ix(u1:en_uvlo)
+Ignoring empty pin current: Ix(u1:ovp)
+Ignoring empty pin current: Ix(u1:pad)
+Ignoring empty pin current: Ix(u2:pgth)
+Ignoring empty pin current: Ix(u2:en_uvlo)
+Ignoring empty pin current: Ix(u2:ovp)
+Ignoring empty pin current: Ix(u2:pad)
+Changing Tseed to 2.92969e-010
+
+Date: Fri Jul 17 15:57:07 2020
+Total elapsed time: 273.487 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 185242
+traniter = 19618
+tranpoints = 4385
+accept = 3444
+rejected = 940
+matrix size = 781
+fillins = 663
+solver = Normal
+Thread vector: 50.6/22.6[8] 23.5/7.2[8] 46.2/11.1[8] 2.6/4.1[1]  2592/500
+Matrix Compiler1: 52.94 KB object code size  29.3/14.9/[5.6]
+Matrix Compiler2: 61.51 KB object code size  21.7/22.2/[5.2]
+
