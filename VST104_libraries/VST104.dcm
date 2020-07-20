@@ -25,6 +25,11 @@ D 256-Mb (32-MB) 3.0 V FL-L Flash Memory
 F https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-MB_16-MB_3.0_-1082553.pdf
 $ENDCMP
 #
+$CMP S25FL256L_BGA
+D 256-Mb (32-MB) 3.0 V FL-L Flash Memory
+F https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-MB_16-MB_3.0_-1082553.pdf
+$ENDCMP
+#
 $CMP SiT8924
 D Automotive AEC-Q100 Oscillator
 F https://www.mouser.sk/datasheet/2/371/SiT8924-datasheet-1839508.pdf
