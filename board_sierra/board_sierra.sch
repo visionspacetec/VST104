@@ -861,13 +861,13 @@ Wire Wire Line
 Wire Wire Line
 	17800 9950 18050 9950
 Text GLabel 18050 9850 2    50   Input ~ 0
-SPI_1_CS2
+H1_51
 Text GLabel 18050 10150 2    50   Input ~ 0
-H1_10
+H2_52
 Text GLabel 18050 9950 2    50   Input ~ 0
-SPI_2_CS2
+H1_52
 Text GLabel 18050 10050 2    50   Input ~ 0
-H2_10
+H2_51
 Wire Notes Line width 10
 	18000 9000 18000 11000
 Wire Notes Line width 10
@@ -1124,21 +1124,21 @@ F 3 "" H 11800 11750 50  0001 C CNN
 	1    11800 11750
 	-1   0    0    1   
 $EndComp
-Text GLabel 12050 14650 2    50   Input ~ 0
-H1_8
-Text GLabel 12050 14450 2    50   Input ~ 0
-H1_6
-Text GLabel 12050 14350 2    50   Input ~ 0
-H1_7
 Text GLabel 12050 14550 2    50   Input ~ 0
+H1_8
+Text GLabel 12050 14650 2    50   Input ~ 0
+H1_6
+Text GLabel 12050 14450 2    50   Input ~ 0
+SPI_1_CS2
+Text GLabel 12050 14350 2    50   Input ~ 0
 H1_5
-Text GLabel 12050 12650 2    50   Input ~ 0
-H1_4
-Text GLabel 12050 12450 2    50   Input ~ 0
-H1_2
-Text GLabel 12050 12350 2    50   Input ~ 0
-H1_3
 Text GLabel 12050 12550 2    50   Input ~ 0
+H1_4
+Text GLabel 12050 12650 2    50   Input ~ 0
+H1_2
+Text GLabel 12050 12450 2    50   Input ~ 0
+H1_3
+Text GLabel 12050 12350 2    50   Input ~ 0
 H1_1
 Wire Notes Line width 10
 	12000 11500 10500 11500
@@ -1657,29 +1657,29 @@ Wire Notes Line width 10
 Wire Notes Line width 10
 	8500 3000 7000 3000
 Text GLabel 8550 3850 2    50   Input ~ 0
-H1_41
+H1_39
 Text GLabel 8550 3950 2    50   Input ~ 0
-H1_43
+H1_40
 Text GLabel 8550 4050 2    50   Input ~ 0
-H1_42
+H1_41
 Text GLabel 8550 4150 2    50   Input ~ 0
-H1_44
+H1_42
 Text GLabel 8550 5950 2    50   Input ~ 0
-H1_45
+H1_44
 Text GLabel 8550 6150 2    50   Input ~ 0
-H1_47
-Text GLabel 8550 5850 2    50   Input ~ 0
 H1_46
+Text GLabel 8550 5850 2    50   Input ~ 0
+H1_43
 Text GLabel 8550 6050 2    50   Input ~ 0
-H1_48
+H1_45
 Text GLabel 8550 7950 2    50   Input ~ 0
-H1_49
+H1_48
 Text GLabel 8550 8150 2    50   Input ~ 0
-H1_51
-Text GLabel 8550 7850 2    50   Input ~ 0
 H1_50
+Text GLabel 8550 7850 2    50   Input ~ 0
+H1_47
 Text GLabel 8550 8050 2    50   Input ~ 0
-H1_52
+H1_49
 Text Notes 7000 2950 0    50   ~ 10
 User IO bottom H1 isolators
 Wire Wire Line
@@ -2495,17 +2495,17 @@ Wire Wire Line
 	16700 12750 16700 12100
 Wire Wire Line
 	16950 12750 16700 12750
-Text GLabel 18050 14650 2    50   Input ~ 0
-H2_8
 Text GLabel 18050 14450 2    50   Input ~ 0
+H2_8
+Text GLabel 18050 14650 2    50   Input ~ 0
 H2_5
-Text GLabel 18050 12650 2    50   Input ~ 0
-H2_4
-Text GLabel 18050 12550 2    50   Input ~ 0
-H2_2
-Text GLabel 18050 12350 2    50   Input ~ 0
-H2_3
 Text GLabel 18050 12450 2    50   Input ~ 0
+H2_4
+Text GLabel 18050 12350 2    50   Input ~ 0
+H2_2
+Text GLabel 18050 12550 2    50   Input ~ 0
+H2_3
+Text GLabel 18050 12650 2    50   Input ~ 0
 H2_1
 Wire Wire Line
 	17800 14450 18050 14450
@@ -6290,9 +6290,9 @@ Text GLabel 5100 5350 2    50   Input ~ 0
 SW_CLK
 Text GLabel 5100 5250 2    50   Input ~ 0
 SW_DIO
-Text GLabel 5000 8125 2    50   Input ~ 0
+Text GLabel 5000 8150 2    50   Input ~ 0
 UART5_TX
-Text GLabel 5000 9225 2    50   Input ~ 0
+Text GLabel 5000 9250 2    50   Input ~ 0
 UART5_RX
 Text GLabel 5100 5950 2    50   Input ~ 0
 SW_O
@@ -6307,35 +6307,35 @@ OPAMP1
 Text Label 2250 3950 0    50   ~ 0
 OPAMP2
 Text Label 6950 7600 2    50   ~ 0
-H1_49-52_EN
+H1_47-50_EN
 Text Label 6950 7800 2    50   ~ 0
-H1_49_IO
-Text Label 6950 7900 2    50   ~ 0
-H1_51_IO
-Text Label 6950 8000 2    50   ~ 0
-H1_50_IO
-Text Label 6950 8100 2    50   ~ 0
-H1_52_IO
-Text Label 6950 6100 2    50   ~ 0
-H1_48_IO
-Text Label 6950 6000 2    50   ~ 0
-H1_46_IO
-Text Label 6950 5900 2    50   ~ 0
 H1_47_IO
-Text Label 6950 5800 2    50   ~ 0
+Text Label 6950 7900 2    50   ~ 0
+H1_48_IO
+Text Label 6950 8000 2    50   ~ 0
+H1_49_IO
+Text Label 6950 8100 2    50   ~ 0
+H1_50_IO
+Text Label 6950 6100 2    50   ~ 0
+H1_46_IO
+Text Label 6950 6000 2    50   ~ 0
 H1_45_IO
-Text Label 6950 5600 2    50   ~ 0
-H1_45-48_EN
-Text Label 6950 4100 2    50   ~ 0
+Text Label 6950 5900 2    50   ~ 0
 H1_44_IO
-Text Label 6950 4000 2    50   ~ 0
-H1_42_IO
-Text Label 6950 3900 2    50   ~ 0
+Text Label 6950 5800 2    50   ~ 0
 H1_43_IO
-Text Label 6950 3800 2    50   ~ 0
+Text Label 6950 5600 2    50   ~ 0
+H1_43-46_EN
+Text Label 6950 4100 2    50   ~ 0
+H1_42_IO
+Text Label 6950 4000 2    50   ~ 0
 H1_41_IO
+Text Label 6950 3900 2    50   ~ 0
+H1_40_IO
+Text Label 6950 3800 2    50   ~ 0
+H1_39_IO
 Text Label 6950 3600 2    50   ~ 0
-H1_41-44_EN
+H1_39-42_EN
 Text Label 6450 1900 2    50   ~ 0
 OSC32_OUT
 Text Label 6450 1800 2    50   ~ 0
@@ -6438,8 +6438,6 @@ Text Label 7450 10400 2    50   ~ 0
 H2_43_IO
 Text Label 7450 10300 2    50   ~ 0
 H2_41_IO
-Text Label 7450 10100 2    50   ~ 0
-H2_41-44_EN
 Text Label 10450 9600 2    50   ~ 0
 I2C1_EN
 Text Label 10450 9800 2    50   ~ 0
@@ -6644,8 +6642,6 @@ Wire Notes Line width 10
 	20000 8500 22000 8500
 Text Notes 20000 8450 0    50   ~ 10
 LibreCube main headers
-NoConn ~ 19900 13200
-NoConn ~ 19900 13100
 Text GLabel 19900 14200 0    50   Input ~ 0
 H2_51
 Text GLabel 19900 14100 0    50   Input ~ 0
@@ -6662,14 +6658,10 @@ Wire Wire Line
 	20750 13800 19900 13800
 Wire Wire Line
 	19900 13700 20750 13700
-Text GLabel 19900 13800 0    50   Input ~ 0
-H2_43
 Text GLabel 19900 13700 0    50   Input ~ 0
 H2_41
 Text GLabel 19900 14000 0    50   Input ~ 0
 H2_47
-Text GLabel 19900 13900 0    50   Input ~ 0
-H2_45
 Wire Wire Line
 	19900 12000 20750 12000
 Wire Wire Line
@@ -6680,8 +6672,6 @@ Wire Wire Line
 	20750 11700 19900 11700
 Text GLabel 19900 11700 0    50   Input ~ 0
 H2_1
-Text GLabel 19900 12000 0    50   Input ~ 0
-H2_7
 Text GLabel 19900 11900 0    50   Input ~ 0
 H2_5
 Text GLabel 19900 11800 0    50   Input ~ 0
@@ -6696,8 +6686,6 @@ Wire Wire Line
 	20750 8750 19900 8750
 Text GLabel 19900 8750 0    50   Input ~ 0
 H1_1
-Text GLabel 19900 9050 0    50   Input ~ 0
-H1_7
 Text GLabel 19900 8950 0    50   Input ~ 0
 H1_5
 Text GLabel 19900 8850 0    50   Input ~ 0
@@ -6726,147 +6714,109 @@ Text GLabel 19900 11050 0    50   Input ~ 0
 H1_47
 Text GLabel 19900 10950 0    50   Input ~ 0
 H1_45
-NoConn ~ 19900 10650
-NoConn ~ 19900 13500
-NoConn ~ 19900 13600
 Wire Wire Line
 	19900 12600 20750 12600
-$Comp
-L power:GND #PWR0163
-U 1 1 651BAB50
-P 19900 12600
-F 0 "#PWR0163" H 19900 12350 50  0001 C CNN
-F 1 "GND" V 19905 12472 50  0000 R CNN
-F 2 "" H 19900 12600 50  0001 C CNN
-F 3 "" H 19900 12600 50  0001 C CNN
-	1    19900 12600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDA #PWR0162
-U 1 1 64FE4AC2
-P 19900 10350
-F 0 "#PWR0162" H 19900 10100 50  0001 C CNN
-F 1 "GNDA" V 19905 10223 50  0000 R CNN
-F 2 "" H 19900 10350 50  0001 C CNN
-F 3 "" H 19900 10350 50  0001 C CNN
-	1    19900 10350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0161
-U 1 1 64FE1AD0
-P 19900 9650
-F 0 "#PWR0161" H 19900 9400 50  0001 C CNN
-F 1 "GND" V 19905 9522 50  0000 R CNN
-F 2 "" H 19900 9650 50  0001 C CNN
-F 3 "" H 19900 9650 50  0001 C CNN
-	1    19900 9650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	19900 12100 20750 12100
-Text GLabel 19900 12100 0    50   Input ~ 0
+Text GLabel 19900 12000 0    50   Input ~ 0
 SPI_2_CS2
-Text GLabel 19900 9150 0    50   Input ~ 0
+Text GLabel 19900 9050 0    50   Input ~ 0
 SPI_1_CS2
 Wire Wire Line
 	19900 9150 20750 9150
-Text GLabel 19900 9250 0    50   Input ~ 0
+Text GLabel 19900 9150 0    50   Input ~ 0
 SPI_1_CS1
 Wire Wire Line
 	19900 9250 20750 9250
-Text GLabel 19900 9350 0    50   Input ~ 0
+Text GLabel 19900 9250 0    50   Input ~ 0
 SPI_1_SCK
 Wire Wire Line
 	19900 9350 20750 9350
-Text GLabel 19900 9450 0    50   Input ~ 0
+Text GLabel 19900 9350 0    50   Input ~ 0
 UART_1_TX
 Wire Wire Line
 	19900 9450 20750 9450
-Text GLabel 19900 9550 0    50   Input ~ 0
+Text GLabel 19900 9450 0    50   Input ~ 0
 UART_1_RX
 Wire Wire Line
 	19900 9550 20750 9550
 Wire Wire Line
 	19900 9650 20750 9650
-Text GLabel 19900 9750 0    50   Input ~ 0
+Text GLabel 19900 9550 0    50   Input ~ 0
 UART_RCS_1_TX
 Wire Wire Line
 	19900 9750 20750 9750
-Text GLabel 19900 9850 0    50   Input ~ 0
+Text GLabel 19900 9650 0    50   Input ~ 0
 UART_RCS_1_RX
 Wire Wire Line
 	19900 9850 20750 9850
-Text GLabel 19900 9950 0    50   Input ~ 0
+Text GLabel 19900 9750 0    50   Input ~ 0
 I2C_1_SCL
 Wire Wire Line
 	19900 9950 20750 9950
-Text GLabel 19900 10050 0    50   Input ~ 0
+Text GLabel 19900 9850 0    50   Input ~ 0
 CAN_1_H
 Wire Wire Line
 	19900 10050 20750 10050
-Text GLabel 19900 10150 0    50   Input ~ 0
+Text GLabel 19900 13000 0    50   Input ~ 0
 SUP_3V3
 Wire Wire Line
 	19900 10150 20750 10150
-Text GLabel 19900 10250 0    50   Input ~ 0
+Text GLabel 22100 13000 2    50   Input ~ 0
 SUP_3V3
 Wire Wire Line
 	19900 10250 20750 10250
 Wire Wire Line
 	19900 10350 20750 10350
-Text GLabel 19900 10450 0    50   Input ~ 0
+Text GLabel 19900 10050 0    50   Input ~ 0
 CPU_WD_1
 Wire Wire Line
 	19900 10450 20750 10450
-Text GLabel 19900 10550 0    50   Input ~ 0
+Text GLabel 19900 10450 0    50   Input ~ 0
 GLO_KS_1
 Wire Wire Line
 	19900 10550 20750 10550
 Wire Wire Line
 	19900 10650 20750 10650
-Text GLabel 19900 12200 0    50   Input ~ 0
+Text GLabel 19900 12100 0    50   Input ~ 0
 SPI_2_CS1
 Wire Wire Line
 	19900 12200 20750 12200
-Text GLabel 19900 12300 0    50   Input ~ 0
+Text GLabel 19900 12200 0    50   Input ~ 0
 SPI_2_SCK
 Wire Wire Line
 	19900 12300 20750 12300
-Text GLabel 19900 12400 0    50   Input ~ 0
+Text GLabel 19900 12300 0    50   Input ~ 0
 UART_2_TX
 Wire Wire Line
 	19900 12400 20750 12400
-Text GLabel 19900 12500 0    50   Input ~ 0
+Text GLabel 19900 12400 0    50   Input ~ 0
 UART_2_RX
 Wire Wire Line
 	19900 12500 20750 12500
-Text GLabel 19900 12700 0    50   Input ~ 0
+Text GLabel 19900 12500 0    50   Input ~ 0
 UART_RCS_2_TX
 Wire Wire Line
 	19900 12700 20750 12700
-Text GLabel 19900 12800 0    50   Input ~ 0
+Text GLabel 19900 12600 0    50   Input ~ 0
 UART_RCS_2_RX
 Wire Wire Line
 	19900 12800 20750 12800
-Text GLabel 19900 12900 0    50   Input ~ 0
+Text GLabel 19900 12700 0    50   Input ~ 0
 I2C_2_SCL
 Wire Wire Line
 	19900 12900 20750 12900
-Text GLabel 19900 13000 0    50   Input ~ 0
-CAN_2_L
+Text GLabel 19900 12800 0    50   Input ~ 0
+CAN_2_H
 Wire Wire Line
 	19900 13000 20750 13000
 Wire Wire Line
 	19900 13100 20750 13100
 Wire Wire Line
 	19900 13200 20750 13200
-Text GLabel 19900 13300 0    50   Input ~ 0
-SUP_5V_REF
 Wire Wire Line
 	19900 13300 20750 13300
-Text GLabel 19900 13400 0    50   Input ~ 0
+Text GLabel 19900 9950 0    50   Input ~ 0
 GLO_SYNC
 Wire Wire Line
 	19900 13400 20750 13400
@@ -6878,137 +6828,100 @@ Wire Notes Line width 10
 	20000 14500 22000 14500
 Wire Wire Line
 	22100 12200 21250 12200
-Text GLabel 22100 12200 2    50   Input ~ 0
+Text GLabel 22100 12100 2    50   Input ~ 0
 SPI_2_MOSI
 Wire Wire Line
 	22100 12300 21250 12300
-Text GLabel 22100 12300 2    50   Input ~ 0
+Text GLabel 22100 12200 2    50   Input ~ 0
 SPI_2_MISO
 Wire Wire Line
 	22100 12400 21250 12400
-Text GLabel 22100 12400 2    50   Input ~ 0
+Text GLabel 22100 12300 2    50   Input ~ 0
 UART_2_CTS
 Wire Wire Line
 	22100 12500 21250 12500
-Text GLabel 22100 12500 2    50   Input ~ 0
+Text GLabel 22100 12400 2    50   Input ~ 0
 UART_2_RTS
 Wire Wire Line
 	22100 12700 21250 12700
-Text GLabel 22100 12700 2    50   Input ~ 0
+Text GLabel 22100 12500 2    50   Input ~ 0
 UART_RCS_2_CTS
 Wire Wire Line
 	22100 12800 21250 12800
-Text GLabel 22100 12800 2    50   Input ~ 0
+Text GLabel 22100 12600 2    50   Input ~ 0
 UART_RCS_2_RTS
 Wire Wire Line
 	22100 12900 21250 12900
-Text GLabel 22100 12900 2    50   Input ~ 0
+Text GLabel 22100 12700 2    50   Input ~ 0
 I2C_2_SDA
 Wire Wire Line
 	22100 13000 21250 13000
-Text GLabel 22100 13000 2    50   Input ~ 0
-CAN_2_H
+Text GLabel 22100 12800 2    50   Input ~ 0
+CAN_2_L
 Wire Wire Line
 	22100 13100 21250 13100
-Text GLabel 22100 13100 2    50   Input ~ 0
+Text GLabel 19900 13900 0    50   Input ~ 0
 SUP_BAT_1
 Wire Wire Line
 	22100 13200 21250 13200
-Text GLabel 22100 13200 2    50   Input ~ 0
+Text GLabel 22100 13900 2    50   Input ~ 0
 SUP_BAT_2
 Wire Wire Line
 	22100 13300 21250 13300
-Text GLabel 22100 13300 2    50   Input ~ 0
+Text GLabel 19900 10150 0    50   Input ~ 0
 CPU_SELECT
-Wire Wire Line
-	22100 13400 21250 13400
-Text GLabel 22100 13400 2    50   Input ~ 0
+Text GLabel 22100 9950 2    50   Input ~ 0
 GLO_FAULT
 Wire Wire Line
 	22100 13500 21250 13500
 Wire Wire Line
-	22100 13600 21250 13600
-Wire Wire Line
 	22100 9250 21250 9250
-Text GLabel 22100 9250 2    50   Input ~ 0
+Text GLabel 22100 9150 2    50   Input ~ 0
 SPI_1_MOSI
 Wire Wire Line
 	22100 9350 21250 9350
-Text GLabel 22100 9350 2    50   Input ~ 0
+Text GLabel 22100 9250 2    50   Input ~ 0
 SPI_1_MISO
 Wire Wire Line
 	22100 9450 21250 9450
-Text GLabel 22100 9450 2    50   Input ~ 0
+Text GLabel 22100 9350 2    50   Input ~ 0
 UART_1_CTS
 Wire Wire Line
 	22100 9550 21250 9550
-Text GLabel 22100 9550 2    50   Input ~ 0
+Text GLabel 22100 9450 2    50   Input ~ 0
 UART_1_RTS
 Wire Wire Line
 	22100 9750 21250 9750
-Text GLabel 22100 9750 2    50   Input ~ 0
+Text GLabel 22100 9550 2    50   Input ~ 0
 UART_RCS_1_CTS
 Wire Wire Line
 	22100 9850 21250 9850
-Text GLabel 22100 9850 2    50   Input ~ 0
+Text GLabel 22100 9650 2    50   Input ~ 0
 UART_RCS_1_RTS
 Wire Wire Line
 	22100 9950 21250 9950
-Text GLabel 22100 9950 2    50   Input ~ 0
+Text GLabel 22100 9750 2    50   Input ~ 0
 I2C_1_SDA
-Wire Wire Line
-	22100 10050 21250 10050
-Text GLabel 22100 10050 2    50   Input ~ 0
+Text GLabel 22100 9850 2    50   Input ~ 0
 CAN_1_L
 Wire Wire Line
 	22100 10150 21250 10150
-Text GLabel 22100 10150 2    50   Input ~ 0
+Text GLabel 22100 12900 2    50   Input ~ 0
 SUP_5V
 Wire Wire Line
 	22100 10250 21250 10250
-Text GLabel 22100 10250 2    50   Input ~ 0
+Text GLabel 19900 12900 0    50   Input ~ 0
 SUP_5V
 Wire Wire Line
 	22100 10350 21250 10350
-Text GLabel 22100 10350 2    50   Input ~ 0
-SUP_3V3_REF
-Wire Wire Line
-	22100 10450 21250 10450
 Wire Wire Line
 	22100 10550 21250 10550
 Wire Wire Line
 	22100 10650 21250 10650
-$Comp
-L power:GND #PWR0198
-U 1 1 64FEDB32
-P 22100 9650
-F 0 "#PWR0198" H 22100 9400 50  0001 C CNN
-F 1 "GND" V 22105 9522 50  0000 R CNN
-F 2 "" H 22100 9650 50  0001 C CNN
-F 3 "" H 22100 9650 50  0001 C CNN
-	1    22100 9650
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	21250 9650 22100 9650
-$Comp
-L power:GND #PWR0199
-U 1 1 65243E06
-P 22100 12600
-F 0 "#PWR0199" H 22100 12350 50  0001 C CNN
-F 1 "GND" V 22105 12472 50  0000 R CNN
-F 2 "" H 22100 12600 50  0001 C CNN
-F 3 "" H 22100 12600 50  0001 C CNN
-	1    22100 12600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	22100 12600 21250 12600
-NoConn ~ 22100 13600
-NoConn ~ 22100 13500
-NoConn ~ 22100 10650
-NoConn ~ 22100 10550
-NoConn ~ 22100 10450
 Text GLabel 22100 10950 2    50   Input ~ 0
 H1_46
 Text GLabel 22100 11050 2    50   Input ~ 0
@@ -7041,8 +6954,6 @@ Text GLabel 22100 8950 2    50   Input ~ 0
 H1_6
 Text GLabel 22100 9050 2    50   Input ~ 0
 H1_8
-Text GLabel 22100 9150 2    50   Input ~ 0
-H1_10
 Wire Wire Line
 	21250 9150 22100 9150
 Wire Wire Line
@@ -7061,8 +6972,6 @@ Text GLabel 22100 11900 2    50   Input ~ 0
 H2_6
 Text GLabel 22100 12000 2    50   Input ~ 0
 H2_8
-Text GLabel 22100 12100 2    50   Input ~ 0
-H2_10
 Wire Wire Line
 	21250 12100 22100 12100
 Wire Wire Line
@@ -7073,14 +6982,10 @@ Wire Wire Line
 	22100 11800 21250 11800
 Wire Wire Line
 	21250 11700 22100 11700
-Text GLabel 22100 13900 2    50   Input ~ 0
-H2_46
 Text GLabel 22100 14000 2    50   Input ~ 0
 H2_48
 Text GLabel 22100 13700 2    50   Input ~ 0
 H2_42
-Text GLabel 22100 13800 2    50   Input ~ 0
-H2_44
 Wire Wire Line
 	22100 14000 21250 14000
 Wire Wire Line
@@ -8781,174 +8686,220 @@ Wire Wire Line
 Connection ~ 4200 10900
 Wire Wire Line
 	4200 10900 4100 10900
-Wire Wire Line
-	2600 10350 2500 10350
-Wire Wire Line
-	2500 10450 2600 10450
-Wire Wire Line
-	2600 10550 2500 10550
-Wire Wire Line
-	2600 10150 2500 10150
-Wire Wire Line
-	2500 10250 2600 10250
-Text Label 2500 10150 2    50   ~ 0
-H1_1-4_EN
-Text Label 2500 10250 2    50   ~ 0
-H1_1_IO
-Text Label 2500 10350 2    50   ~ 0
-H1_3_IO
-Text Label 2500 10450 2    50   ~ 0
-H1_2_IO
-Text Label 2500 10550 2    50   ~ 0
-H1_4_IO
-Wire Wire Line
-	2500 9650 2600 9650
-Wire Wire Line
-	2500 9750 2600 9750
-Wire Wire Line
-	2600 10050 2500 10050
-Wire Wire Line
-	2600 9950 2500 9950
-Wire Wire Line
-	2600 9850 2500 9850
-Text Label 2500 10050 2    50   ~ 0
-H2_4_IO
-Text Label 2500 9950 2    50   ~ 0
-H2_2_IO
-Text Label 2500 9850 2    50   ~ 0
-H2_3_IO
-Text Label 2500 9750 2    50   ~ 0
-H2_1_IO
-Text Label 2500 9650 2    50   ~ 0
-H2_1-4_EN
-Text Label 2500 9150 2    50   ~ 0
-H1_5-8_EN
-Text Label 2500 9250 2    50   ~ 0
-H1_5_IO
-Text Label 2500 9350 2    50   ~ 0
-H1_7_IO
-Text Label 2500 9450 2    50   ~ 0
-H1_6_IO
-Text Label 2500 9550 2    50   ~ 0
-H1_8_IO
-Wire Wire Line
-	2500 9150 2600 9150
-Wire Wire Line
-	2500 9250 2600 9250
-Wire Wire Line
-	2600 9550 2500 9550
-Wire Wire Line
-	2600 9450 2500 9450
-Wire Wire Line
-	2600 9350 2500 9350
-Text Label 2500 8550 2    50   ~ 0
-H2_5-8_EN
-Text Label 2500 8650 2    50   ~ 0
-H2_5_IO
-Text Label 2500 8750 2    50   ~ 0
-H2_7_IO
-Text Label 2500 8850 2    50   ~ 0
-H2_6_IO
-Text Label 2500 9050 2    50   ~ 0
-H2_8_IO
-Wire Wire Line
-	2500 9050 2600 9050
-Wire Wire Line
-	2500 8550 2600 8550
-Wire Wire Line
-	2500 8650 2600 8650
-Wire Wire Line
-	2600 8850 2500 8850
-Wire Wire Line
-	2600 8750 2500 8750
-Text GLabel 18050 14550 2    50   Input ~ 0
-H2_6
 Text GLabel 18050 14350 2    50   Input ~ 0
-H2_7
-Text Label 2500 8450 2    50   ~ 0
-H2_10_IO
-Text Label 2500 8350 2    50   ~ 0
-SPI2_CS2
-Text Label 2500 8250 2    50   ~ 0
-H1_10_IO
-Text Label 2500 8150 2    50   ~ 0
-SPI1_CS2
-Text Label 2500 8050 2    50   ~ 0
-H12_EN
-Wire Wire Line
-	2500 8450 2600 8450
-Wire Wire Line
-	2500 8350 2600 8350
-Wire Wire Line
-	2500 7950 2600 7950
-Wire Wire Line
-	2500 8050 2600 8050
-Wire Wire Line
-	2600 8250 2500 8250
-Wire Wire Line
-	2600 8150 2500 8150
-Text Label 2500 7950 2    50   ~ 0
-SPI3_CS1
-Text Label 2500 7850 2    50   ~ 0
-SPI3_CLK
-Text Label 2500 7750 2    50   ~ 0
-SPI3_MISO
-Text Label 2500 7650 2    50   ~ 0
-SPI3_MOSI
-Text Label 2500 7550 2    50   ~ 0
-SPI3_EN
-Wire Wire Line
-	2500 7850 2600 7850
-Wire Wire Line
-	2500 7750 2600 7750
-Wire Wire Line
-	2500 7350 2600 7350
-Wire Wire Line
-	2500 7450 2600 7450
-Wire Wire Line
-	2600 7650 2500 7650
-Wire Wire Line
-	2600 7550 2500 7550
-Text Label 2500 6950 2    50   ~ 0
-SPI2_EN
-Text Label 2500 7050 2    50   ~ 0
-SPI2_MOSI
-Text Label 2500 7150 2    50   ~ 0
-SPI2_MISO
-Text Label 2500 7350 2    50   ~ 0
-SPI2_CLK
-Text Label 2500 7450 2    50   ~ 0
-SPI2_CS1
-Wire Wire Line
-	2500 7150 2600 7150
-Wire Wire Line
-	2600 7050 2500 7050
-Wire Wire Line
-	2500 6950 2600 6950
-Text GLabel 15200 12100 2    50   Input ~ 0
+H2_6
+Text GLabel 18050 14550 2    50   Input ~ 0
+SPI_2_CS2
+Text GLabel 15050 12350 2    50   Input ~ 0
 SPI_1_MISO
-Text Label 2500 6450 2    50   ~ 0
-UART3_EN
-Text Label 2500 6550 2    50   ~ 0
-UART3_TX
-Text Label 2500 6650 2    50   ~ 0
-UART3_RX
-Text Label 2500 6750 2    50   ~ 0
-UART3_CTS
-Text Label 2500 6850 2    50   ~ 0
-UART3_RST
 Wire Wire Line
-	2500 6850 2600 6850
+	22100 13600 21250 13600
+$Comp
+L power:GND #PWR0161
+U 1 1 62558AF2
+P 19900 13100
+F 0 "#PWR0161" H 19900 12850 50  0001 C CNN
+F 1 "GND" V 19905 12972 50  0000 R CNN
+F 2 "" H 19900 13100 50  0001 C CNN
+F 3 "" H 19900 13100 50  0001 C CNN
+	1    19900 13100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0162
+U 1 1 6255D76A
+P 22100 13200
+F 0 "#PWR0162" H 22100 12950 50  0001 C CNN
+F 1 "GND" V 22105 13072 50  0000 R CNN
+F 2 "" H 22100 13200 50  0001 C CNN
+F 3 "" H 22100 13200 50  0001 C CNN
+	1    22100 13200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0163
+U 1 1 6255D770
+P 22100 13100
+F 0 "#PWR0163" H 22100 12850 50  0001 C CNN
+F 1 "GND" V 22105 12972 50  0000 R CNN
+F 2 "" H 22100 13100 50  0001 C CNN
+F 3 "" H 22100 13100 50  0001 C CNN
+	1    22100 13100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDA #PWR0198
+U 1 1 6276F016
+P 19900 13200
+F 0 "#PWR0198" H 19900 12950 50  0001 C CNN
+F 1 "GNDA" V 19905 13073 50  0000 R CNN
+F 2 "" H 19900 13200 50  0001 C CNN
+F 3 "" H 19900 13200 50  0001 C CNN
+	1    19900 13200
+	0    1    1    0   
+$EndComp
+Text GLabel 19900 13600 0    50   Input ~ 0
+H2_39
+Text GLabel 22100 13600 2    50   Input ~ 0
+H2_40
+Text GLabel 19900 10650 0    50   Input ~ 0
+H1_39
+Text GLabel 22100 10650 2    50   Input ~ 0
+H1_40
+$Comp
+L power:GND #PWR0199
+U 1 1 646D90AD
+P 19900 10350
+F 0 "#PWR0199" H 19900 10100 50  0001 C CNN
+F 1 "GND" V 19905 10222 50  0000 R CNN
+F 2 "" H 19900 10350 50  0001 C CNN
+F 3 "" H 19900 10350 50  0001 C CNN
+	1    19900 10350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 646DA961
+P 22100 10350
+F 0 "#PWR0202" H 22100 10100 50  0001 C CNN
+F 1 "GND" V 22105 10222 50  0000 R CNN
+F 2 "" H 22100 10350 50  0001 C CNN
+F 3 "" H 22100 10350 50  0001 C CNN
+	1    22100 10350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 22100 10450 2    50   Input ~ 0
+GLO_KS_2
+$Comp
+L Device:R R88
+U 1 1 64B06B71
+P 21600 10450
+F 0 "R88" H 21550 10600 50  0000 R CNN
+F 1 "200k" V 21700 10500 50  0000 R CNN
+F 2 "VST104_footprints:R_SMD_0402" V 21530 10450 50  0001 C CNN
+F 3 "~" H 21600 10450 50  0001 C CNN
+	1    21600 10450
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	2500 6750 2600 6750
+	21750 10450 22100 10450
 Wire Wire Line
-	2500 6350 2600 6350
+	21450 10450 21250 10450
+Text GLabel 22100 10050 2    50   Input ~ 0
+CPU_WD_1
+$Comp
+L Device:R R87
+U 1 1 6577D162
+P 21600 10050
+F 0 "R87" H 21550 10200 50  0000 R CNN
+F 1 "200k" V 21700 10100 50  0000 R CNN
+F 2 "VST104_footprints:R_SMD_0402" V 21530 10050 50  0001 C CNN
+F 3 "~" H 21600 10050 50  0001 C CNN
+	1    21600 10050
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	2500 6450 2600 6450
+	21750 10050 22100 10050
 Wire Wire Line
-	2600 6650 2500 6650
+	21450 10050 21250 10050
+NoConn ~ 22100 10250
+NoConn ~ 19900 10250
+NoConn ~ 19900 10550
+NoConn ~ 22100 10550
+Text GLabel 22100 10150 2    50   Input ~ 0
+CPU_MODE
+Text Label 7450 10100 2    50   ~ 0
+H2_41-44_EN
 Wire Wire Line
-	2600 6550 2500 6550
+	22100 13400 21250 13400
+$Comp
+L Device:C C80
+U 1 1 5FEAEC73
+P 19750 13300
+F 0 "C80" V 19700 13150 50  0000 C CNN
+F 1 "10n" V 19700 13450 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 19788 13150 50  0001 C CNN
+F 3 "~" H 19750 13300 50  0001 C CNN
+	1    19750 13300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C81
+U 1 1 60087773
+P 19750 13400
+F 0 "C81" V 19700 13250 50  0000 C CNN
+F 1 "10n" V 19700 13550 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 19788 13250 50  0001 C CNN
+F 3 "~" H 19750 13400 50  0001 C CNN
+	1    19750 13400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C82
+U 1 1 602601C8
+P 19750 13500
+F 0 "C82" V 19700 13350 50  0000 C CNN
+F 1 "10n" V 19700 13650 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 19788 13350 50  0001 C CNN
+F 3 "~" H 19750 13500 50  0001 C CNN
+	1    19750 13500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C83
+U 1 1 60438D29
+P 19750 13800
+F 0 "C83" V 19700 13650 50  0000 C CNN
+F 1 "10n" V 19700 13950 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 19788 13650 50  0001 C CNN
+F 3 "~" H 19750 13800 50  0001 C CNN
+	1    19750 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C87
+U 1 1 60612C4B
+P 22250 13800
+F 0 "C87" V 22200 13650 50  0000 C CNN
+F 1 "10n" V 22200 13950 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 22288 13650 50  0001 C CNN
+F 3 "~" H 22250 13800 50  0001 C CNN
+	1    22250 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C86
+U 1 1 607EB61E
+P 22250 13500
+F 0 "C86" V 22200 13350 50  0000 C CNN
+F 1 "10n" V 22200 13650 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 22288 13350 50  0001 C CNN
+F 3 "~" H 22250 13500 50  0001 C CNN
+	1    22250 13500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C85
+U 1 1 609C3F88
+P 22250 13400
+F 0 "C85" V 22200 13250 50  0000 C CNN
+F 1 "10n" V 22200 13550 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 22288 13250 50  0001 C CNN
+F 3 "~" H 22250 13400 50  0001 C CNN
+	1    22250 13400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C84
+U 1 1 60B9C999
+P 22250 13300
+F 0 "C84" V 22200 13150 50  0000 C CNN
+F 1 "10n" V 22200 13450 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 22288 13150 50  0001 C CNN
+F 3 "~" H 22250 13300 50  0001 C CNN
+	1    22250 13300
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	11800 7350 11800 8350
 Wire Bus Line
