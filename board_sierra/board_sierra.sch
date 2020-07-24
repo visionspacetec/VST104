@@ -7689,17 +7689,6 @@ Wire Wire Line
 	4650 12750 4400 12750
 Connection ~ 4650 12750
 $Comp
-L Device:R R5
-U 1 1 7B488437
-P 4650 12950
-F 0 "R5" H 4600 13100 50  0000 R CNN
-F 1 "200k" V 4750 13050 50  0000 R CNN
-F 2 "VST104_footprints:R_SMD_0402" V 4580 12950 50  0001 C CNN
-F 3 "~" H 4650 12950 50  0001 C CNN
-	1    4650 12950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR017
 U 1 1 7B48843D
 P 4650 13100
@@ -7756,21 +7745,13 @@ Wire Wire Line
 	4650 14750 4950 14750
 Text Label 4400 14750 2    50   ~ 0
 CPU_EN
-Text GLabel 3050 12450 2    50   Input ~ 0
+Text GLabel 3050 12650 2    50   Input ~ 0
 USER_3_4
 Text GLabel 3050 12350 2    50   Input ~ 0
-USER_3_2
-Text GLabel 3050 12550 2    50   Input ~ 0
 USER_3_3
-Text GLabel 3050 12650 2    50   Input ~ 0
-USER_3_1
-Text GLabel 3050 14450 2    50   Input ~ 0
-USER_4_4
 Text GLabel 3050 14350 2    50   Input ~ 0
 USER_4_2
 Text GLabel 3050 14550 2    50   Input ~ 0
-USER_4_3
-Text GLabel 3050 14650 2    50   Input ~ 0
 USER_4_1
 Wire Wire Line
 	1700 14100 1700 14750
@@ -7786,13 +7767,13 @@ Text Label 1450 14500 2    50   ~ 0
 USER4_3
 Text Label 1450 14600 2    50   ~ 0
 USER4_4
-Text GLabel 9050 12450 2    50   Input ~ 0
-USER_5_4
 Text GLabel 9050 12350 2    50   Input ~ 0
+USER_5_4
+Text GLabel 9050 12650 2    50   Input ~ 0
 USER_5_2
 Text GLabel 9050 12550 2    50   Input ~ 0
 USER_5_3
-Text GLabel 9050 12650 2    50   Input ~ 0
+Text GLabel 9050 12450 2    50   Input ~ 0
 USER_5_1
 Text Label 7450 12100 2    50   ~ 0
 USER5_EN
@@ -8093,14 +8074,10 @@ F 3 "" H 8800 13850 50  0001 C CNN
 	1    8800 13850
 	-1   0    0    1   
 $EndComp
-Text GLabel 9050 14550 2    50   Input ~ 0
-USER_6_4
-Text GLabel 9050 14450 2    50   Input ~ 0
-USER_6_2
-Text GLabel 9050 14650 2    50   Input ~ 0
-USER_6_3
 Text GLabel 9050 14750 2    50   Input ~ 0
-USER_6_1
+USER_6_4
+Text GLabel 9050 14650 2    50   Input ~ 0
+USER_6_2
 Text Label 7450 14200 2    50   ~ 0
 USER6_EN
 Text Label 7450 14400 2    50   ~ 0
@@ -8123,6 +8100,35 @@ Text Label 5000 5150 0    50   ~ 0
 GLO_EN
 Text Label 5000 4650 0    50   ~ 0
 CPU_EN
+$Comp
+L Device:R R5
+U 1 1 7B488437
+P 4650 12950
+F 0 "R5" H 4600 13100 50  0000 R CNN
+F 1 "200k" V 4750 13050 50  0000 R CNN
+F 2 "VST104_footprints:R_SMD_0402" V 4580 12950 50  0001 C CNN
+F 3 "~" H 4650 12950 50  0001 C CNN
+	1    4650 12950
+	1    0    0    -1  
+$EndComp
+Text Label 5000 5850 0    50   ~ 0
+USER6_EN
+Text Label 5000 5750 0    50   ~ 0
+USER6_1
+Text Label 5000 5650 0    50   ~ 0
+USER6_2
+Text Label 5000 5450 0    50   ~ 0
+USER6_3
+Text Label 5000 4550 0    50   ~ 0
+USER6_4
+Text GLabel 9050 14550 2    50   Input ~ 0
+USER_6_1
+Text GLabel 9050 14450 2    50   Input ~ 0
+USER_6_3
+Text GLabel 3050 14450 2    50   Input ~ 0
+USER_4_4
+Text GLabel 3050 14650 2    50   Input ~ 0
+USER_4_3
 Wire Bus Line
 	11800 7350 11800 8350
 Wire Bus Line
@@ -8143,4 +8149,8 @@ Wire Bus Line
 	14100 8300 15300 8300
 Wire Bus Line
 	14100 7350 15300 7350
+Text GLabel 3050 12450 2    50   Input ~ 0
+USER_3_1
+Text GLabel 3050 12550 2    50   Input ~ 0
+USER_3_2
 $EndSCHEMATC
