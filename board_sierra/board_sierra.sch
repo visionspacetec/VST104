@@ -8029,6 +8029,116 @@ Wire Wire Line
 	6050 9550 5200 9550
 Text Label 6050 9550 0    50   ~ 0
 I2C2_EN
+Text Label 1550 8650 2    50   ~ 0
+USER1_4
+Text Label 1550 8450 2    50   ~ 0
+SPI2_CS2
+Text Label 1550 8550 2    50   ~ 0
+USER1_2
+Text Label 1550 5550 2    50   ~ 0
+USER2_4
+Text Label 1550 9550 2    50   ~ 0
+SPI3_CS2
+Text Label 1550 9750 2    50   ~ 0
+USER2_2
+Text Label 1550 9650 2    50   ~ 0
+USER2_1
+Wire Wire Line
+	2800 8650 1550 8650
+Wire Wire Line
+	1550 8550 2800 8550
+Wire Wire Line
+	2800 8450 1550 8450
+Wire Wire Line
+	2800 9750 1550 9750
+Wire Wire Line
+	1550 9650 2800 9650
+Wire Wire Line
+	2800 9550 1550 9550
+Wire Wire Line
+	2800 5550 1550 5550
+Wire Wire Line
+	1550 5450 2800 5450
+Text Label 1550 8250 2    50   ~ 0
+USER3_1
+Text Label 1550 8350 2    50   ~ 0
+USER3_2
+Text Label 6450 5550 0    50   ~ 0
+USER3_3
+Text Label 6450 5650 0    50   ~ 0
+USER3_4
+Wire Wire Line
+	6450 5550 5200 5550
+Wire Wire Line
+	5200 5450 6450 5450
+Wire Wire Line
+	5200 5650 6450 5650
+Wire Wire Line
+	1550 8250 2800 8250
+Text Label 6050 7650 0    50   ~ 0
+USER4_2
+Text Label 1550 7550 2    50   ~ 0
+USER4_3
+Text Label 1550 7650 2    50   ~ 0
+USER4_4
+Wire Wire Line
+	2800 8350 1550 8350
+Wire Wire Line
+	5200 7650 6050 7650
+Wire Wire Line
+	1550 7550 2800 7550
+Wire Wire Line
+	2800 7650 1550 7650
+Wire Wire Line
+	2800 7450 1550 7450
+Text Label 1550 7450 2    50   ~ 0
+USER5_1
+NoConn ~ 2800 7350
+NoConn ~ 5200 8450
+Text Label 1550 9050 2    50   ~ 0
+USER5_2
+Text Label 1550 9150 2    50   ~ 0
+USER5_3
+Text Label 1550 9250 2    50   ~ 0
+USER5_4
+Wire Wire Line
+	2800 9350 1550 9350
+Wire Wire Line
+	1550 9250 2800 9250
+Wire Wire Line
+	2800 9150 1550 9150
+Wire Wire Line
+	2800 9050 1550 9050
+Wire Wire Line
+	2800 9450 1550 9450
+Text Label 1550 9350 2    50   ~ 0
+USER6_1
+Text Label 1550 9450 2    50   ~ 0
+USER6_2
+Text Label 1550 8850 2    50   ~ 0
+USER6_3
+Text Label 1550 8950 2    50   ~ 0
+USER6_4
+Wire Wire Line
+	2800 8950 1550 8950
+Wire Wire Line
+	2800 8850 1550 8850
+Wire Wire Line
+	5200 7950 6450 7950
+Text Label 6450 7950 0    50   ~ 0
+USER1_EN
+Wire Wire Line
+	5200 8050 6450 8050
+Text Label 6450 8050 0    50   ~ 0
+USER_SPI1_EN
+Text Label 6600 4550 0    50   ~ 0
+USER2_EN
+Wire Wire Line
+	6600 4550 5200 4550
+Text Label 1550 5450 2    50   ~ 0
+USER1_1
+Text Label 6450 5450 0    50   ~ 0
+USER4_1
 Wire Bus Line
 	14300 9850 14300 10850
 Wire Bus Line
