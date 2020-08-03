@@ -18,7 +18,7 @@ Wire Notes Line width 10
 Wire Notes Line width 10
 	20000 8500 20000 14500
 $Comp
-L Connector_Generic:Conn_02x26_Odd_Even H2
+L board_sierra-rescue:Conn_02x26_Odd_Even-Connector_Generic H2
 U 1 1 5C2F526D
 P 20950 12900
 F 0 "H2" H 21000 14200 50  0000 C CNN
@@ -29,7 +29,7 @@ F 3 "~" H 20950 12900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x26_Odd_Even H1
+L board_sierra-rescue:Conn_02x26_Odd_Even-Connector_Generic H1
 U 1 1 5C4C195F
 P 20950 9950
 F 0 "H1" H 21000 11250 50  0000 C CNN
@@ -40,7 +40,7 @@ F 3 "~" H 20950 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR051
+L board_sierra-rescue:GND-power #PWR051
 U 1 1 670BF8CE
 P 10800 4800
 F 0 "#PWR051" H 10800 4550 50  0001 C CNN
@@ -62,7 +62,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 6300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C27
+L board_sierra-rescue:C-Device C27
 U 1 1 670BF8DA
 P 10350 4800
 F 0 "C27" V 10300 4650 50  0000 C CNN
@@ -136,7 +136,7 @@ Wire Wire Line
 	10800 5500 11050 5500
 Connection ~ 9900 4800
 $Comp
-L power:+3V3 #PWR040
+L board_sierra-rescue:+3V3-power #PWR040
 U 1 1 670BF8E7
 P 9900 4800
 F 0 "#PWR040" H 9900 4650 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 9900 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L board_sierra-rescue:R-Device R19
 U 1 1 8E2670C8
 P 9700 4950
 F 0 "R19" H 9650 5100 50  0000 R CNN
@@ -158,7 +158,7 @@ F 3 "~" H 9700 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR036
+L board_sierra-rescue:GND-power #PWR036
 U 1 1 8E2670CE
 P 9700 4800
 F 0 "#PWR036" H 9700 4550 50  0001 C CNN
@@ -171,7 +171,7 @@ $EndComp
 Wire Wire Line
 	9700 5100 9700 5150
 $Comp
-L power:GND #PWR011
+L board_sierra-rescue:GND-power #PWR011
 U 1 1 ABB61252
 P 2800 13800
 F 0 "#PWR011" H 2800 13550 50  0001 C CNN
@@ -220,7 +220,7 @@ Wire Notes Line width 10
 	1500 15500 3000 15500
 Connection ~ 1900 13800
 $Comp
-L power:+3V3 #PWR06
+L board_sierra-rescue:+3V3-power #PWR06
 U 1 1 ABB6128A
 P 1900 13800
 F 0 "#PWR06" H 1900 13650 50  0001 C CNN
@@ -247,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 12100 4700 12150
 $Comp
-L power:GND #PWR016
+L board_sierra-rescue:GND-power #PWR016
 U 1 1 8E54FCA1
 P 4700 11800
 F 0 "#PWR016" H 4700 11550 50  0001 C CNN
@@ -258,7 +258,7 @@ F 3 "" H 4700 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R10
+L board_sierra-rescue:R-Device R10
 U 1 1 8E54FC9B
 P 4700 11950
 F 0 "R10" V 4800 12000 50  0000 R CNN
@@ -271,7 +271,7 @@ $EndComp
 Wire Wire Line
 	4700 14100 4700 14150
 $Comp
-L power:GND #PWR017
+L board_sierra-rescue:GND-power #PWR017
 U 1 1 8E3DB0D9
 P 4700 13800
 F 0 "#PWR017" H 4700 13550 50  0001 C CNN
@@ -282,7 +282,7 @@ F 3 "" H 4700 13800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR018
+L board_sierra-rescue:+3V3-power #PWR018
 U 1 1 6459B9D0
 P 4900 11800
 F 0 "#PWR018" H 4900 11650 50  0001 C CNN
@@ -294,7 +294,7 @@ F 3 "" H 4900 11800 50  0001 C CNN
 $EndComp
 Connection ~ 4900 11800
 $Comp
-L power:+3V3 #PWR019
+L board_sierra-rescue:+3V3-power #PWR019
 U 1 1 663F818B
 P 4900 13800
 F 0 "#PWR019" H 4900 13650 50  0001 C CNN
@@ -382,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 13800 4900 13800
 $Comp
-L Device:C C23
+L board_sierra-rescue:C-Device C23
 U 1 1 663F817E
 P 5350 13800
 F 0 "C23" V 5300 13650 50  0000 C CNN
@@ -404,7 +404,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 5350 15300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR026
+L board_sierra-rescue:GND-power #PWR026
 U 1 1 663F8172
 P 5800 13800
 F 0 "#PWR026" H 5800 13550 50  0001 C CNN
@@ -473,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 11800 4900 11800
 $Comp
-L Device:C C22
+L board_sierra-rescue:C-Device C22
 U 1 1 644256EF
 P 5350 11800
 F 0 "C22" V 5300 11650 50  0000 C CNN
@@ -497,7 +497,7 @@ $EndComp
 Wire Notes Line width 10
 	6000 11500 6000 15500
 $Comp
-L power:GND #PWR025
+L board_sierra-rescue:GND-power #PWR025
 U 1 1 6065605C
 P 5800 11800
 F 0 "#PWR025" H 5800 11550 50  0001 C CNN
@@ -519,7 +519,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 14350 13300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C44
+L board_sierra-rescue:C-Device C44
 U 1 1 6DEF7681
 P 14350 11800
 F 0 "C44" V 14300 11650 50  0000 C CNN
@@ -530,7 +530,7 @@ F 3 "~" H 14350 11800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R35
+L board_sierra-rescue:R-Device R35
 U 1 1 8E9B7D65
 P 13700 11950
 F 0 "R35" V 13800 12050 50  0000 R CNN
@@ -543,7 +543,7 @@ $EndComp
 Wire Wire Line
 	16700 12100 16700 12150
 $Comp
-L power:GND #PWR0114
+L board_sierra-rescue:GND-power #PWR0114
 U 1 1 8F41881A
 P 16700 11800
 F 0 "#PWR0114" H 16700 11550 50  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 16700 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R50
+L board_sierra-rescue:R-Device R50
 U 1 1 8F418814
 P 16700 11950
 F 0 "R50" V 16800 12050 50  0000 R CNN
@@ -565,7 +565,7 @@ F 3 "~" H 16700 11950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR0116
+L board_sierra-rescue:+3V3-power #PWR0116
 U 1 1 6DEF7654
 P 16900 11800
 F 0 "#PWR0116" H 16900 11650 50  0001 C CNN
@@ -649,7 +649,7 @@ Wire Wire Line
 Wire Wire Line
 	17200 11800 16900 11800
 $Comp
-L Device:C C50
+L board_sierra-rescue:C-Device C50
 U 1 1 6DEF7647
 P 17350 11800
 F 0 "C50" V 17300 11650 50  0000 C CNN
@@ -671,7 +671,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 17350 13300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L board_sierra-rescue:GND-power #PWR0124
 U 1 1 6DEF763A
 P 17800 11800
 F 0 "#PWR0124" H 17800 11550 50  0001 C CNN
@@ -684,7 +684,7 @@ $EndComp
 Wire Wire Line
 	7700 12100 7700 12150
 $Comp
-L power:GND #PWR027
+L board_sierra-rescue:GND-power #PWR027
 U 1 1 8F11D183
 P 7700 11800
 F 0 "#PWR027" H 7700 11550 50  0001 C CNN
@@ -695,7 +695,7 @@ F 3 "" H 7700 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R14
+L board_sierra-rescue:R-Device R14
 U 1 1 8F11D17D
 P 7700 11950
 F 0 "R14" V 7800 12000 50  0000 R CNN
@@ -706,7 +706,7 @@ F 3 "~" H 7700 11950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR029
+L board_sierra-rescue:+3V3-power #PWR029
 U 1 1 6D8BD8ED
 P 7900 11800
 F 0 "#PWR029" H 7900 11650 50  0001 C CNN
@@ -784,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 11800 7900 11800
 $Comp
-L Device:C C24
+L board_sierra-rescue:C-Device C24
 U 1 1 6D8BD8E0
 P 8350 11800
 F 0 "C24" V 8300 11650 50  0000 C CNN
@@ -806,7 +806,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 8350 13300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L board_sierra-rescue:GND-power #PWR031
 U 1 1 6D8BD8D3
 P 8800 11800
 F 0 "#PWR031" H 8800 11550 50  0001 C CNN
@@ -846,7 +846,7 @@ Connection ~ 13700 12150
 Wire Wire Line
 	13700 14100 13700 14150
 $Comp
-L power:GND #PWR080
+L board_sierra-rescue:GND-power #PWR080
 U 1 1 8E83F8CA
 P 13700 13800
 F 0 "#PWR080" H 13700 13550 50  0001 C CNN
@@ -857,7 +857,7 @@ F 3 "" H 13700 13800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R36
+L board_sierra-rescue:R-Device R36
 U 1 1 8E83F8C4
 P 13700 13950
 F 0 "R36" V 13800 14050 50  0000 R CNN
@@ -870,7 +870,7 @@ $EndComp
 Wire Wire Line
 	13700 12100 13700 12150
 $Comp
-L power:GND #PWR079
+L board_sierra-rescue:GND-power #PWR079
 U 1 1 8E6C7F80
 P 13700 11800
 F 0 "#PWR079" H 13700 11550 50  0001 C CNN
@@ -881,7 +881,7 @@ F 3 "" H 13700 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR093
+L board_sierra-rescue:+3V3-power #PWR093
 U 1 1 6753552F
 P 13900 11800
 F 0 "#PWR093" H 13900 11650 50  0001 C CNN
@@ -893,7 +893,7 @@ F 3 "" H 13900 11800 50  0001 C CNN
 $EndComp
 Connection ~ 13900 11800
 $Comp
-L power:+3V3 #PWR094
+L board_sierra-rescue:+3V3-power #PWR094
 U 1 1 67535569
 P 13900 13800
 F 0 "#PWR094" H 13900 13650 50  0001 C CNN
@@ -967,7 +967,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 13800 13900 13800
 $Comp
-L Device:C C45
+L board_sierra-rescue:C-Device C45
 U 1 1 6753555C
 P 14350 13800
 F 0 "C45" V 14300 13650 50  0000 C CNN
@@ -989,7 +989,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 14350 15300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L board_sierra-rescue:GND-power #PWR0105
 U 1 1 67535550
 P 14800 13800
 F 0 "#PWR0105" H 14800 13550 50  0001 C CNN
@@ -1053,7 +1053,7 @@ Wire Wire Line
 Wire Notes Line width 10
 	15000 11500 15000 15500
 $Comp
-L power:GND #PWR0104
+L board_sierra-rescue:GND-power #PWR0104
 U 1 1 67535515
 P 14800 11800
 F 0 "#PWR0104" H 14800 11550 50  0001 C CNN
@@ -1068,7 +1068,7 @@ Wire Wire Line
 Wire Wire Line
 	16700 14100 16700 14150
 $Comp
-L power:GND #PWR0115
+L board_sierra-rescue:GND-power #PWR0115
 U 1 1 8F715E0F
 P 16700 13800
 F 0 "#PWR0115" H 16700 13550 50  0001 C CNN
@@ -1079,7 +1079,7 @@ F 3 "" H 16700 13800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR0117
+L board_sierra-rescue:+3V3-power #PWR0117
 U 1 1 6DEF772D
 P 16900 13800
 F 0 "#PWR0117" H 16900 13650 50  0001 C CNN
@@ -1212,7 +1212,7 @@ Wire Wire Line
 Wire Wire Line
 	17200 13800 16900 13800
 $Comp
-L Device:C C51
+L board_sierra-rescue:C-Device C51
 U 1 1 6DEF7720
 P 17350 13800
 F 0 "C51" V 17300 13650 50  0000 C CNN
@@ -1223,7 +1223,7 @@ F 3 "~" H 17350 13800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0125
+L board_sierra-rescue:GND-power #PWR0125
 U 1 1 6DEF7713
 P 17800 13800
 F 0 "#PWR0125" H 17800 13550 50  0001 C CNN
@@ -1236,7 +1236,7 @@ $EndComp
 Wire Notes Line width 10
 	18000 11500 16500 11500
 $Comp
-L power:GND #PWR059
+L board_sierra-rescue:GND-power #PWR059
 U 1 1 6DEF77A5
 P 11800 13800
 F 0 "#PWR059" H 11800 13550 50  0001 C CNN
@@ -1258,7 +1258,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 11350 15300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C32
+L board_sierra-rescue:C-Device C32
 U 1 1 6DEF77B1
 P 11350 13800
 F 0 "C32" V 11300 13650 50  0000 C CNN
@@ -1285,7 +1285,7 @@ Text Notes 16500 11450 0    65   ~ 13
 UART isolators
 Connection ~ 10900 13800
 $Comp
-L power:+3V3 #PWR055
+L board_sierra-rescue:+3V3-power #PWR055
 U 1 1 6DEF77BE
 P 10900 13800
 F 0 "#PWR055" H 10900 13650 50  0001 C CNN
@@ -1296,7 +1296,7 @@ F 3 "" H 10900 13800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L board_sierra-rescue:R-Device R28
 U 1 1 8F89889C
 P 10700 13950
 F 0 "R28" V 10800 14050 50  0000 R CNN
@@ -1307,7 +1307,7 @@ F 3 "~" H 10700 13950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR049
+L board_sierra-rescue:GND-power #PWR049
 U 1 1 8F8988A2
 P 10700 13800
 F 0 "#PWR049" H 10700 13550 50  0001 C CNN
@@ -1335,7 +1335,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 2350 13300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L board_sierra-rescue:C-Device C2
 U 1 1 73B2DA85
 P 2350 11800
 F 0 "C2" V 2300 11650 50  0000 C CNN
@@ -1397,7 +1397,7 @@ Wire Wire Line
 	2800 12500 3050 12500
 Connection ~ 1900 11800
 $Comp
-L power:+3V3 #PWR05
+L board_sierra-rescue:+3V3-power #PWR05
 U 1 1 73B2DA92
 P 1900 11800
 F 0 "#PWR05" H 1900 11650 50  0001 C CNN
@@ -1408,7 +1408,7 @@ F 3 "" H 1900 11800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L board_sierra-rescue:GND-power #PWR03
 U 1 1 96B6DA9A
 P 1700 11800
 F 0 "#PWR03" H 1700 11550 50  0001 C CNN
@@ -1425,7 +1425,7 @@ UART5_RX
 Text GLabel 15950 10750 0    50   Input ~ 0
 UART5_TX
 $Comp
-L power:GND #PWR0123
+L board_sierra-rescue:GND-power #PWR0123
 U 1 1 601304BC
 P 17750 10600
 F 0 "#PWR0123" H 17750 10350 50  0001 C CNN
@@ -1463,7 +1463,7 @@ $EndComp
 Wire Wire Line
 	17850 8550 18050 8550
 $Comp
-L power:+3V3 #PWR0118
+L board_sierra-rescue:+3V3-power #PWR0118
 U 1 1 5FBAEDC1
 P 17100 9100
 F 0 "#PWR0118" H 17100 8950 50  0001 C CNN
@@ -1482,7 +1482,7 @@ Wire Wire Line
 Wire Wire Line
 	17100 8700 17150 8700
 $Comp
-L power:GND #PWR0126
+L board_sierra-rescue:GND-power #PWR0126
 U 1 1 5F61C14D
 P 17900 9100
 F 0 "#PWR0126" H 17900 8850 50  0001 C CNN
@@ -1497,7 +1497,7 @@ Wire Wire Line
 Wire Wire Line
 	17150 8550 17100 8550
 $Comp
-L Device:R R58
+L board_sierra-rescue:R-Device R58
 U 1 1 5EFE3377
 P 17500 8300
 F 0 "R58" V 17400 8300 50  0000 C CNN
@@ -1516,7 +1516,7 @@ Wire Wire Line
 Wire Wire Line
 	17900 8300 17900 8450
 $Comp
-L Device:C C54
+L board_sierra-rescue:C-Device C54
 U 1 1 5F0B57D9
 P 17500 9050
 F 0 "C54" V 17350 9050 50  0000 C CNN
@@ -1546,7 +1546,7 @@ Wire Wire Line
 Wire Wire Line
 	16450 8400 16500 8400
 $Comp
-L Device:R R49
+L board_sierra-rescue:R-Device R49
 U 1 1 5EFB3BEB
 P 16500 9150
 F 0 "R49" V 16400 9100 50  0000 L CNN
@@ -1574,7 +1574,7 @@ Wire Wire Line
 Wire Wire Line
 	16900 9150 16650 9150
 $Comp
-L Device:C C48
+L board_sierra-rescue:C-Device C48
 U 1 1 5EFB3BFB
 P 16300 8400
 F 0 "C48" V 16150 8450 50  0000 R CNN
@@ -1587,7 +1587,7 @@ $EndComp
 Wire Wire Line
 	16350 8800 16100 8800
 $Comp
-L Device:C C49
+L board_sierra-rescue:C-Device C49
 U 1 1 5EFB3BE3
 P 16700 8400
 F 0 "C49" V 16850 8400 50  0000 C CNN
@@ -1607,7 +1607,7 @@ Wire Wire Line
 	16900 8400 16900 8800
 Connection ~ 16900 8800
 $Comp
-L Device:Crystal Y1
+L board_sierra-rescue:Crystal-Device Y1
 U 1 1 5EFB3BDD
 P 16500 8800
 F 0 "Y1" H 16550 8950 50  0000 R CNN
@@ -1618,7 +1618,7 @@ F 3 "https://www.mouser.de/datasheet/2/3/ABS07AIG-783567.pdf" H 16500 8800 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L board_sierra-rescue:GND-power #PWR0109
 U 1 1 5EFB3C0C
 P 16500 8350
 F 0 "#PWR0109" H 16500 8100 50  0001 C CNN
@@ -1639,7 +1639,7 @@ SUP_5V
 Text Notes 17000 950  0    65   ~ 13
 Power UV, OV, current protection and KillSwitch\n
 $Comp
-L power:GND #PWR046
+L board_sierra-rescue:GND-power #PWR046
 U 1 1 B05C6301
 P 10550 2800
 F 0 "#PWR046" H 10550 2550 50  0001 C CNN
@@ -1702,7 +1702,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 1300 14400 1300
 $Comp
-L power:GND #PWR056
+L board_sierra-rescue:GND-power #PWR056
 U 1 1 80FF84E4
 P 11500 1550
 F 0 "#PWR056" H 11500 1300 50  0001 C CNN
@@ -1713,7 +1713,7 @@ F 3 "" H 11500 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L board_sierra-rescue:GND-power #PWR0103
 U 1 1 5F4E16BB
 P 14550 2950
 F 0 "#PWR0103" H 14550 2700 50  0001 C CNN
@@ -1724,7 +1724,7 @@ F 3 "" H 14550 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR077
+L board_sierra-rescue:GND-power #PWR077
 U 1 1 5F187C0F
 P 13500 2950
 F 0 "#PWR077" H 13500 2700 50  0001 C CNN
@@ -1740,7 +1740,7 @@ Connection ~ 14650 2850
 Wire Wire Line
 	14700 2850 14650 2850
 $Comp
-L power:GND #PWR0108
+L board_sierra-rescue:GND-power #PWR0108
 U 1 1 5F4E16B4
 P 15050 2850
 F 0 "#PWR0108" H 15050 2600 50  0001 C CNN
@@ -1751,7 +1751,7 @@ F 3 "" H 15050 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C47
+L board_sierra-rescue:C-Device C47
 U 1 1 5F4E16AE
 P 14850 2850
 F 0 "C47" V 14900 2700 50  0000 C CNN
@@ -1769,7 +1769,7 @@ Connection ~ 11600 2850
 Wire Wire Line
 	11650 2850 11600 2850
 $Comp
-L power:GND #PWR057
+L board_sierra-rescue:GND-power #PWR057
 U 1 1 5F49154A
 P 11500 2950
 F 0 "#PWR057" H 11500 2700 50  0001 C CNN
@@ -1780,7 +1780,7 @@ F 3 "" H 11500 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR064
+L board_sierra-rescue:GND-power #PWR064
 U 1 1 5F491543
 P 12000 2850
 F 0 "#PWR064" H 12000 2600 50  0001 C CNN
@@ -1791,7 +1791,7 @@ F 3 "" H 12000 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C34
+L board_sierra-rescue:C-Device C34
 U 1 1 5F49153D
 P 11800 2850
 F 0 "C34" V 11850 2700 50  0000 C CNN
@@ -1809,7 +1809,7 @@ Connection ~ 14650 1450
 Wire Wire Line
 	14700 1450 14650 1450
 $Comp
-L power:GND #PWR0102
+L board_sierra-rescue:GND-power #PWR0102
 U 1 1 5F46C3B1
 P 14550 1550
 F 0 "#PWR0102" H 14550 1300 50  0001 C CNN
@@ -1820,7 +1820,7 @@ F 3 "" H 14550 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L board_sierra-rescue:GND-power #PWR0106
 U 1 1 5F46C3AA
 P 15050 1450
 F 0 "#PWR0106" H 15050 1200 50  0001 C CNN
@@ -1831,7 +1831,7 @@ F 3 "" H 15050 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C46
+L board_sierra-rescue:C-Device C46
 U 1 1 5F46C3A4
 P 14850 1450
 F 0 "C46" V 14900 1300 50  0000 C CNN
@@ -1849,7 +1849,7 @@ Connection ~ 13650 1450
 Wire Wire Line
 	13700 1450 13650 1450
 $Comp
-L power:GND #PWR078
+L board_sierra-rescue:GND-power #PWR078
 U 1 1 5F4478B0
 P 13550 1550
 F 0 "#PWR078" H 13550 1300 50  0001 C CNN
@@ -1860,7 +1860,7 @@ F 3 "" H 13550 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR097
+L board_sierra-rescue:GND-power #PWR097
 U 1 1 5F4478A9
 P 14050 1450
 F 0 "#PWR097" H 14050 1200 50  0001 C CNN
@@ -1871,7 +1871,7 @@ F 3 "" H 14050 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C40
+L board_sierra-rescue:C-Device C40
 U 1 1 5F4478A3
 P 13850 1450
 F 0 "C40" V 13900 1300 50  0000 C CNN
@@ -1889,7 +1889,7 @@ Connection ~ 12650 1450
 Wire Wire Line
 	12700 1450 12650 1450
 $Comp
-L power:GND #PWR067
+L board_sierra-rescue:GND-power #PWR067
 U 1 1 5F42426A
 P 12550 1550
 F 0 "#PWR067" H 12550 1300 50  0001 C CNN
@@ -1900,7 +1900,7 @@ F 3 "" H 12550 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR074
+L board_sierra-rescue:GND-power #PWR074
 U 1 1 5F424263
 P 13050 1450
 F 0 "#PWR074" H 13050 1200 50  0001 C CNN
@@ -1911,7 +1911,7 @@ F 3 "" H 13050 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C35
+L board_sierra-rescue:C-Device C35
 U 1 1 5F42425D
 P 12850 1450
 F 0 "C35" V 12900 1300 50  0000 C CNN
@@ -1934,7 +1934,7 @@ Connection ~ 13600 2850
 Wire Wire Line
 	13650 2850 13600 2850
 $Comp
-L power:GND #PWR060
+L board_sierra-rescue:GND-power #PWR060
 U 1 1 5F57AFB8
 P 12000 1450
 F 0 "#PWR060" H 12000 1200 50  0001 C CNN
@@ -1945,7 +1945,7 @@ F 3 "" H 12000 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C33
+L board_sierra-rescue:C-Device C33
 U 1 1 5F140753
 P 11800 1450
 F 0 "C33" V 11850 1300 50  0000 C CNN
@@ -1956,7 +1956,7 @@ F 3 "~" H 11800 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C38
+L board_sierra-rescue:C-Device C38
 U 1 1 5F17C434
 P 13800 2850
 F 0 "C38" V 13750 3000 50  0000 C CNN
@@ -1969,7 +1969,7 @@ $EndComp
 Wire Wire Line
 	13950 2850 14000 2850
 $Comp
-L power:GND #PWR095
+L board_sierra-rescue:GND-power #PWR095
 U 1 1 5F1971E9
 P 14000 2850
 F 0 "#PWR095" H 14000 2600 50  0001 C CNN
@@ -2069,7 +2069,7 @@ Wire Wire Line
 	11500 3600 11500 3750
 NoConn ~ 12000 3100
 $Comp
-L power:GND #PWR066
+L board_sierra-rescue:GND-power #PWR066
 U 1 1 5F49151D
 P 12000 3350
 F 0 "#PWR066" H 12000 3100 50  0001 C CNN
@@ -2080,7 +2080,7 @@ F 3 "" H 12000 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR065
+L board_sierra-rescue:GND-power #PWR065
 U 1 1 5F491529
 P 12000 3250
 F 0 "#PWR065" H 12000 3000 50  0001 C CNN
@@ -2096,7 +2096,7 @@ Wire Wire Line
 	14550 2200 14550 2350
 NoConn ~ 15050 1700
 $Comp
-L power:GND #PWR0107
+L board_sierra-rescue:GND-power #PWR0107
 U 1 1 5F46C38A
 P 15050 2050
 F 0 "#PWR0107" H 15050 1800 50  0001 C CNN
@@ -2112,7 +2112,7 @@ Wire Wire Line
 	13550 2200 13550 2350
 NoConn ~ 14050 1700
 $Comp
-L power:GND #PWR099
+L board_sierra-rescue:GND-power #PWR099
 U 1 1 5F447889
 P 14050 2050
 F 0 "#PWR099" H 14050 1800 50  0001 C CNN
@@ -2123,7 +2123,7 @@ F 3 "" H 14050 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR098
+L board_sierra-rescue:GND-power #PWR098
 U 1 1 5F44788F
 P 14050 1850
 F 0 "#PWR098" H 14050 1600 50  0001 C CNN
@@ -2139,7 +2139,7 @@ Wire Wire Line
 	12550 2200 12550 2350
 NoConn ~ 13050 1700
 $Comp
-L power:GND #PWR076
+L board_sierra-rescue:GND-power #PWR076
 U 1 1 5F424249
 P 13050 2050
 F 0 "#PWR076" H 13050 1800 50  0001 C CNN
@@ -2150,7 +2150,7 @@ F 3 "" H 13050 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR075
+L board_sierra-rescue:GND-power #PWR075
 U 1 1 5F42423D
 P 13050 1950
 F 0 "#PWR075" H 13050 1700 50  0001 C CNN
@@ -2166,7 +2166,7 @@ Wire Wire Line
 	13500 3750 13500 3600
 NoConn ~ 14000 3100
 $Comp
-L power:GND #PWR096
+L board_sierra-rescue:GND-power #PWR096
 U 1 1 5F11AE5E
 P 14000 3250
 F 0 "#PWR096" H 14000 3000 50  0001 C CNN
@@ -2182,7 +2182,7 @@ Wire Wire Line
 	11500 2200 11500 2350
 NoConn ~ 12000 1700
 $Comp
-L power:GND #PWR063
+L board_sierra-rescue:GND-power #PWR063
 U 1 1 5F11A47A
 P 12000 2050
 F 0 "#PWR063" H 12000 1800 50  0001 C CNN
@@ -2193,7 +2193,7 @@ F 3 "" H 12000 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR062
+L board_sierra-rescue:GND-power #PWR062
 U 1 1 5F1192C9
 P 12000 1950
 F 0 "#PWR062" H 12000 1700 50  0001 C CNN
@@ -2204,7 +2204,7 @@ F 3 "" H 12000 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR061
+L board_sierra-rescue:GND-power #PWR061
 U 1 1 5F578F98
 P 12000 1850
 F 0 "#PWR061" H 12000 1600 50  0001 C CNN
@@ -2223,7 +2223,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 3600 10450 3850
 $Comp
-L power:+3V3 #PWR044
+L board_sierra-rescue:+3V3-power #PWR044
 U 1 1 5F8F5B24
 P 10450 3300
 F 0 "#PWR044" H 10450 3150 50  0001 C CNN
@@ -2234,7 +2234,7 @@ F 3 "" H 10450 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R25
+L board_sierra-rescue:R-Device R25
 U 1 1 5F31B6BC
 P 10450 3450
 F 0 "R25" H 10520 3496 50  0000 L CNN
@@ -2273,7 +2273,7 @@ Wire Wire Line
 Wire Wire Line
 	11600 2450 12650 2450
 $Comp
-L Device:R R22
+L board_sierra-rescue:R-Device R22
 U 1 1 5F2FB296
 P 10150 3450
 F 0 "R22" H 10220 3496 50  0000 L CNN
@@ -2284,7 +2284,7 @@ F 3 "~" H 10150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR043
+L board_sierra-rescue:+3V3-power #PWR043
 U 1 1 5F8F6282
 P 10150 3300
 F 0 "#PWR043" H 10150 3150 50  0001 C CNN
@@ -2383,7 +2383,7 @@ $EndComp
 Connection ~ 13800 8300
 Connection ~ 13800 8500
 $Comp
-L Device:C_Small C39
+L board_sierra-rescue:C_Small-Device C39
 U 1 1 5FD97970
 P 13800 8400
 F 0 "C39" H 13850 8500 50  0000 L CNN
@@ -2398,7 +2398,7 @@ Wire Wire Line
 Wire Wire Line
 	13700 8500 13800 8500
 $Comp
-L power:GND #PWR086
+L board_sierra-rescue:GND-power #PWR086
 U 1 1 5FD97978
 P 13800 8500
 F 0 "#PWR086" H 13800 8250 50  0001 C CNN
@@ -2409,7 +2409,7 @@ F 3 "" H 13800 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR085
+L board_sierra-rescue:+3V3-power #PWR085
 U 1 1 5FD9797E
 P 13800 8300
 F 0 "#PWR085" H 13800 8150 50  0001 C CNN
@@ -2425,7 +2425,7 @@ Wire Wire Line
 	12450 8300 12650 8300
 Connection ~ 12650 8300
 $Comp
-L Device:R R29
+L board_sierra-rescue:R-Device R29
 U 1 1 5FF2D102
 P 12650 8450
 F 0 "R29" H 12575 8150 50  0000 L CNN
@@ -2436,7 +2436,7 @@ F 3 "~" H 12650 8450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR068
+L board_sierra-rescue:+3V3-power #PWR068
 U 1 1 5FF2D108
 P 12650 8600
 F 0 "#PWR068" H 12650 8450 50  0001 C CNN
@@ -2460,7 +2460,7 @@ $EndComp
 Connection ~ 13750 10300
 Connection ~ 13750 10500
 $Comp
-L Device:C_Small C37
+L board_sierra-rescue:C_Small-Device C37
 U 1 1 603FD1AA
 P 13750 10400
 F 0 "C37" H 13800 10500 50  0000 L CNN
@@ -2475,7 +2475,7 @@ Wire Wire Line
 Wire Wire Line
 	13700 10500 13750 10500
 $Comp
-L power:GND #PWR084
+L board_sierra-rescue:GND-power #PWR084
 U 1 1 603FD1B2
 P 13750 10500
 F 0 "#PWR084" H 13750 10250 50  0001 C CNN
@@ -2486,7 +2486,7 @@ F 3 "" H 13750 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR083
+L board_sierra-rescue:+3V3-power #PWR083
 U 1 1 603FD1B8
 P 13750 10300
 F 0 "#PWR083" H 13750 10150 50  0001 C CNN
@@ -2502,7 +2502,7 @@ Wire Wire Line
 	12450 10300 12650 10300
 Connection ~ 12650 10300
 $Comp
-L Device:R R31
+L board_sierra-rescue:R-Device R31
 U 1 1 603FD1C1
 P 12650 10450
 F 0 "R31" H 12725 10125 50  0000 R CNN
@@ -2513,7 +2513,7 @@ F 3 "~" H 12650 10450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR070
+L board_sierra-rescue:+3V3-power #PWR070
 U 1 1 603FD1C7
 P 12650 10600
 F 0 "#PWR070" H 12650 10450 50  0001 C CNN
@@ -2537,7 +2537,7 @@ $EndComp
 Connection ~ 13750 9300
 Connection ~ 13750 9500
 $Comp
-L Device:C_Small C36
+L board_sierra-rescue:C_Small-Device C36
 U 1 1 605987C6
 P 13750 9400
 F 0 "C36" H 13800 9500 50  0000 L CNN
@@ -2552,7 +2552,7 @@ Wire Wire Line
 Wire Wire Line
 	13700 9500 13750 9500
 $Comp
-L power:GND #PWR082
+L board_sierra-rescue:GND-power #PWR082
 U 1 1 605987CE
 P 13750 9500
 F 0 "#PWR082" H 13750 9250 50  0001 C CNN
@@ -2563,7 +2563,7 @@ F 3 "" H 13750 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR081
+L board_sierra-rescue:+3V3-power #PWR081
 U 1 1 605987D4
 P 13750 9300
 F 0 "#PWR081" H 13750 9150 50  0001 C CNN
@@ -2579,7 +2579,7 @@ Wire Wire Line
 	12450 9300 12650 9300
 Connection ~ 12650 9300
 $Comp
-L Device:R R30
+L board_sierra-rescue:R-Device R30
 U 1 1 605987DD
 P 12650 9450
 F 0 "R30" H 12575 9150 50  0000 L CNN
@@ -2590,7 +2590,7 @@ F 3 "~" H 12650 9450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR069
+L board_sierra-rescue:+3V3-power #PWR069
 U 1 1 605987E3
 P 12650 9600
 F 0 "#PWR069" H 12650 9450 50  0001 C CNN
@@ -2665,7 +2665,7 @@ Wire Wire Line
 Text Notes 12500 4450 0    65   ~ 13
 Triple redundant FLASH memory
 $Comp
-L power:+3V3 #PWR087
+L board_sierra-rescue:+3V3-power #PWR087
 U 1 1 5F0E5919
 P 13900 4800
 F 0 "#PWR087" H 13900 4650 50  0001 C CNN
@@ -2676,7 +2676,7 @@ F 3 "" H 13900 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR088
+L board_sierra-rescue:GND-power #PWR088
 U 1 1 5F0E5911
 P 13900 5000
 F 0 "#PWR088" H 13900 4750 50  0001 C CNN
@@ -2700,7 +2700,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 4800 13800 4800
 $Comp
-L power:+3V3 #PWR071
+L board_sierra-rescue:+3V3-power #PWR071
 U 1 1 5F0E5936
 P 12750 5150
 F 0 "#PWR071" H 12750 5000 50  0001 C CNN
@@ -2711,7 +2711,7 @@ F 3 "" H 12750 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R32
+L board_sierra-rescue:R-Device R32
 U 1 1 5F0E5930
 P 12750 5000
 F 0 "R32" H 12820 4954 50  0000 L CNN
@@ -2738,7 +2738,7 @@ F 3 "https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C41
+L board_sierra-rescue:C_Small-Device C41
 U 1 1 FB353954
 P 13900 4900
 F 0 "C41" H 13950 5000 50  0000 L CNN
@@ -2753,7 +2753,7 @@ Connection ~ 13900 4800
 Entry Wire Line
 	14350 4850 14250 4950
 $Comp
-L power:+3V3 #PWR091
+L board_sierra-rescue:+3V3-power #PWR091
 U 1 1 FDA9BAB7
 P 13900 6800
 F 0 "#PWR091" H 13900 6650 50  0001 C CNN
@@ -2764,7 +2764,7 @@ F 3 "" H 13900 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR092
+L board_sierra-rescue:GND-power #PWR092
 U 1 1 FDA9BABD
 P 13900 7000
 F 0 "#PWR092" H 13900 6750 50  0001 C CNN
@@ -2779,7 +2779,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 6800 13800 6800
 $Comp
-L power:+3V3 #PWR073
+L board_sierra-rescue:+3V3-power #PWR073
 U 1 1 FDA9BAC8
 P 12750 7150
 F 0 "#PWR073" H 12750 7000 50  0001 C CNN
@@ -2790,7 +2790,7 @@ F 3 "" H 12750 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R34
+L board_sierra-rescue:R-Device R34
 U 1 1 FDA9BACE
 P 12750 7000
 F 0 "R34" H 12820 6954 50  0000 L CNN
@@ -2817,7 +2817,7 @@ F 3 "https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C43
+L board_sierra-rescue:C_Small-Device C43
 U 1 1 FDA9BADD
 P 13900 6900
 F 0 "C43" H 13950 7000 50  0000 L CNN
@@ -2830,7 +2830,7 @@ $EndComp
 Connection ~ 13900 7000
 Connection ~ 13900 6800
 $Comp
-L power:+3V3 #PWR089
+L board_sierra-rescue:+3V3-power #PWR089
 U 1 1 FDC3D936
 P 13900 5850
 F 0 "#PWR089" H 13900 5700 50  0001 C CNN
@@ -2841,7 +2841,7 @@ F 3 "" H 13900 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR090
+L board_sierra-rescue:GND-power #PWR090
 U 1 1 FDC3D93C
 P 13900 6050
 F 0 "#PWR090" H 13900 5800 50  0001 C CNN
@@ -2856,7 +2856,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 5850 13800 5850
 $Comp
-L power:+3V3 #PWR072
+L board_sierra-rescue:+3V3-power #PWR072
 U 1 1 FDC3D947
 P 12750 6200
 F 0 "#PWR072" H 12750 6050 50  0001 C CNN
@@ -2867,7 +2867,7 @@ F 3 "" H 12750 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R33
+L board_sierra-rescue:R-Device R33
 U 1 1 FDC3D94D
 P 12750 6050
 F 0 "R33" H 12820 6004 50  0000 L CNN
@@ -2894,7 +2894,7 @@ F 3 "https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C42
+L board_sierra-rescue:C_Small-Device C42
 U 1 1 FDC3D95C
 P 13900 5950
 F 0 "C42" H 13950 6050 50  0000 L CNN
@@ -2907,7 +2907,7 @@ $EndComp
 Connection ~ 13900 6050
 Connection ~ 13900 5850
 $Comp
-L power:+3V3 #PWR0138
+L board_sierra-rescue:+3V3-power #PWR0138
 U 1 1 69C6C13A
 P 19650 5850
 F 0 "#PWR0138" H 19650 5700 50  0001 C CNN
@@ -2949,7 +2949,7 @@ Wire Wire Line
 Wire Notes Line width 10
 	22000 5500 22000 8000
 $Comp
-L power:GND #PWR0136
+L board_sierra-rescue:GND-power #PWR0136
 U 1 1 69C6C14A
 P 19450 5850
 F 0 "#PWR0136" H 19450 5600 50  0001 C CNN
@@ -2962,7 +2962,7 @@ $EndComp
 Wire Wire Line
 	19450 6250 19700 6250
 $Comp
-L Device:R R74
+L board_sierra-rescue:R-Device R74
 U 1 1 69C6C143
 P 19450 6000
 F 0 "R74" H 19381 5954 50  0000 R CNN
@@ -2980,7 +2980,7 @@ Wire Wire Line
 	19650 7050 19650 7350
 Connection ~ 19650 7050
 $Comp
-L power:GND #PWR0137
+L board_sierra-rescue:GND-power #PWR0137
 U 1 1 6948AF66
 P 19450 7050
 F 0 "#PWR0137" H 19450 6800 50  0001 C CNN
@@ -2993,7 +2993,7 @@ $EndComp
 Wire Wire Line
 	19450 7450 19700 7450
 $Comp
-L Device:R R75
+L board_sierra-rescue:R-Device R75
 U 1 1 68E59322
 P 19450 7200
 F 0 "R75" H 19381 7154 50  0000 R CNN
@@ -3004,7 +3004,7 @@ F 3 "~" H 19450 7200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C3
+L board_sierra-rescue:C-Device C3
 U 1 1 67DF2E51
 P 2350 13800
 F 0 "C3" V 2300 13650 50  0000 C CNN
@@ -3026,7 +3026,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 2350 15300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C68
+L board_sierra-rescue:C-Device C68
 U 1 1 5F192AC0
 P 21500 7500
 F 0 "C68" H 21400 7175 50  0000 L CNN
@@ -3037,7 +3037,7 @@ F 3 "~" H 21500 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0150
+L board_sierra-rescue:GND-power #PWR0150
 U 1 1 5F26A3D1
 P 20450 7450
 F 0 "#PWR0150" H 20450 7200 50  0001 C CNN
@@ -3063,7 +3063,7 @@ Connection ~ 21600 7350
 Wire Wire Line
 	21600 7300 21600 7350
 $Comp
-L power:GND #PWR0162
+L board_sierra-rescue:GND-power #PWR0162
 U 1 1 5F192AA7
 P 21600 7300
 F 0 "#PWR0162" H 21600 7050 50  0001 C CNN
@@ -3078,7 +3078,7 @@ Wire Wire Line
 Wire Wire Line
 	21500 7350 21600 7350
 $Comp
-L Device:C C72
+L board_sierra-rescue:C-Device C72
 U 1 1 5F192A9F
 P 21700 7600
 F 0 "C72" H 21650 7375 50  0000 L CNN
@@ -3089,7 +3089,7 @@ F 3 "~" H 21700 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0154
+L board_sierra-rescue:GND-power #PWR0154
 U 1 1 5F192A99
 P 21000 7050
 F 0 "#PWR0154" H 21000 6800 50  0001 C CNN
@@ -3107,7 +3107,7 @@ Wire Wire Line
 Wire Wire Line
 	20900 7350 21000 7350
 $Comp
-L Device:C C64
+L board_sierra-rescue:C-Device C64
 U 1 1 5F192A8F
 P 21000 7200
 F 0 "C64" H 21115 7246 50  0000 L CNN
@@ -3118,7 +3118,7 @@ F 3 "~" H 21000 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R84
+L board_sierra-rescue:R-Device R84
 U 1 1 5F192A89
 P 21100 7600
 F 0 "R84" H 21150 7825 50  0000 R CNN
@@ -3129,7 +3129,7 @@ F 3 "~" H 21100 7600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R82
+L board_sierra-rescue:R-Device R82
 U 1 1 5F192A83
 P 20900 7500
 F 0 "R82" H 20950 7825 50  0000 R CNN
@@ -3148,7 +3148,7 @@ Wire Wire Line
 Wire Wire Line
 	19700 7050 19650 7050
 $Comp
-L power:GND #PWR0146
+L board_sierra-rescue:GND-power #PWR0146
 U 1 1 5F26A3F3
 P 20050 7050
 F 0 "#PWR0146" H 20050 6800 50  0001 C CNN
@@ -3164,7 +3164,7 @@ Connection ~ 20050 7050
 Wire Wire Line
 	20000 7050 20050 7050
 $Comp
-L Device:C C62
+L board_sierra-rescue:C-Device C62
 U 1 1 5F26A3E9
 P 20250 7050
 F 0 "C62" V 20400 7050 50  0000 C CNN
@@ -3175,7 +3175,7 @@ F 3 "~" H 20250 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C58
+L board_sierra-rescue:C-Device C58
 U 1 1 5F26A3E3
 P 19850 7050
 F 0 "C58" V 19700 7050 50  0000 C CNN
@@ -3186,7 +3186,7 @@ F 3 "~" H 19850 7050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR0139
+L board_sierra-rescue:+3V3-power #PWR0139
 U 1 1 5F26A3DD
 P 19650 7050
 F 0 "#PWR0139" H 19650 6900 50  0001 C CNN
@@ -3206,7 +3206,7 @@ Wire Wire Line
 Wire Wire Line
 	20400 6250 20450 6250
 $Comp
-L power:GND #PWR0145
+L board_sierra-rescue:GND-power #PWR0145
 U 1 1 5F01155F
 P 20050 5850
 F 0 "#PWR0145" H 20050 5600 50  0001 C CNN
@@ -3222,7 +3222,7 @@ Connection ~ 20050 5850
 Wire Wire Line
 	20000 5850 20050 5850
 $Comp
-L Device:C C61
+L board_sierra-rescue:C-Device C61
 U 1 1 5EFF331D
 P 20250 5850
 F 0 "C61" V 20400 5850 50  0000 C CNN
@@ -3233,7 +3233,7 @@ F 3 "~" H 20250 5850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C57
+L board_sierra-rescue:C-Device C57
 U 1 1 5EFF0714
 P 19850 5850
 F 0 "C57" V 19700 5850 50  0000 C CNN
@@ -3244,7 +3244,7 @@ F 3 "~" H 19850 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0147
+L board_sierra-rescue:+5V-power #PWR0147
 U 1 1 5EFE6A47
 P 20450 6150
 F 0 "#PWR0147" H 20450 6000 50  0001 C CNN
@@ -3255,7 +3255,7 @@ F 3 "" H 20450 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0148
+L board_sierra-rescue:GND-power #PWR0148
 U 1 1 5EFE5DFA
 P 20450 6250
 F 0 "#PWR0148" H 20450 6000 50  0001 C CNN
@@ -3278,7 +3278,7 @@ Connection ~ 21500 6450
 Wire Wire Line
 	20400 6450 20900 6450
 $Comp
-L Device:R R83
+L board_sierra-rescue:R-Device R83
 U 1 1 5F26CA35
 P 21100 6400
 F 0 "R83" H 21150 6625 50  0000 R CNN
@@ -3289,7 +3289,7 @@ F 3 "~" H 21100 6400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C63
+L board_sierra-rescue:C-Device C63
 U 1 1 5F26DD60
 P 21000 6000
 F 0 "C63" H 21115 6046 50  0000 L CNN
@@ -3307,7 +3307,7 @@ Wire Wire Line
 	21100 6150 21100 6250
 Connection ~ 21000 6150
 $Comp
-L power:GND #PWR0153
+L board_sierra-rescue:GND-power #PWR0153
 U 1 1 5F2DD238
 P 21000 5850
 F 0 "#PWR0153" H 21000 5600 50  0001 C CNN
@@ -3318,7 +3318,7 @@ F 3 "" H 21000 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C71
+L board_sierra-rescue:C-Device C71
 U 1 1 5F418201
 P 21700 6400
 F 0 "C71" H 21650 6175 50  0000 L CNN
@@ -3333,7 +3333,7 @@ Wire Wire Line
 Wire Wire Line
 	21700 6150 21700 6250
 $Comp
-L power:GND #PWR0161
+L board_sierra-rescue:GND-power #PWR0161
 U 1 1 5F42A2DD
 P 21600 6100
 F 0 "#PWR0161" H 21600 5850 50  0001 C CNN
@@ -3349,7 +3349,7 @@ Connection ~ 21600 6150
 Wire Wire Line
 	21600 6150 21700 6150
 $Comp
-L Device:C C67
+L board_sierra-rescue:C-Device C67
 U 1 1 5F403A92
 P 21500 6300
 F 0 "C67" H 21400 5975 50  0000 L CNN
@@ -3377,7 +3377,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 1850 9700 2800
 $Comp
-L power:+3V3 #PWR039
+L board_sierra-rescue:+3V3-power #PWR039
 U 1 1 62374536
 P 9900 1450
 F 0 "#PWR039" H 9900 1300 50  0001 C CNN
@@ -3393,7 +3393,7 @@ Wire Wire Line
 Text Notes 16000 6950 0    65   ~ 13
 I2C 1 & 2 pull-up
 $Comp
-L Mechanical:MountingHole_Pad MH3
+L board_sierra-rescue:MountingHole_Pad-Mechanical MH3
 U 1 1 5E50DEC4
 P 19250 15000
 F 0 "MH3" H 19350 15003 50  0000 L CNN
@@ -3407,7 +3407,7 @@ NoConn ~ 18850 15100
 NoConn ~ 19450 15300
 NoConn ~ 19050 15300
 $Comp
-L Mechanical:MountingHole_Pad MH4
+L board_sierra-rescue:MountingHole_Pad-Mechanical MH4
 U 1 1 5E50E2B0
 P 19450 15200
 F 0 "MH4" H 19550 15203 50  0000 L CNN
@@ -3418,7 +3418,7 @@ F 3 "~" H 19450 15200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad MH2
+L board_sierra-rescue:MountingHole_Pad-Mechanical MH2
 U 1 1 5E50E4A0
 P 19050 15200
 F 0 "MH2" H 19150 15203 50  0000 L CNN
@@ -3429,7 +3429,7 @@ F 3 "~" H 19050 15200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad MH1
+L board_sierra-rescue:MountingHole_Pad-Mechanical MH1
 U 1 1 5E50E62D
 P 18900 15000
 F 0 "MH1" H 19000 15003 50  0000 L CNN
@@ -3441,7 +3441,7 @@ F 3 "~" H 18900 15000 50  0001 C CNN
 $EndComp
 NoConn ~ 19250 15100
 $Comp
-L Device:R R23
+L board_sierra-rescue:R-Device R23
 U 1 1 B05C62FB
 P 10300 2800
 F 0 "R23" V 10400 2800 50  0000 C CNN
@@ -3467,7 +3467,7 @@ Wire Wire Line
 	20450 7050 20450 7350
 Connection ~ 20450 7350
 $Comp
-L power:+5V #PWR0149
+L board_sierra-rescue:+5V-power #PWR0149
 U 1 1 5F26A3D7
 P 20450 7350
 F 0 "#PWR0149" H 20450 7200 50  0001 C CNN
@@ -3494,7 +3494,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 17350 15300 5
 $EndComp
 Connection ~ 2800 11800
 $Comp
-L power:GND #PWR010
+L board_sierra-rescue:GND-power #PWR010
 U 1 1 73B2DA79
 P 2800 11800
 F 0 "#PWR010" H 2800 11550 50  0001 C CNN
@@ -3509,7 +3509,7 @@ Connection ~ 11600 3850
 Wire Wire Line
 	16650 8800 16900 8800
 $Comp
-L Device:R R38
+L board_sierra-rescue:R-Device R38
 U 1 1 67C8138F
 P 14100 10400
 F 0 "R38" H 14175 10075 50  0000 R CNN
@@ -3520,7 +3520,7 @@ F 3 "~" H 14100 10400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR0101
+L board_sierra-rescue:+3V3-power #PWR0101
 U 1 1 67C81395
 P 14100 10550
 F 0 "#PWR0101" H 14100 10400 50  0001 C CNN
@@ -3531,7 +3531,7 @@ F 3 "" H 14100 10550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR0100
+L board_sierra-rescue:+3V3-power #PWR0100
 U 1 1 67E30106
 P 14100 9600
 F 0 "#PWR0100" H 14100 9450 50  0001 C CNN
@@ -3542,7 +3542,7 @@ F 3 "" H 14100 9600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R37
+L board_sierra-rescue:R-Device R37
 U 1 1 67E30100
 P 14100 9450
 F 0 "R37" H 14175 9125 50  0000 R CNN
@@ -3563,7 +3563,7 @@ Entry Wire Line
 Text Label 14100 10250 0    50   ~ 0
 SO
 $Comp
-L power:GND #PWR014
+L board_sierra-rescue:GND-power #PWR014
 U 1 1 5F00DD02
 P 3500 10800
 F 0 "#PWR014" H 3500 10550 50  0001 C CNN
@@ -3574,7 +3574,7 @@ F 3 "" H 3500 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR015
+L board_sierra-rescue:GNDA-power #PWR015
 U 1 1 5F00F23D
 P 4600 10800
 F 0 "#PWR015" H 4600 10550 50  0001 C CNN
@@ -3603,7 +3603,7 @@ Wire Wire Line
 	3500 10700 3500 10800
 Connection ~ 3600 10700
 $Comp
-L Device:C C11
+L board_sierra-rescue:C-Device C11
 U 1 1 5F02E5E3
 P 3200 2800
 F 0 "C11" V 3250 2650 50  0000 C CNN
@@ -3614,7 +3614,7 @@ F 3 "~" H 3200 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C12
+L board_sierra-rescue:C-Device C12
 U 1 1 5F02F248
 P 3200 3000
 F 0 "C12" V 3250 2850 50  0000 C CNN
@@ -3625,7 +3625,7 @@ F 3 "~" H 3200 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C13
+L board_sierra-rescue:C-Device C13
 U 1 1 5F02FA7A
 P 3200 3200
 F 0 "C13" V 3250 3050 50  0000 C CNN
@@ -3647,7 +3647,7 @@ Wire Wire Line
 	2950 2800 3050 2800
 Connection ~ 2950 3000
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L board_sierra-rescue:Ferrite_Bead_Small-Device FB1
 U 1 1 5F0B3B0D
 P 3850 1300
 F 0 "FB1" V 3700 1300 50  0000 C CNN
@@ -3663,7 +3663,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3400 3050 3400
 $Comp
-L Device:C C14
+L board_sierra-rescue:C-Device C14
 U 1 1 5F01ACFA
 P 3200 3400
 F 0 "C14" V 3150 3250 50  0000 C CNN
@@ -3693,7 +3693,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2800 3700 3450
 $Comp
-L power:GND #PWR012
+L board_sierra-rescue:GND-power #PWR012
 U 1 1 5FF59B09
 P 2900 3400
 F 0 "#PWR012" H 2900 3150 50  0001 C CNN
@@ -3707,7 +3707,7 @@ Wire Wire Line
 	2900 3400 2950 3400
 Connection ~ 2950 3400
 $Comp
-L power:+3V3 #PWR020
+L board_sierra-rescue:+3V3-power #PWR020
 U 1 1 60050A75
 P 5250 1300
 F 0 "#PWR020" H 5250 1150 50  0001 C CNN
@@ -3720,7 +3720,7 @@ $EndComp
 Text GLabel 1950 3750 0    50   Input ~ 0
 NRST
 $Comp
-L Device:L L1
+L board_sierra-rescue:L-Device L1
 U 1 1 5F742EA4
 P 4400 1300
 F 0 "L1" V 4300 1300 50  0000 C CNN
@@ -3731,7 +3731,7 @@ F 3 "https://www.mouser.sk/datasheet/2/281/JELF243A-9131-1517869.pdf" H 4400 130
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C9
+L board_sierra-rescue:C-Device C9
 U 1 1 5F6C6889
 P 3200 2400
 F 0 "C9" V 3250 2250 50  0000 C CNN
@@ -3742,7 +3742,7 @@ F 3 "~" H 3200 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C10
+L board_sierra-rescue:C-Device C10
 U 1 1 5F6C688F
 P 3200 2600
 F 0 "C10" V 3250 2450 50  0000 C CNN
@@ -3796,7 +3796,7 @@ Connection ~ 4000 10700
 Wire Wire Line
 	4000 10700 3900 10700
 $Comp
-L power:GND #PWR021
+L board_sierra-rescue:GND-power #PWR021
 U 1 1 5FDF6E94
 P 5250 1450
 F 0 "#PWR021" H 5250 1200 50  0001 C CNN
@@ -3807,7 +3807,7 @@ F 3 "" H 5250 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C15
+L board_sierra-rescue:C-Device C15
 U 1 1 5F05BD17
 P 4950 1450
 F 0 "C15" V 4900 1650 50  0000 R CNN
@@ -3820,7 +3820,7 @@ $EndComp
 Wire Wire Line
 	5250 1450 5100 1450
 $Comp
-L power:+3.3VADC #PWR013
+L board_sierra-rescue:+3.3VADC-power #PWR013
 U 1 1 624018AB
 P 3450 1300
 F 0 "#PWR013" H 3600 1250 50  0001 C CNN
@@ -3839,7 +3839,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1300 4250 1300
 $Comp
-L power:GND #PWR09
+L board_sierra-rescue:GND-power #PWR09
 U 1 1 5F33F04F
 P 1950 5250
 F 0 "#PWR09" H 1950 5000 50  0001 C CNN
@@ -3930,7 +3930,7 @@ I2C4_SCL
 Text Label 9400 10300 2    50   ~ 0
 I2C4_EN
 $Comp
-L power:PWR_FLAG #FLG01
+L board_sierra-rescue:PWR_FLAG-power #FLG01
 U 1 1 769BCE2E
 P 20900 15100
 F 0 "#FLG01" H 20900 15175 50  0001 C CNN
@@ -3941,7 +3941,7 @@ F 3 "~" H 20900 15100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L board_sierra-rescue:PWR_FLAG-power #FLG02
 U 1 1 76BE42BF
 P 21400 15100
 F 0 "#FLG02" H 21400 15175 50  0001 C CNN
@@ -3952,7 +3952,7 @@ F 3 "~" H 21400 15100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0163
+L board_sierra-rescue:GND-power #PWR0163
 U 1 1 7700DCCC
 P 21850 15150
 F 0 "#PWR0163" H 21850 14900 50  0001 C CNN
@@ -3965,7 +3965,7 @@ $EndComp
 Wire Wire Line
 	21850 15100 21850 15150
 $Comp
-L power:GND #PWR0167
+L board_sierra-rescue:GND-power #PWR0167
 U 1 1 77A6F869
 P 22300 15150
 F 0 "#PWR0167" H 22300 14900 50  0001 C CNN
@@ -3976,7 +3976,7 @@ F 3 "" H 22300 15150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0168
+L board_sierra-rescue:GNDA-power #PWR0168
 U 1 1 77A7077E
 P 22600 15150
 F 0 "#PWR0168" H 22600 14900 50  0001 C CNN
@@ -4271,7 +4271,7 @@ Wire Wire Line
 Wire Wire Line
 	21250 13700 22100 13700
 $Comp
-L Device:R R81
+L board_sierra-rescue:R-Device R81
 U 1 1 5F26BABA
 P 20900 6300
 F 0 "R81" H 20950 6625 50  0000 R CNN
@@ -4282,7 +4282,7 @@ F 3 "~" H 20900 6300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R51
+L board_sierra-rescue:R-Device R51
 U 1 1 8F715E09
 P 16700 13950
 F 0 "R51" V 16800 14050 50  0000 R CNN
@@ -4297,7 +4297,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 1650 10800 1650
 $Comp
-L power:GND #PWR050
+L board_sierra-rescue:GND-power #PWR050
 U 1 1 6DC6F67B
 P 10800 1850
 F 0 "#PWR050" H 10800 1600 50  0001 C CNN
@@ -4308,7 +4308,7 @@ F 3 "" H 10800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C30
+L board_sierra-rescue:C_Small-Device C30
 U 1 1 6DC6F682
 P 10800 1750
 F 0 "C30" H 10892 1796 50  0000 L CNN
@@ -4322,7 +4322,7 @@ Wire Wire Line
 	10700 1850 10800 1850
 Connection ~ 10800 1850
 $Comp
-L Device:D_Schottky D1
+L board_sierra-rescue:D_Schottky-Device D1
 U 1 1 6F3E4CA1
 P 10150 2200
 F 0 "D1" H 10150 2300 50  0000 C CNN
@@ -4335,7 +4335,7 @@ $EndComp
 Wire Wire Line
 	10000 2200 9900 2200
 $Comp
-L Device:C C26
+L board_sierra-rescue:C-Device C26
 U 1 1 6F3E4CAA
 P 10300 2450
 F 0 "C26" V 10250 2600 50  0000 C CNN
@@ -4346,7 +4346,7 @@ F 3 "~" H 10300 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R24
+L board_sierra-rescue:R-Device R24
 U 1 1 6F3E4CB0
 P 10450 2200
 F 0 "R24" V 10550 2200 50  0000 C CNN
@@ -4362,7 +4362,7 @@ Wire Wire Line
 	9900 2450 9900 2200
 Connection ~ 9900 2200
 $Comp
-L power:GND #PWR045
+L board_sierra-rescue:GND-power #PWR045
 U 1 1 6F3E4CB9
 P 10500 2450
 F 0 "#PWR045" H 10500 2200 50  0001 C CNN
@@ -4379,7 +4379,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 1650 10000 1650
 $Comp
-L power:+3V3 #PWR047
+L board_sierra-rescue:+3V3-power #PWR047
 U 1 1 709648AB
 P 10600 2200
 F 0 "#PWR047" H 10600 2050 50  0001 C CNN
@@ -4394,7 +4394,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 2800 10550 2800
 $Comp
-L Device:R R26
+L board_sierra-rescue:R-Device R26
 U 1 1 720B9220
 P 10500 1200
 F 0 "R26" V 10400 1200 50  0000 C CNN
@@ -4413,7 +4413,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 1200 10000 1450
 $Comp
-L Device:D_Schottky D2
+L board_sierra-rescue:D_Schottky-Device D2
 U 1 1 720B922A
 P 10200 1200
 F 0 "D2" H 10200 1300 50  0000 C CNN
@@ -4447,7 +4447,7 @@ Wire Wire Line
 Wire Wire Line
 	21550 2450 21550 2300
 $Comp
-L Device:R R85
+L board_sierra-rescue:R-Device R85
 U 1 1 7C18A5E7
 P 21550 2900
 F 0 "R85" H 21481 2854 50  0000 R CNN
@@ -4458,7 +4458,7 @@ F 3 "~" H 21550 2900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C70
+L board_sierra-rescue:C-Device C70
 U 1 1 6103B88B
 P 21550 3800
 F 0 "C70" H 21665 3754 50  0000 L CNN
@@ -4469,7 +4469,7 @@ F 3 "~" H 21550 3800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0159
+L board_sierra-rescue:GND-power #PWR0159
 U 1 1 6103B885
 P 21550 3950
 F 0 "#PWR0159" H 21550 3700 50  0001 C CNN
@@ -4482,7 +4482,7 @@ $EndComp
 Wire Wire Line
 	17250 4250 17250 4650
 $Comp
-L power:GND #PWR0120
+L board_sierra-rescue:GND-power #PWR0120
 U 1 1 7B131EDB
 P 17250 4650
 F 0 "#PWR0120" H 17250 4400 50  0001 C CNN
@@ -4493,7 +4493,7 @@ F 3 "" H 17250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L board_sierra-rescue:GND-power #PWR0122
 U 1 1 7B131ED5
 P 17400 4650
 F 0 "#PWR0122" H 17400 4400 50  0001 C CNN
@@ -4504,7 +4504,7 @@ F 3 "" H 17400 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C53
+L board_sierra-rescue:C-Device C53
 U 1 1 7B131ECF
 P 17400 4500
 F 0 "C53" H 17515 4546 50  0000 L CNN
@@ -4515,7 +4515,7 @@ F 3 "~" H 17400 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R53
+L board_sierra-rescue:R_Small-Device R53
 U 1 1 C4D3CD6B
 P 17350 1900
 F 0 "R53" H 17408 1946 50  0000 L CNN
@@ -4529,7 +4529,7 @@ Connection ~ 17350 1800
 Wire Wire Line
 	17350 1800 17500 1800
 $Comp
-L Device:R_Small R52
+L board_sierra-rescue:R_Small-Device R52
 U 1 1 C4EE1A3B
 P 17350 1700
 F 0 "R52" H 17500 1750 50  0000 R CNN
@@ -4540,7 +4540,7 @@ F 3 "~" H 17350 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R54
+L board_sierra-rescue:R_Small-Device R54
 U 1 1 C4B95A51
 P 17350 2100
 F 0 "R54" H 17500 2150 50  0000 R CNN
@@ -4566,7 +4566,7 @@ Wire Wire Line
 Wire Wire Line
 	17250 2200 17250 2600
 $Comp
-L power:GND #PWR0119
+L board_sierra-rescue:GND-power #PWR0119
 U 1 1 79D97141
 P 17250 2600
 F 0 "#PWR0119" H 17250 2350 50  0001 C CNN
@@ -4590,7 +4590,7 @@ Wire Wire Line
 Wire Wire Line
 	19250 4050 19250 4150
 $Comp
-L Device:R R69
+L board_sierra-rescue:R-Device R69
 U 1 1 785D13D9
 P 19250 3900
 F 0 "R69" H 19320 3946 50  0000 L CNN
@@ -4604,7 +4604,7 @@ Connection ~ 18900 4050
 Wire Wire Line
 	18500 4050 18900 4050
 $Comp
-L power:GND #PWR0129
+L board_sierra-rescue:GND-power #PWR0129
 U 1 1 77FF02AC
 P 18550 4650
 F 0 "#PWR0129" H 18550 4400 50  0001 C CNN
@@ -4619,7 +4619,7 @@ Wire Wire Line
 Wire Wire Line
 	18900 4050 18900 4650
 $Comp
-L Device:R R61
+L board_sierra-rescue:R-Device R61
 U 1 1 77FF02A4
 P 18550 4500
 F 0 "R61" H 18750 4500 50  0000 R CNN
@@ -4630,7 +4630,7 @@ F 3 "~" H 18550 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0135
+L board_sierra-rescue:GND-power #PWR0135
 U 1 1 77FF029E
 P 18900 4650
 F 0 "#PWR0135" H 18900 4400 50  0001 C CNN
@@ -4641,7 +4641,7 @@ F 3 "" H 18900 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R63
+L board_sierra-rescue:R-Device R63
 U 1 1 77FF0298
 P 18700 4500
 F 0 "R63" H 18600 4500 50  0000 R CNN
@@ -4652,7 +4652,7 @@ F 3 "~" H 18700 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0131
+L board_sierra-rescue:GND-power #PWR0131
 U 1 1 77FF0292
 P 18700 4650
 F 0 "#PWR0131" H 18700 4400 50  0001 C CNN
@@ -4678,7 +4678,7 @@ Connection ~ 19250 1600
 Wire Wire Line
 	19250 1600 19250 1700
 $Comp
-L power:GND #PWR0121
+L board_sierra-rescue:GND-power #PWR0121
 U 1 1 766622FD
 P 17400 2600
 F 0 "#PWR0121" H 17400 2350 50  0001 C CNN
@@ -4689,7 +4689,7 @@ F 3 "" H 17400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C52
+L board_sierra-rescue:C-Device C52
 U 1 1 76660F44
 P 17400 2450
 F 0 "C52" H 17515 2496 50  0000 L CNN
@@ -4700,7 +4700,7 @@ F 3 "~" H 17400 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L board_sierra-rescue:GND-power #PWR0128
 U 1 1 7627F29A
 P 18550 2600
 F 0 "#PWR0128" H 18550 2350 50  0001 C CNN
@@ -4721,7 +4721,7 @@ Wire Wire Line
 	18900 1600 19250 1600
 Connection ~ 19500 1600
 $Comp
-L Device:R R60
+L board_sierra-rescue:R-Device R60
 U 1 1 C03876BF
 P 18550 2450
 F 0 "R60" H 18750 2450 50  0000 R CNN
@@ -4732,7 +4732,7 @@ F 3 "~" H 18550 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0133
+L board_sierra-rescue:GND-power #PWR0133
 U 1 1 C1068080
 P 18900 2600
 F 0 "#PWR0133" H 18900 2350 50  0001 C CNN
@@ -4743,7 +4743,7 @@ F 3 "" H 18900 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R62
+L board_sierra-rescue:R-Device R62
 U 1 1 C1205819
 P 18700 2450
 F 0 "R62" H 18600 2450 50  0000 R CNN
@@ -4757,7 +4757,7 @@ Connection ~ 18900 1600
 Wire Wire Line
 	18500 1600 18900 1600
 $Comp
-L Device:R_Small R65
+L board_sierra-rescue:R_Small-Device R65
 U 1 1 5F6E9BC3
 P 18900 1900
 F 0 "R65" H 18959 1946 50  0000 L CNN
@@ -4771,7 +4771,7 @@ Wire Wire Line
 	18500 1800 18900 1800
 Connection ~ 18900 1800
 $Comp
-L power:GND #PWR0132
+L board_sierra-rescue:GND-power #PWR0132
 U 1 1 C646C046
 P 18900 1300
 F 0 "#PWR0132" H 18900 1050 50  0001 C CNN
@@ -4782,7 +4782,7 @@ F 3 "" H 18900 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C55
+L board_sierra-rescue:C-Device C55
 U 1 1 C646C040
 P 18900 1450
 F 0 "C55" H 18785 1496 50  0000 R CNN
@@ -4793,7 +4793,7 @@ F 3 "~" H 18900 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R64
+L board_sierra-rescue:R_Small-Device R64
 U 1 1 5F6E9572
 P 18900 1700
 F 0 "R64" H 18959 1746 50  0000 L CNN
@@ -4804,7 +4804,7 @@ F 3 "~" H 18900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R68
+L board_sierra-rescue:R-Device R68
 U 1 1 7346B3C8
 P 19250 1850
 F 0 "R68" H 19320 1896 50  0000 L CNN
@@ -4815,7 +4815,7 @@ F 3 "~" H 19250 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0130
+L board_sierra-rescue:GND-power #PWR0130
 U 1 1 C120581F
 P 18700 2600
 F 0 "#PWR0130" H 18700 2350 50  0001 C CNN
@@ -4829,7 +4829,7 @@ Connection ~ 21200 4050
 Wire Wire Line
 	21100 4050 21200 4050
 $Comp
-L Device:C_Small C66
+L board_sierra-rescue:C_Small-Device C66
 U 1 1 6D69D74E
 P 21200 3950
 F 0 "C66" H 21292 3996 50  0000 L CNN
@@ -4840,7 +4840,7 @@ F 3 "~" H 21200 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0156
+L board_sierra-rescue:GND-power #PWR0156
 U 1 1 6D69D747
 P 21200 4050
 F 0 "#PWR0156" H 21200 3800 50  0001 C CNN
@@ -4856,7 +4856,7 @@ Connection ~ 21200 2000
 Wire Wire Line
 	21100 2000 21200 2000
 $Comp
-L Device:C_Small C65
+L board_sierra-rescue:C_Small-Device C65
 U 1 1 6CAF02EA
 P 21200 1900
 F 0 "C65" H 21292 1946 50  0000 L CNN
@@ -4870,7 +4870,7 @@ Connection ~ 20400 3650
 Wire Wire Line
 	20200 3850 20400 3850
 $Comp
-L power:GND #PWR0141
+L board_sierra-rescue:GND-power #PWR0141
 U 1 1 6983CB35
 P 19800 4150
 F 0 "#PWR0141" H 19800 3900 50  0001 C CNN
@@ -4886,7 +4886,7 @@ Wire Wire Line
 Wire Wire Line
 	20100 4150 20200 4150
 $Comp
-L Device:R R77
+L board_sierra-rescue:R-Device R77
 U 1 1 6983CB2B
 P 19700 3850
 F 0 "R77" V 19600 3850 50  0000 C CNN
@@ -4897,7 +4897,7 @@ F 3 "~" H 19700 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C60
+L board_sierra-rescue:C-Device C60
 U 1 1 6983CB25
 P 19950 4150
 F 0 "C60" V 19900 4300 50  0000 C CNN
@@ -4917,7 +4917,7 @@ Wire Wire Line
 Wire Wire Line
 	19550 3850 19500 3850
 $Comp
-L Device:D_Schottky D5
+L board_sierra-rescue:D_Schottky-Device D5
 U 1 1 6983CB1A
 P 20000 3850
 F 0 "D5" H 20000 3750 50  0000 C CNN
@@ -4930,7 +4930,7 @@ $EndComp
 Wire Wire Line
 	18900 3650 19250 3650
 $Comp
-L power:GND #PWR0140
+L board_sierra-rescue:GND-power #PWR0140
 U 1 1 69271B50
 P 19800 2100
 F 0 "#PWR0140" H 19800 1850 50  0001 C CNN
@@ -4948,7 +4948,7 @@ Wire Wire Line
 Wire Wire Line
 	20100 2100 20200 2100
 $Comp
-L Device:R R76
+L board_sierra-rescue:R-Device R76
 U 1 1 69085FAF
 P 19700 1800
 F 0 "R76" V 19600 1800 50  0000 C CNN
@@ -4959,7 +4959,7 @@ F 3 "~" H 19700 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C59
+L board_sierra-rescue:C-Device C59
 U 1 1 68E9A716
 P 19950 2100
 F 0 "C59" V 19900 2250 50  0000 C CNN
@@ -4978,7 +4978,7 @@ Wire Wire Line
 Wire Wire Line
 	19550 1800 19500 1800
 $Comp
-L Device:D_Schottky D4
+L board_sierra-rescue:D_Schottky-Device D4
 U 1 1 688E36BD
 P 20000 1800
 F 0 "D4" H 20000 1700 50  0000 C CNN
@@ -5028,7 +5028,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf?HQS=TI-null-null-mousermo
 $EndComp
 Connection ~ 20400 1600
 $Comp
-L power:GND #PWR0155
+L board_sierra-rescue:GND-power #PWR0155
 U 1 1 6685A926
 P 21200 2000
 F 0 "#PWR0155" H 21200 1750 50  0001 C CNN
@@ -5039,7 +5039,7 @@ F 3 "" H 21200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D6
+L board_sierra-rescue:D_Schottky-Device D6
 U 1 1 6085EF15
 P 20600 1350
 F 0 "D6" H 20600 1450 50  0000 C CNN
@@ -5056,7 +5056,7 @@ Wire Wire Line
 Wire Wire Line
 	21050 1350 21100 1350
 $Comp
-L Device:R R79
+L board_sierra-rescue:R-Device R79
 U 1 1 6085EF0B
 P 20900 1350
 F 0 "R79" V 20800 1350 50  0000 C CNN
@@ -5067,7 +5067,7 @@ F 3 "~" H 20900 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D7
+L board_sierra-rescue:D_Schottky-Device D7
 U 1 1 606663F0
 P 20600 3400
 F 0 "D7" H 20600 3500 50  0000 C CNN
@@ -5087,7 +5087,7 @@ Wire Wire Line
 Wire Wire Line
 	21050 3400 21100 3400
 $Comp
-L Device:R R80
+L board_sierra-rescue:R-Device R80
 U 1 1 6028D415
 P 20900 3400
 F 0 "R80" V 20800 3400 50  0000 C CNN
@@ -5104,7 +5104,7 @@ Connection ~ 18900 3850
 Wire Wire Line
 	18500 3850 18900 3850
 $Comp
-L Device:R_Small R67
+L board_sierra-rescue:R_Small-Device R67
 U 1 1 5FC7DA01
 P 18900 3950
 F 0 "R67" H 18959 3996 50  0000 L CNN
@@ -5115,7 +5115,7 @@ F 3 "~" H 18900 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R66
+L board_sierra-rescue:R_Small-Device R66
 U 1 1 5FC7D9FB
 P 18900 3750
 F 0 "R66" H 18959 3796 50  0000 L CNN
@@ -5130,7 +5130,7 @@ Wire Wire Line
 Wire Wire Line
 	19550 2750 19500 2750
 $Comp
-L power:GND #PWR0152
+L board_sierra-rescue:GND-power #PWR0152
 U 1 1 641BA9F7
 P 20650 3000
 F 0 "#PWR0152" H 20650 2750 50  0001 C CNN
@@ -5141,7 +5141,7 @@ F 3 "" H 20650 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0151
+L board_sierra-rescue:GND-power #PWR0151
 U 1 1 643568A8
 P 20650 2750
 F 0 "#PWR0151" H 20650 2500 50  0001 C CNN
@@ -5152,7 +5152,7 @@ F 3 "" H 20650 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R78
+L board_sierra-rescue:R-Device R78
 U 1 1 641BA9F0
 P 20500 3000
 F 0 "R78" V 20600 3000 50  0000 C CNN
@@ -5180,7 +5180,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf?HQS=TI-null-null-mousermo
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0160
+L board_sierra-rescue:+3V3-power #PWR0160
 U 1 1 61D43F4A
 P 21600 2300
 F 0 "#PWR0160" H 21600 2150 50  0001 C CNN
@@ -5211,7 +5211,7 @@ Wire Wire Line
 Wire Wire Line
 	18500 4350 18550 4350
 $Comp
-L Device:R_Small R55
+L board_sierra-rescue:R_Small-Device R55
 U 1 1 6103B860
 P 17350 3750
 F 0 "R55" H 17500 3800 50  0000 R CNN
@@ -5227,7 +5227,7 @@ Connection ~ 17350 3850
 Wire Wire Line
 	17350 4050 17500 4050
 $Comp
-L Device:R_Small R56
+L board_sierra-rescue:R_Small-Device R56
 U 1 1 6103B857
 P 17350 3950
 F 0 "R56" H 17408 3996 50  0000 L CNN
@@ -5241,7 +5241,7 @@ Wire Wire Line
 	17350 4250 17500 4250
 Connection ~ 17350 4050
 $Comp
-L Device:R_Small R57
+L board_sierra-rescue:R_Small-Device R57
 U 1 1 6103B84E
 P 17350 4150
 F 0 "R57" H 17500 4200 50  0000 R CNN
@@ -5258,7 +5258,7 @@ Wire Wire Line
 	18500 3650 18900 3650
 Connection ~ 18900 3650
 $Comp
-L Device:C C56
+L board_sierra-rescue:C-Device C56
 U 1 1 6103B831
 P 18900 3500
 F 0 "C56" H 18785 3546 50  0000 R CNN
@@ -5269,7 +5269,7 @@ F 3 "~" H 18900 3500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0134
+L board_sierra-rescue:GND-power #PWR0134
 U 1 1 6103B82B
 P 18900 3350
 F 0 "#PWR0134" H 18900 3100 50  0001 C CNN
@@ -5284,7 +5284,7 @@ Wire Wire Line
 Wire Wire Line
 	18500 2200 18700 2200
 $Comp
-L Device:C C69
+L board_sierra-rescue:C-Device C69
 U 1 1 DBB49275
 P 21550 1450
 F 0 "C69" H 21435 1496 50  0000 R CNN
@@ -5295,7 +5295,7 @@ F 3 "~" H 21550 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0157
+L board_sierra-rescue:GND-power #PWR0157
 U 1 1 DBB4927B
 P 21550 1300
 F 0 "#PWR0157" H 21550 1050 50  0001 C CNN
@@ -5324,7 +5324,7 @@ Wire Wire Line
 Wire Wire Line
 	21550 2300 21600 2300
 $Comp
-L Device:D_Zener D8
+L board_sierra-rescue:D_Zener-Device D8
 U 1 1 7C1874AD
 P 21550 2600
 F 0 "D8" V 21550 2400 50  0000 L CNN
@@ -5335,7 +5335,7 @@ F 3 "https://www.mouser.sk/datasheet/2/115/ds30502-1142513.pdf" H 21550 2600 50 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R44
+L board_sierra-rescue:R_Small-Device R44
 U 1 1 80B2E7FA
 P 16350 10350
 F 0 "R44" V 16300 10200 50  0000 C CNN
@@ -5346,7 +5346,7 @@ F 3 "~" H 16350 10350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R45
+L board_sierra-rescue:R_Small-Device R45
 U 1 1 814F5F35
 P 16350 10450
 F 0 "R45" V 16300 10300 50  0000 C CNN
@@ -5357,7 +5357,7 @@ F 3 "~" H 16350 10450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R46
+L board_sierra-rescue:R_Small-Device R46
 U 1 1 816EAB40
 P 16350 10550
 F 0 "R46" V 16300 10400 50  0000 C CNN
@@ -5368,7 +5368,7 @@ F 3 "~" H 16350 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R43
+L board_sierra-rescue:R_Small-Device R43
 U 1 1 81AEC33F
 P 16350 10250
 F 0 "R43" V 16300 10100 50  0000 C CNN
@@ -5379,7 +5379,7 @@ F 3 "~" H 16350 10250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R47
+L board_sierra-rescue:R_Small-Device R47
 U 1 1 81ED9A85
 P 16350 10750
 F 0 "R47" V 16300 10600 50  0000 C CNN
@@ -5392,7 +5392,7 @@ $EndComp
 Wire Wire Line
 	16250 10750 15950 10750
 $Comp
-L Device:R_Small R48
+L board_sierra-rescue:R_Small-Device R48
 U 1 1 820D0D8C
 P 16350 10850
 F 0 "R48" V 16300 10700 50  0000 C CNN
@@ -5411,7 +5411,7 @@ Wire Notes Line width 10
 Wire Notes Line width 10
 	18500 11000 18500 10000
 $Comp
-L Connector_Generic:Conn_01x08 JC1
+L board_sierra-rescue:Conn_01x08-Connector_Generic JC1
 U 1 1 601611A9
 P 17650 10450
 F 0 "JC1" H 17575 9950 50  0000 L CNN
@@ -5508,7 +5508,7 @@ Wire Wire Line
 Wire Wire Line
 	16450 10850 16700 10850
 $Comp
-L power:+3V3 #PWR0127
+L board_sierra-rescue:+3V3-power #PWR0127
 U 1 1 6012F30F
 P 18200 10850
 F 0 "#PWR0127" H 18200 10700 50  0001 C CNN
@@ -5519,7 +5519,7 @@ F 3 "" H 18200 10850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D3
+L board_sierra-rescue:D_Schottky-Device D3
 U 1 1 8232F128
 P 18200 10700
 F 0 "D3" V 18200 10600 50  0000 R CNN
@@ -5530,7 +5530,7 @@ F 3 "https://www.mouser.sk/datasheet/2/115/ds30502-1142513.pdf" H 18200 10700 50
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB2
+L board_sierra-rescue:Ferrite_Bead_Small-Device FB2
 U 1 1 90BB5D30
 P 18200 10450
 F 0 "FB2" H 18300 10450 50  0000 L CNN
@@ -5548,7 +5548,7 @@ Wire Wire Line
 Wire Wire Line
 	18200 10300 18200 10350
 $Comp
-L Device:R_Small R59
+L board_sierra-rescue:R_Small-Device R59
 U 1 1 9202C952
 P 18200 10200
 F 0 "R59" H 18141 10154 50  0000 R CNN
@@ -5559,7 +5559,7 @@ F 3 "~" H 18200 10200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT1
+L board_sierra-rescue:Net-Tie_2-Device NT1
 U 1 1 77A6E265
 P 22450 15100
 F 0 "NT1" H 22450 15281 50  0000 C CNN
@@ -5570,7 +5570,7 @@ F 3 "~" H 22450 15100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0113
+L board_sierra-rescue:+3V3-power #PWR0113
 U 1 1 97D80FF8
 P 16600 7450
 F 0 "#PWR0113" H 16600 7300 50  0001 C CNN
@@ -5581,7 +5581,7 @@ F 3 "" H 16600 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR0111
+L board_sierra-rescue:+3V3-power #PWR0111
 U 1 1 97D8100A
 P 16600 7200
 F 0 "#PWR0111" H 16600 7050 50  0001 C CNN
@@ -5598,7 +5598,7 @@ I2C3_SDA
 Text Label 15950 7350 2    50   ~ 0
 I2C4_SDA
 $Comp
-L Device:R_Small R42
+L board_sierra-rescue:R_Small-Device R42
 U 1 1 99AA88AC
 P 16300 7450
 F 0 "R42" V 16250 7300 50  0000 C CNN
@@ -5609,7 +5609,7 @@ F 3 "~" H 16300 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R41
+L board_sierra-rescue:R_Small-Device R41
 U 1 1 99AA88B2
 P 16300 7350
 F 0 "R41" V 16250 7200 50  0000 C CNN
@@ -5628,7 +5628,7 @@ Wire Wire Line
 Wire Wire Line
 	16400 7450 16600 7450
 $Comp
-L Device:R_Small R40
+L board_sierra-rescue:R_Small-Device R40
 U 1 1 99CB5515
 P 16300 7200
 F 0 "R40" V 16250 7050 50  0000 C CNN
@@ -5639,7 +5639,7 @@ F 3 "~" H 16300 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R39
+L board_sierra-rescue:R_Small-Device R39
 U 1 1 99CB551B
 P 16300 7100
 F 0 "R39" V 16250 6950 50  0000 C CNN
@@ -5658,7 +5658,7 @@ Wire Wire Line
 Wire Wire Line
 	16400 7200 16600 7200
 $Comp
-L power:+3V3 #PWR0110
+L board_sierra-rescue:+3V3-power #PWR0110
 U 1 1 9A0DB1C9
 P 16600 7100
 F 0 "#PWR0110" H 16600 6950 50  0001 C CNN
@@ -5671,7 +5671,7 @@ $EndComp
 Wire Notes Line width 10
 	17000 7000 17000 7500
 $Comp
-L power:+3V3 #PWR0112
+L board_sierra-rescue:+3V3-power #PWR0112
 U 1 1 99ECB782
 P 16600 7350
 F 0 "#PWR0112" H 16600 7200 50  0001 C CNN
@@ -5712,7 +5712,7 @@ EF1_en
 Text Label 18950 4150 0    50   ~ 0
 EF2_en
 $Comp
-L Device:R_Small R73
+L board_sierra-rescue:R_Small-Device R73
 U 1 1 5F872A1A
 P 19400 7750
 F 0 "R73" V 19350 7600 50  0000 C CNN
@@ -5723,7 +5723,7 @@ F 3 "~" H 19400 7750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R72
+L board_sierra-rescue:R_Small-Device R72
 U 1 1 5F872A20
 P 19400 7650
 F 0 "R72" V 19350 7500 50  0000 C CNN
@@ -5742,7 +5742,7 @@ Wire Wire Line
 Wire Wire Line
 	19500 7750 19700 7750
 $Comp
-L Device:R_Small R71
+L board_sierra-rescue:R_Small-Device R71
 U 1 1 5F872A2A
 P 19400 6550
 F 0 "R71" V 19350 6400 50  0000 C CNN
@@ -5753,7 +5753,7 @@ F 3 "~" H 19400 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R70
+L board_sierra-rescue:R_Small-Device R70
 U 1 1 5F872A30
 P 19400 6450
 F 0 "R70" V 19350 6300 50  0000 C CNN
@@ -5794,7 +5794,7 @@ Wire Wire Line
 Wire Wire Line
 	22100 13600 21250 13600
 $Comp
-L power:GND #PWR0143
+L board_sierra-rescue:GND-power #PWR0143
 U 1 1 62558AF2
 P 19900 13100
 F 0 "#PWR0143" H 19900 12850 50  0001 C CNN
@@ -5805,7 +5805,7 @@ F 3 "" H 19900 13100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0165
+L board_sierra-rescue:GND-power #PWR0165
 U 1 1 6255D770
 P 22100 13100
 F 0 "#PWR0165" H 22100 12850 50  0001 C CNN
@@ -5824,7 +5824,7 @@ USER_3_1
 Text GLabel 22100 10650 2    50   Input ~ 0
 USER_3_2
 $Comp
-L power:GND #PWR0142
+L board_sierra-rescue:GND-power #PWR0142
 U 1 1 646D90AD
 P 19900 10350
 F 0 "#PWR0142" H 19900 10100 50  0001 C CNN
@@ -5835,7 +5835,7 @@ F 3 "" H 19900 10350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0164
+L board_sierra-rescue:GND-power #PWR0164
 U 1 1 646DA961
 P 22100 10350
 F 0 "#PWR0164" H 22100 10100 50  0001 C CNN
@@ -5852,7 +5852,7 @@ CPU_MODE
 Wire Wire Line
 	22100 13400 21250 13400
 $Comp
-L Device:R R11
+L board_sierra-rescue:R-Device R11
 U 1 1 6051D42E
 P 4700 13950
 F 0 "R11" V 4800 14000 50  0000 R CNN
@@ -5863,7 +5863,7 @@ F 3 "~" H 4700 13950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR04
+L board_sierra-rescue:GND-power #PWR04
 U 1 1 ABB61296
 P 1700 13800
 F 0 "#PWR04" H 1700 13550 50  0001 C CNN
@@ -5878,7 +5878,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 14100 1700 14150
 $Comp
-L Device:R R4
+L board_sierra-rescue:R-Device R4
 U 1 1 8FA2B298
 P 1700 13950
 F 0 "R4" V 1800 14050 50  0000 R CNN
@@ -5891,7 +5891,7 @@ $EndComp
 Wire Wire Line
 	1650 14800 1950 14800
 $Comp
-L Device:R R1
+L board_sierra-rescue:R-Device R1
 U 1 1 96B6DA94
 P 1650 13000
 F 0 "R1" V 1750 13100 50  0000 R CNN
@@ -5938,7 +5938,7 @@ Text GLabel 22100 10250 2    50   Input ~ 0
 SUP_5V_REF
 NoConn ~ 21250 10450
 $Comp
-L power:GNDA #PWR0144
+L board_sierra-rescue:GNDA-power #PWR0144
 U 1 1 6276F016
 P 19900 13200
 F 0 "#PWR0144" H 19900 12950 50  0001 C CNN
@@ -5951,7 +5951,7 @@ $EndComp
 Text GLabel 19900 13800 0    50   Input ~ 0
 USER_6_1
 $Comp
-L power:GND #PWR0166
+L board_sierra-rescue:GND-power #PWR0166
 U 1 1 7016B9DA
 P 22100 13200
 F 0 "#PWR0166" H 22100 12950 50  0001 C CNN
@@ -5979,7 +5979,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 13300 2900 13300
 $Comp
-L power:GND #PWR01
+L board_sierra-rescue:GND-power #PWR01
 U 1 1 71C54CBA
 P 1650 13150
 F 0 "#PWR01" H 1650 12900 50  0001 C CNN
@@ -5990,7 +5990,7 @@ F 3 "" H 1650 13150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L board_sierra-rescue:R-Device R3
 U 1 1 71C54CC0
 P 1700 11950
 F 0 "R3" V 1600 11850 50  0000 L CNN
@@ -6040,7 +6040,7 @@ USER1_2
 Text Label 1450 12350 2    50   ~ 0
 USER1_1
 $Comp
-L power:GND #PWR02
+L board_sierra-rescue:GND-power #PWR02
 U 1 1 76D033FB
 P 1650 15150
 F 0 "#PWR02" H 1650 14900 50  0001 C CNN
@@ -6053,7 +6053,7 @@ $EndComp
 Wire Wire Line
 	1650 14850 1650 14800
 $Comp
-L Device:R R2
+L board_sierra-rescue:R-Device R2
 U 1 1 76D03405
 P 1650 15000
 F 0 "R2" V 1550 15050 50  0000 R CNN
@@ -6140,7 +6140,7 @@ Wire Wire Line
 	9650 5800 9400 5800
 Connection ~ 9650 5800
 $Comp
-L Device:R R16
+L board_sierra-rescue:R-Device R16
 U 1 1 7C3544B0
 P 9650 6000
 F 0 "R16" H 9600 6150 50  0000 R CNN
@@ -6151,7 +6151,7 @@ F 3 "~" H 9650 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
+L board_sierra-rescue:GND-power #PWR033
 U 1 1 7C3544B6
 P 9650 6150
 F 0 "#PWR033" H 9650 5900 50  0001 C CNN
@@ -6270,7 +6270,7 @@ NoConn ~ 20750 11050
 Wire Wire Line
 	7700 14100 7700 14150
 $Comp
-L power:GND #PWR028
+L board_sierra-rescue:GND-power #PWR028
 U 1 1 85D0F035
 P 7700 13800
 F 0 "#PWR028" H 7700 13550 50  0001 C CNN
@@ -6281,7 +6281,7 @@ F 3 "" H 7700 13800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R15
+L board_sierra-rescue:R-Device R15
 U 1 1 85D0F03B
 P 7700 13950
 F 0 "R15" V 7800 14050 50  0000 R CNN
@@ -6292,7 +6292,7 @@ F 3 "~" H 7700 13950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR030
+L board_sierra-rescue:+3V3-power #PWR030
 U 1 1 85D0F041
 P 7900 13800
 F 0 "#PWR030" H 7900 13650 50  0001 C CNN
@@ -6370,7 +6370,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 13800 7900 13800
 $Comp
-L Device:C C25
+L board_sierra-rescue:C-Device C25
 U 1 1 85D0F06C
 P 8350 13800
 F 0 "C25" V 8300 13650 50  0000 C CNN
@@ -6392,7 +6392,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 8350 15300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR032
+L board_sierra-rescue:GND-power #PWR032
 U 1 1 85D0F078
 P 8800 13800
 F 0 "#PWR032" H 8800 13550 50  0001 C CNN
@@ -6441,7 +6441,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 3750 2800 3750
 $Comp
-L Device:C C7
+L board_sierra-rescue:C-Device C7
 U 1 1 62CD3A26
 P 3200 2000
 F 0 "C7" V 3250 1850 50  0000 C CNN
@@ -6454,7 +6454,7 @@ $EndComp
 Wire Wire Line
 	2950 2000 3050 2000
 $Comp
-L Device:C C6
+L board_sierra-rescue:C-Device C6
 U 1 1 62E1A834
 P 3200 1800
 F 0 "C6" V 3250 1650 50  0000 C CNN
@@ -6467,7 +6467,7 @@ $EndComp
 Wire Wire Line
 	2950 1800 3050 1800
 $Comp
-L Device:C C5
+L board_sierra-rescue:C-Device C5
 U 1 1 62F637A9
 P 3200 1600
 F 0 "C5" V 3250 1450 50  0000 C CNN
@@ -6489,7 +6489,7 @@ Wire Wire Line
 	2950 1800 2950 1600
 Connection ~ 2950 1800
 $Comp
-L Device:C C8
+L board_sierra-rescue:C-Device C8
 U 1 1 5F6C6883
 P 3200 2200
 F 0 "C8" V 3250 2050 50  0000 C CNN
@@ -6563,7 +6563,7 @@ Wire Wire Line
 Text Label 1950 5150 2    50   ~ 0
 OSC_EN
 $Comp
-L Device:R_Small R5
+L board_sierra-rescue:R_Small-Device R5
 U 1 1 66C53944
 P 2300 5250
 F 0 "R5" V 2250 5100 50  0000 C CNN
@@ -6575,7 +6575,7 @@ F 3 "~" H 2300 5250 50  0001 C CNN
 $EndComp
 Connection ~ 4300 1600
 $Comp
-L Device:C C19
+L board_sierra-rescue:C-Device C19
 U 1 1 67F8953E
 P 4950 2450
 F 0 "C19" V 4900 2300 50  0000 C CNN
@@ -6586,7 +6586,7 @@ F 3 "~" H 4950 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C18
+L board_sierra-rescue:C-Device C18
 U 1 1 67F89544
 P 4950 2250
 F 0 "C18" V 4900 2100 50  0000 C CNN
@@ -6610,7 +6610,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2250 4600 2250
 $Comp
-L power:GND #PWR023
+L board_sierra-rescue:GND-power #PWR023
 U 1 1 68257733
 P 5250 2450
 F 0 "#PWR023" H 5250 2200 50  0001 C CNN
@@ -6626,7 +6626,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 4350 2250 4350
 $Comp
-L Device:C C4
+L board_sierra-rescue:C-Device C4
 U 1 1 686A7884
 P 2500 4150
 F 0 "C4" H 2550 4450 50  0000 R CNN
@@ -6637,7 +6637,7 @@ F 3 "~" H 2500 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C1
+L board_sierra-rescue:C-Device C1
 U 1 1 686A787E
 P 2250 4150
 F 0 "C1" H 2300 4450 50  0000 R CNN
@@ -6652,7 +6652,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3950 2250 4000
 $Comp
-L MCU_ST_STM32L4:STM32L496ZGTx U1
+L board_sierra-rescue:STM32L496ZGTx-MCU_ST_STM32L4 U1
 U 1 1 9E4BB275
 P 4000 7050
 F 0 "U1" H 4050 4050 50  0000 C CNN
@@ -6682,7 +6682,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 4350 2250 4350
 $Comp
-L Device:C C17
+L board_sierra-rescue:C-Device C17
 U 1 1 6C5F52A5
 P 4950 2000
 F 0 "C17" V 4900 1850 50  0000 C CNN
@@ -6693,7 +6693,7 @@ F 3 "~" H 4950 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C16
+L board_sierra-rescue:C-Device C16
 U 1 1 6C5F52AB
 P 4950 1800
 F 0 "C16" V 4900 1650 50  0000 C CNN
@@ -6721,7 +6721,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 2000 4700 1800
 $Comp
-L power:GND #PWR022
+L board_sierra-rescue:GND-power #PWR022
 U 1 1 6CBCECD4
 P 5250 2000
 F 0 "#PWR022" H 5250 1750 50  0001 C CNN
@@ -6903,7 +6903,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 6350 2800 6350
 $Comp
-L Device:R_Small R6
+L board_sierra-rescue:R_Small-Device R6
 U 1 1 764076DC
 P 2300 6350
 F 0 "R6" V 2250 6200 50  0000 C CNN
@@ -6918,7 +6918,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 8150 2800 8150
 $Comp
-L Device:R_Small R7
+L board_sierra-rescue:R_Small-Device R7
 U 1 1 765968D5
 P 2300 8150
 F 0 "R7" V 2250 8000 50  0000 C CNN
@@ -6933,7 +6933,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 6750 6050 6750
 $Comp
-L Device:R_Small R13
+L board_sierra-rescue:R_Small-Device R13
 U 1 1 76729844
 P 5550 6750
 F 0 "R13" V 5500 6600 50  0000 C CNN
@@ -6948,7 +6948,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4250 6050 4250
 $Comp
-L Device:R_Small R12
+L board_sierra-rescue:R_Small-Device R12
 U 1 1 768C4A7B
 P 5550 4250
 F 0 "R12" V 5500 4100 50  0000 C CNN
@@ -6977,7 +6977,7 @@ SPI2_SCK
 Text Label 10450 14150 2    50   ~ 0
 SPI2_EN
 $Comp
-L power:GND #PWR058
+L board_sierra-rescue:GND-power #PWR058
 U 1 1 6DEF76CC
 P 11800 11800
 F 0 "#PWR058" H 11800 11550 50  0001 C CNN
@@ -6999,7 +6999,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 11350 13300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L board_sierra-rescue:C-Device C31
 U 1 1 6DEF76D8
 P 11350 11800
 F 0 "C31" V 11300 11650 50  0000 C CNN
@@ -7071,7 +7071,7 @@ Wire Wire Line
 	11800 12500 12050 12500
 Connection ~ 10900 11800
 $Comp
-L power:+3V3 #PWR054
+L board_sierra-rescue:+3V3-power #PWR054
 U 1 1 6DEF76E5
 P 10900 11800
 F 0 "#PWR054" H 10900 11650 50  0001 C CNN
@@ -7082,7 +7082,7 @@ F 3 "" H 10900 11800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
+L board_sierra-rescue:R-Device R27
 U 1 1 8F597179
 P 10700 11950
 F 0 "R27" V 10800 12050 50  0000 R CNN
@@ -7093,7 +7093,7 @@ F 3 "~" H 10700 11950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR048
+L board_sierra-rescue:GND-power #PWR048
 U 1 1 8F59717F
 P 10700 11800
 F 0 "#PWR048" H 10700 11550 50  0001 C CNN
@@ -7150,7 +7150,7 @@ USER 5 & 6 isolators
 Wire Notes Line width 10
 	7500 15500 9000 15500
 $Comp
-L Device:C C28
+L board_sierra-rescue:C-Device C28
 U 1 1 67535522
 P 10350 7300
 F 0 "C28" V 10300 7150 50  0000 C CNN
@@ -7161,7 +7161,7 @@ F 3 "~" H 10350 7300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR035
+L board_sierra-rescue:GND-power #PWR035
 U 1 1 7B48843D
 P 9650 10650
 F 0 "#PWR035" H 9650 10400 50  0001 C CNN
@@ -7174,7 +7174,7 @@ $EndComp
 Wire Wire Line
 	9650 10350 9650 10300
 $Comp
-L Device:R R18
+L board_sierra-rescue:R-Device R18
 U 1 1 7B488437
 P 9650 10500
 F 0 "R18" V 9550 10550 50  0000 R CNN
@@ -7238,7 +7238,7 @@ I2C3_EN
 Text Label 9450 7650 2    50   ~ 0
 CAN1_EN
 $Comp
-L power:GND #PWR034
+L board_sierra-rescue:GND-power #PWR034
 U 1 1 7A074BF3
 P 9650 8650
 F 0 "#PWR034" H 9650 8400 50  0001 C CNN
@@ -7249,7 +7249,7 @@ F 3 "" H 9650 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R20
+L board_sierra-rescue:R-Device R20
 U 1 1 79CBB563
 P 9700 7450
 F 0 "R20" V 9600 7550 50  0000 R CNN
@@ -7284,7 +7284,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 8800 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R17
+L board_sierra-rescue:R-Device R17
 U 1 1 8E6C7F7A
 P 9650 8500
 F 0 "R17" V 9550 8450 50  0000 L CNN
@@ -7324,7 +7324,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 7850 9950 7850
 $Comp
-L power:GND #PWR037
+L board_sierra-rescue:GND-power #PWR037
 U 1 1 8E9B7D6B
 P 9700 7300
 F 0 "#PWR037" H 9700 7050 50  0001 C CNN
@@ -7335,7 +7335,7 @@ F 3 "" H 9700 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR041
+L board_sierra-rescue:+3V3-power #PWR041
 U 1 1 6DEF768E
 P 9900 7300
 F 0 "#PWR041" H 9900 7150 50  0001 C CNN
@@ -7384,7 +7384,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 7300 9900 7300
 $Comp
-L power:GND #PWR052
+L board_sierra-rescue:GND-power #PWR052
 U 1 1 6DEF7675
 P 10800 7300
 F 0 "#PWR052" H 10800 7050 50  0001 C CNN
@@ -7397,7 +7397,7 @@ $EndComp
 Wire Wire Line
 	9700 9600 9700 9650
 $Comp
-L power:GND #PWR038
+L board_sierra-rescue:GND-power #PWR038
 U 1 1 8D98F883
 P 9700 9300
 F 0 "#PWR038" H 9700 9050 50  0001 C CNN
@@ -7408,7 +7408,7 @@ F 3 "" H 9700 9300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R21
+L board_sierra-rescue:R-Device R21
 U 1 1 8D989A10
 P 9700 9450
 F 0 "R21" V 9800 9500 50  0000 R CNN
@@ -7419,7 +7419,7 @@ F 3 "~" H 9700 9450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR042
+L board_sierra-rescue:+3V3-power #PWR042
 U 1 1 670BF8AD
 P 9900 9300
 F 0 "#PWR042" H 9900 9150 50  0001 C CNN
@@ -7487,7 +7487,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 9300 9900 9300
 $Comp
-L Device:C C29
+L board_sierra-rescue:C-Device C29
 U 1 1 670BF8A0
 P 10350 9300
 F 0 "C29" V 10300 9150 50  0000 C CNN
@@ -7509,7 +7509,7 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 10800 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR053
+L board_sierra-rescue:GND-power #PWR053
 U 1 1 670BF893
 P 10800 9300
 F 0 "#PWR053" H 10800 9050 50  0001 C CNN
@@ -7520,7 +7520,7 @@ F 3 "" H 10800 9300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG03
+L board_sierra-rescue:PWR_FLAG-power #FLG03
 U 1 1 82F35DD9
 P 21850 15100
 F 0 "#FLG03" H 21850 15175 50  0001 C CNN
@@ -7597,7 +7597,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1600 4500 1600
 $Comp
-L Device:C C21
+L board_sierra-rescue:C-Device C21
 U 1 1 604CCD60
 P 4950 2900
 F 0 "C21" V 4900 2750 50  0000 C CNN
@@ -7608,7 +7608,7 @@ F 3 "~" H 4950 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C20
+L board_sierra-rescue:C-Device C20
 U 1 1 604CCD66
 P 4950 2700
 F 0 "C20" V 4900 2550 50  0000 C CNN
@@ -7632,7 +7632,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2700 4500 2700
 $Comp
-L power:GND #PWR024
+L board_sierra-rescue:GND-power #PWR024
 U 1 1 604CCD73
 P 5250 2900
 F 0 "#PWR024" H 5250 2650 50  0001 C CNN
@@ -7665,7 +7665,7 @@ Connection ~ 4600 2450
 Wire Wire Line
 	4600 2450 4600 2250
 $Comp
-L power:+3.3VADC #PWR07
+L board_sierra-rescue:+3.3VADC-power #PWR07
 U 1 1 6AC01C02
 P 1950 3950
 F 0 "#PWR07" H 2100 3900 50  0001 C CNN
@@ -7676,7 +7676,7 @@ F 3 "" H 1950 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR08
+L board_sierra-rescue:GNDA-power #PWR08
 U 1 1 686A788A
 P 1950 4350
 F 0 "#PWR08" H 1950 4100 50  0001 C CNN
@@ -7835,7 +7835,7 @@ Wire Wire Line
 	19500 2750 19500 1800
 Connection ~ 19500 1800
 $Comp
-L power:+5V #PWR0158
+L board_sierra-rescue:+5V-power #PWR0158
 U 1 1 C22661D8
 P 21550 3200
 F 0 "#PWR0158" H 21550 3050 50  0001 C CNN
@@ -7908,7 +7908,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 9850 2800 9850
 $Comp
-L Device:R_Small R8
+L board_sierra-rescue:R_Small-Device R8
 U 1 1 62439E75
 P 2300 9850
 F 0 "R8" V 2250 9700 50  0000 C CNN
@@ -7925,7 +7925,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 10050 2800 10050
 $Comp
-L Device:R_Small R9
+L board_sierra-rescue:R_Small-Device R9
 U 1 1 62F2B1A8
 P 2300 10050
 F 0 "R9" V 2250 9900 50  0000 C CNN
@@ -8077,10 +8077,8 @@ Wire Wire Line
 	1550 8250 2800 8250
 Text Label 6050 7650 0    50   ~ 0
 USER4_2
-Text Label 1550 7550 2    50   ~ 0
+Text Label 1550 7450 2    50   ~ 0
 USER4_3
-Text Label 1550 7650 2    50   ~ 0
-USER4_4
 Wire Wire Line
 	2800 8350 1550 8350
 Wire Wire Line
@@ -8091,16 +8089,14 @@ Wire Wire Line
 	2800 7650 1550 7650
 Wire Wire Line
 	2800 7450 1550 7450
-Text Label 1550 7450 2    50   ~ 0
+Text Label 1550 7650 2    50   ~ 0
 USER5_1
 NoConn ~ 2800 7350
 NoConn ~ 5200 8450
-Text Label 1550 9050 2    50   ~ 0
+Text Label 1550 9250 2    50   ~ 0
 USER5_2
 Text Label 1550 9150 2    50   ~ 0
 USER5_3
-Text Label 1550 9250 2    50   ~ 0
-USER5_4
 Wire Wire Line
 	2800 9350 1550 9350
 Wire Wire Line
@@ -8113,7 +8109,7 @@ Wire Wire Line
 	2800 9450 1550 9450
 Text Label 1550 9350 2    50   ~ 0
 USER6_1
-Text Label 1550 9450 2    50   ~ 0
+Text Label 1550 9050 2    50   ~ 0
 USER6_2
 Text Label 1550 8850 2    50   ~ 0
 USER6_3
@@ -8139,6 +8135,30 @@ Text Label 1550 5450 2    50   ~ 0
 USER1_1
 Text Label 6450 5450 0    50   ~ 0
 USER4_1
+Text Label 6450 5850 0    50   ~ 0
+USER6_EN
+Wire Wire Line
+	5200 5850 6450 5850
+Wire Wire Line
+	2800 6950 1550 6950
+Text Label 6450 8950 0    50   ~ 0
+USER5_EN
+Wire Wire Line
+	2800 6650 1550 6650
+Text Label 1550 6650 2    50   ~ 0
+USER4_EN
+Wire Wire Line
+	5200 8950 6450 8950
+Text Label 1550 6950 2    50   ~ 0
+USER3_EN
+Text Label 1550 7550 2    50   ~ 0
+USER5_4
+Text Label 1550 9450 2    50   ~ 0
+USER4_4
+Text Label 6450 8850 0    50   ~ 0
+USER_SPI2_EN
+Wire Wire Line
+	5200 8850 6450 8850
 Wire Bus Line
 	14300 9850 14300 10850
 Wire Bus Line
