@@ -1,0 +1,23 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 96 48 -48 -48
+WINDOW 0 24 -55 Bottom 2
+WINDOW 3 24 57 Top 2
+SYMATTR Prefix X
+SYMATTR Value SN74LVC1G08
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\SN74LVC1G08.cir
+PIN 96 16 RIGHT 8
+PINATTR PinName Y
+PINATTR SpiceOrder 1
+PIN -48 0 LEFT 8
+PINATTR PinName A
+PINATTR SpiceOrder 2
+PIN -48 32 LEFT 8
+PINATTR PinName B
+PINATTR SpiceOrder 3
+PIN -48 -32 LEFT 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 4
+PIN 96 -32 RIGHT 8
+PINATTR PinName AGND
+PINATTR SpiceOrder 5

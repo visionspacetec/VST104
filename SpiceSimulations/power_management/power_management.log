@@ -1,4 +1,4 @@
-Circuit: * C:\Users\Filip.Filip\Documents\VST104\PSpiceModels\power_management.asc
+Circuit: * C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\power_management\power_management.asc
 
 Questionable use of curly braces in "b§e_u4_abm7 u4_fet_mode 0 v=if(v(lc_mode)<0.5,({v(i_sense)*52.3+0.8}*1u),0) "
     Error: undefined symbol in: "[v](i_sense)*52.3+0.8"
@@ -152,205 +152,54 @@ Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{
     Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
 Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
     Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
-WARNING: Less than two connections to node U5:U1:UA:TEST.  This node is used by E:U5:U1:UA:TEST.
-WARNING: Less than two connections to node U5:U1:UA:VTH_DIFF.  This node is used by E:U5:U1:UA:VTHDIFF.
-WARNING: Less than two connections to node U5:U1:UB:TEST.  This node is used by E:U5:U1:UB:TEST.
-WARNING: Less than two connections to node U5:U1:UB:VTH_DIFF.  This node is used by E:U5:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node N011.  This node is used by R20.
+WARNING: Less than two connections to node U6:U1:UA:TEST.  This node is used by E:U6:U1:UA:TEST.
+WARNING: Less than two connections to node U6:U1:UA:VTH_DIFF.  This node is used by E:U6:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U6:U1:UB:TEST.  This node is used by E:U6:U1:UB:TEST.
+WARNING: Less than two connections to node U6:U1:UB:VTH_DIFF.  This node is used by E:U6:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U6:U1:UC:TEST.  This node is used by E:U6:U1:UC:TEST.
+WARNING: Less than two connections to node U6:U1:UC:VTH_DIFF.  This node is used by E:U6:U1:UC:VTHDIFF.
 Direct Newton iteration for .op point succeeded.
 Ignoring empty pin current: Ix(u1:pgth)
 Ignoring empty pin current: Ix(u1:en_uvlo)
 Ignoring empty pin current: Ix(u1:ovp)
 Ignoring empty pin current: Ix(u1:pad)
-Ignoring empty pin current: Ix(u2:pgth)
-Ignoring empty pin current: Ix(u2:en_uvlo)
-Ignoring empty pin current: Ix(u2:ovp)
-Ignoring empty pin current: Ix(u2:pad)
-Ignoring empty pin current: Ix(u3:on)
-Ignoring empty pin current: Ix(u3:vbias)
+Ignoring empty pin current: Ix(u3:pgth)
+Ignoring empty pin current: Ix(u3:en_uvlo)
+Ignoring empty pin current: Ix(u3:ovp)
+Ignoring empty pin current: Ix(u3:pad)
+Ignoring empty pin current: Ix(u2:on)
+Ignoring empty pin current: Ix(u2:vbias)
 Ignoring empty pin current: Ix(u4:on)
 Ignoring empty pin current: Ix(u4:vbias)
 Ignoring empty pin current: Ix(u1:pgth)
 Ignoring empty pin current: Ix(u1:en_uvlo)
 Ignoring empty pin current: Ix(u1:ovp)
 Ignoring empty pin current: Ix(u1:pad)
-Ignoring empty pin current: Ix(u2:pgth)
-Ignoring empty pin current: Ix(u2:en_uvlo)
-Ignoring empty pin current: Ix(u2:ovp)
-Ignoring empty pin current: Ix(u2:pad)
-Ignoring empty pin current: Ix(u3:on)
-Ignoring empty pin current: Ix(u3:vbias)
+Ignoring empty pin current: Ix(u3:pgth)
+Ignoring empty pin current: Ix(u3:en_uvlo)
+Ignoring empty pin current: Ix(u3:ovp)
+Ignoring empty pin current: Ix(u3:pad)
+Ignoring empty pin current: Ix(u2:on)
+Ignoring empty pin current: Ix(u2:vbias)
 Ignoring empty pin current: Ix(u4:on)
 Ignoring empty pin current: Ix(u4:vbias)
-Heightened Def Con from 0.00344953 ++to 0.00344953
-Heightened Def Con from 0.00344953 +++to 0.00344953
-Heightened Def Con from 0.00344953 +++to 0.00344954
-Heightened Def Con from 0.00344954 +++to 0.00344954
-Heightened Def Con from 0.00344954 +++to 0.00344954
-Heightened Def Con from 0.00344954 +++to 0.00344954
-Heightened Def Con from 0.00344954 +++to 0.00344954
-Heightened Def Con from 0.00344954 +++to 0.00344954
-Heightened Def Con from 0.00344954 ++++to 0.00344954
-Heightened Def Con from 0.00344954 +++to 0.00344955
-Heightened Def Con from 0.00344955 +++to 0.00344955
-Heightened Def Con from 0.00344955 +++to 0.00344955
-Heightened Def Con from 0.00344955 +++to 0.00344955
-Heightened Def Con from 0.00344955 +++to 0.00344955
-Heightened Def Con from 0.00344955 +++to 0.00344956
-Heightened Def Con from 0.00344956 +++to 0.00344956
-Heightened Def Con from 0.00344956 +++to 0.00344956
-Heightened Def Con from 0.00344956 +++to 0.00344956
-Heightened Def Con from 0.00344956 +++to 0.00344956
-Heightened Def Con from 0.00344956 +++to 0.00344956
-Heightened Def Con from 0.00344956 +++to 0.00344957
-Heightened Def Con from 0.00344957 +++to 0.00344957
-Heightened Def Con from 0.00344957 +++to 0.00344957
-Heightened Def Con from 0.00344957 +++to 0.00344957
-Heightened Def Con from 0.00344958 +++to 0.00344958
-Heightened Def Con from 0.00344958 +++to 0.00344958
-Heightened Def Con from 0.00344959 +++to 0.00344959
-Heightened Def Con from 0.00344959 +++to 0.00344959
-Heightened Def Con from 0.0034496 +++to 0.0034496
-Heightened Def Con from 0.0034496 +++to 0.0034496
-Heightened Def Con from 0.00344961 +++to 0.00344961
-Heightened Def Con from 0.00344961 +++to 0.00344961
-Heightened Def Con from 0.00344963 +++to 0.00344963
-Heightened Def Con from 0.00344964 +++to 0.00344964
-Heightened Def Con from 0.00344964 +++to 0.00344964
-Heightened Def Con from 0.00344964 +++to 0.00344964
-Heightened Def Con from 0.00344965 +++to 0.00344965
-Heightened Def Con from 0.00344965 +++to 0.00344965
-Heightened Def Con from 0.00344967 +++to 0.00344967
-Heightened Def Con from 0.00344967 +++to 0.00344967
-Heightened Def Con from 0.00344967 +++to 0.00344967
-Heightened Def Con from 0.00344967 +++to 0.00344968
-Heightened Def Con from 0.00344968 +++to 0.00344968
-Heightened Def Con from 0.00344968 +++to 0.00344969
-Heightened Def Con from 0.0034497 +++to 0.0034497
-Heightened Def Con from 0.0034497 +++to 0.0034497
-Heightened Def Con from 0.00344971 +++to 0.00344971
-Heightened Def Con from 0.00344971 +++to 0.00344971
-Heightened Def Con from 0.00344972 +++to 0.00344972
-Heightened Def Con from 0.00344972 +++to 0.00344972
-Heightened Def Con from 0.00344973 +++to 0.00344973
-Heightened Def Con from 0.00344973 +++to 0.00344974
-Heightened Def Con from 0.00344975 +++to 0.00344975
-Heightened Def Con from 0.00344975 +++to 0.00344976
-Heightened Def Con from 0.00344976 +++to 0.00344976
-Heightened Def Con from 0.00344976 +++to 0.00344976
-Heightened Def Con from 0.00344977 +++to 0.00344977
-Heightened Def Con from 0.00344977 +++to 0.00344977
-Heightened Def Con from 0.0034498 +++to 0.0034498
-Heightened Def Con from 0.0034498 +++to 0.0034498
-Heightened Def Con from 0.0034498 +++to 0.0034498
-Heightened Def Con from 0.0034498 +++to 0.0034498
-Heightened Def Con from 0.00344981 +++to 0.00344981
-Heightened Def Con from 0.00344981 +++to 0.00344981
-Heightened Def Con from 0.00344982 +++to 0.00344982
-Heightened Def Con from 0.00344982 +++to 0.00344983
-Heightened Def Con from 0.00344983 +++to 0.00344983
-Heightened Def Con from 0.00344983 +++to 0.00344984
-Heightened Def Con from 0.00344986 +++to 0.00344987
-Heightened Def Con from 0.00344987 +++to 0.00344987
-Heightened Def Con from 0.00344987 +++to 0.00344987
-Heightened Def Con from 0.00344987 +++to 0.00344987
-Heightened Def Con from 0.00344988 +++to 0.00344988
-Heightened Def Con from 0.00344988 +++to 0.00344988
-Heightened Def Con from 0.00344989 +++to 0.00344989
-Heightened Def Con from 0.00344989 +++to 0.00344989
-Heightened Def Con from 0.00344992 +++to 0.00344992
-Heightened Def Con from 0.00344992 +++to 0.00344992
-Heightened Def Con from 0.00344993 +++to 0.00344993
-Heightened Def Con from 0.00344993 +++to 0.00344993
-Heightened Def Con from 0.00344993 +++to 0.00344993
-Heightened Def Con from 0.00344993 +++to 0.00344993
-Heightened Def Con from 0.00344994 +++to 0.00344994
-Heightened Def Con from 0.00344994 +++to 0.00344994
-Heightened Def Con from 0.00344998 +++to 0.00344998
-Heightened Def Con from 0.00344998 +++to 0.00344998
-Heightened Def Con from 0.00344998 +++to 0.00344998
-Heightened Def Con from 0.00344998 +++to 0.00344998
-Heightened Def Con from 0.00344999 +++to 0.00344999
-Heightened Def Con from 0.00344999 +++to 0.00344999
-Heightened Def Con from 0.00345 +++to 0.00345
-Heightened Def Con from 0.00345 +++to 0.00345
-Heightened Def Con from 0.00345003 +++to 0.00345003
-Heightened Def Con from 0.00345003 +++to 0.00345004
-Heightened Def Con from 0.00345004 +++to 0.00345004
-Heightened Def Con from 0.00345004 +++to 0.00345004
-Heightened Def Con from 0.00345005 +++to 0.00345005
-Heightened Def Con from 0.00345005 +++to 0.00345005
-Heightened Def Con from 0.00345005 +++to 0.00345005
-Heightened Def Con from 0.00345005 +++to 0.00345006
-Heightened Def Con from 0.00345009 +++to 0.00345009
-Heightened Def Con from 0.00345009 +++to 0.00345009
-Heightened Def Con from 0.0034501 +++to 0.0034501
-Heightened Def Con from 0.0034501 +++to 0.0034501
-Heightened Def Con from 0.0034501 +++to 0.00345011
-Heightened Def Con from 0.00345011 +++to 0.00345011
-Heightened Def Con from 0.00345011 +++to 0.00345011
-Heightened Def Con from 0.00345011 +++to 0.00345011
-Heightened Def Con from 0.00345015 +++to 0.00345015
-Heightened Def Con from 0.00345015 +++to 0.00345016
-Heightened Def Con from 0.00345016 +++to 0.00345016
-Heightened Def Con from 0.00345016 +++to 0.00345016
-Heightened Def Con from 0.00345017 +++to 0.00345017
-Heightened Def Con from 0.00345017 +++to 0.00345017
-Heightened Def Con from 0.00345017 +++to 0.00345017
-Heightened Def Con from 0.00345017 +++to 0.00345018
-Heightened Def Con from 0.00345022 +++to 0.00345022
-Heightened Def Con from 0.00345022 +++to 0.00345022
-Heightened Def Con from 0.00345022 +++to 0.00345022
-Heightened Def Con from 0.00345022 +++to 0.00345022
-Heightened Def Con from 0.00345023 +++to 0.00345023
-Heightened Def Con from 0.00345023 +++to 0.00345023
-Heightened Def Con from 0.00345024 +++to 0.00345024
-Heightened Def Con from 0.00345024 +++to 0.00345024
-Heightened Def Con from 0.00345028 +++to 0.00345028
-Heightened Def Con from 0.00345028 +++to 0.00345028
-Heightened Def Con from 0.00345029 +++to 0.00345029
-Heightened Def Con from 0.00345029 +++to 0.00345029
-Heightened Def Con from 0.00345029 +++to 0.00345029
-Heightened Def Con from 0.00345029 +++to 0.00345029
-Heightened Def Con from 0.0034503 +++to 0.0034503
-Heightened Def Con from 0.0034503 +++to 0.0034503
-Heightened Def Con from 0.00345035 +++to 0.00345035
-Heightened Def Con from 0.00345035 +++to 0.00345035
-Heightened Def Con from 0.00345035 +++to 0.00345035
-Heightened Def Con from 0.00345035 +++to 0.00345036
-Heightened Def Con from 0.00345036 +++to 0.00345036
-Heightened Def Con from 0.00345036 +++to 0.00345036
-Heightened Def Con from 0.00345037 +++to 0.00345037
-Heightened Def Con from 0.00345037 +++to 0.00345037
-Heightened Def Con from 0.00345041 +++to 0.00345041
-Heightened Def Con from 0.00345042 +++to 0.00345042
-Heightened Def Con from 0.00345042 +++to 0.00345042
-Heightened Def Con from 0.00345042 +++to 0.00345042
-Heightened Def Con from 0.00345043 +++to 0.00345043
-Heightened Def Con from 0.00345043 +++to 0.00345043
-Heightened Def Con from 0.00345043 +++to 0.00345043
-Heightened Def Con from 0.00345043 +++to 0.00345044
-Heightened Def Con from 0.00345049 +++to 0.00345049
-Heightened Def Con from 0.00345049 +++to 0.00345049
-Heightened Def Con from 0.00345049 +++to 0.00345049
-Heightened Def Con from 0.00345049 +++to 0.00345049
-Heightened Def Con from 0.0034505 +++to 0.0034505
-Heightened Def Con from 0.0034505 +++to 0.0034505
 
-Date: Fri Jul 17 20:01:04 2020
-Total elapsed time: 10.548 seconds.
+Date: Tue Aug 04 19:01:57 2020
+Total elapsed time: 1.456 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 105376
-traniter = 105354
-tranpoints = 13856
-accept = 6373
-rejected = 8099
-matrix size = 1031
-fillins = 852
+totiter = 12377
+traniter = 12352
+tranpoints = 3089
+accept = 2548
+rejected = 541
+matrix size = 1088
+fillins = 879
 solver = Normal
-Thread vector: 91.0/27.3[8] 29.2/8.2[8] 66.6/13.1[8] 2.9/6.8[1]  2592/500
-Matrix Compiler1: 67.66 KB object code size  42.4/21.8/[6.8]
-Matrix Compiler2: 78.60 KB object code size  24.6/25.8/[7.1]
+Thread vector: 99.7/31.5[8] 28.3/8.5[8] 76.7/15.1[8] 3.2/5.5[1]  2592/500
+Matrix Compiler1: 71.92 KB object code size  46.5/23.4/[7.9]
+Matrix Compiler2: 82.14 KB object code size  25.1/26.6/[10.0]
 
