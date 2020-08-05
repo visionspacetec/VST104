@@ -1,4 +1,4 @@
-update=04-Aug-20 14:25:18
+update=05-Aug-20 20:05:22
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.127
+MinTrackWidth=0
 MinViaDiameter=0.45
 MinViaDrill=0.2
 MinMicroViaDiameter=0.45
@@ -49,11 +49,12 @@ TrackWidth8=0.2
 TrackWidth9=0.225
 TrackWidth10=0.25
 TrackWidth11=0.3
-TrackWidth12=0.45
-TrackWidth13=0.5
-TrackWidth14=0.6
-TrackWidth15=0.77
-TrackWidth16=1
+TrackWidth12=0.35
+TrackWidth13=0.45
+TrackWidth14=0.5
+TrackWidth15=0.6
+TrackWidth16=0.77
+TrackWidth17=1
 ViaDiameter1=0.45
 ViaDrill1=0.2
 ViaDiameter2=0.45
@@ -220,7 +221,7 @@ Enabled=0
 [pcbnew/Layer.F.Adhes]
 Enabled=0
 [pcbnew/Layer.B.Paste]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Paste]
 Enabled=1
 [pcbnew/Layer.B.SilkS]
