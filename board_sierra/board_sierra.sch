@@ -18,10 +18,10 @@ Wire Notes Line width 10
 Wire Notes Line width 10
 	20000 8500 20000 14500
 $Comp
-L board_sierra-rescue:Conn_02x26_Odd_Even-Connector_Generic H2
+L board_sierra-rescue:Conn_02x26_Odd_Even-Connector_Generic H1
 U 1 1 5C2F526D
 P 20950 12900
-F 0 "H2" H 21000 14200 50  0000 C CNN
+F 0 "H1" H 21000 14200 50  0000 C CNN
 F 1 "Conn_02x26_Odd_Even" H 21000 11500 50  0001 C CNN
 F 2 "VST104_footprints:ESQ-129-39-x-D" H 20950 12900 50  0001 C CNN
 F 3 "~" H 20950 12900 50  0001 C CNN
@@ -29,10 +29,10 @@ F 3 "~" H 20950 12900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:Conn_02x26_Odd_Even-Connector_Generic H1
+L board_sierra-rescue:Conn_02x26_Odd_Even-Connector_Generic H2
 U 1 1 5C4C195F
 P 20950 9950
-F 0 "H1" H 21000 11250 50  0000 C CNN
+F 0 "H2" H 21000 11250 50  0000 C CNN
 F 1 "Conn_02x26_Odd_Even" H 21000 8550 50  0001 C CNN
 F 2 "VST104_footprints:ESQ-129-39-x-D" H 20950 9950 50  0001 C CNN
 F 3 "~" H 20950 9950 50  0001 C CNN
@@ -51,10 +51,10 @@ F 3 "" H 10800 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS7
+L VST104:DGQ2788A AS8
 U 1 1 670BF8D4
 P 10050 6350
-F 0 "AS7" H 10100 6300 50  0000 C CNN
+F 0 "AS8" H 10100 6300 50  0000 C CNN
 F 1 "DGQ2788A" H 10450 6300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 10350 6300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 6300 50  0001 C CNN
@@ -62,10 +62,10 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 6300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C29
+L board_sierra-rescue:C-Device C8
 U 1 1 670BF8DA
 P 10350 4800
-F 0 "C29" V 10300 4650 50  0000 C CNN
+F 0 "C8" V 10300 4650 50  0000 C CNN
 F 1 "10n" V 10300 4950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 10388 4650 50  0001 C CNN
 F 3 "~" H 10350 4800 50  0001 C CNN
@@ -147,10 +147,10 @@ F 3 "" H 9900 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R19
+L board_sierra-rescue:R-Device R9
 U 1 1 8E2670C8
 P 9700 4950
-F 0 "R19" V 9800 5050 50  0000 R CNN
+F 0 "R9" V 9800 5050 50  0000 R CNN
 F 1 "100k" V 9600 5050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9630 4950 50  0001 C CNN
 F 3 "~" H 9700 4950 50  0001 C CNN
@@ -258,10 +258,10 @@ F 3 "" H 4700 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R10
+L board_sierra-rescue:R-Device R58
 U 1 1 8E54FC9B
 P 4700 11950
-F 0 "R10" V 4800 12050 50  0000 R CNN
+F 0 "R58" V 4800 12050 50  0000 R CNN
 F 1 "100k" V 4600 12050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 4630 11950 50  0001 C CNN
 F 3 "~" H 4700 11950 50  0001 C CNN
@@ -382,10 +382,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 13800 4900 13800
 $Comp
-L board_sierra-rescue:C-Device C23
+L board_sierra-rescue:C-Device C37
 U 1 1 663F817E
 P 5350 13800
-F 0 "C23" V 5300 13650 50  0000 C CNN
+F 0 "C37" V 5300 13650 50  0000 C CNN
 F 1 "10n" V 5300 13950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 5388 13650 50  0001 C CNN
 F 3 "~" H 5350 13800 50  0001 C CNN
@@ -393,10 +393,10 @@ F 3 "~" H 5350 13800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS4
+L VST104:DGQ2788A AS9
 U 1 1 663F8178
 P 5050 15350
-F 0 "AS4" H 5100 15300 50  0000 C CNN
+F 0 "AS9" H 5100 15300 50  0000 C CNN
 F 1 "DGQ2788A" H 5450 15300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 5350 15300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 5350 15300 50  0001 C CNN
@@ -473,10 +473,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 11800 4900 11800
 $Comp
-L board_sierra-rescue:C-Device C22
+L board_sierra-rescue:C-Device C43
 U 1 1 644256EF
 P 5350 11800
-F 0 "C22" V 5300 11650 50  0000 C CNN
+F 0 "C43" V 5300 11650 50  0000 C CNN
 F 1 "10n" V 5300 11950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 5388 11650 50  0001 C CNN
 F 3 "~" H 5350 11800 50  0001 C CNN
@@ -484,10 +484,10 @@ F 3 "~" H 5350 11800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS3
+L VST104:DGQ2788A AS15
 U 1 1 642B4499
 P 5050 13350
-F 0 "AS3" H 5100 13300 50  0000 C CNN
+F 0 "AS15" H 5100 13300 50  0000 C CNN
 F 1 "DGQ2788A" H 5450 13300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 5350 13300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 5350 13300 50  0001 C CNN
@@ -508,10 +508,10 @@ F 3 "" H 5800 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS12
+L VST104:DGQ2788A AS6
 U 1 1 6DEF767B
 P 14050 13350
-F 0 "AS12" H 14100 13300 50  0000 C CNN
+F 0 "AS6" H 14100 13300 50  0000 C CNN
 F 1 "DGQ2788A" H 14450 13300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 14350 13300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 14350 13300 50  0001 C CNN
@@ -519,10 +519,10 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 14350 13300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C47
+L board_sierra-rescue:C-Device C6
 U 1 1 6DEF7681
 P 14350 11800
-F 0 "C47" V 14300 11650 50  0000 C CNN
+F 0 "C6" V 14300 11650 50  0000 C CNN
 F 1 "10n" V 14300 11950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 14388 11650 50  0001 C CNN
 F 3 "~" H 14350 11800 50  0001 C CNN
@@ -530,10 +530,10 @@ F 3 "~" H 14350 11800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R35
+L board_sierra-rescue:R-Device R6
 U 1 1 8E9B7D65
 P 13700 11950
-F 0 "R35" V 13800 12050 50  0000 R CNN
+F 0 "R6" V 13800 12050 50  0000 R CNN
 F 1 "100k" V 13600 12050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 13630 11950 50  0001 C CNN
 F 3 "~" H 13700 11950 50  0001 C CNN
@@ -554,10 +554,10 @@ F 3 "" H 16700 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R50
+L board_sierra-rescue:R-Device R5
 U 1 1 8F418814
 P 16700 11950
-F 0 "R50" V 16800 12050 50  0000 R CNN
+F 0 "R5" V 16800 12050 50  0000 R CNN
 F 1 "100k" V 16600 12050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 16630 11950 50  0001 C CNN
 F 3 "~" H 16700 11950 50  0001 C CNN
@@ -649,10 +649,10 @@ Wire Wire Line
 Wire Wire Line
 	17200 11800 16900 11800
 $Comp
-L board_sierra-rescue:C-Device C53
+L board_sierra-rescue:C-Device C5
 U 1 1 6DEF7647
 P 17350 11800
-F 0 "C53" V 17300 11650 50  0000 C CNN
+F 0 "C5" V 17300 11650 50  0000 C CNN
 F 1 "10n" V 17300 11950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 17388 11650 50  0001 C CNN
 F 3 "~" H 17350 11800 50  0001 C CNN
@@ -660,10 +660,10 @@ F 3 "~" H 17350 11800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS14
+L VST104:DGQ2788A AS5
 U 1 1 6DEF7641
 P 17050 13350
-F 0 "AS14" H 17100 13300 50  0000 C CNN
+F 0 "AS5" H 17100 13300 50  0000 C CNN
 F 1 "DGQ2788A" H 17450 13300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 17350 13300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 17350 13300 50  0001 C CNN
@@ -695,10 +695,10 @@ F 3 "" H 7700 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R14
+L board_sierra-rescue:R-Device R2
 U 1 1 8F11D17D
 P 7700 11950
-F 0 "R14" V 7800 12000 50  0000 R CNN
+F 0 "R2" V 7800 12000 50  0000 R CNN
 F 1 "100k" V 7600 12050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 7630 11950 50  0001 C CNN
 F 3 "~" H 7700 11950 50  0001 C CNN
@@ -784,10 +784,10 @@ Wire Wire Line
 Wire Wire Line
 	8200 11800 7900 11800
 $Comp
-L board_sierra-rescue:C-Device C24
+L board_sierra-rescue:C-Device C2
 U 1 1 6D8BD8E0
 P 8350 11800
-F 0 "C24" V 8300 11650 50  0000 C CNN
+F 0 "C2" V 8300 11650 50  0000 C CNN
 F 1 "10n" V 8300 11950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 8388 11650 50  0001 C CNN
 F 3 "~" H 8350 11800 50  0001 C CNN
@@ -795,10 +795,10 @@ F 3 "~" H 8350 11800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS5
+L VST104:DGQ2788A AS2
 U 1 1 6D8BD8DA
 P 8050 13350
-F 0 "AS5" H 8100 13300 50  0000 C CNN
+F 0 "AS2" H 8100 13300 50  0000 C CNN
 F 1 "DGQ2788A" H 8450 13300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 8350 13300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 8350 13300 50  0001 C CNN
@@ -857,10 +857,10 @@ F 3 "" H 13700 13800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R36
+L board_sierra-rescue:R-Device R51
 U 1 1 8E83F8C4
 P 13700 13950
-F 0 "R36" V 13800 14050 50  0000 R CNN
+F 0 "R51" V 13800 14050 50  0000 R CNN
 F 1 "100k" V 13600 14050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 13630 13950 50  0001 C CNN
 F 3 "~" H 13700 13950 50  0001 C CNN
@@ -967,10 +967,10 @@ Wire Wire Line
 Wire Wire Line
 	14200 13800 13900 13800
 $Comp
-L board_sierra-rescue:C-Device C48
+L board_sierra-rescue:C-Device C39
 U 1 1 6753555C
 P 14350 13800
-F 0 "C48" V 14300 13650 50  0000 C CNN
+F 0 "C39" V 14300 13650 50  0000 C CNN
 F 1 "10n" V 14300 13950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 14388 13650 50  0001 C CNN
 F 3 "~" H 14350 13800 50  0001 C CNN
@@ -978,10 +978,10 @@ F 3 "~" H 14350 13800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS13
+L VST104:DGQ2788A AS11
 U 1 1 67535556
 P 14050 15350
-F 0 "AS13" H 14100 15300 50  0000 C CNN
+F 0 "AS11" H 14100 15300 50  0000 C CNN
 F 1 "DGQ2788A" H 14450 15300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 14350 15300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 14350 15300 50  0001 C CNN
@@ -1212,10 +1212,10 @@ Wire Wire Line
 Wire Wire Line
 	17200 13800 16900 13800
 $Comp
-L board_sierra-rescue:C-Device C54
+L board_sierra-rescue:C-Device C40
 U 1 1 6DEF7720
 P 17350 13800
-F 0 "C54" V 17300 13650 50  0000 C CNN
+F 0 "C40" V 17300 13650 50  0000 C CNN
 F 1 "10n" V 17300 13950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 17388 13650 50  0001 C CNN
 F 3 "~" H 17350 13800 50  0001 C CNN
@@ -1247,10 +1247,10 @@ F 3 "" H 11800 13800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS11
+L VST104:DGQ2788A AS13
 U 1 1 6DEF77AB
 P 11050 15350
-F 0 "AS11" H 11100 15300 50  0000 C CNN
+F 0 "AS13" H 11100 15300 50  0000 C CNN
 F 1 "DGQ2788A" H 11450 15300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 11350 15300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 11350 15300 50  0001 C CNN
@@ -1258,10 +1258,10 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 11350 15300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C35
+L board_sierra-rescue:C-Device C41
 U 1 1 6DEF77B1
 P 11350 13800
-F 0 "C35" V 11300 13650 50  0000 C CNN
+F 0 "C41" V 11300 13650 50  0000 C CNN
 F 1 "10n" V 11300 13950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 11388 13650 50  0001 C CNN
 F 3 "~" H 11350 13800 50  0001 C CNN
@@ -1296,10 +1296,10 @@ F 3 "" H 10900 13800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R28
+L board_sierra-rescue:R-Device R53
 U 1 1 8F89889C
 P 10700 13950
-F 0 "R28" V 10800 14050 50  0000 R CNN
+F 0 "R53" V 10800 14050 50  0000 R CNN
 F 1 "100k" V 10600 14050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 10630 13950 50  0001 C CNN
 F 3 "~" H 10700 13950 50  0001 C CNN
@@ -1324,10 +1324,10 @@ Wire Notes Line width 10
 Wire Notes Line width 10
 	17000 7000 16000 7000
 $Comp
-L VST104:DGQ2788A AS1
+L VST104:DGQ2788A AS3
 U 1 1 73B2DA7F
 P 2050 13350
-F 0 "AS1" H 2100 13300 50  0000 C CNN
+F 0 "AS3" H 2100 13300 50  0000 C CNN
 F 1 "DGQ2788A" H 2450 13300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 2350 13300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 2350 13300 50  0001 C CNN
@@ -1335,10 +1335,10 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 2350 13300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C2
+L board_sierra-rescue:C-Device C3
 U 1 1 73B2DA85
 P 2350 11800
-F 0 "C2" V 2300 11650 50  0000 C CNN
+F 0 "C3" V 2300 11650 50  0000 C CNN
 F 1 "10n" V 2300 11950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 2388 11650 50  0001 C CNN
 F 3 "~" H 2350 11800 50  0001 C CNN
@@ -1494,10 +1494,10 @@ Wire Wire Line
 Wire Wire Line
 	17900 8300 17900 8450
 $Comp
-L board_sierra-rescue:C-Device C55
+L board_sierra-rescue:C-Device C62
 U 1 1 5F0B57D9
 P 17500 9050
-F 0 "C55" V 17660 9050 50  0000 C CNN
+F 0 "C62" V 17660 9050 50  0000 C CNN
 F 1 "100n" V 17751 9050 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 17538 8900 50  0001 C CNN
 F 3 "~" H 17500 9050 50  0001 C CNN
@@ -1524,10 +1524,10 @@ Wire Wire Line
 Wire Wire Line
 	16450 8400 16500 8400
 $Comp
-L board_sierra-rescue:R-Device R49
+L board_sierra-rescue:R-Device R77
 U 1 1 5EFB3BEB
 P 16500 9150
-F 0 "R49" V 16615 9150 50  0000 C CNN
+F 0 "R77" V 16615 9150 50  0000 C CNN
 F 1 "280k" V 16706 9150 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" V 16430 9150 50  0001 C CNN
 F 3 "~" H 16500 9150 50  0001 C CNN
@@ -1552,10 +1552,10 @@ Wire Wire Line
 Wire Wire Line
 	16900 9150 16650 9150
 $Comp
-L board_sierra-rescue:C-Device C49
+L board_sierra-rescue:C-Device C61
 U 1 1 5EFB3BFB
 P 16300 8400
-F 0 "C49" V 16048 8400 50  0000 C CNN
+F 0 "C61" V 16048 8400 50  0000 C CNN
 F 1 "17p" V 16139 8400 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 16338 8250 50  0001 C CNN
 F 3 "~" H 16300 8400 50  0001 C CNN
@@ -1565,10 +1565,10 @@ $EndComp
 Wire Wire Line
 	16350 8800 16100 8800
 $Comp
-L board_sierra-rescue:C-Device C50
+L board_sierra-rescue:C-Device C60
 U 1 1 5EFB3BE3
 P 16700 8400
-F 0 "C50" V 16952 8400 50  0000 C CNN
+F 0 "C60" V 16952 8400 50  0000 C CNN
 F 1 "17p" V 16861 8400 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 16738 8250 50  0001 C CNN
 F 3 "~" H 16700 8400 50  0001 C CNN
@@ -1729,10 +1729,10 @@ F 3 "" H 14550 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C46
+L board_sierra-rescue:C-Device C55
 U 1 1 5F4E16AE
 P 14350 2850
-F 0 "C46" V 14400 2700 50  0000 C CNN
+F 0 "C55" V 14400 2700 50  0000 C CNN
 F 1 "100n" V 14300 2700 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 14388 2700 50  0001 C CNN
 F 3 "~" H 14350 2850 50  0001 C CNN
@@ -1769,10 +1769,10 @@ F 3 "" H 11500 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C33
+L board_sierra-rescue:C-Device C56
 U 1 1 5F49153D
 P 11300 2850
-F 0 "C33" V 11350 2700 50  0000 C CNN
+F 0 "C56" V 11350 2700 50  0000 C CNN
 F 1 "100n" V 11250 2700 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 11338 2700 50  0001 C CNN
 F 3 "~" H 11300 2850 50  0001 C CNN
@@ -1809,10 +1809,10 @@ F 3 "" H 14550 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C45
+L board_sierra-rescue:C-Device C59
 U 1 1 5F46C3A4
 P 14350 1450
-F 0 "C45" V 14400 1300 50  0000 C CNN
+F 0 "C59" V 14400 1300 50  0000 C CNN
 F 1 "100n" V 14300 1300 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 14388 1300 50  0001 C CNN
 F 3 "~" H 14350 1450 50  0001 C CNN
@@ -1849,10 +1849,10 @@ F 3 "" H 13550 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C38
+L board_sierra-rescue:C-Device C51
 U 1 1 5F4478A3
 P 13350 1450
-F 0 "C38" V 13400 1300 50  0000 C CNN
+F 0 "C51" V 13400 1300 50  0000 C CNN
 F 1 "100n" V 13300 1300 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13388 1300 50  0001 C CNN
 F 3 "~" H 13350 1450 50  0001 C CNN
@@ -1889,10 +1889,10 @@ F 3 "" H 12550 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C36
+L board_sierra-rescue:C-Device C68
 U 1 1 5F42425D
 P 12350 1450
-F 0 "C36" V 12400 1300 50  0000 C CNN
+F 0 "C68" V 12400 1300 50  0000 C CNN
 F 1 "100n" V 12300 1300 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 12388 1300 50  0001 C CNN
 F 3 "~" H 12350 1450 50  0001 C CNN
@@ -1923,10 +1923,10 @@ F 3 "" H 11500 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C32
+L board_sierra-rescue:C-Device C72
 U 1 1 5F140753
 P 11300 1450
-F 0 "C32" V 11350 1300 50  0000 C CNN
+F 0 "C72" V 11350 1300 50  0000 C CNN
 F 1 "100n" V 11250 1300 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 11338 1300 50  0001 C CNN
 F 3 "~" H 11300 1450 50  0001 C CNN
@@ -1934,10 +1934,10 @@ F 3 "~" H 11300 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C37
+L board_sierra-rescue:C-Device C53
 U 1 1 5F17C434
 P 13300 2850
-F 0 "C37" V 13250 3000 50  0000 C CNN
+F 0 "C53" V 13250 3000 50  0000 C CNN
 F 1 "100n" V 13350 3000 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13338 2700 50  0001 C CNN
 F 3 "~" H 13300 2850 50  0001 C CNN
@@ -1960,10 +1960,10 @@ $EndComp
 Wire Wire Line
 	11500 1450 11450 1450
 $Comp
-L VST104:MCP9804 TS7
+L VST104:MCP9804 TS3
 U 1 1 5F4E16A1
 P 14000 3500
-F 0 "TS7" H 14400 4000 50  0000 R CNN
+F 0 "TS3" H 14400 4000 50  0000 R CNN
 F 1 "MCP9804" H 14550 3450 50  0000 R CNN
 F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 14000 3500 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 3500 50  0001 C CNN
@@ -1971,10 +1971,10 @@ F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 3500 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L VST104:MCP9804 TS2
+L VST104:MCP9804 TS4
 U 1 1 5F491530
 P 10950 3500
-F 0 "TS2" H 11350 4000 50  0000 R CNN
+F 0 "TS4" H 11350 4000 50  0000 R CNN
 F 1 "MCP9804" H 11500 3450 50  0000 R CNN
 F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 10950 3500 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 10950 3500 50  0001 C CNN
@@ -1982,10 +1982,10 @@ F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 10950 3500 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L VST104:MCP9804 TS6
+L VST104:MCP9804 TS5
 U 1 1 5F46C397
 P 14000 2100
-F 0 "TS6" H 14400 2600 50  0000 R CNN
+F 0 "TS5" H 14400 2600 50  0000 R CNN
 F 1 "MCP9804" H 14550 2050 50  0000 R CNN
 F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 14000 2100 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 2100 50  0001 C CNN
@@ -1993,10 +1993,10 @@ F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 2100 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L VST104:MCP9804 TS5
+L VST104:MCP9804 TS1
 U 1 1 5F447896
 P 13000 2100
-F 0 "TS5" H 13400 2600 50  0000 R CNN
+F 0 "TS1" H 13400 2600 50  0000 R CNN
 F 1 "MCP9804" H 13550 2050 50  0000 R CNN
 F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 13000 2100 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 13000 2100 50  0001 C CNN
@@ -2004,10 +2004,10 @@ F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 13000 2100 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L VST104:MCP9804 TS3
+L VST104:MCP9804 TS6
 U 1 1 5F424250
 P 12000 2100
-F 0 "TS3" H 12400 2600 50  0000 R CNN
+F 0 "TS6" H 12400 2600 50  0000 R CNN
 F 1 "MCP9804" H 12550 2050 50  0000 R CNN
 F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 12000 2100 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12000 2100 50  0001 C CNN
@@ -2015,10 +2015,10 @@ F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12000 2100 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L VST104:MCP9804 TS4
+L VST104:MCP9804 TS2
 U 1 1 5F05168F
 P 12950 3500
-F 0 "TS4" H 13350 4000 50  0000 R CNN
+F 0 "TS2" H 13350 4000 50  0000 R CNN
 F 1 "MCP9804" H 13500 3450 50  0000 R CNN
 F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 12950 3500 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12950 3500 50  0001 C CNN
@@ -2026,10 +2026,10 @@ F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12950 3500 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L VST104:MCP9804 TS1
+L VST104:MCP9804 TS7
 U 1 1 5F050A6F
 P 10950 2100
-F 0 "TS1" H 11350 2600 50  0000 R CNN
+F 0 "TS7" H 11350 2600 50  0000 R CNN
 F 1 "MCP9804" H 11500 2050 50  0000 R CNN
 F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 10950 2100 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 10950 2100 50  0001 C CNN
@@ -2212,10 +2212,10 @@ F 3 "" H 10200 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R26
+L board_sierra-rescue:R-Device R84
 U 1 1 5F31B6BC
 P 10200 3400
-F 0 "R26" H 10270 3446 50  0000 L CNN
+F 0 "R84" H 10270 3446 50  0000 L CNN
 F 1 "10k" H 10270 3355 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 10130 3400 50  0001 C CNN
 F 3 "~" H 10200 3400 50  0001 C CNN
@@ -2251,10 +2251,10 @@ Wire Wire Line
 Wire Wire Line
 	11100 2450 12150 2450
 $Comp
-L board_sierra-rescue:R-Device R23
+L board_sierra-rescue:R-Device R83
 U 1 1 5F2FB296
 P 9900 3400
-F 0 "R23" H 9970 3446 50  0000 L CNN
+F 0 "R83" H 9970 3446 50  0000 L CNN
 F 1 "10k" H 9970 3355 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9830 3400 50  0001 C CNN
 F 3 "~" H 9900 3400 50  0001 C CNN
@@ -2361,10 +2361,10 @@ $EndComp
 Connection ~ 13900 8300
 Connection ~ 13900 8500
 $Comp
-L board_sierra-rescue:C_Small-Device C44
+L board_sierra-rescue:C_Small-Device C58
 U 1 1 5FD97970
 P 13900 8400
-F 0 "C44" H 13950 8500 50  0000 L CNN
+F 0 "C58" H 13950 8500 50  0000 L CNN
 F 1 "100n" H 13950 8300 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13900 8400 50  0001 C CNN
 F 3 "~" H 13900 8400 50  0001 C CNN
@@ -2403,10 +2403,10 @@ Wire Wire Line
 	12450 8300 12750 8300
 Connection ~ 12750 8300
 $Comp
-L board_sierra-rescue:R-Device R32
+L board_sierra-rescue:R-Device R67
 U 1 1 5FF2D102
 P 12750 8450
-F 0 "R32" H 12800 8400 50  0000 L CNN
+F 0 "R67" H 12800 8400 50  0000 L CNN
 F 1 "10k" H 12800 8500 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 12680 8450 50  0001 C CNN
 F 3 "~" H 12750 8450 50  0001 C CNN
@@ -2438,10 +2438,10 @@ $EndComp
 Connection ~ 13850 10300
 Connection ~ 13850 10500
 $Comp
-L board_sierra-rescue:C_Small-Device C40
+L board_sierra-rescue:C_Small-Device C73
 U 1 1 603FD1AA
 P 13850 10400
-F 0 "C40" H 13900 10500 50  0000 L CNN
+F 0 "C73" H 13900 10500 50  0000 L CNN
 F 1 "100n" H 13900 10300 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13850 10400 50  0001 C CNN
 F 3 "~" H 13850 10400 50  0001 C CNN
@@ -2480,10 +2480,10 @@ Wire Wire Line
 	12450 10300 12750 10300
 Connection ~ 12750 10300
 $Comp
-L board_sierra-rescue:R-Device R34
+L board_sierra-rescue:R-Device R80
 U 1 1 603FD1C1
 P 12750 10450
-F 0 "R34" H 12950 10400 50  0000 R CNN
+F 0 "R80" H 12950 10400 50  0000 R CNN
 F 1 "10k" H 12950 10500 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 12680 10450 50  0001 C CNN
 F 3 "~" H 12750 10450 50  0001 C CNN
@@ -2515,10 +2515,10 @@ $EndComp
 Connection ~ 13850 9300
 Connection ~ 13850 9500
 $Comp
-L board_sierra-rescue:C_Small-Device C39
+L board_sierra-rescue:C_Small-Device C66
 U 1 1 605987C6
 P 13850 9400
-F 0 "C39" H 13900 9500 50  0000 L CNN
+F 0 "C66" H 13900 9500 50  0000 L CNN
 F 1 "100n" H 13900 9300 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13850 9400 50  0001 C CNN
 F 3 "~" H 13850 9400 50  0001 C CNN
@@ -2557,10 +2557,10 @@ Wire Wire Line
 	12450 9300 12750 9300
 Connection ~ 12750 9300
 $Comp
-L board_sierra-rescue:R-Device R33
+L board_sierra-rescue:R-Device R74
 U 1 1 605987DD
 P 12750 9450
-F 0 "R33" H 12800 9400 50  0000 L CNN
+F 0 "R74" H 12800 9400 50  0000 L CNN
 F 1 "10k" H 12800 9500 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 12680 9450 50  0001 C CNN
 F 3 "~" H 12750 9450 50  0001 C CNN
@@ -2685,10 +2685,10 @@ F 3 "" H 12750 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R29
+L board_sierra-rescue:R-Device R87
 U 1 1 5F0E5930
 P 12750 5000
-F 0 "R29" H 12820 4954 50  0000 L CNN
+F 0 "R87" H 12820 4954 50  0000 L CNN
 F 1 "10k" H 12820 5045 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 12680 5000 50  0001 C CNN
 F 3 "~" H 12750 5000 50  0001 C CNN
@@ -2712,10 +2712,10 @@ F 3 "https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C_Small-Device C41
+L board_sierra-rescue:C_Small-Device C71
 U 1 1 FB353954
 P 13900 4900
-F 0 "C41" H 13950 5000 50  0000 L CNN
+F 0 "C71" H 13950 5000 50  0000 L CNN
 F 1 "100n" H 13950 4800 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13900 4900 50  0001 C CNN
 F 3 "~" H 13900 4900 50  0001 C CNN
@@ -2764,10 +2764,10 @@ F 3 "" H 12750 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R31
+L board_sierra-rescue:R-Device R85
 U 1 1 FDA9BACE
 P 12750 7000
-F 0 "R31" H 12820 6954 50  0000 L CNN
+F 0 "R85" H 12820 6954 50  0000 L CNN
 F 1 "10k" H 12820 7045 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 12680 7000 50  0001 C CNN
 F 3 "~" H 12750 7000 50  0001 C CNN
@@ -2791,10 +2791,10 @@ F 3 "https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C_Small-Device C43
+L board_sierra-rescue:C_Small-Device C69
 U 1 1 FDA9BADD
 P 13900 6900
-F 0 "C43" H 13950 7000 50  0000 L CNN
+F 0 "C69" H 13950 7000 50  0000 L CNN
 F 1 "100n" H 13950 6800 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13900 6900 50  0001 C CNN
 F 3 "~" H 13900 6900 50  0001 C CNN
@@ -2841,10 +2841,10 @@ F 3 "" H 12750 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R30
+L board_sierra-rescue:R-Device R86
 U 1 1 FDC3D94D
 P 12750 6050
-F 0 "R30" H 12820 6004 50  0000 L CNN
+F 0 "R86" H 12820 6004 50  0000 L CNN
 F 1 "10k" H 12820 6095 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 12680 6050 50  0001 C CNN
 F 3 "~" H 12750 6050 50  0001 C CNN
@@ -2857,10 +2857,10 @@ Wire Wire Line
 Wire Wire Line
 	12750 5900 12800 5900
 $Comp
-L board_sierra-rescue:C_Small-Device C42
+L board_sierra-rescue:C_Small-Device C70
 U 1 1 FDC3D95C
 P 13900 5950
-F 0 "C42" H 13950 6050 50  0000 L CNN
+F 0 "C70" H 13950 6050 50  0000 L CNN
 F 1 "100n" H 13950 5850 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 13900 5950 50  0001 C CNN
 F 3 "~" H 13900 5950 50  0001 C CNN
@@ -2886,10 +2886,10 @@ Connection ~ 19650 5850
 Wire Wire Line
 	19650 5850 19650 6150
 $Comp
-L VST104:TCAN1051-Q1 U3
+L VST104:TCAN1051-Q1 U1
 U 1 1 F6CB6E9B
 P 19800 7800
-F 0 "U3" H 20050 8350 50  0000 C CNN
+F 0 "U1" H 20050 8350 50  0000 C CNN
 F 1 "TCAN1051-Q1" H 20050 7750 50  0000 C CNN
 F 2 "VST104_footprints:VSON-8_3.0x3.0mm_EPV" H 19700 7650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tcan1051g-q1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594849994682&ref_url=https%253A%252F%252Fwww.mouser.sk%252F" H 20050 8350 50  0001 C CNN
@@ -2925,10 +2925,10 @@ $EndComp
 Wire Wire Line
 	19450 6250 19700 6250
 $Comp
-L board_sierra-rescue:R-Device R74
+L board_sierra-rescue:R-Device R22
 U 1 1 69C6C143
 P 19450 6000
-F 0 "R74" H 19381 5954 50  0000 R CNN
+F 0 "R22" H 19381 5954 50  0000 R CNN
 F 1 "10k" H 19381 6045 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 19380 6000 50  0001 C CNN
 F 3 "~" H 19450 6000 50  0001 C CNN
@@ -2956,10 +2956,10 @@ $EndComp
 Wire Wire Line
 	19450 7450 19700 7450
 $Comp
-L board_sierra-rescue:C-Device C3
+L board_sierra-rescue:C-Device C42
 U 1 1 67DF2E51
 P 2350 13800
-F 0 "C3" V 2300 13650 50  0000 C CNN
+F 0 "C42" V 2300 13650 50  0000 C CNN
 F 1 "10n" V 2300 13950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 2388 13650 50  0001 C CNN
 F 3 "~" H 2350 13800 50  0001 C CNN
@@ -2967,10 +2967,10 @@ F 3 "~" H 2350 13800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS2
+L VST104:DGQ2788A AS14
 U 1 1 67DF2E4B
 P 2050 15350
-F 0 "AS2" H 2100 15300 50  0000 C CNN
+F 0 "AS14" H 2100 15300 50  0000 C CNN
 F 1 "DGQ2788A" H 2450 15300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 2350 15300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 2350 15300 50  0001 C CNN
@@ -2978,10 +2978,10 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 2350 15300 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C69
+L board_sierra-rescue:C-Device C10
 U 1 1 5F192AC0
 P 21500 7500
-F 0 "C69" H 21400 7175 50  0000 L CNN
+F 0 "C10" H 21400 7175 50  0000 L CNN
 F 1 "100p" H 21375 7100 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21538 7350 50  0001 C CNN
 F 3 "~" H 21500 7500 50  0001 C CNN
@@ -3030,10 +3030,10 @@ Wire Wire Line
 Wire Wire Line
 	21500 7350 21600 7350
 $Comp
-L board_sierra-rescue:C-Device C73
+L board_sierra-rescue:C-Device C12
 U 1 1 5F192A9F
 P 21700 7600
-F 0 "C73" H 21650 7375 50  0000 L CNN
+F 0 "C12" H 21650 7375 50  0000 L CNN
 F 1 "100p" H 21625 7300 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21738 7450 50  0001 C CNN
 F 3 "~" H 21700 7600 50  0001 C CNN
@@ -3059,10 +3059,10 @@ Wire Wire Line
 Wire Wire Line
 	20900 7350 21000 7350
 $Comp
-L board_sierra-rescue:C-Device C65
+L board_sierra-rescue:C-Device C11
 U 1 1 5F192A8F
 P 21000 7200
-F 0 "C65" H 21115 7246 50  0000 L CNN
+F 0 "C11" H 21115 7246 50  0000 L CNN
 F 1 "4n7" H 21115 7155 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21038 7050 50  0001 C CNN
 F 3 "~" H 21000 7200 50  0001 C CNN
@@ -3094,10 +3094,10 @@ Connection ~ 20050 7050
 Wire Wire Line
 	20000 7050 20050 7050
 $Comp
-L board_sierra-rescue:C-Device C63
+L board_sierra-rescue:C-Device C19
 U 1 1 5F26A3E9
 P 20250 7050
-F 0 "C63" V 20400 7050 50  0000 C CNN
+F 0 "C19" V 20400 7050 50  0000 C CNN
 F 1 "100n" V 20100 7050 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 20288 6900 50  0001 C CNN
 F 3 "~" H 20250 7050 50  0001 C CNN
@@ -3105,10 +3105,10 @@ F 3 "~" H 20250 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C59
+L board_sierra-rescue:C-Device C15
 U 1 1 5F26A3E3
 P 19850 7050
-F 0 "C59" V 19700 7050 50  0000 C CNN
+F 0 "C15" V 19700 7050 50  0000 C CNN
 F 1 "100n" V 20000 7050 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 19888 6900 50  0001 C CNN
 F 3 "~" H 19850 7050 50  0001 C CNN
@@ -3152,10 +3152,10 @@ Connection ~ 20050 5850
 Wire Wire Line
 	20000 5850 20050 5850
 $Comp
-L board_sierra-rescue:C-Device C62
+L board_sierra-rescue:C-Device C21
 U 1 1 5EFF331D
 P 20250 5850
-F 0 "C62" V 20400 5850 50  0000 C CNN
+F 0 "C21" V 20400 5850 50  0000 C CNN
 F 1 "100n" V 20100 5850 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 20288 5700 50  0001 C CNN
 F 3 "~" H 20250 5850 50  0001 C CNN
@@ -3163,10 +3163,10 @@ F 3 "~" H 20250 5850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C58
+L board_sierra-rescue:C-Device C20
 U 1 1 5EFF0714
 P 19850 5850
-F 0 "C58" V 19700 5850 50  0000 C CNN
+F 0 "C20" V 19700 5850 50  0000 C CNN
 F 1 "100n" V 20000 5850 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 19888 5700 50  0001 C CNN
 F 3 "~" H 19850 5850 50  0001 C CNN
@@ -3208,10 +3208,10 @@ Connection ~ 21500 6450
 Wire Wire Line
 	20400 6450 20900 6450
 $Comp
-L board_sierra-rescue:C-Device C64
+L board_sierra-rescue:C-Device C18
 U 1 1 5F26DD60
 P 21000 6000
-F 0 "C64" H 21115 6046 50  0000 L CNN
+F 0 "C18" H 21115 6046 50  0000 L CNN
 F 1 "4n7" H 21115 5955 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21038 5850 50  0001 C CNN
 F 3 "~" H 21000 6000 50  0001 C CNN
@@ -3237,10 +3237,10 @@ F 3 "" H 21000 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C72
+L board_sierra-rescue:C-Device C16
 U 1 1 5F418201
 P 21700 6400
-F 0 "C72" H 21650 6175 50  0000 L CNN
+F 0 "C16" H 21650 6175 50  0000 L CNN
 F 1 "100p" H 21625 6100 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21738 6250 50  0001 C CNN
 F 3 "~" H 21700 6400 50  0001 C CNN
@@ -3268,10 +3268,10 @@ Connection ~ 21600 6150
 Wire Wire Line
 	21600 6150 21700 6150
 $Comp
-L board_sierra-rescue:C-Device C68
+L board_sierra-rescue:C-Device C17
 U 1 1 5F403A92
 P 21500 6300
-F 0 "C68" H 21400 5975 50  0000 L CNN
+F 0 "C17" H 21400 5975 50  0000 L CNN
 F 1 "100p" H 21375 5900 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21538 6150 50  0001 C CNN
 F 3 "~" H 21500 6300 50  0001 C CNN
@@ -3347,10 +3347,10 @@ F 3 "~" H 18800 15000 50  0001 C CNN
 $EndComp
 NoConn ~ 19150 15100
 $Comp
-L board_sierra-rescue:R-Device R22
+L board_sierra-rescue:R-Device R15
 U 1 1 B05C62FB
 P 9800 2800
-F 0 "R22" V 9900 2800 50  0000 C CNN
+F 0 "R15" V 9900 2800 50  0000 C CNN
 F 1 "100k" V 9700 2800 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9730 2800 50  0001 C CNN
 F 3 "~" H 9800 2800 50  0001 C CNN
@@ -3388,10 +3388,10 @@ GLO_KS_1
 Wire Wire Line
 	10600 2350 11000 2350
 $Comp
-L VST104:DGQ2788A AS15
+L VST104:DGQ2788A AS12
 U 1 1 6DEF771A
 P 17050 15350
-F 0 "AS15" H 17100 15300 50  0000 C CNN
+F 0 "AS12" H 17100 15300 50  0000 C CNN
 F 1 "DGQ2788A" H 17450 15300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 17350 15300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 17350 15300 50  0001 C CNN
@@ -3415,10 +3415,10 @@ Connection ~ 11100 3850
 Wire Wire Line
 	16650 8800 16900 8800
 $Comp
-L board_sierra-rescue:R-Device R38
+L board_sierra-rescue:R-Device R71
 U 1 1 67C8138F
 P 14150 10400
-F 0 "R38" H 14225 10075 50  0000 R CNN
+F 0 "R71" H 14225 10075 50  0000 R CNN
 F 1 "100k" H 14250 10150 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 14080 10400 50  0001 C CNN
 F 3 "~" H 14150 10400 50  0001 C CNN
@@ -3448,10 +3448,10 @@ F 3 "" H 14150 9600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R37
+L board_sierra-rescue:R-Device R69
 U 1 1 67E30100
 P 14150 9450
-F 0 "R37" H 14225 9125 50  0000 R CNN
+F 0 "R69" H 14225 9125 50  0000 R CNN
 F 1 "100k" H 14250 9200 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 14080 9450 50  0001 C CNN
 F 3 "~" H 14150 9450 50  0001 C CNN
@@ -3498,10 +3498,10 @@ Wire Wire Line
 	3500 10700 3500 10800
 Connection ~ 3600 10700
 $Comp
-L board_sierra-rescue:C-Device C11
+L board_sierra-rescue:C-Device C23
 U 1 1 5F02E5E3
 P 3200 2800
-F 0 "C11" V 3250 2650 50  0000 C CNN
+F 0 "C23" V 3250 2650 50  0000 C CNN
 F 1 "100n" V 3250 2950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 2650 50  0001 C CNN
 F 3 "~" H 3200 2800 50  0001 C CNN
@@ -3509,10 +3509,10 @@ F 3 "~" H 3200 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C12
+L board_sierra-rescue:C-Device C63
 U 1 1 5F02F248
 P 3200 3000
-F 0 "C12" V 3250 2850 50  0000 C CNN
+F 0 "C63" V 3250 2850 50  0000 C CNN
 F 1 "100n" V 3250 3150 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 2850 50  0001 C CNN
 F 3 "~" H 3200 3000 50  0001 C CNN
@@ -3520,10 +3520,10 @@ F 3 "~" H 3200 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C13
+L board_sierra-rescue:C-Device C67
 U 1 1 5F02FA7A
 P 3200 3200
-F 0 "C13" V 3250 3050 50  0000 C CNN
+F 0 "C67" V 3250 3050 50  0000 C CNN
 F 1 "100n" V 3250 3350 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 3050 50  0001 C CNN
 F 3 "~" H 3200 3200 50  0001 C CNN
@@ -3542,10 +3542,10 @@ Wire Wire Line
 	2950 2800 3050 2800
 Connection ~ 2950 3000
 $Comp
-L board_sierra-rescue:Ferrite_Bead_Small-Device FB1
+L board_sierra-rescue:Ferrite_Bead_Small-Device FB2
 U 1 1 5F0B3B0D
 P 3850 1300
-F 0 "FB1" V 3700 1300 50  0000 C CNN
+F 0 "FB2" V 3700 1300 50  0000 C CNN
 F 1 "120 @ 100M" V 3950 1300 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" V 3780 1300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/396/mlci08_e-1396622.pdf" H 3850 1300 50  0001 C CNN
@@ -3558,10 +3558,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 3400 3050 3400
 $Comp
-L board_sierra-rescue:C-Device C14
+L board_sierra-rescue:C-Device C31
 U 1 1 5F01ACFA
 P 3200 3400
-F 0 "C14" V 3150 3250 50  0000 C CNN
+F 0 "C31" V 3150 3250 50  0000 C CNN
 F 1 "100n" V 3150 3550 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 3250 50  0001 C CNN
 F 3 "~" H 3200 3400 50  0001 C CNN
@@ -3626,10 +3626,10 @@ F 3 "https://www.mouser.sk/datasheet/2/281/JELF243A-0169-1324396.pdf" H 4400 130
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C9
+L board_sierra-rescue:C-Device C13
 U 1 1 5F6C6889
 P 3200 2400
-F 0 "C9" V 3250 2250 50  0000 C CNN
+F 0 "C13" V 3250 2250 50  0000 C CNN
 F 1 "100n" V 3250 2550 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 2250 50  0001 C CNN
 F 3 "~" H 3200 2400 50  0001 C CNN
@@ -3637,10 +3637,10 @@ F 3 "~" H 3200 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C10
+L board_sierra-rescue:C-Device C52
 U 1 1 5F6C688F
 P 3200 2600
-F 0 "C10" V 3250 2450 50  0000 C CNN
+F 0 "C52" V 3250 2450 50  0000 C CNN
 F 1 "100n" V 3250 2750 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 2450 50  0001 C CNN
 F 3 "~" H 3200 2600 50  0001 C CNN
@@ -3702,10 +3702,10 @@ F 3 "" H 5250 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C15
+L board_sierra-rescue:C-Device C64
 U 1 1 5F05BD17
 P 4950 1450
-F 0 "C15" V 4900 1650 50  0000 R CNN
+F 0 "C64" V 4900 1650 50  0000 R CNN
 F 1 "10u" V 4900 1400 50  0000 R CNN
 F 2 "VST104_footprints:C_SMD_0805" H 4988 1300 50  0001 C CNN
 F 3 "~" H 4950 1450 50  0001 C CNN
@@ -4126,10 +4126,10 @@ Wire Wire Line
 Wire Wire Line
 	21250 13700 22100 13700
 $Comp
-L board_sierra-rescue:R-Device R51
+L board_sierra-rescue:R-Device R52
 U 1 1 8F715E09
 P 16700 13950
-F 0 "R51" V 16800 14050 50  0000 R CNN
+F 0 "R52" V 16800 14050 50  0000 R CNN
 F 1 "100k" V 16600 14050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 16630 13950 50  0001 C CNN
 F 3 "~" H 16700 13950 50  0001 C CNN
@@ -4152,10 +4152,10 @@ F 3 "" H 10300 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C_Small-Device C28
+L board_sierra-rescue:C_Small-Device C9
 U 1 1 6DC6F682
 P 10300 1750
-F 0 "C28" H 10392 1796 50  0000 L CNN
+F 0 "C9" H 10392 1796 50  0000 L CNN
 F 1 "1n" H 10392 1705 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 10300 1750 50  0001 C CNN
 F 3 "~" H 10300 1750 50  0001 C CNN
@@ -4166,10 +4166,10 @@ Wire Wire Line
 	10200 1850 10300 1850
 Connection ~ 10300 1850
 $Comp
-L board_sierra-rescue:D_Schottky-Device D1
+L board_sierra-rescue:D_Schottky-Device D2
 U 1 1 6F3E4CA1
 P 9650 2200
-F 0 "D1" H 9650 2300 50  0000 C CNN
+F 0 "D2" H 9650 2300 50  0000 C CNN
 F 1 "CDBQR40" H 9650 2100 50  0000 C CNN
 F 2 "VST104_footprints:D_SMD_0402" H 9650 2200 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 9650 2200 50  0001 C CNN
@@ -4179,10 +4179,10 @@ $EndComp
 Wire Wire Line
 	9500 2200 9400 2200
 $Comp
-L board_sierra-rescue:C-Device C27
+L board_sierra-rescue:C-Device C14
 U 1 1 6F3E4CAA
 P 9800 2450
-F 0 "C27" V 9750 2600 50  0000 C CNN
+F 0 "C14" V 9750 2600 50  0000 C CNN
 F 1 "100n" V 9850 2600 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 9838 2300 50  0001 C CNN
 F 3 "~" H 9800 2450 50  0001 C CNN
@@ -4235,10 +4235,10 @@ Wire Wire Line
 Wire Wire Line
 	9500 1200 9500 1450
 $Comp
-L board_sierra-rescue:D_Schottky-Device D2
+L board_sierra-rescue:D_Schottky-Device D1
 U 1 1 720B922A
 P 9700 1200
-F 0 "D2" H 9700 1300 50  0000 C CNN
+F 0 "D1" H 9700 1300 50  0000 C CNN
 F 1 "CDBQR40" H 9700 1100 50  0000 C CNN
 F 2 "VST104_footprints:D_SMD_0402" H 9700 1200 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 9700 1200 50  0001 C CNN
@@ -4267,10 +4267,10 @@ Wire Wire Line
 Wire Wire Line
 	21550 2450 21550 2300
 $Comp
-L board_sierra-rescue:R-Device R85
+L board_sierra-rescue:R-Device R19
 U 1 1 7C18A5E7
 P 21550 2900
-F 0 "R85" H 21620 2854 50  0000 L CNN
+F 0 "R19" H 21620 2854 50  0000 L CNN
 F 1 "330" H 21620 2945 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 21480 2900 50  0001 C CNN
 F 3 "~" H 21550 2900 50  0001 C CNN
@@ -4278,10 +4278,10 @@ F 3 "~" H 21550 2900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C71
+L board_sierra-rescue:C-Device C35
 U 1 1 6103B88B
 P 21550 3800
-F 0 "C71" H 21665 3754 50  0000 L CNN
+F 0 "C35" H 21665 3754 50  0000 L CNN
 F 1 "1u" H 21665 3845 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0603" H 21588 3650 50  0001 C CNN
 F 3 "~" H 21550 3800 50  0001 C CNN
@@ -4324,10 +4324,10 @@ F 3 "" H 17050 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C52
+L board_sierra-rescue:C-Device C30
 U 1 1 7B131ECF
 P 17050 4500
-F 0 "C52" H 17200 4450 50  0000 L CNN
+F 0 "C30" H 17200 4450 50  0000 L CNN
 F 1 "15n" H 17200 4350 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 17088 4350 50  0001 C CNN
 F 3 "~" H 17050 4500 50  0001 C CNN
@@ -4365,10 +4365,10 @@ Wire Wire Line
 Wire Wire Line
 	19100 4050 19100 4150
 $Comp
-L board_sierra-rescue:R-Device R69
+L board_sierra-rescue:R-Device R45
 U 1 1 785D13D9
 P 19100 3900
-F 0 "R69" H 19170 3946 50  0000 L CNN
+F 0 "R45" H 19170 3946 50  0000 L CNN
 F 1 "10k" H 19170 3855 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 19030 3900 50  0001 C CNN
 F 3 "~" H 19100 3900 50  0001 C CNN
@@ -4394,10 +4394,10 @@ Wire Wire Line
 Wire Wire Line
 	18550 4050 18550 4250
 $Comp
-L board_sierra-rescue:R-Device R60
+L board_sierra-rescue:R-Device R36
 U 1 1 77FF02A4
 P 18200 4500
-F 0 "R60" H 18450 4650 50  0000 R CNN
+F 0 "R36" H 18450 4650 50  0000 R CNN
 F 1 "75k" H 18600 4750 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 18130 4500 50  0001 C CNN
 F 3 "~" H 18200 4500 50  0001 C CNN
@@ -4416,10 +4416,10 @@ F 3 "" H 18550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R63
+L board_sierra-rescue:R-Device R38
 U 1 1 77FF0298
 P 18350 4500
-F 0 "R63" H 18250 4650 50  0000 R CNN
+F 0 "R38" H 18250 4650 50  0000 R CNN
 F 1 "33k2" H 18250 4750 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 18280 4500 50  0001 C CNN
 F 3 "~" H 18350 4500 50  0001 C CNN
@@ -4510,10 +4510,10 @@ F 3 "" H 18550 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C56
+L board_sierra-rescue:C-Device C25
 U 1 1 C646C040
 P 18550 1450
-F 0 "C56" H 18435 1496 50  0000 R CNN
+F 0 "C25" H 18435 1496 50  0000 R CNN
 F 1 "10u" H 18435 1405 50  0000 R CNN
 F 2 "VST104_footprints:C_SMD_0805" H 18588 1300 50  0001 C CNN
 F 3 "~" H 18550 1450 50  0001 C CNN
@@ -4521,10 +4521,10 @@ F 3 "~" H 18550 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R64
+L board_sierra-rescue:R_Small-Device R31
 U 1 1 5F6E9572
 P 18550 1700
-F 0 "R64" H 18609 1746 50  0000 L CNN
+F 0 "R31" H 18609 1746 50  0000 L CNN
 F 1 "110k" H 18609 1655 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" H 18550 1700 50  0001 C CNN
 F 3 "~" H 18550 1700 50  0001 C CNN
@@ -4532,10 +4532,10 @@ F 3 "~" H 18550 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R68
+L board_sierra-rescue:R-Device R34
 U 1 1 7346B3C8
 P 19100 1850
-F 0 "R68" H 19170 1896 50  0000 L CNN
+F 0 "R34" H 19170 1896 50  0000 L CNN
 F 1 "10k" H 19170 1805 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 19030 1850 50  0001 C CNN
 F 3 "~" H 19100 1850 50  0001 C CNN
@@ -4557,10 +4557,10 @@ Connection ~ 21200 4050
 Wire Wire Line
 	21100 4050 21200 4050
 $Comp
-L board_sierra-rescue:C_Small-Device C67
+L board_sierra-rescue:C_Small-Device C34
 U 1 1 6D69D74E
 P 21200 3950
-F 0 "C67" H 21292 3996 50  0000 L CNN
+F 0 "C34" H 21292 3996 50  0000 L CNN
 F 1 "1n" H 21292 3905 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21200 3950 50  0001 C CNN
 F 3 "~" H 21200 3950 50  0001 C CNN
@@ -4584,10 +4584,10 @@ Connection ~ 21200 2000
 Wire Wire Line
 	21100 2000 21200 2000
 $Comp
-L board_sierra-rescue:C_Small-Device C66
+L board_sierra-rescue:C_Small-Device C26
 U 1 1 6CAF02EA
 P 21200 1900
-F 0 "C66" H 21292 1946 50  0000 L CNN
+F 0 "C26" H 21292 1946 50  0000 L CNN
 F 1 "1n" H 21292 1855 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 21200 1900 50  0001 C CNN
 F 3 "~" H 21200 1900 50  0001 C CNN
@@ -4614,10 +4614,10 @@ Wire Wire Line
 Wire Wire Line
 	20100 4150 20200 4150
 $Comp
-L board_sierra-rescue:C-Device C61
+L board_sierra-rescue:C-Device C36
 U 1 1 6983CB25
 P 19950 4150
-F 0 "C61" V 19900 4300 50  0000 C CNN
+F 0 "C36" V 19900 4300 50  0000 C CNN
 F 1 "100n" V 20000 4300 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 19988 4000 50  0001 C CNN
 F 3 "~" H 19950 4150 50  0001 C CNN
@@ -4654,10 +4654,10 @@ Wire Wire Line
 Wire Wire Line
 	20100 2100 20200 2100
 $Comp
-L board_sierra-rescue:C-Device C60
+L board_sierra-rescue:C-Device C29
 U 1 1 68E9A716
 P 19950 2100
-F 0 "C60" V 19900 2250 50  0000 C CNN
+F 0 "C29" V 19900 2250 50  0000 C CNN
 F 1 "100n" V 20000 2250 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 19988 1950 50  0001 C CNN
 F 3 "~" H 19950 2100 50  0001 C CNN
@@ -4673,10 +4673,10 @@ Wire Wire Line
 Wire Wire Line
 	19550 1800 19500 1800
 $Comp
-L board_sierra-rescue:D_Schottky-Device D4
+L board_sierra-rescue:D_Schottky-Device D5
 U 1 1 688E36BD
 P 20000 1800
-F 0 "D4" H 20000 1700 50  0000 C CNN
+F 0 "D5" H 20000 1700 50  0000 C CNN
 F 1 "CDBQR40" H 20000 1900 50  0000 C CNN
 F 2 "VST104_footprints:D_SMD_0402" H 20000 1800 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 20000 1800 50  0001 C CNN
@@ -4721,10 +4721,10 @@ F 3 "" H 21200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:D_Schottky-Device D6
+L board_sierra-rescue:D_Schottky-Device D4
 U 1 1 6085EF15
 P 20600 1350
-F 0 "D6" H 20600 1450 50  0000 C CNN
+F 0 "D4" H 20600 1450 50  0000 C CNN
 F 1 "CDBQR40" H 20600 1250 50  0000 C CNN
 F 2 "VST104_footprints:D_SMD_0402" H 20600 1350 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 20600 1350 50  0001 C CNN
@@ -4738,10 +4738,10 @@ Wire Wire Line
 Wire Wire Line
 	21050 1350 21100 1350
 $Comp
-L board_sierra-rescue:R-Device R79
+L board_sierra-rescue:R-Device R33
 U 1 1 6085EF0B
 P 20900 1350
-F 0 "R79" V 20800 1350 50  0000 C CNN
+F 0 "R33" V 20800 1350 50  0000 C CNN
 F 1 "33 330mW" V 20700 1350 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0603" V 20830 1350 50  0001 C CNN
 F 3 "~" H 20900 1350 50  0001 C CNN
@@ -4775,10 +4775,10 @@ Connection ~ 18550 3850
 Wire Wire Line
 	18150 3850 18550 3850
 $Comp
-L board_sierra-rescue:R_Small-Device R67
+L board_sierra-rescue:R_Small-Device R40
 U 1 1 5FC7DA01
 P 18550 3950
-F 0 "R67" H 18609 3996 50  0000 L CNN
+F 0 "R40" H 18609 3996 50  0000 L CNN
 F 1 "31k6" H 18609 3905 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" H 18550 3950 50  0001 C CNN
 F 3 "~" H 18550 3950 50  0001 C CNN
@@ -4786,10 +4786,10 @@ F 3 "~" H 18550 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R66
+L board_sierra-rescue:R_Small-Device R42
 U 1 1 5FC7D9FB
 P 18550 3750
-F 0 "R66" H 18609 3796 50  0000 L CNN
+F 0 "R42" H 18609 3796 50  0000 L CNN
 F 1 "110k" H 18609 3705 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" H 18550 3750 50  0001 C CNN
 F 3 "~" H 18550 3750 50  0001 C CNN
@@ -4821,10 +4821,10 @@ F 3 "" H 20650 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R78
+L board_sierra-rescue:R-Device R23
 U 1 1 641BA9F0
 P 20500 3000
-F 0 "R78" V 20600 3000 50  0000 C CNN
+F 0 "R23" V 20600 3000 50  0000 C CNN
 F 1 "100k" V 20400 3000 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" V 20430 3000 50  0001 C CNN
 F 3 "~" H 20500 3000 50  0001 C CNN
@@ -4869,10 +4869,10 @@ Wire Wire Line
 Wire Wire Line
 	18150 4350 18200 4350
 $Comp
-L board_sierra-rescue:R_Small-Device R55
+L board_sierra-rescue:R_Small-Device R43
 U 1 1 6103B860
 P 17000 3750
-F 0 "R55" H 17200 3800 50  0000 R CNN
+F 0 "R43" H 17200 3800 50  0000 R CNN
 F 1 "280k" H 17375 3700 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 3750 50  0001 C CNN
 F 3 "~" H 17000 3750 50  0001 C CNN
@@ -4885,10 +4885,10 @@ Connection ~ 17000 3850
 Wire Wire Line
 	17000 4050 17150 4050
 $Comp
-L board_sierra-rescue:R_Small-Device R56
+L board_sierra-rescue:R_Small-Device R41
 U 1 1 6103B857
 P 17000 3950
-F 0 "R56" H 17059 3996 50  0000 L CNN
+F 0 "R41" H 17059 3996 50  0000 L CNN
 F 1 "8k66" H 17059 3905 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 3950 50  0001 C CNN
 F 3 "~" H 17000 3950 50  0001 C CNN
@@ -4899,10 +4899,10 @@ Wire Wire Line
 	17000 4250 17150 4250
 Connection ~ 17000 4050
 $Comp
-L board_sierra-rescue:R_Small-Device R57
+L board_sierra-rescue:R_Small-Device R39
 U 1 1 6103B84E
 P 17000 4150
-F 0 "R57" H 17200 4200 50  0000 R CNN
+F 0 "R39" H 17200 4200 50  0000 R CNN
 F 1 "63k4" H 17375 4100 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 4150 50  0001 C CNN
 F 3 "~" H 17000 4150 50  0001 C CNN
@@ -4916,10 +4916,10 @@ Wire Wire Line
 	18150 3650 18550 3650
 Connection ~ 18550 3650
 $Comp
-L board_sierra-rescue:C-Device C57
+L board_sierra-rescue:C-Device C33
 U 1 1 6103B831
 P 18550 3500
-F 0 "C57" H 18435 3546 50  0000 R CNN
+F 0 "C33" H 18435 3546 50  0000 R CNN
 F 1 "10u" H 18435 3455 50  0000 R CNN
 F 2 "VST104_footprints:C_SMD_0805" H 18588 3350 50  0001 C CNN
 F 3 "~" H 18550 3500 50  0001 C CNN
@@ -4942,10 +4942,10 @@ Wire Wire Line
 Wire Wire Line
 	18150 2200 18350 2200
 $Comp
-L board_sierra-rescue:C-Device C70
+L board_sierra-rescue:C-Device C27
 U 1 1 DBB49275
 P 21550 1450
-F 0 "C70" H 21435 1496 50  0000 R CNN
+F 0 "C27" H 21435 1496 50  0000 R CNN
 F 1 "1u" H 21435 1405 50  0000 R CNN
 F 2 "VST104_footprints:C_SMD_0603" H 21588 1300 50  0001 C CNN
 F 3 "~" H 21550 1450 50  0001 C CNN
@@ -4982,10 +4982,10 @@ Wire Wire Line
 Wire Wire Line
 	21550 2300 21600 2300
 $Comp
-L board_sierra-rescue:D_Zener-Device D8
+L board_sierra-rescue:D_Zener-Device D3
 U 1 1 7C1874AD
 P 21550 2600
-F 0 "D8" V 21550 2400 50  0000 L CNN
+F 0 "D3" V 21550 2400 50  0000 L CNN
 F 1 "BZT52C3V3TQ-7-F" H 21050 2750 50  0000 L CNN
 F 2 "VST104_footprints:D_SMD_SOD523_1.2x0.8mm" H 21550 2600 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/115/ds30502-1142513.pdf" H 21550 2600 50  0001 C CNN
@@ -5111,10 +5111,10 @@ F 3 "" H 18200 10850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:D_Schottky-Device D3
+L board_sierra-rescue:D_Schottky-Device D6
 U 1 1 8232F128
 P 18200 10700
-F 0 "D3" V 18200 10600 50  0000 R CNN
+F 0 "D6" V 18200 10600 50  0000 R CNN
 F 1 "CDBQR40" H 18350 10825 50  0000 R CNN
 F 2 "VST104_footprints:D_SMD_0402" H 18200 10700 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 18200 10700 50  0001 C CNN
@@ -5122,10 +5122,10 @@ F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L board_sierra-rescue:Ferrite_Bead_Small-Device FB2
+L board_sierra-rescue:Ferrite_Bead_Small-Device FB1
 U 1 1 90BB5D30
 P 18200 10450
-F 0 "FB2" H 18300 10450 50  0000 L CNN
+F 0 "FB1" H 18300 10450 50  0000 L CNN
 F 1 "120 @ 100M" V 17975 10300 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 18130 10450 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/396/mlci08_e-1396622.pdf" H 18200 10450 50  0001 C CNN
@@ -5140,10 +5140,10 @@ Wire Wire Line
 Wire Wire Line
 	18200 10300 18200 10350
 $Comp
-L board_sierra-rescue:R_Small-Device R61
+L board_sierra-rescue:R_Small-Device R37
 U 1 1 9202C952
 P 18200 10200
-F 0 "R61" H 18141 10154 50  0000 R CNN
+F 0 "R37" H 18141 10154 50  0000 R CNN
 F 1 "100 0.25W" H 18141 10245 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0603" H 18200 10200 50  0001 C CNN
 F 3 "~" H 18200 10200 50  0001 C CNN
@@ -5179,10 +5179,10 @@ I2C3_SDA
 Text Label 15950 7350 2    50   ~ 0
 I2C4_SDA
 $Comp
-L board_sierra-rescue:R_Small-Device R42
+L board_sierra-rescue:R_Small-Device R62
 U 1 1 99AA88AC
 P 16300 7450
-F 0 "R42" V 16250 7300 50  0000 C CNN
+F 0 "R62" V 16250 7300 50  0000 C CNN
 F 1 "4k7" V 16250 7600 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16300 7450 50  0001 C CNN
 F 3 "~" H 16300 7450 50  0001 C CNN
@@ -5190,10 +5190,10 @@ F 3 "~" H 16300 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R41
+L board_sierra-rescue:R_Small-Device R60
 U 1 1 99AA88B2
 P 16300 7350
-F 0 "R41" V 16250 7200 50  0000 C CNN
+F 0 "R60" V 16250 7200 50  0000 C CNN
 F 1 "4k7" V 16250 7500 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16300 7350 50  0001 C CNN
 F 3 "~" H 16300 7350 50  0001 C CNN
@@ -5209,10 +5209,10 @@ Wire Wire Line
 Wire Wire Line
 	16400 7450 16600 7450
 $Comp
-L board_sierra-rescue:R_Small-Device R40
+L board_sierra-rescue:R_Small-Device R61
 U 1 1 99CB5515
 P 16300 7200
-F 0 "R40" V 16250 7050 50  0000 C CNN
+F 0 "R61" V 16250 7050 50  0000 C CNN
 F 1 "4k7" V 16250 7350 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16300 7200 50  0001 C CNN
 F 3 "~" H 16300 7200 50  0001 C CNN
@@ -5220,10 +5220,10 @@ F 3 "~" H 16300 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R39
+L board_sierra-rescue:R_Small-Device R63
 U 1 1 99CB551B
 P 16300 7100
-F 0 "R39" V 16250 6950 50  0000 C CNN
+F 0 "R63" V 16250 6950 50  0000 C CNN
 F 1 "4k7" V 16250 7250 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16300 7100 50  0001 C CNN
 F 3 "~" H 16300 7100 50  0001 C CNN
@@ -5387,10 +5387,10 @@ NoConn ~ 21250 10550
 Text GLabel 22100 10150 2    50   Input ~ 0
 CPU_MODE
 $Comp
-L board_sierra-rescue:R-Device R11
+L board_sierra-rescue:R-Device R47
 U 1 1 6051D42E
 P 4700 13950
-F 0 "R11" V 4800 14050 50  0000 R CNN
+F 0 "R47" V 4800 14050 50  0000 R CNN
 F 1 "100k" V 4600 14050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 4630 13950 50  0001 C CNN
 F 3 "~" H 4700 13950 50  0001 C CNN
@@ -5413,10 +5413,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 14100 1700 14150
 $Comp
-L board_sierra-rescue:R-Device R4
+L board_sierra-rescue:R-Device R54
 U 1 1 8FA2B298
 P 1700 13950
-F 0 "R4" V 1800 14050 50  0000 R CNN
+F 0 "R54" V 1800 14050 50  0000 R CNN
 F 1 "100k" V 1600 14050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 1630 13950 50  0001 C CNN
 F 3 "~" H 1700 13950 50  0001 C CNN
@@ -5426,10 +5426,10 @@ $EndComp
 Wire Wire Line
 	1650 14800 1950 14800
 $Comp
-L board_sierra-rescue:R-Device R1
+L board_sierra-rescue:R-Device R3
 U 1 1 96B6DA94
 P 1650 13000
-F 0 "R1" V 1750 13100 50  0000 R CNN
+F 0 "R3" V 1750 13100 50  0000 R CNN
 F 1 "100k" V 1550 13100 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 1580 13000 50  0001 C CNN
 F 3 "~" H 1650 13000 50  0001 C CNN
@@ -5510,10 +5510,10 @@ F 3 "" H 1650 13150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R3
+L board_sierra-rescue:R-Device R10
 U 1 1 71C54CC0
 P 1700 11950
-F 0 "R3" V 1600 11850 50  0000 L CNN
+F 0 "R10" V 1600 11850 50  0000 L CNN
 F 1 "100k" V 1800 11850 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 1630 11950 50  0001 C CNN
 F 3 "~" H 1700 11950 50  0001 C CNN
@@ -5573,10 +5573,10 @@ $EndComp
 Wire Wire Line
 	1650 14850 1650 14800
 $Comp
-L board_sierra-rescue:R-Device R2
+L board_sierra-rescue:R-Device R55
 U 1 1 76D03405
 P 1650 15000
-F 0 "R2" V 1550 15000 50  0000 R CNN
+F 0 "R55" V 1550 15000 50  0000 R CNN
 F 1 "100k" V 1750 15100 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 1580 15000 50  0001 C CNN
 F 3 "~" H 1650 15000 50  0001 C CNN
@@ -5660,10 +5660,10 @@ Wire Wire Line
 	9650 5800 9400 5800
 Connection ~ 9650 5800
 $Comp
-L board_sierra-rescue:R-Device R16
+L board_sierra-rescue:R-Device R8
 U 1 1 7C3544B0
 P 9650 6000
-F 0 "R16" V 9550 6100 50  0000 R CNN
+F 0 "R8" V 9550 6100 50  0000 R CNN
 F 1 "100k" V 9750 6100 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9580 6000 50  0001 C CNN
 F 3 "~" H 9650 6000 50  0001 C CNN
@@ -5801,10 +5801,10 @@ F 3 "" H 7700 13800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R15
+L board_sierra-rescue:R-Device R1
 U 1 1 85D0F03B
 P 7700 13950
-F 0 "R15" V 7800 14050 50  0000 R CNN
+F 0 "R1" V 7800 14050 50  0000 R CNN
 F 1 "100k" V 7600 14050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 7630 13950 50  0001 C CNN
 F 3 "~" H 7700 13950 50  0001 C CNN
@@ -5890,10 +5890,10 @@ Wire Wire Line
 Wire Wire Line
 	8200 13800 7900 13800
 $Comp
-L board_sierra-rescue:C-Device C25
+L board_sierra-rescue:C-Device C1
 U 1 1 85D0F06C
 P 8350 13800
-F 0 "C25" V 8300 13650 50  0000 C CNN
+F 0 "C1" V 8300 13650 50  0000 C CNN
 F 1 "10n" V 8300 13950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 8388 13650 50  0001 C CNN
 F 3 "~" H 8350 13800 50  0001 C CNN
@@ -5901,10 +5901,10 @@ F 3 "~" H 8350 13800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS6
+L VST104:DGQ2788A AS1
 U 1 1 85D0F072
 P 8050 15350
-F 0 "AS6" H 8100 15300 50  0000 C CNN
+F 0 "AS1" H 8100 15300 50  0000 C CNN
 F 1 "DGQ2788A" H 8450 15300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 8350 15300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 8350 15300 50  0001 C CNN
@@ -5961,10 +5961,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 3750 2800 3750
 $Comp
-L board_sierra-rescue:C-Device C7
+L board_sierra-rescue:C-Device C47
 U 1 1 62CD3A26
 P 3200 2000
-F 0 "C7" V 3250 1850 50  0000 C CNN
+F 0 "C47" V 3250 1850 50  0000 C CNN
 F 1 "100n" V 3250 2150 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 1850 50  0001 C CNN
 F 3 "~" H 3200 2000 50  0001 C CNN
@@ -5974,10 +5974,10 @@ $EndComp
 Wire Wire Line
 	2950 2000 3050 2000
 $Comp
-L board_sierra-rescue:C-Device C6
+L board_sierra-rescue:C-Device C54
 U 1 1 62E1A834
 P 3200 1800
-F 0 "C6" V 3250 1650 50  0000 C CNN
+F 0 "C54" V 3250 1650 50  0000 C CNN
 F 1 "100n" V 3250 1950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 1650 50  0001 C CNN
 F 3 "~" H 3200 1800 50  0001 C CNN
@@ -5987,10 +5987,10 @@ $EndComp
 Wire Wire Line
 	2950 1800 3050 1800
 $Comp
-L board_sierra-rescue:C-Device C5
+L board_sierra-rescue:C-Device C28
 U 1 1 62F637A9
 P 3200 1600
-F 0 "C5" V 3250 1450 50  0000 C CNN
+F 0 "C28" V 3250 1450 50  0000 C CNN
 F 1 "100n" V 3250 1750 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 1450 50  0001 C CNN
 F 3 "~" H 3200 1600 50  0001 C CNN
@@ -6009,10 +6009,10 @@ Wire Wire Line
 	2950 1800 2950 1600
 Connection ~ 2950 1800
 $Comp
-L board_sierra-rescue:C-Device C8
+L board_sierra-rescue:C-Device C46
 U 1 1 5F6C6883
 P 3200 2200
-F 0 "C8" V 3250 2050 50  0000 C CNN
+F 0 "C46" V 3250 2050 50  0000 C CNN
 F 1 "100n" V 3250 2350 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 3238 2050 50  0001 C CNN
 F 3 "~" H 3200 2200 50  0001 C CNN
@@ -6084,10 +6084,10 @@ Text Label 1950 5150 2    50   ~ 0
 OSC_EN
 Connection ~ 4300 1600
 $Comp
-L board_sierra-rescue:C-Device C19
+L board_sierra-rescue:C-Device C57
 U 1 1 67F8953E
 P 4950 2450
-F 0 "C19" V 4900 2300 50  0000 C CNN
+F 0 "C57" V 4900 2300 50  0000 C CNN
 F 1 "4u7" V 4900 2600 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0603" H 4988 2300 50  0001 C CNN
 F 3 "~" H 4950 2450 50  0001 C CNN
@@ -6095,10 +6095,10 @@ F 3 "~" H 4950 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C18
+L board_sierra-rescue:C-Device C24
 U 1 1 67F89544
 P 4950 2250
-F 0 "C18" V 4900 2100 50  0000 C CNN
+F 0 "C24" V 4900 2100 50  0000 C CNN
 F 1 "100n" V 4900 2400 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 4988 2100 50  0001 C CNN
 F 3 "~" H 4950 2250 50  0001 C CNN
@@ -6135,10 +6135,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 4350 2250 4350
 $Comp
-L board_sierra-rescue:C-Device C4
+L board_sierra-rescue:C-Device C65
 U 1 1 686A7884
 P 2500 4150
-F 0 "C4" H 2550 4450 50  0000 R CNN
+F 0 "C65" H 2550 4450 50  0000 R CNN
 F 1 "1u" H 2550 4550 50  0000 R CNN
 F 2 "VST104_footprints:C_SMD_0603" H 2538 4000 50  0001 C CNN
 F 3 "~" H 2500 4150 50  0001 C CNN
@@ -6146,10 +6146,10 @@ F 3 "~" H 2500 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C1
+L board_sierra-rescue:C-Device C32
 U 1 1 686A787E
 P 2250 4150
-F 0 "C1" H 2300 4450 50  0000 R CNN
+F 0 "C32" H 2300 4450 50  0000 R CNN
 F 1 "100n" H 2350 4550 50  0000 R CNN
 F 2 "VST104_footprints:C_SMD_0402" H 2288 4000 50  0001 C CNN
 F 3 "~" H 2250 4150 50  0001 C CNN
@@ -6161,10 +6161,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 3950 2250 4000
 $Comp
-L board_sierra-rescue:STM32L496ZGTx-MCU_ST_STM32L4 U1
+L board_sierra-rescue:STM32L496ZGTx-MCU_ST_STM32L4 U3
 U 1 1 9E4BB275
 P 4000 7050
-F 0 "U1" H 4050 4050 50  0000 C CNN
+F 0 "U3" H 4050 4050 50  0000 C CNN
 F 1 "STM32L496ZGTx" H 4000 3950 50  0000 C CNN
 F 2 "VST104_footprints:LQFP-144_20x20mm_P0.5mm" H 3000 3650 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf" H 4000 7050 50  0001 C CNN
@@ -6191,10 +6191,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 4350 2250 4350
 $Comp
-L board_sierra-rescue:C-Device C17
+L board_sierra-rescue:C-Device C49
 U 1 1 6C5F52A5
 P 4950 2000
-F 0 "C17" V 4900 1850 50  0000 C CNN
+F 0 "C49" V 4900 1850 50  0000 C CNN
 F 1 "1u" V 4900 2150 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0603" H 4988 1850 50  0001 C CNN
 F 3 "~" H 4950 2000 50  0001 C CNN
@@ -6202,10 +6202,10 @@ F 3 "~" H 4950 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C16
+L board_sierra-rescue:C-Device C44
 U 1 1 6C5F52AB
 P 4950 1800
-F 0 "C16" V 4900 1650 50  0000 C CNN
+F 0 "C44" V 4900 1650 50  0000 C CNN
 F 1 "100n" V 4900 1950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 4988 1650 50  0001 C CNN
 F 3 "~" H 4950 1800 50  0001 C CNN
@@ -6445,10 +6445,10 @@ F 3 "" H 11800 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS10
+L VST104:DGQ2788A AS4
 U 1 1 6DEF76D2
 P 11050 13350
-F 0 "AS10" H 11100 13300 50  0000 C CNN
+F 0 "AS4" H 11100 13300 50  0000 C CNN
 F 1 "DGQ2788A" H 11450 13300 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 11350 13300 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 11350 13300 50  0001 C CNN
@@ -6456,10 +6456,10 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 11350 13300 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C34
+L board_sierra-rescue:C-Device C4
 U 1 1 6DEF76D8
 P 11350 11800
-F 0 "C34" V 11300 11650 50  0000 C CNN
+F 0 "C4" V 11300 11650 50  0000 C CNN
 F 1 "10n" V 11300 11950 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 11388 11650 50  0001 C CNN
 F 3 "~" H 11350 11800 50  0001 C CNN
@@ -6539,10 +6539,10 @@ F 3 "" H 10900 11800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R27
+L board_sierra-rescue:R-Device R4
 U 1 1 8F597179
 P 10700 11950
-F 0 "R27" V 10800 12050 50  0000 R CNN
+F 0 "R4" V 10800 12050 50  0000 R CNN
 F 1 "100k" V 10600 12050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 10630 11950 50  0001 C CNN
 F 3 "~" H 10700 11950 50  0001 C CNN
@@ -6607,10 +6607,10 @@ USER 5 & 6 isolators
 Wire Notes Line width 10
 	7500 15500 9000 15500
 $Comp
-L board_sierra-rescue:C-Device C30
+L board_sierra-rescue:C-Device C7
 U 1 1 67535522
 P 10350 7300
-F 0 "C30" V 10300 7150 50  0000 C CNN
+F 0 "C7" V 10300 7150 50  0000 C CNN
 F 1 "10n" V 10300 7450 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 10388 7150 50  0001 C CNN
 F 3 "~" H 10350 7300 50  0001 C CNN
@@ -6631,10 +6631,10 @@ $EndComp
 Wire Wire Line
 	9650 10350 9650 10300
 $Comp
-L board_sierra-rescue:R-Device R18
+L board_sierra-rescue:R-Device R56
 U 1 1 7B488437
 P 9650 10500
-F 0 "R18" V 9550 10550 50  0000 R CNN
+F 0 "R56" V 9550 10550 50  0000 R CNN
 F 1 "100k" V 9750 10600 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9580 10500 50  0001 C CNN
 F 3 "~" H 9650 10500 50  0001 C CNN
@@ -6706,10 +6706,10 @@ F 3 "" H 9650 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R20
+L board_sierra-rescue:R-Device R57
 U 1 1 79CBB563
 P 9700 7450
-F 0 "R20" V 9600 7550 50  0000 R CNN
+F 0 "R57" V 9600 7550 50  0000 R CNN
 F 1 "100k" V 9800 7550 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9630 7450 50  0001 C CNN
 F 3 "~" H 9700 7450 50  0001 C CNN
@@ -6730,10 +6730,10 @@ CAN_1_N
 Text GLabel 11050 8200 2    50   Input ~ 0
 I2C_1_SDA
 $Comp
-L VST104:DGQ2788A AS8
+L VST104:DGQ2788A AS7
 U 1 1 6753551C
 P 10050 8850
-F 0 "AS8" H 10100 8800 50  0000 C CNN
+F 0 "AS7" H 10100 8800 50  0000 C CNN
 F 1 "DGQ2788A" H 10450 8800 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 10350 8800 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 8800 50  0001 C CNN
@@ -6741,10 +6741,10 @@ F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 8800 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R17
+L board_sierra-rescue:R-Device R7
 U 1 1 8E6C7F7A
 P 9650 8500
-F 0 "R17" V 9550 8400 50  0000 L CNN
+F 0 "R7" V 9550 8400 50  0000 L CNN
 F 1 "100k" V 9750 8400 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9580 8500 50  0001 C CNN
 F 3 "~" H 9650 8500 50  0001 C CNN
@@ -6865,10 +6865,10 @@ F 3 "" H 9700 9300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R21
+L board_sierra-rescue:R-Device R50
 U 1 1 8D989A10
 P 9700 9450
-F 0 "R21" V 9800 9550 50  0000 R CNN
+F 0 "R50" V 9800 9550 50  0000 R CNN
 F 1 "100k" V 9600 9550 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 9630 9450 50  0001 C CNN
 F 3 "~" H 9700 9450 50  0001 C CNN
@@ -6944,10 +6944,10 @@ Wire Wire Line
 Wire Wire Line
 	10200 9300 9900 9300
 $Comp
-L board_sierra-rescue:C-Device C31
+L board_sierra-rescue:C-Device C38
 U 1 1 670BF8A0
 P 10350 9300
-F 0 "C31" V 10300 9150 50  0000 C CNN
+F 0 "C38" V 10300 9150 50  0000 C CNN
 F 1 "10n" V 10300 9450 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 10388 9150 50  0001 C CNN
 F 3 "~" H 10350 9300 50  0001 C CNN
@@ -6955,10 +6955,10 @@ F 3 "~" H 10350 9300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VST104:DGQ2788A AS9
+L VST104:DGQ2788A AS10
 U 1 1 670BF89A
 P 10050 10850
-F 0 "AS9" H 10100 10800 50  0000 C CNN
+F 0 "AS10" H 10100 10800 50  0000 C CNN
 F 1 "DGQ2788A" H 10450 10800 50  0000 C CNN
 F 2 "VST104_footprints:mini_QFN-16-1.8x2.6mm" H 10350 10800 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf" H 10350 10800 50  0001 C CNN
@@ -7054,10 +7054,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 1600 4500 1600
 $Comp
-L board_sierra-rescue:C-Device C21
+L board_sierra-rescue:C-Device C45
 U 1 1 604CCD60
 P 4950 2900
-F 0 "C21" V 4900 2750 50  0000 C CNN
+F 0 "C45" V 4900 2750 50  0000 C CNN
 F 1 "4u7" V 4900 3050 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0603" H 4988 2750 50  0001 C CNN
 F 3 "~" H 4950 2900 50  0001 C CNN
@@ -7065,10 +7065,10 @@ F 3 "~" H 4950 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C20
+L board_sierra-rescue:C-Device C48
 U 1 1 604CCD66
 P 4950 2700
-F 0 "C20" V 4900 2550 50  0000 C CNN
+F 0 "C48" V 4900 2550 50  0000 C CNN
 F 1 "100n" V 4900 2850 50  0000 C CNN
 F 2 "VST104_footprints:C_SMD_0402" H 4988 2550 50  0001 C CNN
 F 3 "~" H 4950 2700 50  0001 C CNN
@@ -7598,10 +7598,10 @@ F 3 "" H 4600 10800 50  0001 C CNN
 $EndComp
 NoConn ~ 20750 13200
 $Comp
-L Connector:TestPoint TP17
+L Connector:TestPoint TP1
 U 1 1 6159B948
 P 19650 15050
-F 0 "TP17" H 19708 15168 50  0000 L CNN
+F 0 "TP1" H 19708 15168 50  0000 L CNN
 F 1 "GND" H 19708 15077 50  0000 L CNN
 F 2 "VST104_footprints:scope_GND" H 19850 15050 50  0001 C CNN
 F 3 "~" H 19850 15050 50  0001 C CNN
@@ -7609,10 +7609,10 @@ F 3 "~" H 19850 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L Connector:TestPoint TP2
 U 1 1 6159E270
 P 19950 15050
-F 0 "TP18" H 20008 15168 50  0000 L CNN
+F 0 "TP2" H 20008 15168 50  0000 L CNN
 F 1 "GND" H 20008 15077 50  0000 L CNN
 F 2 "VST104_footprints:scope_GND" H 20150 15050 50  0001 C CNN
 F 3 "~" H 20150 15050 50  0001 C CNN
@@ -7652,10 +7652,10 @@ USER2_4
 Entry Wire Line
 	14250 6000 14350 5900
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP17
 U 1 1 662BCC96
 P 14400 5900
-F 0 "TP3" H 14400 6133 50  0000 C CNN
+F 0 "TP17" H 14400 6133 50  0000 C CNN
 F 1 "test_point" H 14458 5927 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14600 5900 50  0001 C CNN
 F 3 "~" H 14600 5900 50  0001 C CNN
@@ -7669,10 +7669,10 @@ CLK
 Entry Wire Line
 	14250 6350 14350 6250
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint TP18
 U 1 1 67041AFD
 P 14400 6250
-F 0 "TP4" H 14400 6483 50  0000 C CNN
+F 0 "TP18" H 14400 6483 50  0000 C CNN
 F 1 "test_point" H 14458 6277 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14600 6250 50  0001 C CNN
 F 3 "~" H 14600 6250 50  0001 C CNN
@@ -7686,10 +7686,10 @@ Q0
 Entry Wire Line
 	14250 6700 14350 6600
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP15
 U 1 1 67229AC6
 P 14400 6600
-F 0 "TP5" H 14400 6833 50  0000 C CNN
+F 0 "TP15" H 14400 6833 50  0000 C CNN
 F 1 "test_point" H 14458 6627 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14600 6600 50  0001 C CNN
 F 3 "~" H 14600 6600 50  0001 C CNN
@@ -7703,10 +7703,10 @@ Q1
 Entry Wire Line
 	14250 7050 14350 6950
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP16
 U 1 1 67412829
 P 14400 6950
-F 0 "TP6" H 14400 7183 50  0000 C CNN
+F 0 "TP16" H 14400 7183 50  0000 C CNN
 F 1 "test_point" H 14458 6977 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14600 6950 50  0001 C CNN
 F 3 "~" H 14600 6950 50  0001 C CNN
@@ -7720,10 +7720,10 @@ Q2
 Entry Wire Line
 	14250 7400 14350 7300
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP14
 U 1 1 675FC358
 P 14400 7300
-F 0 "TP7" H 14400 7533 50  0000 C CNN
+F 0 "TP14" H 14400 7533 50  0000 C CNN
 F 1 "test_point" H 14458 7327 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14600 7300 50  0001 C CNN
 F 3 "~" H 14600 7300 50  0001 C CNN
@@ -7737,10 +7737,10 @@ Q3
 Entry Wire Line
 	14300 9450 14400 9350
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint TP9
 U 1 1 681A25D2
 P 14450 9350
-F 0 "TP8" H 14450 9583 50  0000 C CNN
+F 0 "TP9" H 14450 9583 50  0000 C CNN
 F 1 "test_point" H 14508 9377 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14650 9350 50  0001 C CNN
 F 3 "~" H 14650 9350 50  0001 C CNN
@@ -7754,10 +7754,10 @@ CL
 Entry Wire Line
 	14300 9800 14400 9700
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint TP7
 U 1 1 681A25DB
 P 14450 9700
-F 0 "TP9" H 14450 9933 50  0000 C CNN
+F 0 "TP7" H 14450 9933 50  0000 C CNN
 F 1 "test_point" H 14508 9727 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14650 9700 50  0001 C CNN
 F 3 "~" H 14650 9700 50  0001 C CNN
@@ -7771,10 +7771,10 @@ SI
 Entry Wire Line
 	14300 10150 14400 10050
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint TP13
 U 1 1 681A25E4
 P 14450 10050
-F 0 "TP10" H 14450 10283 50  0000 C CNN
+F 0 "TP13" H 14450 10283 50  0000 C CNN
 F 1 "test_point" H 14508 10077 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14650 10050 50  0001 C CNN
 F 3 "~" H 14650 10050 50  0001 C CNN
@@ -7788,10 +7788,10 @@ SO
 Entry Wire Line
 	14300 10500 14400 10400
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP8
 U 1 1 681A25ED
 P 14450 10400
-F 0 "TP11" H 14450 10633 50  0000 C CNN
+F 0 "TP8" H 14450 10633 50  0000 C CNN
 F 1 "test_point" H 14508 10427 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14650 10400 50  0001 C CNN
 F 3 "~" H 14650 10400 50  0001 C CNN
@@ -7805,10 +7805,10 @@ WP
 Entry Wire Line
 	14300 10850 14400 10750
 $Comp
-L Connector:TestPoint TP12
+L Connector:TestPoint TP11
 U 1 1 681A25F6
 P 14450 10750
-F 0 "TP12" H 14450 10983 50  0000 C CNN
+F 0 "TP11" H 14450 10983 50  0000 C CNN
 F 1 "test_point" H 14508 10777 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 14650 10750 50  0001 C CNN
 F 3 "~" H 14650 10750 50  0001 C CNN
@@ -7841,10 +7841,10 @@ F 3 "https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP3
 U 1 1 6AADC0A8
 P 19100 6550
-F 0 "TP14" H 19100 6783 50  0000 C CNN
+F 0 "TP3" H 19100 6783 50  0000 C CNN
 F 1 "test_point" H 19158 6577 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 19300 6550 50  0001 C CNN
 F 3 "~" H 19300 6550 50  0001 C CNN
@@ -7852,10 +7852,10 @@ F 3 "~" H 19300 6550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP13
+L Connector:TestPoint TP4
 U 1 1 6ACCCADF
 P 19100 6450
-F 0 "TP13" H 19100 6683 50  0000 C CNN
+F 0 "TP4" H 19100 6683 50  0000 C CNN
 F 1 "test_point" H 19158 6477 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 19300 6450 50  0001 C CNN
 F 3 "~" H 19300 6450 50  0001 C CNN
@@ -7869,10 +7869,10 @@ Connection ~ 19100 6550
 Wire Wire Line
 	19100 6550 19300 6550
 $Comp
-L Connector:TestPoint TP15
+L Connector:TestPoint TP10
 U 1 1 6AEBF67C
 P 19100 7650
-F 0 "TP15" H 19100 7883 50  0000 C CNN
+F 0 "TP10" H 19100 7883 50  0000 C CNN
 F 1 "test_point" H 19158 7677 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 19300 7650 50  0001 C CNN
 F 3 "~" H 19300 7650 50  0001 C CNN
@@ -7880,10 +7880,10 @@ F 3 "~" H 19300 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP16
+L Connector:TestPoint TP12
 U 1 1 6B0B225C
 P 19100 7750
-F 0 "TP16" H 18950 7900 50  0000 C CNN
+F 0 "TP12" H 18950 7900 50  0000 C CNN
 F 1 "test_point" H 19158 7777 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 19300 7750 50  0001 C CNN
 F 3 "~" H 19300 7750 50  0001 C CNN
@@ -7899,10 +7899,10 @@ Wire Wire Line
 Wire Wire Line
 	9400 3550 9400 3750
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP5
 U 1 1 6BE80286
 P 9400 3550
-F 0 "TP1" H 9400 3783 50  0000 C CNN
+F 0 "TP5" H 9400 3783 50  0000 C CNN
 F 1 "test_point" H 9458 3577 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 9600 3550 50  0001 C CNN
 F 3 "~" H 9600 3550 50  0001 C CNN
@@ -7918,10 +7918,10 @@ Connection ~ 9600 3850
 Wire Wire Line
 	9600 3850 10200 3850
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint TP6
 U 1 1 6C073553
 P 9600 3550
-F 0 "TP2" H 9600 3783 50  0000 C CNN
+F 0 "TP6" H 9600 3783 50  0000 C CNN
 F 1 "test_point" H 9658 3577 50  0001 L CNN
 F 2 "VST104_footprints:scope_PAD" H 9800 3550 50  0001 C CNN
 F 3 "~" H 9800 3550 50  0001 C CNN
@@ -7957,10 +7957,10 @@ F 3 "" H 22250 15050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R86
+L board_sierra-rescue:R_Small-Device R48
 U 1 1 606B820D
 P 22400 15150
-F 0 "R86" V 22250 15150 50  0000 C CNN
+F 0 "R48" V 22250 15150 50  0000 C CNN
 F 1 "0" V 22295 15150 50  0001 C CNN
 F 2 "VST104_footprints:R_SMD_1206" H 22400 15150 50  0001 C CNN
 F 3 "" H 22400 15150 50  0001 C CNN
@@ -7968,10 +7968,10 @@ F 3 "" H 22400 15150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R87
+L board_sierra-rescue:R_Small-Device R49
 U 1 1 606BA567
 P 22400 15250
-F 0 "R87" V 22504 15250 50  0000 C CNN
+F 0 "R49" V 22504 15250 50  0000 C CNN
 F 1 "0" V 22295 15250 50  0001 C CNN
 F 2 "VST104_footprints:R_SMD_1206" H 22400 15250 50  0001 C CNN
 F 3 "" H 22400 15250 50  0001 C CNN
@@ -8004,10 +8004,10 @@ Wire Wire Line
 	19100 2100 19100 3100
 Connection ~ 19100 4150
 $Comp
-L board_sierra-rescue:R-Device R75
+L board_sierra-rescue:R-Device R16
 U 1 1 68E59322
 P 19450 7200
-F 0 "R75" H 19381 7154 50  0000 R CNN
+F 0 "R16" H 19381 7154 50  0000 R CNN
 F 1 "10k" H 19381 7245 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 19380 7200 50  0001 C CNN
 F 3 "~" H 19450 7200 50  0001 C CNN
@@ -8015,10 +8015,10 @@ F 3 "~" H 19450 7200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C26
+L board_sierra-rescue:C-Device C50
 U 1 1 5F4D9FF2
 P 9300 1600
-F 0 "C26" H 9186 1554 50  0000 R CNN
+F 0 "C50" H 9186 1554 50  0000 R CNN
 F 1 "10u" H 9186 1645 50  0000 R CNN
 F 2 "VST104_footprints:C_SMD_0805" H 9338 1450 50  0001 C CNN
 F 3 "~" H 9300 1600 50  0001 C CNN
@@ -8044,10 +8044,10 @@ Wire Wire Line
 Wire Wire Line
 	9500 2050 9500 1850
 $Comp
-L board_sierra-rescue:R-Device R80
+L board_sierra-rescue:R-Device R44
 U 1 1 5F6C3840
 P 20900 3400
-F 0 "R80" V 20800 3400 50  0000 C CNN
+F 0 "R44" V 20800 3400 50  0000 C CNN
 F 1 "75 330mW" V 20700 3400 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0603" V 20830 3400 50  0001 C CNN
 F 3 "~" H 20900 3400 50  0001 C CNN
@@ -8055,10 +8055,10 @@ F 3 "~" H 20900 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R76
+L board_sierra-rescue:R-Device R35
 U 1 1 5F8B7966
 P 19700 1800
-F 0 "R76" V 19800 1800 50  0000 C CNN
+F 0 "R35" V 19800 1800 50  0000 C CNN
 F 1 "33 330mW" V 19584 1800 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0603" V 19630 1800 50  0001 C CNN
 F 3 "~" H 19700 1800 50  0001 C CNN
@@ -8066,10 +8066,10 @@ F 3 "~" H 19700 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R77
+L board_sierra-rescue:R-Device R46
 U 1 1 5FAAEE62
 P 19700 3850
-F 0 "R77" V 19600 3850 50  0000 C CNN
+F 0 "R46" V 19600 3850 50  0000 C CNN
 F 1 "75 330mW" V 19500 3850 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0603" V 19630 3850 50  0001 C CNN
 F 3 "~" H 19700 3850 50  0001 C CNN
@@ -8077,10 +8077,10 @@ F 3 "~" H 19700 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R24
+L board_sierra-rescue:R-Device R14
 U 1 1 5FE9ABD4
 P 9950 2200
-F 0 "R24" V 10050 2200 50  0000 C CNN
+F 0 "R14" V 10050 2200 50  0000 C CNN
 F 1 "33 330mW" V 9850 2200 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0603" V 9880 2200 50  0001 C CNN
 F 3 "~" H 9950 2200 50  0001 C CNN
@@ -8088,10 +8088,10 @@ F 3 "~" H 9950 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R25
+L board_sierra-rescue:R-Device R11
 U 1 1 6027FA99
 P 10000 1200
-F 0 "R25" V 10100 1200 50  0000 C CNN
+F 0 "R11" V 10100 1200 50  0000 C CNN
 F 1 "33 330mW" V 9884 1200 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0603" V 9930 1200 50  0001 C CNN
 F 3 "~" H 10000 1200 50  0001 C CNN
@@ -8099,10 +8099,10 @@ F 3 "~" H 10000 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:D_Schottky-Device D5
+L board_sierra-rescue:D_Schottky-Device D8
 U 1 1 6983CB1A
 P 20000 3850
-F 0 "D5" H 20000 3750 50  0000 C CNN
+F 0 "D8" H 20000 3750 50  0000 C CNN
 F 1 "CDBQR40" H 20000 3950 50  0000 C CNN
 F 2 "VST104_footprints:D_SMD_0402" H 20000 3850 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 20000 3850 50  0001 C CNN
@@ -8110,10 +8110,10 @@ F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 2
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R65
+L board_sierra-rescue:R_Small-Device R29
 U 1 1 5F6E9BC3
 P 18550 1900
-F 0 "R65" H 18609 1946 50  0000 L CNN
+F 0 "R29" H 18609 1946 50  0000 L CNN
 F 1 "60k4" H 18609 1855 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" H 18550 1900 50  0001 C CNN
 F 3 "~" H 18550 1900 50  0001 C CNN
@@ -8121,10 +8121,10 @@ F 3 "~" H 18550 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R81
+L board_sierra-rescue:R-Device R20
 U 1 1 5F26BABA
 P 20900 6300
-F 0 "R81" H 20950 6625 50  0000 R CNN
+F 0 "R20" H 20950 6625 50  0000 R CNN
 F 1 "60.4" H 20950 6700 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 20830 6300 50  0001 C CNN
 F 3 "~" H 20900 6300 50  0001 C CNN
@@ -8132,10 +8132,10 @@ F 3 "~" H 20900 6300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R83
+L board_sierra-rescue:R-Device R21
 U 1 1 5F26CA35
 P 21100 6400
-F 0 "R83" H 21150 6625 50  0000 R CNN
+F 0 "R21" H 21150 6625 50  0000 R CNN
 F 1 "60.4" H 21150 6700 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 21030 6400 50  0001 C CNN
 F 3 "~" H 21100 6400 50  0001 C CNN
@@ -8143,10 +8143,10 @@ F 3 "~" H 21100 6400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R82
+L board_sierra-rescue:R-Device R12
 U 1 1 5F192A83
 P 20900 7500
-F 0 "R82" H 20950 7825 50  0000 R CNN
+F 0 "R12" H 20950 7825 50  0000 R CNN
 F 1 "60.4" H 20950 7900 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 20830 7500 50  0001 C CNN
 F 3 "~" H 20900 7500 50  0001 C CNN
@@ -8154,10 +8154,10 @@ F 3 "~" H 20900 7500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R84
+L board_sierra-rescue:R-Device R13
 U 1 1 5F192A89
 P 21100 7600
-F 0 "R84" H 21150 7825 50  0000 R CNN
+F 0 "R13" H 21150 7825 50  0000 R CNN
 F 1 "60.4" H 21150 7900 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 21030 7600 50  0001 C CNN
 F 3 "~" H 21100 7600 50  0001 C CNN
@@ -8165,10 +8165,10 @@ F 3 "~" H 21100 7600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R9
+L board_sierra-rescue:R_Small-Device R64
 U 1 1 62F2B1A8
 P 2300 10050
-F 0 "R9" V 2250 9900 50  0000 C CNN
+F 0 "R64" V 2250 9900 50  0000 C CNN
 F 1 "22" V 2250 10200 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 2300 10050 50  0001 C CNN
 F 3 "~" H 2300 10050 50  0001 C CNN
@@ -8176,10 +8176,10 @@ F 3 "~" H 2300 10050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R8
+L board_sierra-rescue:R_Small-Device R65
 U 1 1 62439E75
 P 2300 9850
-F 0 "R8" V 2250 9700 50  0000 C CNN
+F 0 "R65" V 2250 9700 50  0000 C CNN
 F 1 "22" V 2250 10000 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 2300 9850 50  0001 C CNN
 F 3 "~" H 2300 9850 50  0001 C CNN
@@ -8187,10 +8187,10 @@ F 3 "~" H 2300 9850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R12
+L board_sierra-rescue:R_Small-Device R73
 U 1 1 768C4A7B
 P 5550 4250
-F 0 "R12" V 5500 4100 50  0000 C CNN
+F 0 "R73" V 5500 4100 50  0000 C CNN
 F 1 "22" V 5500 4400 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 5550 4250 50  0001 C CNN
 F 3 "~" H 5550 4250 50  0001 C CNN
@@ -8198,10 +8198,10 @@ F 3 "~" H 5550 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R13
+L board_sierra-rescue:R_Small-Device R59
 U 1 1 76729844
 P 5550 6750
-F 0 "R13" V 5500 6600 50  0000 C CNN
+F 0 "R59" V 5500 6600 50  0000 C CNN
 F 1 "22" V 5500 6900 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 5550 6750 50  0001 C CNN
 F 3 "~" H 5550 6750 50  0001 C CNN
@@ -8209,10 +8209,10 @@ F 3 "~" H 5550 6750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R7
+L board_sierra-rescue:R_Small-Device R82
 U 1 1 765968D5
 P 2300 8150
-F 0 "R7" V 2250 8000 50  0000 C CNN
+F 0 "R82" V 2250 8000 50  0000 C CNN
 F 1 "22" V 2250 8300 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 2300 8150 50  0001 C CNN
 F 3 "~" H 2300 8150 50  0001 C CNN
@@ -8220,10 +8220,10 @@ F 3 "~" H 2300 8150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R6
+L board_sierra-rescue:R_Small-Device R66
 U 1 1 764076DC
 P 2300 6350
-F 0 "R6" V 2250 6200 50  0000 C CNN
+F 0 "R66" V 2250 6200 50  0000 C CNN
 F 1 "22" V 2250 6500 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 2300 6350 50  0001 C CNN
 F 3 "~" H 2300 6350 50  0001 C CNN
@@ -8231,10 +8231,10 @@ F 3 "~" H 2300 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R5
+L board_sierra-rescue:R_Small-Device R78
 U 1 1 66C53944
 P 2300 5250
-F 0 "R5" V 2250 5100 50  0000 C CNN
+F 0 "R78" V 2250 5100 50  0000 C CNN
 F 1 "22" V 2250 5400 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 2300 5250 50  0001 C CNN
 F 3 "~" H 2300 5250 50  0001 C CNN
@@ -8242,10 +8242,10 @@ F 3 "~" H 2300 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R70
+L board_sierra-rescue:R_Small-Device R25
 U 1 1 5F872A30
 P 19400 6450
-F 0 "R70" V 19350 6300 50  0000 C CNN
+F 0 "R25" V 19350 6300 50  0000 C CNN
 F 1 "22" V 19350 6600 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 19400 6450 50  0001 C CNN
 F 3 "~" H 19400 6450 50  0001 C CNN
@@ -8253,10 +8253,10 @@ F 3 "~" H 19400 6450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R71
+L board_sierra-rescue:R_Small-Device R24
 U 1 1 5F872A2A
 P 19400 6550
-F 0 "R71" V 19350 6400 50  0000 C CNN
+F 0 "R24" V 19350 6400 50  0000 C CNN
 F 1 "22" V 19350 6700 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 19400 6550 50  0001 C CNN
 F 3 "~" H 19400 6550 50  0001 C CNN
@@ -8264,10 +8264,10 @@ F 3 "~" H 19400 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R72
+L board_sierra-rescue:R_Small-Device R18
 U 1 1 5F872A20
 P 19400 7650
-F 0 "R72" V 19350 7500 50  0000 C CNN
+F 0 "R18" V 19350 7500 50  0000 C CNN
 F 1 "22" V 19350 7800 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 19400 7650 50  0001 C CNN
 F 3 "~" H 19400 7650 50  0001 C CNN
@@ -8275,10 +8275,10 @@ F 3 "~" H 19400 7650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R73
+L board_sierra-rescue:R_Small-Device R17
 U 1 1 5F872A1A
 P 19400 7750
-F 0 "R73" V 19350 7600 50  0000 C CNN
+F 0 "R17" V 19350 7600 50  0000 C CNN
 F 1 "22" V 19350 7900 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 19400 7750 50  0001 C CNN
 F 3 "~" H 19400 7750 50  0001 C CNN
@@ -8286,10 +8286,10 @@ F 3 "~" H 19400 7750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R48
+L board_sierra-rescue:R_Small-Device R81
 U 1 1 820D0D8C
 P 16350 10850
-F 0 "R48" V 16300 10700 50  0000 C CNN
+F 0 "R81" V 16300 10700 50  0000 C CNN
 F 1 "22" V 16300 11000 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16350 10850 50  0001 C CNN
 F 3 "~" H 16350 10850 50  0001 C CNN
@@ -8297,10 +8297,10 @@ F 3 "~" H 16350 10850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R47
+L board_sierra-rescue:R_Small-Device R79
 U 1 1 81ED9A85
 P 16350 10750
-F 0 "R47" V 16300 10600 50  0000 C CNN
+F 0 "R79" V 16300 10600 50  0000 C CNN
 F 1 "22" V 16300 10900 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16350 10750 50  0001 C CNN
 F 3 "~" H 16350 10750 50  0001 C CNN
@@ -8308,10 +8308,10 @@ F 3 "~" H 16350 10750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R43
+L board_sierra-rescue:R_Small-Device R68
 U 1 1 81AEC33F
 P 16350 10250
-F 0 "R43" V 16300 10100 50  0000 C CNN
+F 0 "R68" V 16300 10100 50  0000 C CNN
 F 1 "22" V 16300 10400 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16350 10250 50  0001 C CNN
 F 3 "~" H 16350 10250 50  0001 C CNN
@@ -8319,10 +8319,10 @@ F 3 "~" H 16350 10250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R46
+L board_sierra-rescue:R_Small-Device R76
 U 1 1 816EAB40
 P 16350 10550
-F 0 "R46" V 16300 10400 50  0000 C CNN
+F 0 "R76" V 16300 10400 50  0000 C CNN
 F 1 "22" V 16300 10700 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16350 10550 50  0001 C CNN
 F 3 "~" H 16350 10550 50  0001 C CNN
@@ -8330,10 +8330,10 @@ F 3 "~" H 16350 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R45
+L board_sierra-rescue:R_Small-Device R72
 U 1 1 814F5F35
 P 16350 10450
-F 0 "R45" V 16300 10300 50  0000 C CNN
+F 0 "R72" V 16300 10300 50  0000 C CNN
 F 1 "22" V 16300 10600 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16350 10450 50  0001 C CNN
 F 3 "~" H 16350 10450 50  0001 C CNN
@@ -8341,10 +8341,10 @@ F 3 "~" H 16350 10450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R44
+L board_sierra-rescue:R_Small-Device R70
 U 1 1 80B2E7FA
 P 16350 10350
-F 0 "R44" V 16300 10200 50  0000 C CNN
+F 0 "R70" V 16300 10200 50  0000 C CNN
 F 1 "22" V 16300 10500 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" H 16350 10350 50  0001 C CNN
 F 3 "~" H 16350 10350 50  0001 C CNN
@@ -8352,10 +8352,10 @@ F 3 "~" H 16350 10350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R62
+L board_sierra-rescue:R-Device R27
 U 1 1 C1205819
 P 18350 2450
-F 0 "R62" H 18250 2600 50  0000 R CNN
+F 0 "R27" H 18250 2600 50  0000 R CNN
 F 1 "33k2" H 18250 2700 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 18280 2450 50  0001 C CNN
 F 3 "~" H 18350 2450 50  0001 C CNN
@@ -8385,10 +8385,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf?HQS=TI-null-null-mousermo
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C51
+L board_sierra-rescue:C-Device C22
 U 1 1 76660F44
 P 17050 2450
-F 0 "C51" H 17200 2400 50  0000 L CNN
+F 0 "C22" H 17200 2400 50  0000 L CNN
 F 1 "22n" H 17200 2300 50  0000 L CNN
 F 2 "VST104_footprints:C_SMD_0402" H 17088 2300 50  0001 C CNN
 F 3 "~" H 17050 2450 50  0001 C CNN
@@ -8407,10 +8407,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf?HQS=TI-null-null-mousermo
 	1    0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R59
+L board_sierra-rescue:R-Device R26
 U 1 1 C03876BF
 P 18200 2450
-F 0 "R59" H 18450 2600 50  0000 R CNN
+F 0 "R26" H 18450 2600 50  0000 R CNN
 F 1 "75k" H 18600 2700 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 18130 2450 50  0001 C CNN
 F 3 "~" H 18200 2450 50  0001 C CNN
@@ -8418,10 +8418,10 @@ F 3 "~" H 18200 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R54
+L board_sierra-rescue:R_Small-Device R28
 U 1 1 C4B95A51
 P 17000 2100
-F 0 "R54" H 17200 2150 50  0000 R CNN
+F 0 "R28" H 17200 2150 50  0000 R CNN
 F 1 "115k" H 17400 2050 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 2100 50  0001 C CNN
 F 3 "~" H 17000 2100 50  0001 C CNN
@@ -8429,10 +8429,10 @@ F 3 "~" H 17000 2100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R53
+L board_sierra-rescue:R_Small-Device R30
 U 1 1 C4D3CD6B
 P 17000 1900
-F 0 "R53" H 17059 1946 50  0000 L CNN
+F 0 "R30" H 17059 1946 50  0000 L CNN
 F 1 "22k6" H 17059 1855 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 1900 50  0001 C CNN
 F 3 "~" H 17000 1900 50  0001 C CNN
@@ -8440,10 +8440,10 @@ F 3 "~" H 17000 1900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R_Small-Device R52
+L board_sierra-rescue:R_Small-Device R32
 U 1 1 C4EE1A3B
 P 17000 1700
-F 0 "R52" H 17200 1750 50  0000 R CNN
+F 0 "R32" H 17200 1750 50  0000 R CNN
 F 1 "280k" H 17400 1650 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 1700 50  0001 C CNN
 F 3 "~" H 17000 1700 50  0001 C CNN
@@ -8451,10 +8451,10 @@ F 3 "~" H 17000 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L board_sierra-rescue:R-Device R58
+L board_sierra-rescue:R-Device R75
 U 1 1 5EFE3377
 P 17500 8300
-F 0 "R58" V 17293 8300 50  0000 C CNN
+F 0 "R75" V 17293 8300 50  0000 C CNN
 F 1 "1k" V 17384 8300 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0402" V 17430 8300 50  0001 C CNN
 F 3 "~" H 17500 8300 50  0001 C CNN
