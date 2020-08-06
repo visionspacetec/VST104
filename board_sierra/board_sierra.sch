@@ -3950,7 +3950,7 @@ I2C_1_SCL
 Wire Wire Line
 	19900 9950 20750 9950
 Text GLabel 19900 9850 0    50   Input ~ 0
-CAN_1_H
+CAN_1_P
 Text GLabel 19900 13000 0    50   Input ~ 0
 SUP_3V3
 Text GLabel 22100 13000 2    50   Input ~ 0
@@ -3994,7 +3994,7 @@ I2C_2_SCL
 Wire Wire Line
 	19900 12900 20750 12900
 Text GLabel 19900 12800 0    50   Input ~ 0
-CAN_2_H
+CAN_2_P
 Wire Wire Line
 	19900 13000 20750 13000
 Wire Wire Line
@@ -4034,7 +4034,7 @@ I2C_2_SDA
 Wire Wire Line
 	22100 13000 21250 13000
 Text GLabel 22100 12800 2    50   Input ~ 0
-CAN_2_L
+CAN_2_N
 Wire Wire Line
 	22100 13100 21250 13100
 Wire Wire Line
@@ -4068,7 +4068,7 @@ UART_RCS_1_RST
 Text GLabel 22100 9750 2    50   Input ~ 0
 I2C_1_SDA
 Text GLabel 22100 9850 2    50   Input ~ 0
-CAN_1_L
+CAN_1_N
 Wire Wire Line
 	22100 10150 21250 10150
 Text GLabel 22100 12900 2    50   Input ~ 0
@@ -5734,13 +5734,13 @@ Wire Wire Line
 Wire Wire Line
 	21500 7650 22050 7650
 Text Label 22050 6450 0    50   ~ 0
-CAN1_H
+CAN1_P
 Text Label 22050 6550 0    50   ~ 0
-CAN1_L
+CAN1_N
 Text Label 22050 7650 0    50   ~ 0
-CAN2_H
+CAN2_P
 Text Label 22050 7750 0    50   ~ 0
-CAN2_L
+CAN2_N
 Connection ~ 1650 14800
 Connection ~ 1700 14150
 Text Label 1450 14150 2    50   ~ 0
@@ -6653,11 +6653,11 @@ Wire Notes Line width 10
 Text Notes 9500 6950 0    65   ~ 13
 CAN & I2C isolators
 Text GLabel 11050 10000 2    50   Input ~ 0
-CAN_2_H
+CAN_2_P
 Text GLabel 11050 10100 2    50   Input ~ 0
 I2C_2_SCL
 Text GLabel 11050 9900 2    50   Input ~ 0
-CAN_2_L
+CAN_2_N
 Text GLabel 11050 10200 2    50   Input ~ 0
 I2C_2_SDA
 Text Label 8950 3850 2    50   ~ 0
@@ -6665,9 +6665,9 @@ I2C2_SDA
 Text Label 8950 3750 2    50   ~ 0
 I2C2_SCL
 Text Label 9400 9850 2    50   ~ 0
-CAN2_L
+CAN2_N
 Text Label 9400 9950 2    50   ~ 0
-CAN2_H
+CAN2_P
 Text Label 8950 3650 2    50   ~ 0
 I2C2_EN
 Text Label 9400 9650 2    50   ~ 0
@@ -6687,9 +6687,9 @@ I2C3_SDA
 Text Label 9450 8050 2    50   ~ 0
 I2C3_SCL
 Text Label 9450 7850 2    50   ~ 0
-CAN1_L
+CAN1_N
 Text Label 9450 7950 2    50   ~ 0
-CAN1_H
+CAN1_P
 Text Label 9450 8300 2    50   ~ 0
 I2C3_EN
 Text Label 9450 7650 2    50   ~ 0
@@ -6722,11 +6722,11 @@ Wire Wire Line
 Wire Wire Line
 	9650 8300 9450 8300
 Text GLabel 11050 8000 2    50   Input ~ 0
-CAN_1_H
+CAN_1_P
 Text GLabel 11050 8100 2    50   Input ~ 0
 I2C_1_SCL
 Text GLabel 11050 7900 2    50   Input ~ 0
-CAN_1_L
+CAN_1_N
 Text GLabel 11050 8200 2    50   Input ~ 0
 I2C_1_SDA
 $Comp
@@ -8474,6 +8474,10 @@ F 3 "https://www.mouser.de/datasheet/2/371/SiT8924-datasheet-1839508.pdf" H 1745
 $EndComp
 Text Label 10300 1300 0    50   ~ 0
 TEMP_VDD
+Text Label 20250 9850 0    50   ~ 0
+CAN_1_+
+Text Label 21450 9850 0    50   ~ 0
+CAN_1_-
 Wire Bus Line
 	14250 5400 14250 6450
 Wire Bus Line
