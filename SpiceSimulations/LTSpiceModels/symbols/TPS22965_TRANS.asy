@@ -5,7 +5,7 @@ WINDOW 0 8 -72 Bottom 2
 WINDOW 3 8 72 Top 2
 SYMATTR Prefix X
 SYMATTR Value TPS22965_TRANS
-SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\TPS22965_TRANS.LIB
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\TPS22965_TRANS.lib
 PIN 112 16 RIGHT 8
 PINATTR PinName CT
 PINATTR SpiceOrder 1

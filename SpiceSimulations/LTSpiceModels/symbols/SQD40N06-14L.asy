@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -32 -48 32 32
+WINDOW 0 0 -56 Bottom 2
+WINDOW 3 0 -80 Bottom 2
+SYMATTR Value SQD40N06-14L
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\SQD40N06-14L_PS.lib
+PIN 32 -32 RIGHT 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN 0 32 VLEFT 8
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN -32 -32 LEFT 8
+PINATTR PinName S
+PINATTR SpiceOrder 3

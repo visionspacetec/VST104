@@ -5,7 +5,7 @@ WINDOW 0 8 -184 Bottom 2
 WINDOW 3 9 247 Top 2
 SYMATTR Prefix X
 SYMATTR Value TPS25940-Q1_TRANS
-SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\TPS25940-Q1_TRANS.LIB
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\TPS25940-Q1_TRANS.lib
 PIN 128 96 RIGHT 8
 PINATTR PinName DEVSLP
 PINATTR SpiceOrder 1
