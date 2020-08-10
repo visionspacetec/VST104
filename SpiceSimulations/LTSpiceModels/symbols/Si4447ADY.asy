@@ -1,0 +1,37 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 80 16 16 16
+LINE Normal 48 16 48 0
+LINE Normal 16 24 16 8
+LINE Normal 16 56 16 40
+LINE Normal 16 88 16 72
+LINE Normal 80 80 16 80
+LINE Normal 24 48 16 48
+LINE Normal 48 16 48 48
+LINE Normal 24 56 24 40
+LINE Normal 48 96 48 80
+LINE Normal 8 80 8 16
+LINE Normal 0 16 8 16
+LINE Normal 80 39 80 16
+LINE Normal 80 80 80 56
+LINE Normal 88 39 72 39
+LINE Normal 88 56 72 56
+LINE Normal 80 39 72 56
+LINE Normal 88 56 80 39
+LINE Normal 40 48 48 48
+LINE Normal 24 40 40 48
+LINE Normal 24 56 40 48
+WINDOW 0 96 80 Left 2
+WINDOW 3 96 32 Left 2
+SYMATTR Value Si4447ADY
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\Si4447ADY_PS.lib
+PIN 48 96 NONE 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN 0 16 NONE 8
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 48 0 NONE 8
+PINATTR PinName S
+PINATTR SpiceOrder 3

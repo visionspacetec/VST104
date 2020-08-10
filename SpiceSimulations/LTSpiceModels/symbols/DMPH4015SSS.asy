@@ -1,0 +1,39 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 16 24 16 8
+LINE Normal 16 56 16 40
+LINE Normal 16 88 16 72
+LINE Normal 80 16 16 16
+LINE Normal 16 80 80 80
+LINE Normal 24 48 16 48
+LINE Normal 24 56 24 40
+LINE Normal 39 48 24 40
+LINE Normal 24 56 39 48
+LINE Normal 48 48 39 48
+LINE Normal 48 48 48 48
+LINE Normal 48 80 48 48
+LINE Normal 39 56 39 40
+LINE Normal 72 56 88 56
+LINE Normal 72 40 88 40
+LINE Normal 80 56 72 40
+LINE Normal 88 40 80 56
+LINE Normal 80 40 80 16
+LINE Normal 80 80 80 56
+LINE Normal 48 96 48 80
+LINE Normal 48 0 48 16
+LINE Normal 8 80 8 16
+LINE Normal 8 80 0 80
+WINDOW 0 112 32 Left 2
+WINDOW 3 112 64 Left 2
+SYMATTR Prefix X
+SYMATTR Value DMPH4015SSS
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\DMPH4015SSS.spice.txt
+PIN 48 0 NONE 8
+PINATTR PinName 10
+PINATTR SpiceOrder 1
+PIN 0 80 NONE 8
+PINATTR PinName 20
+PINATTR SpiceOrder 2
+PIN 48 96 NONE 8
+PINATTR PinName 30
+PINATTR SpiceOrder 3

@@ -1,0 +1,29 @@
+Circuit: * C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\power_protection\Draft2.asc
+
+Instance "m:u6:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u6:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:u1:1": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Aug 10 20:36:58 2020
+Total elapsed time: 0.239 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2095
+traniter = 2084
+tranpoints = 1043
+accept = 1043
+rejected = 0
+matrix size = 84
+fillins = 71
+solver = Normal
+Matrix Compiler1: 9.95 KB object code size  3.6/2.1/[1.0]
+Matrix Compiler2: 8.21 KB object code size  1.5/2.3/[1.0]
+

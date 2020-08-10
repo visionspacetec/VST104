@@ -1,0 +1,132 @@
+*$
+* TL431LI
+*****************************************************************************
+* (C) Copyright 2018 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: Texas Instruments Inc.
+* Part: TL431LI
+* Date: 05OCT2018
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: NA
+* EVM Users Guide: NA
+* Datasheet: SLVSDQ6 –JULY 2018
+* Topologies Supported: NA
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+*
+* Model Usage Notes:
+* 1. The following features have been modeled and Validated.
+*      a. Maximum Cathode Voltage.
+*      b. Minimum Cathode current for regulation.
+*      c. OFF STATE CATHODE CURRENT
+*      d. CATHODE VOLTAGE v/s CATHODE CURRENT
+*      e. PULSE RESPONSE
+*      f. Noise Analysis
+*      g. Reference Input Current
+*      h. Input Transient
+*      i. Regulation for negative supply
+*      j. Dynamic Impedance
+*      k. Open Loop Response
+*      l. Shunt Regulation behaviour
+* 2. Temperature effects are not modeled. 
+* 3. AC analysis or loop behaviour is not modeled.
+*
+*****************************************************************************
+.SUBCKT TL431LI_TRANS CATHODE REF ANODE  
+R_R10         E1 6  1  
+V_V3         7 CATHODE 0Vdc
+R_R2         6 N15061520  15.6  
+X_U6         FB_INT N17052054 vnse_mod PARAMS:
+G_G6         11 6 TABLE { V(VCTRL1, 6) } 
++ ( (-1,-100m) (-0.65,0)(2.49,30n)(1k,30n) )
+E_E27         REF_INT 0 VALUE { IF(V(N15148221,0)<2.45,V(N15148221,0),V(1)) }
+E_E1         CONTROL 0 N15061520 6 1
+E_ABM45         N14852177 0 VALUE { LIMIT(((V(B1)-V(E1))*7.2),2.495, 0)    }
+E_E29         FB_INT 0 REF 6 1
+G_G5         7 6 TABLE { V(VCTRL2, 6) } 
++ ( (-1,-100m) (-0.65,0)(2,0)(2.49,20u)(1k,20u) )
+V_V1         N17052054 11 0Vdc
+G_ABM2I2         6 8 VALUE { LIMIT(IF((V(CONTROL)-V(0))< 0 ,
++  1.73*(V(CONTROL)-V(0)) -1U, -1u),-15m,-18u*V(1,6))    }
+E_ABM4         VCTRL1 0 VALUE { if(ABS(V(11))<1u,0,V(1,6))    }
+C_C4         N15061520 6  0.5u  TC=0,0 
+E_E30         N15148221 0 REF 6 1
+R_R8         N14851981 N14852017  10  
+E_ABM3         VCTRL2 0 VALUE { if(ABS(V(11))<1u,0,V(1,6))    }
+D_D12         7 8 DCLAMP 
+V_V6         N14851981 6 100
+V_V2         5 6 2
+V_V4         6 ANODE 0Vdc
+R_R9         B1 REF  1.96Meg  
+D_D11         5 8 DCLAMP 
+X_U9         N14852017 B1 E1 bjt PARAMS:
+G_G4         0 N15061520 REF_INT 11 0.11
+E_E31         1 0 N14852177 0 1
+.ENDS TL431LI_TRANS
+*$
+.subckt vnse_mod 1 2
+.PARAM NLF=1000
+.PARAM FLW=13
+.PARAM NVR=200
+.PARAM GLF={PWR(FLW,0.25)*NLF/1164}
+.PARAM RNV={1.184*PWR(NVR,2)}
+.MODEL DVN D KF={15*PWR(FLW,0.2)/1E11} IS=1.0E-16
+I1 0 7 10E-3
+I2 0 8 10E-3
+D1 7 0 DVN
+D2 8 0 DVN
+E1 3 6 7 8 {GLF}
+R1 3 0 1E9
+R2 3 0 1E9
+R3 3 6 1E9
+E2 6 4 5 0 10
+R4 5 0 {RNV}
+R5 5 0 {RNV}
+R6 3 4 1E9
+R7 4 0 1E9
+E3 1 2 3 4 1
+C1 1 0 1E-15
+C2 2 0 1E-15
+C3 1 2 1E-15
+.ends vnse_mod
+*$
+.model DCLAMP d
++ is=1.35e-008
++ rs=0.025
++ n=1.59
++ cjo=4.5e-011
++ vj=0.75
++ m=0.302
++ tt=5.04e-008
++ bv=34
++ ibv=0.001
+*$
+.subckt bjt 3 2 1
+q1 3 2 1 npn_1 
+.model npn_1 npn
++ bf=450
++ is=1e-019
+.ends bjt
+*$

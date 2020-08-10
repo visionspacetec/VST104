@@ -1,31 +1,31 @@
 Version 4
 SymbolType BLOCK
+LINE Normal 48 16 48 0
 LINE Normal 16 24 16 8
 LINE Normal 16 56 16 40
 LINE Normal 16 88 16 72
+LINE Normal 80 16 16 16
 LINE Normal 80 80 16 80
-LINE Normal 16 16 80 16
 LINE Normal 48 96 48 80
 LINE Normal 8 80 8 16
 LINE Normal 0 80 8 80
 LINE Normal 24 48 16 48
-LINE Normal 40 40 24 48
-LINE Normal 40 57 40 40
-LINE Normal 24 48 40 57
 LINE Normal 48 48 40 48
-LINE Normal 48 79 48 48
-LINE Normal 88 40 72 40
+LINE Normal 48 80 48 48
+LINE Normal 40 56 40 40
+LINE Normal 24 48 40 40
+LINE Normal 40 56 24 48
+LINE Normal 72 40 88 40
+LINE Normal 72 55 88 55
+LINE Normal 80 40 80 16
 LINE Normal 72 55 80 40
-LINE Normal 88 55 72 55
 LINE Normal 80 40 88 55
-LINE Normal 80 55 80 80
-LINE Normal 80 16 80 40
-LINE Normal 48 16 48 0
-WINDOW 0 96 64 Left 2
-WINDOW 3 96 32 Left 2
-SYMATTR Value BSS127S
+LINE Normal 80 80 80 55
+WINDOW 0 112 32 Left 2
+WINDOW 3 112 80 Left 2
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\BSS127S.spice.txt
+SYMATTR Value DMT68M8LSS
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\DMT68M8LSS.spice.txt
 PIN 48 0 NONE 8
 PINATTR PinName 10
 PINATTR SpiceOrder 1

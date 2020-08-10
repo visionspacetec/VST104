@@ -1,0 +1,24 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -16 16 0 0
+LINE Normal 16 16 -16 16
+LINE Normal 0 0 16 16
+LINE Normal 16 0 -16 0
+LINE Normal -32 7 -7 7
+LINE Normal -48 16 -32 7
+LINE Normal 0 0 0 -16
+LINE Normal 0 32 0 16
+WINDOW 0 32 -9 Left 2
+WINDOW 3 32 24 Left 2
+SYMATTR Value TL431LI_TRANS
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\Filip.Filip\Documents\VST104\SpiceSimulations\LTSpiceModels\TL431LI_TRANS.LIB
+PIN 0 -16 NONE 8
+PINATTR PinName CATHODE
+PINATTR SpiceOrder 1
+PIN -48 16 NONE 8
+PINATTR PinName REF
+PINATTR SpiceOrder 2
+PIN 0 32 NONE 8
+PINATTR PinName ANODE
+PINATTR SpiceOrder 3

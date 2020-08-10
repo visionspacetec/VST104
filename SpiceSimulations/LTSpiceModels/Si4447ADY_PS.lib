@@ -1,0 +1,34 @@
+*Jun 24, 2013
+*ECN S13-1413, Rev. B
+*File Name: Si4447ADY_PS.txt, Si4447ADY_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT Si4447ADY D G S 
+M1 3 GX S S PMOS W= 2528000u L= 0.25u 
+M2 S GX S D NMOS W= 2528000u L= 3.752e-07 
+R1 D 3 2.898e-02 TC=5.343e-03 7.507e-06 
+CGS GX S 4.448e-10 
+CGD GX D 7.207e-12 
+RG G GY 5.5
+RTCV 100 S 1e6 TC=-2.812e-05 3.891e-07 
+ETCV GY GX 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD D S DBD 
+**************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 5e-8 
++ RS = 5.575e-04 KP = 1.848e-06 NSUB = 3.332e+16 
++ KAPPA = 1.493e-03 ETA = 7.993e-05 NFS = 1.525e+12 
++ LD = 0 IS = 0 TPG = -1) 
+*************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 5e-8 
++NSUB = 1.901e+16 IS = 0 TPG = -1 ) 
+**************************************************************** 
+.MODEL DBD D ( 
++FC = 0.1 TT = 1.000e-08 T_MEASURED = 25 BV = 41 
++RS = 1.096e-02 N = 1.119e+00 IS = 8.499e-12 
++EG = 1.198e+00 XTI = 2.000e-01 TRS1 = 2.885e-03 
++CJO = 1.805e-10 VJ = 3.000e-01 M = 4.235e-01 ) 
+.ENDS 

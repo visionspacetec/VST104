@@ -20,6 +20,10 @@ D ±0.25°C Typical Accuracy Digital Temperature Sensor
 F https://www.mouser.sk/datasheet/2/268/22203C-1020971.pdf
 $ENDCMP
 #
+$CMP OKL-T6-W12
+F https://www.mouser.sk/datasheet/2/281/okl-t6-w12-21493.pdf
+$ENDCMP
+#
 $CMP S25FL256L
 D 256-Mb (32-MB) 3.0 V FL-L Flash Memory
 F https://www.mouser.sk/datasheet/2/100/S25FL256L_S25FL128L_256-MB_32-MB_128-MB_16-MB_3.0_-1082553.pdf
