@@ -1,0 +1,38 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+*27-Aug-2018
+*ECN S18-0893, Rev. A
+*File Name: SQD40061EL_PS.txt and SQD40061EL_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SQD40061EL D G S 
+M1 3 GX S S PMOS W= 22820000u L= 0.30u 
+M2 S GX S D NMOS W= 22820000u L= 0.26u 
+R1 D 3 3.485e-03 TC=4.243e-03,4.551e-06
+CGS GX S 6.512e-09 
+CGD GX D 3.181e-10 
+RG G GY 3.6
+RTCV 100 S 1e6 TC=5.963e-04,2.114e-06
+ETCV GY GX 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD D S DBD 22820000u 
+**************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 5e-8 
++ RS = 0 KP = 2.740e-06 NSUB = 4.489e+16 
++ KAPPA = 5.937e-03 NFS = 4.045e+11 
++ LD = 0 IS = 0 TPG = -1    )
+*************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 5e-8 
++NSUB = 2.186e+16 IS = 0 TPG = -1    )
+**************************************************************** 
+.MODEL DBD D ( 
++FC = 0.1 TT = 5.979e-08 T_measured = 25 BV = 41
++RS = 3.568e-02 N = 1.009e+00 IS = 1.024e-13 
++EG = 8.468e-01 XTI = 1.000e+01 TRS1 = 1.058e-03
++CJO = 2.000e-11 VJ = 3.000e-01 M = 1.000e+00 ) 
+.ENDS 
