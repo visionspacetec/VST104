@@ -54,4 +54,10 @@ D TPS25940x-Q1 2.7-V to 18-V eFuse with Integrated Short-to-Battery Protection
 F https://www.ti.com/lit/ds/symlink/tps25940-q1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.sk%2F&distId=26
 $ENDCMP
 #
+$CMP USB_C_16
+D USB Type-C Plug connector
+K usb universal serial bus
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 #End Doc Library
