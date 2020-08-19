@@ -10,6 +10,10 @@ D 2-Mbit (256 K × 8) Serial (SPI) Automotive
 F https://www.mouser.sk/datasheet/2/100/001-89166_CY15B102Q_2-Mbit_256_K_8_Serial_SPI_Auto-837782.pdf
 $ENDCMP
 #
+$CMP Conn_01x45
+F ~
+$ENDCMP
+#
 $CMP DGQ2788A
 D Automotive 125 °C Analog Switch Dual DPDT / Quad SPDT, 0.37 Ω, 338 MHz Bandwidth
 F https://www.mouser.sk/datasheet/2/427/dgq2788a-1766761.pdf
