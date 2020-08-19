@@ -1,5 +1,6 @@
-(module ESQ-126-39-x-D (layer F.Cu) (tedit 5F33DCD6)
-  (descr board_sierra)
+(module ESQ-126-39-x-D (layer F.Cu) (tedit 5F3D392F)
+  (descr "elevated through-hole socket strip designed for higher profile board spacing of PC/104 boards")
+  (tags "PC104, connector, through-hole, socket strip")
   (fp_text reference Ref** (at -2.48 -1.27 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.16)))
   )

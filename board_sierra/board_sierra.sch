@@ -3766,12 +3766,6 @@ Text Label 18050 8550 0    50   ~ 0
 OSC_IN
 Text Label 16450 1300 2    50   ~ 0
 EF1_CUR
-Text Label 12450 8300 2    50   ~ 0
-SPI1_~CS~_1
-Text Label 12450 9300 2    50   ~ 0
-SPI1_~CS~_2
-Text Label 12450 10300 2    50   ~ 0
-SPI1_~CS~_3
 Text Label 14550 8150 0    50   ~ 0
 SPI1_SCK
 Text Label 14550 8250 0    50   ~ 0
@@ -3782,12 +3776,6 @@ Text Label 14550 8450 0    50   ~ 0
 SPI1_~WP
 Text Label 14550 8550 0    50   ~ 0
 SPI1_~HOLD
-Text Label 12450 4850 2    50   ~ 0
-QSPI_~CS~_1
-Text Label 12450 5900 2    50   ~ 0
-QSPI_~CS~_2
-Text Label 12450 6850 2    50   ~ 0
-QSPI_~CS~_3
 Text Label 4450 12150 2    50   ~ 0
 USER3_EN
 Text Label 4450 12350 2    50   ~ 0
@@ -6267,10 +6255,6 @@ Wire Wire Line
 	6050 6050 5200 6050
 Wire Wire Line
 	6050 5950 5200 5950
-Text Label 6050 3750 0    50   ~ 0
-QSPI_~CS~_1
-Text Label 6050 3850 0    50   ~ 0
-QSPI_~CS~_2
 Wire Wire Line
 	6050 3750 5200 3750
 Wire Wire Line
@@ -6285,8 +6269,6 @@ Text Label 1950 7950 2    50   ~ 0
 QSPI_BK1_IO0
 Text Label 1950 8150 2    50   ~ 0
 QSPI_CLK
-Text Label 6050 3950 0    50   ~ 0
-QSPI_~CS~_3
 Wire Wire Line
 	5200 3950 6050 3950
 Wire Wire Line
@@ -7289,16 +7271,10 @@ Text Label 6050 7250 0    50   ~ 0
 SPI1_~WP
 Text Label 6050 7150 0    50   ~ 0
 SPI1_~HOLD
-Text Label 6050 4050 0    50   ~ 0
-SPI1_~CS~_3
 Wire Wire Line
 	5200 4050 6050 4050
-Text Label 6050 4150 0    50   ~ 0
-SPI1_~CS~_2
 Wire Wire Line
 	5200 4150 6050 4150
-Text Label 6050 7550 0    50   ~ 0
-SPI1_~CS~_1
 Wire Wire Line
 	5200 7550 6050 7550
 Wire Wire Line
@@ -8502,4 +8478,28 @@ Wire Bus Line
 	13100 6450 14250 6450
 Wire Bus Line
 	13100 7400 14250 7400
+Text Label 12450 4850 2    50   ~ 0
+QSPI_CS1
+Text Label 6050 3750 0    50   ~ 0
+QSPI_CS1
+Text Label 12450 5900 2    50   ~ 0
+QSPI_CS2
+Text Label 6050 3850 0    50   ~ 0
+QSPI_CS2
+Text Label 12450 6850 2    50   ~ 0
+QSPI_CS3
+Text Label 6050 3950 0    50   ~ 0
+QSPI_CS3
+Text Label 12450 10300 2    50   ~ 0
+SPI1_CS3
+Text Label 6050 4050 0    50   ~ 0
+SPI1_CS3
+Text Label 12450 9300 2    50   ~ 0
+SPI1_CS2
+Text Label 6050 4150 0    50   ~ 0
+SPI1_CS2
+Text Label 12450 8300 2    50   ~ 0
+SPI1_CS1
+Text Label 6050 7550 0    50   ~ 0
+SPI1_CS1
 $EndSCHEMATC
