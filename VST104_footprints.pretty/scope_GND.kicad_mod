@@ -1,5 +1,6 @@
-(module scope_GND (layer F.Cu) (tedit 5F281C20)
+(module scope_GND (layer F.Cu) (tedit 5F4553B7)
   (descr board_sierra)
+  (clearance 0.2)
   (fp_text reference Ref** (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.16)))
   )
