@@ -1616,666 +1616,6 @@ Text GLabel 16450 3650 0    50   Input ~ 0
 SUP_5V
 Text Notes 16500 950  0    65   ~ 13
 Power UV, OV, current protection and KillSwitch\n
-$Comp
-L board_sierra-rescue:GND-power #PWR047
-U 1 1 B05C6301
-P 10050 2800
-F 0 "#PWR047" H 10050 2550 50  0001 C CNN
-F 1 "GND" V 10055 2672 50  0000 R CNN
-F 2 "" H 10050 2800 50  0001 C CNN
-F 3 "" H 10050 2800 50  0001 C CNN
-	1    10050 2800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8950 3650 9200 3650
-Wire Notes Line width 10
-	9000 4000 15000 4000
-Wire Notes Line width 10
-	9000 1000 9000 4000
-Wire Notes Line width 10
-	15000 1000 9000 1000
-Connection ~ 10200 3850
-Connection ~ 9900 3750
-Wire Wire Line
-	10600 3750 11000 3750
-Connection ~ 10600 3750
-Wire Wire Line
-	10200 3850 10700 3850
-Wire Wire Line
-	10600 2350 10600 3750
-Wire Wire Line
-	10700 3850 11100 3850
-Connection ~ 10700 3850
-Wire Wire Line
-	10700 2450 10700 3850
-Wire Wire Line
-	10800 2700 11100 2700
-Wire Wire Line
-	10800 1300 11100 1300
-Connection ~ 11100 2700
-Wire Wire Line
-	11100 2700 11100 2850
-Wire Wire Line
-	14150 2700 14150 2850
-Wire Wire Line
-	13100 2700 13100 2850
-Wire Wire Line
-	14150 2700 13850 2700
-Connection ~ 11100 1300
-Connection ~ 12150 1300
-Wire Wire Line
-	11100 1300 11100 1450
-Wire Wire Line
-	12150 1300 11100 1300
-Connection ~ 13150 1300
-Wire Wire Line
-	12150 1300 12150 1450
-Wire Wire Line
-	13150 1300 12900 1300
-Wire Wire Line
-	14150 1300 14150 1450
-Wire Wire Line
-	13150 1300 13150 1450
-Wire Wire Line
-	14150 1300 13900 1300
-$Comp
-L board_sierra-rescue:GND-power #PWR058
-U 1 1 80FF84E4
-P 11000 1550
-F 0 "#PWR058" H 11000 1300 50  0001 C CNN
-F 1 "GND" H 11005 1377 50  0000 C CNN
-F 2 "" H 11000 1550 50  0001 C CNN
-F 3 "" H 11000 1550 50  0001 C CNN
-	1    11000 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR0103
-U 1 1 5F4E16BB
-P 14050 2950
-F 0 "#PWR0103" H 14050 2700 50  0001 C CNN
-F 1 "GND" H 14055 2777 50  0000 C CNN
-F 2 "" H 14050 2950 50  0001 C CNN
-F 3 "" H 14050 2950 50  0001 C CNN
-	1    14050 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR079
-U 1 1 5F187C0F
-P 13000 2950
-F 0 "#PWR079" H 13000 2700 50  0001 C CNN
-F 1 "GND" H 13005 2777 50  0000 C CNN
-F 2 "" H 13000 2950 50  0001 C CNN
-F 3 "" H 13000 2950 50  0001 C CNN
-	1    13000 2950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14150 2850 14150 2950
-Connection ~ 14150 2850
-Wire Wire Line
-	14200 2850 14150 2850
-$Comp
-L board_sierra-rescue:GND-power #PWR0108
-U 1 1 5F4E16B4
-P 14550 2850
-F 0 "#PWR0108" H 14550 2600 50  0001 C CNN
-F 1 "GND" V 14555 2722 50  0000 R CNN
-F 2 "" H 14550 2850 50  0001 C CNN
-F 3 "" H 14550 2850 50  0001 C CNN
-	1    14550 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:C-Device C55
-U 1 1 5F4E16AE
-P 14350 2850
-F 0 "C55" V 14400 2700 50  0000 C CNN
-F 1 "100n" V 14300 2700 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 14388 2700 50  0001 C CNN
-F 3 "~" H 14350 2850 50  0001 C CNN
-	1    14350 2850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14550 2850 14500 2850
-Wire Wire Line
-	11100 2850 11100 2950
-Connection ~ 11100 2850
-Wire Wire Line
-	11150 2850 11100 2850
-$Comp
-L board_sierra-rescue:GND-power #PWR059
-U 1 1 5F49154A
-P 11000 2950
-F 0 "#PWR059" H 11000 2700 50  0001 C CNN
-F 1 "GND" H 11005 2777 50  0000 C CNN
-F 2 "" H 11000 2950 50  0001 C CNN
-F 3 "" H 11000 2950 50  0001 C CNN
-	1    11000 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR064
-U 1 1 5F491543
-P 11500 2850
-F 0 "#PWR064" H 11500 2600 50  0001 C CNN
-F 1 "GND" V 11505 2722 50  0000 R CNN
-F 2 "" H 11500 2850 50  0001 C CNN
-F 3 "" H 11500 2850 50  0001 C CNN
-	1    11500 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:C-Device C56
-U 1 1 5F49153D
-P 11300 2850
-F 0 "C56" V 11350 2700 50  0000 C CNN
-F 1 "100n" V 11250 2700 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 11338 2700 50  0001 C CNN
-F 3 "~" H 11300 2850 50  0001 C CNN
-	1    11300 2850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11500 2850 11450 2850
-Wire Wire Line
-	14150 1450 14150 1550
-Connection ~ 14150 1450
-Wire Wire Line
-	14200 1450 14150 1450
-$Comp
-L board_sierra-rescue:GND-power #PWR0102
-U 1 1 5F46C3B1
-P 14050 1550
-F 0 "#PWR0102" H 14050 1300 50  0001 C CNN
-F 1 "GND" H 14055 1377 50  0000 C CNN
-F 2 "" H 14050 1550 50  0001 C CNN
-F 3 "" H 14050 1550 50  0001 C CNN
-	1    14050 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR0106
-U 1 1 5F46C3AA
-P 14550 1450
-F 0 "#PWR0106" H 14550 1200 50  0001 C CNN
-F 1 "GND" V 14555 1322 50  0000 R CNN
-F 2 "" H 14550 1450 50  0001 C CNN
-F 3 "" H 14550 1450 50  0001 C CNN
-	1    14550 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:C-Device C59
-U 1 1 5F46C3A4
-P 14350 1450
-F 0 "C59" V 14400 1300 50  0000 C CNN
-F 1 "100n" V 14300 1300 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 14388 1300 50  0001 C CNN
-F 3 "~" H 14350 1450 50  0001 C CNN
-	1    14350 1450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14550 1450 14500 1450
-Wire Wire Line
-	13150 1450 13150 1550
-Connection ~ 13150 1450
-Wire Wire Line
-	13200 1450 13150 1450
-$Comp
-L board_sierra-rescue:GND-power #PWR080
-U 1 1 5F4478B0
-P 13050 1550
-F 0 "#PWR080" H 13050 1300 50  0001 C CNN
-F 1 "GND" H 13055 1377 50  0000 C CNN
-F 2 "" H 13050 1550 50  0001 C CNN
-F 3 "" H 13050 1550 50  0001 C CNN
-	1    13050 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR083
-U 1 1 5F4478A9
-P 13550 1450
-F 0 "#PWR083" H 13550 1200 50  0001 C CNN
-F 1 "GND" V 13555 1322 50  0000 R CNN
-F 2 "" H 13550 1450 50  0001 C CNN
-F 3 "" H 13550 1450 50  0001 C CNN
-	1    13550 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:C-Device C51
-U 1 1 5F4478A3
-P 13350 1450
-F 0 "C51" V 13400 1300 50  0000 C CNN
-F 1 "100n" V 13300 1300 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 13388 1300 50  0001 C CNN
-F 3 "~" H 13350 1450 50  0001 C CNN
-	1    13350 1450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13550 1450 13500 1450
-Wire Wire Line
-	12150 1450 12150 1550
-Connection ~ 12150 1450
-Wire Wire Line
-	12200 1450 12150 1450
-$Comp
-L board_sierra-rescue:GND-power #PWR069
-U 1 1 5F42426A
-P 12050 1550
-F 0 "#PWR069" H 12050 1300 50  0001 C CNN
-F 1 "GND" H 12055 1377 50  0000 C CNN
-F 2 "" H 12050 1550 50  0001 C CNN
-F 3 "" H 12050 1550 50  0001 C CNN
-	1    12050 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR070
-U 1 1 5F424263
-P 12550 1450
-F 0 "#PWR070" H 12550 1200 50  0001 C CNN
-F 1 "GND" V 12555 1322 50  0000 R CNN
-F 2 "" H 12550 1450 50  0001 C CNN
-F 3 "" H 12550 1450 50  0001 C CNN
-	1    12550 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:C-Device C68
-U 1 1 5F42425D
-P 12350 1450
-F 0 "C68" V 12400 1300 50  0000 C CNN
-F 1 "100n" V 12300 1300 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 12388 1300 50  0001 C CNN
-F 3 "~" H 12350 1450 50  0001 C CNN
-	1    12350 1450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12550 1450 12500 1450
-Wire Wire Line
-	11100 1450 11100 1550
-Connection ~ 11100 1450
-Wire Wire Line
-	11150 1450 11100 1450
-Wire Wire Line
-	13100 2850 13100 2950
-Connection ~ 13100 2850
-Wire Wire Line
-	13150 2850 13100 2850
-$Comp
-L board_sierra-rescue:GND-power #PWR060
-U 1 1 5F57AFB8
-P 11500 1450
-F 0 "#PWR060" H 11500 1200 50  0001 C CNN
-F 1 "GND" V 11505 1322 50  0000 R CNN
-F 2 "" H 11500 1450 50  0001 C CNN
-F 3 "" H 11500 1450 50  0001 C CNN
-	1    11500 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:C-Device C72
-U 1 1 5F140753
-P 11300 1450
-F 0 "C72" V 11350 1300 50  0000 C CNN
-F 1 "100n" V 11250 1300 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 11338 1300 50  0001 C CNN
-F 3 "~" H 11300 1450 50  0001 C CNN
-	1    11300 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:C-Device C53
-U 1 1 5F17C434
-P 13300 2850
-F 0 "C53" V 13250 3000 50  0000 C CNN
-F 1 "100n" V 13350 3000 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 13338 2700 50  0001 C CNN
-F 3 "~" H 13300 2850 50  0001 C CNN
-	1    13300 2850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13450 2850 13500 2850
-$Comp
-L board_sierra-rescue:GND-power #PWR081
-U 1 1 5F1971E9
-P 13500 2850
-F 0 "#PWR081" H 13500 2600 50  0001 C CNN
-F 1 "GND" V 13500 2650 50  0000 C CNN
-F 2 "" H 13500 2850 50  0001 C CNN
-F 3 "" H 13500 2850 50  0001 C CNN
-	1    13500 2850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11500 1450 11450 1450
-$Comp
-L VST104:MCP9804 TS3
-U 1 1 5F4E16A1
-P 14000 3500
-F 0 "TS3" H 14400 4000 50  0000 R CNN
-F 1 "MCP9804" H 14550 3450 50  0000 R CNN
-F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 14000 3500 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 3500 50  0001 C CNN
-	1    14000 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L VST104:MCP9804 TS4
-U 1 1 5F491530
-P 10950 3500
-F 0 "TS4" H 11350 4000 50  0000 R CNN
-F 1 "MCP9804" H 11500 3450 50  0000 R CNN
-F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 10950 3500 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 10950 3500 50  0001 C CNN
-	1    10950 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L VST104:MCP9804 TS5
-U 1 1 5F46C397
-P 14000 2100
-F 0 "TS5" H 14400 2600 50  0000 R CNN
-F 1 "MCP9804" H 14550 2050 50  0000 R CNN
-F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 14000 2100 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 2100 50  0001 C CNN
-	1    14000 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VST104:MCP9804 TS1
-U 1 1 5F447896
-P 13000 2100
-F 0 "TS1" H 13400 2600 50  0000 R CNN
-F 1 "MCP9804" H 13550 2050 50  0000 R CNN
-F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 13000 2100 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 13000 2100 50  0001 C CNN
-	1    13000 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VST104:MCP9804 TS6
-U 1 1 5F424250
-P 12000 2100
-F 0 "TS6" H 12400 2600 50  0000 R CNN
-F 1 "MCP9804" H 12550 2050 50  0000 R CNN
-F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 12000 2100 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12000 2100 50  0001 C CNN
-	1    12000 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VST104:MCP9804 TS2
-U 1 1 5F05168F
-P 12950 3500
-F 0 "TS2" H 13350 4000 50  0000 R CNN
-F 1 "MCP9804" H 13500 3450 50  0000 R CNN
-F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 12950 3500 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12950 3500 50  0001 C CNN
-	1    12950 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L VST104:MCP9804 TS7
-U 1 1 5F050A6F
-P 10950 2100
-F 0 "TS7" H 11350 2600 50  0000 R CNN
-F 1 "MCP9804" H 11500 2050 50  0000 R CNN
-F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 10950 2100 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 10950 2100 50  0001 C CNN
-	1    10950 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14150 3600 14150 3850
-Wire Wire Line
-	14050 3600 14050 3750
-NoConn ~ 14550 3100
-Wire Wire Line
-	11100 3600 11100 3850
-Wire Wire Line
-	11000 3600 11000 3750
-NoConn ~ 11500 3100
-$Comp
-L board_sierra-rescue:GND-power #PWR066
-U 1 1 5F49151D
-P 11500 3350
-F 0 "#PWR066" H 11500 3100 50  0001 C CNN
-F 1 "GND" V 11505 3222 50  0000 R CNN
-F 2 "" H 11500 3350 50  0001 C CNN
-F 3 "" H 11500 3350 50  0001 C CNN
-	1    11500 3350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR065
-U 1 1 5F491529
-P 11500 3250
-F 0 "#PWR065" H 11500 3000 50  0001 C CNN
-F 1 "GND" V 11505 3122 50  0000 R CNN
-F 2 "" H 11500 3250 50  0001 C CNN
-F 3 "" H 11500 3250 50  0001 C CNN
-	1    11500 3250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14150 2200 14150 2450
-Wire Wire Line
-	14050 2200 14050 2350
-NoConn ~ 14550 1700
-$Comp
-L board_sierra-rescue:GND-power #PWR0107
-U 1 1 5F46C38A
-P 14550 2050
-F 0 "#PWR0107" H 14550 1800 50  0001 C CNN
-F 1 "GND" V 14555 1922 50  0000 R CNN
-F 2 "" H 14550 2050 50  0001 C CNN
-F 3 "" H 14550 2050 50  0001 C CNN
-	1    14550 2050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13150 2200 13150 2450
-Wire Wire Line
-	13050 2200 13050 2350
-NoConn ~ 13550 1700
-$Comp
-L board_sierra-rescue:GND-power #PWR085
-U 1 1 5F447889
-P 13550 2050
-F 0 "#PWR085" H 13550 1800 50  0001 C CNN
-F 1 "GND" V 13555 1922 50  0000 R CNN
-F 2 "" H 13550 2050 50  0001 C CNN
-F 3 "" H 13550 2050 50  0001 C CNN
-	1    13550 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR084
-U 1 1 5F44788F
-P 13550 1850
-F 0 "#PWR084" H 13550 1600 50  0001 C CNN
-F 1 "GND" V 13555 1722 50  0000 R CNN
-F 2 "" H 13550 1850 50  0001 C CNN
-F 3 "" H 13550 1850 50  0001 C CNN
-	1    13550 1850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12150 2200 12150 2450
-Wire Wire Line
-	12050 2200 12050 2350
-NoConn ~ 12550 1700
-$Comp
-L board_sierra-rescue:GND-power #PWR072
-U 1 1 5F424249
-P 12550 2050
-F 0 "#PWR072" H 12550 1800 50  0001 C CNN
-F 1 "GND" V 12555 1922 50  0000 R CNN
-F 2 "" H 12550 2050 50  0001 C CNN
-F 3 "" H 12550 2050 50  0001 C CNN
-	1    12550 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR071
-U 1 1 5F42423D
-P 12550 1950
-F 0 "#PWR071" H 12550 1700 50  0001 C CNN
-F 1 "GND" V 12555 1822 50  0000 R CNN
-F 2 "" H 12550 1950 50  0001 C CNN
-F 3 "" H 12550 1950 50  0001 C CNN
-	1    12550 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13100 3600 13100 3850
-Wire Wire Line
-	13000 3750 13000 3600
-NoConn ~ 13500 3100
-$Comp
-L board_sierra-rescue:GND-power #PWR082
-U 1 1 5F11AE5E
-P 13500 3250
-F 0 "#PWR082" H 13500 3000 50  0001 C CNN
-F 1 "GND" V 13505 3122 50  0000 R CNN
-F 2 "" H 13500 3250 50  0001 C CNN
-F 3 "" H 13500 3250 50  0001 C CNN
-	1    13500 3250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11100 2200 11100 2450
-Wire Wire Line
-	11000 2200 11000 2350
-NoConn ~ 11500 1700
-$Comp
-L board_sierra-rescue:GND-power #PWR063
-U 1 1 5F11A47A
-P 11500 2050
-F 0 "#PWR063" H 11500 1800 50  0001 C CNN
-F 1 "GND" V 11505 1922 50  0000 R CNN
-F 2 "" H 11500 2050 50  0001 C CNN
-F 3 "" H 11500 2050 50  0001 C CNN
-	1    11500 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR062
-U 1 1 5F1192C9
-P 11500 1950
-F 0 "#PWR062" H 11500 1700 50  0001 C CNN
-F 1 "GND" V 11505 1822 50  0000 R CNN
-F 2 "" H 11500 1950 50  0001 C CNN
-F 3 "" H 11500 1950 50  0001 C CNN
-	1    11500 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR061
-U 1 1 5F578F98
-P 11500 1850
-F 0 "#PWR061" H 11500 1600 50  0001 C CNN
-F 1 "GND" V 11505 1722 50  0000 R CNN
-F 2 "" H 11500 1850 50  0001 C CNN
-F 3 "" H 11500 1850 50  0001 C CNN
-	1    11500 1850
-	0    -1   -1   0   
-$EndComp
-Text Notes 9000 950  0    65   ~ 13
-Temperature measurement\n
-Wire Wire Line
-	8950 3850 9600 3850
-Wire Wire Line
-	10700 2450 11100 2450
-Wire Wire Line
-	10200 3550 10200 3850
-$Comp
-L board_sierra-rescue:+3V3-power #PWR049
-U 1 1 5F8F5B24
-P 10200 3250
-F 0 "#PWR049" H 10200 3100 50  0001 C CNN
-F 1 "+3V3" H 10215 3423 50  0000 C CNN
-F 2 "" H 10200 3250 50  0001 C CNN
-F 3 "" H 10200 3250 50  0001 C CNN
-	1    10200 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L board_sierra-rescue:R-Device R84
-U 1 1 5F31B6BC
-P 10200 3400
-F 0 "R84" H 10270 3446 50  0000 L CNN
-F 1 "10k" H 10270 3355 50  0000 L CNN
-F 2 "VST104_footprints:R_SMD_0402" V 10130 3400 50  0001 C CNN
-F 3 "~" H 10200 3400 50  0001 C CNN
-	1    10200 3400
-	1    0    0    -1  
-$EndComp
-Connection ~ 13000 3750
-Wire Wire Line
-	13100 3850 14150 3850
-Connection ~ 13100 3850
-Wire Notes Line width 10
-	15000 1000 15000 4000
-Connection ~ 11000 2350
-Connection ~ 11100 2450
-Wire Wire Line
-	13000 3750 14050 3750
-Wire Wire Line
-	9900 3750 10600 3750
-Wire Wire Line
-	13150 2450 14150 2450
-Connection ~ 13150 2450
-Wire Wire Line
-	13050 2350 14050 2350
-Connection ~ 13050 2350
-Wire Wire Line
-	12150 2450 13150 2450
-Connection ~ 12150 2450
-Wire Wire Line
-	12050 2350 13050 2350
-Connection ~ 12050 2350
-Wire Wire Line
-	11000 2350 12050 2350
-Wire Wire Line
-	11100 2450 12150 2450
-$Comp
-L board_sierra-rescue:R-Device R83
-U 1 1 5F2FB296
-P 9900 3400
-F 0 "R83" H 9970 3446 50  0000 L CNN
-F 1 "10k" H 9970 3355 50  0000 L CNN
-F 2 "VST104_footprints:R_SMD_0402" V 9830 3400 50  0001 C CNN
-F 3 "~" H 9900 3400 50  0001 C CNN
-	1    9900 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L board_sierra-rescue:+3V3-power #PWR042
-U 1 1 5F8F6282
-P 9900 3250
-F 0 "#PWR042" H 9900 3100 50  0001 C CNN
-F 1 "+3V3" H 9915 3423 50  0000 C CNN
-F 2 "" H 9900 3250 50  0001 C CNN
-F 3 "" H 9900 3250 50  0001 C CNN
-	1    9900 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 3550 9900 3750
-Wire Wire Line
-	8950 3750 9400 3750
 Wire Wire Line
 	13150 8750 13150 8700
 Wire Wire Line
@@ -3278,24 +2618,6 @@ F 3 "~" H 21500 6300 50  0001 C CNN
 	1    21500 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 2800 9200 2800
-Wire Wire Line
-	9200 2050 9500 2050
-$Comp
-L board_sierra-rescue:+3V3-power #PWR034
-U 1 1 62374536
-P 9200 1450
-F 0 "#PWR034" H 9200 1300 50  0001 C CNN
-F 1 "+3V3" V 9300 1500 50  0000 C CNN
-F 2 "" H 9200 1450 50  0001 C CNN
-F 3 "" H 9200 1450 50  0001 C CNN
-	1    9200 1450
-	0    -1   -1   0   
-$EndComp
-Connection ~ 9200 2800
-Wire Wire Line
-	9200 2800 9200 3650
 Text Notes 16000 6950 0    65   ~ 13
 I2C 1 & 2 pull-up
 $Comp
@@ -3346,17 +2668,6 @@ F 3 "~" H 18800 15000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 19150 15100
-$Comp
-L board_sierra-rescue:R-Device R15
-U 1 1 B05C62FB
-P 9800 2800
-F 0 "R15" V 9900 2800 50  0000 C CNN
-F 1 "100k" V 9700 2800 50  0000 C CNN
-F 2 "VST104_footprints:R_SMD_0402" V 9730 2800 50  0001 C CNN
-F 3 "~" H 9800 2800 50  0001 C CNN
-	1    9800 2800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	20400 7650 20900 7650
 Wire Wire Line
@@ -3385,8 +2696,6 @@ F 3 "" H 20450 7350 50  0001 C CNN
 $EndComp
 Text GLabel 16100 3000 0    50   Input ~ 0
 GLO_KS_1
-Wire Wire Line
-	10600 2350 11000 2350
 $Comp
 L VST104:DGQ2788A AS12
 U 1 1 6DEF771A
@@ -3410,8 +2719,6 @@ F 3 "" H 2800 11800 50  0001 C CNN
 	1    2800 11800
 	-1   0    0    1   
 $EndComp
-Connection ~ 11000 3750
-Connection ~ 11100 3850
 Wire Wire Line
 	16650 8800 16900 8800
 $Comp
@@ -4125,120 +3432,6 @@ F 3 "~" H 16700 13950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10800 1300 10800 2700
-Wire Wire Line
-	10200 1650 10300 1650
-$Comp
-L board_sierra-rescue:GND-power #PWR050
-U 1 1 6DC6F67B
-P 10300 1850
-F 0 "#PWR050" H 10300 1600 50  0001 C CNN
-F 1 "GND" H 10305 1677 50  0000 C CNN
-F 2 "" H 10300 1850 50  0001 C CNN
-F 3 "" H 10300 1850 50  0001 C CNN
-	1    10300 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L board_sierra-rescue:C_Small-Device C9
-U 1 1 6DC6F682
-P 10300 1750
-F 0 "C9" H 10392 1796 50  0000 L CNN
-F 1 "1n" H 10392 1705 50  0000 L CNN
-F 2 "VST104_footprints:C_SMD_0402" H 10300 1750 50  0001 C CNN
-F 3 "~" H 10300 1750 50  0001 C CNN
-	1    10300 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 1850 10300 1850
-Connection ~ 10300 1850
-$Comp
-L board_sierra-rescue:D_Schottky-Device D2
-U 1 1 6F3E4CA1
-P 9650 2200
-F 0 "D2" H 9650 2300 50  0000 C CNN
-F 1 "CDBQR40" H 9650 2100 50  0000 C CNN
-F 2 "VST104_footprints:D_SMD_0402" H 9650 2200 50  0001 C CNN
-F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 9650 2200 50  0001 C CNN
-	1    9650 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 2200 9400 2200
-$Comp
-L board_sierra-rescue:C-Device C14
-U 1 1 6F3E4CAA
-P 9800 2450
-F 0 "C14" V 9750 2600 50  0000 C CNN
-F 1 "100n" V 9850 2600 50  0000 C CNN
-F 2 "VST104_footprints:C_SMD_0402" H 9838 2300 50  0001 C CNN
-F 3 "~" H 9800 2450 50  0001 C CNN
-	1    9800 2450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9650 2450 9400 2450
-Wire Wire Line
-	9400 2450 9400 2200
-Connection ~ 9400 2200
-$Comp
-L board_sierra-rescue:GND-power #PWR046
-U 1 1 6F3E4CB9
-P 10000 2450
-F 0 "#PWR046" H 10000 2200 50  0001 C CNN
-F 1 "GND" V 10005 2322 50  0000 R CNN
-F 2 "" H 10000 2450 50  0001 C CNN
-F 3 "" H 10000 2450 50  0001 C CNN
-	1    10000 2450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9200 1450 9300 1450
-Wire Wire Line
-	9400 1650 9400 2200
-Wire Wire Line
-	9400 1650 9500 1650
-$Comp
-L board_sierra-rescue:+3V3-power #PWR048
-U 1 1 709648AB
-P 10100 2200
-F 0 "#PWR048" H 10100 2050 50  0001 C CNN
-F 1 "+3V3" V 10115 2328 50  0000 L CNN
-F 2 "" H 10100 2200 50  0001 C CNN
-F 3 "" H 10100 2200 50  0001 C CNN
-	1    10100 2200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9950 2450 10000 2450
-Wire Wire Line
-	9950 2800 10050 2800
-Wire Wire Line
-	10150 1200 10200 1200
-Wire Wire Line
-	10200 1200 10200 1300
-Wire Wire Line
-	9550 1200 9500 1200
-Wire Wire Line
-	9500 1200 9500 1450
-$Comp
-L board_sierra-rescue:D_Schottky-Device D1
-U 1 1 720B922A
-P 9700 1200
-F 0 "D1" H 9700 1300 50  0000 C CNN
-F 1 "CDBQR40" H 9700 1100 50  0000 C CNN
-F 2 "VST104_footprints:D_SMD_0402" H 9700 1200 50  0001 C CNN
-F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 9700 1200 50  0001 C CNN
-	1    9700 1200
-	1    0    0    -1  
-$EndComp
-Connection ~ 9500 1450
-Connection ~ 10800 1300
-Connection ~ 10200 1300
-Wire Wire Line
-	10200 1300 10200 1450
-Wire Wire Line
 	21100 3650 21550 3650
 Connection ~ 21550 3650
 Wire Wire Line
@@ -4385,8 +3578,8 @@ $Comp
 L board_sierra-rescue:R-Device R36
 U 1 1 77FF02A4
 P 18200 4500
-F 0 "R36" H 18450 4650 50  0000 R CNN
-F 1 "75k" H 18600 4750 50  0000 R CNN
+F 0 "R36" H 18130 4454 50  0000 R CNN
+F 1 "75k" H 18130 4545 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 18130 4500 50  0001 C CNN
 F 3 "~" H 18200 4500 50  0001 C CNN
 	1    18200 4500
@@ -6642,16 +5835,10 @@ Text GLabel 11050 9900 2    50   Input ~ 0
 CAN_2_N
 Text GLabel 11050 10200 2    50   Input ~ 0
 I2C_2_SDA
-Text Label 8950 3850 2    50   ~ 0
-I2C2_SDA
-Text Label 8950 3750 2    50   ~ 0
-I2C2_SCL
 Text Label 9400 9850 2    50   ~ 0
 CAN2_N
 Text Label 9400 9950 2    50   ~ 0
 CAN2_P
-Text Label 8950 3650 2    50   ~ 0
-I2C2_EN
 Text Label 9400 9650 2    50   ~ 0
 CAN2_EN
 Wire Wire Line
@@ -6969,67 +6156,6 @@ F 3 "~" H 21450 15100 50  0001 C CNN
 	1    21450 15100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14150 2700 14900 2700
-Wire Wire Line
-	14900 2700 14900 3250
-Wire Wire Line
-	14900 3250 14550 3250
-Connection ~ 14150 2700
-Wire Wire Line
-	14550 3350 14900 3350
-Wire Wire Line
-	14900 3350 14900 3250
-Connection ~ 14900 3250
-Wire Wire Line
-	14550 3450 14900 3450
-Wire Wire Line
-	14900 3450 14900 3350
-Connection ~ 14900 3350
-Wire Wire Line
-	13850 2700 13850 3350
-Wire Wire Line
-	13850 3350 13500 3350
-Connection ~ 13850 2700
-Wire Wire Line
-	13850 2700 13100 2700
-Wire Wire Line
-	13500 3450 13850 3450
-Wire Wire Line
-	13850 3450 13850 3350
-Connection ~ 13850 3350
-Wire Wire Line
-	11500 3450 11850 3450
-Wire Wire Line
-	11850 3450 11850 2700
-Wire Wire Line
-	11850 2700 11100 2700
-Wire Wire Line
-	12550 1850 12900 1850
-Wire Wire Line
-	12900 1850 12900 1300
-Connection ~ 12900 1300
-Wire Wire Line
-	12900 1300 12150 1300
-Wire Wire Line
-	13550 1950 13900 1950
-Wire Wire Line
-	13900 1950 13900 1300
-Connection ~ 13900 1300
-Wire Wire Line
-	13900 1300 13150 1300
-Wire Wire Line
-	14150 1300 14900 1300
-Wire Wire Line
-	14900 1300 14900 1850
-Wire Wire Line
-	14900 1950 14550 1950
-Connection ~ 14150 1300
-Wire Wire Line
-	14550 1850 14900 1850
-Connection ~ 14900 1850
-Wire Wire Line
-	14900 1850 14900 1950
 Connection ~ 4700 1600
 Wire Wire Line
 	4700 1600 4700 1450
@@ -7385,24 +6511,6 @@ Text Label 6050 7850 0    50   ~ 0
 SPI3_CS1
 Wire Wire Line
 	5200 7850 6050 7850
-Connection ~ 11850 2700
-Connection ~ 13100 2700
-Wire Notes Line
-	12150 3050 12600 3050
-Wire Notes Line
-	12600 3050 12600 3500
-Wire Notes Line
-	12600 3500 12150 3500
-Wire Notes Line
-	12150 3500 12150 3050
-Wire Wire Line
-	11850 2700 13100 2700
-Wire Wire Line
-	11000 3750 13000 3750
-Wire Wire Line
-	11100 3850 13100 3850
-Text Notes 12200 3300 0    39   ~ 0
-*RESERVED
 Wire Wire Line
 	19400 2900 19500 2900
 Wire Wire Line
@@ -7873,40 +6981,6 @@ Connection ~ 19100 7750
 Wire Wire Line
 	19100 7750 19300 7750
 Wire Wire Line
-	9400 3550 9400 3750
-$Comp
-L Connector:TestPoint TP5
-U 1 1 6BE80286
-P 9400 3550
-F 0 "TP5" H 9400 3783 50  0000 C CNN
-F 1 "test_point" H 9458 3577 50  0001 L CNN
-F 2 "VST104_footprints:scope_PAD" H 9600 3550 50  0001 C CNN
-F 3 "~" H 9600 3550 50  0001 C CNN
-	1    9400 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 3550 9600 3850
-Connection ~ 9400 3750
-Wire Wire Line
-	9400 3750 9900 3750
-Connection ~ 9600 3850
-Wire Wire Line
-	9600 3850 10200 3850
-$Comp
-L Connector:TestPoint TP6
-U 1 1 6C073553
-P 9600 3550
-F 0 "TP6" H 9600 3783 50  0000 C CNN
-F 1 "test_point" H 9658 3577 50  0001 L CNN
-F 2 "VST104_footprints:scope_PAD" H 9800 3550 50  0001 C CNN
-F 3 "~" H 9800 3550 50  0001 C CNN
-	1    9600 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 2050 9200 2800
-Wire Wire Line
 	20300 2000 20300 3000
 $Comp
 L Connector_Generic:Conn_01x03 UA1
@@ -7991,35 +7065,6 @@ F 3 "~" H 19450 7200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L board_sierra-rescue:C-Device C50
-U 1 1 5F4D9FF2
-P 9300 1600
-F 0 "C50" H 9186 1554 50  0000 R CNN
-F 1 "10u" H 9186 1645 50  0000 R CNN
-F 2 "VST104_footprints:C_SMD_0805" H 9338 1450 50  0001 C CNN
-F 3 "~" H 9300 1600 50  0001 C CNN
-	1    9300 1600
-	1    0    0    1   
-$EndComp
-$Comp
-L board_sierra-rescue:GND-power #PWR035
-U 1 1 5F4D9FF8
-P 9300 1750
-F 0 "#PWR035" H 9300 1500 50  0001 C CNN
-F 1 "GND" H 9305 1577 50  0000 C CNN
-F 2 "" H 9300 1750 50  0001 C CNN
-F 3 "" H 9300 1750 50  0001 C CNN
-	1    9300 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 1300 10800 1300
-Connection ~ 9300 1450
-Wire Wire Line
-	9300 1450 9500 1450
-Wire Wire Line
-	9500 2050 9500 1850
-$Comp
 L board_sierra-rescue:R-Device R44
 U 1 1 5F6C3840
 P 20900 3400
@@ -8050,28 +7095,6 @@ F 1 "75 330mW" V 19500 3850 50  0000 C CNN
 F 2 "VST104_footprints:R_SMD_0603" V 19630 3850 50  0001 C CNN
 F 3 "~" H 19700 3850 50  0001 C CNN
 	1    19700 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L board_sierra-rescue:R-Device R14
-U 1 1 5FE9ABD4
-P 9950 2200
-F 0 "R14" V 10050 2200 50  0000 C CNN
-F 1 "33 330mW" V 9850 2200 50  0000 C CNN
-F 2 "VST104_footprints:R_SMD_0603" V 9880 2200 50  0001 C CNN
-F 3 "~" H 9950 2200 50  0001 C CNN
-	1    9950 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L board_sierra-rescue:R-Device R11
-U 1 1 6027FA99
-P 10000 1200
-F 0 "R11" V 10100 1200 50  0000 C CNN
-F 1 "33 330mW" V 9884 1200 50  0000 C CNN
-F 2 "VST104_footprints:R_SMD_0603" V 9930 1200 50  0001 C CNN
-F 3 "~" H 10000 1200 50  0001 C CNN
-	1    10000 1200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -8372,22 +7395,11 @@ F 3 "~" H 17050 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VST104:TPS22965-Q1 Q1
-U 1 1 61860A10
-P 9600 1900
-F 0 "Q1" H 9850 2300 50  0000 C CNN
-F 1 "TPS22965-Q1" H 9850 1850 50  0000 C CNN
-F 2 "VST104_footprints:WSON-8_2.0x2.0mm_EPV" H 9850 2350 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594827096554&ref_url=https%253A%252F%252Fwww.mouser.sk%252F" H 9850 2350 50  0001 C CNN
-	1    9600 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L board_sierra-rescue:R-Device R26
 U 1 1 C03876BF
 P 18200 2450
-F 0 "R26" H 18450 2600 50  0000 R CNN
-F 1 "75k" H 18600 2700 50  0000 R CNN
+F 0 "R26" H 18130 2404 50  0000 R CNN
+F 1 "75k" H 18130 2495 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" V 18130 2450 50  0001 C CNN
 F 3 "~" H 18200 2450 50  0001 C CNN
 	1    18200 2450
@@ -8397,8 +7409,8 @@ $Comp
 L board_sierra-rescue:R_Small-Device R28
 U 1 1 C4B95A51
 P 17000 2100
-F 0 "R28" H 17200 2150 50  0000 R CNN
-F 1 "115k" H 17400 2050 50  0000 R CNN
+F 0 "R28" H 16941 2146 50  0000 R CNN
+F 1 "115k" H 16941 2055 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 2100 50  0001 C CNN
 F 3 "~" H 17000 2100 50  0001 C CNN
 	1    17000 2100
@@ -8408,8 +7420,8 @@ $Comp
 L board_sierra-rescue:R_Small-Device R30
 U 1 1 C4D3CD6B
 P 17000 1900
-F 0 "R30" H 17059 1946 50  0000 L CNN
-F 1 "22k6" H 17059 1855 50  0000 L CNN
+F 0 "R30" H 17058 1946 50  0000 L CNN
+F 1 "22k6" H 17058 1855 50  0000 L CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 1900 50  0001 C CNN
 F 3 "~" H 17000 1900 50  0001 C CNN
 	1    17000 1900
@@ -8419,8 +7431,8 @@ $Comp
 L board_sierra-rescue:R_Small-Device R32
 U 1 1 C4EE1A3B
 P 17000 1700
-F 0 "R32" H 17200 1750 50  0000 R CNN
-F 1 "280k" H 17400 1650 50  0000 R CNN
+F 0 "R32" H 16941 1746 50  0000 R CNN
+F 1 "280k" H 16941 1655 50  0000 R CNN
 F 2 "VST104_footprints:R_SMD_0402" H 17000 1700 50  0001 C CNN
 F 3 "~" H 17000 1700 50  0001 C CNN
 	1    17000 1700
@@ -8448,36 +7460,10 @@ F 3 "https://www.mouser.de/datasheet/2/371/SiT8924-datasheet-1839508.pdf" H 1745
 	1    17250 8750
 	1    0    0    -1  
 $EndComp
-Text Label 10300 1300 0    50   ~ 0
-TEMP_VDD
 Text Label 20250 9850 0    50   ~ 0
 CAN_1_+
 Text Label 21450 9850 0    50   ~ 0
 CAN_1_-
-Wire Bus Line
-	14250 5400 14250 6450
-Wire Bus Line
-	14250 6450 14250 7400
-Wire Bus Line
-	14300 9850 14300 10850
-Wire Bus Line
-	13100 10850 14300 10850
-Wire Bus Line
-	13100 9850 14300 9850
-Wire Bus Line
-	14300 8850 14300 9850
-Wire Bus Line
-	14250 4750 14250 5400
-Wire Bus Line
-	13100 8850 14300 8850
-Wire Bus Line
-	14300 8250 14300 8850
-Wire Bus Line
-	13100 5400 14250 5400
-Wire Bus Line
-	13100 6450 14250 6450
-Wire Bus Line
-	13100 7400 14250 7400
 Text Label 12450 4850 2    50   ~ 0
 QSPI_CS1
 Text Label 6050 3750 0    50   ~ 0
@@ -8502,4 +7488,1018 @@ Text Label 12450 8300 2    50   ~ 0
 SPI1_CS1
 Text Label 6050 7550 0    50   ~ 0
 SPI1_CS1
+Wire Bus Line
+	14250 6450 14250 7400
+Wire Bus Line
+	14250 5400 14250 6450
+Wire Bus Line
+	13100 10850 14300 10850
+Wire Bus Line
+	13100 9850 14300 9850
+Wire Bus Line
+	13100 7400 14250 7400
+Wire Bus Line
+	13100 6450 14250 6450
+Wire Bus Line
+	14300 9850 14300 10850
+Wire Bus Line
+	14300 8850 14300 9850
+Wire Bus Line
+	14250 4750 14250 5400
+Wire Bus Line
+	13100 5400 14250 5400
+Wire Bus Line
+	14300 8250 14300 8850
+Wire Bus Line
+	13100 8850 14300 8850
+Text Label 10300 1300 0    50   ~ 0
+TEMP_VDD
+$Comp
+L VST104:TPS22965-Q1 Q1
+U 1 1 61860A10
+P 9600 1900
+F 0 "Q1" H 9850 2300 50  0000 C CNN
+F 1 "TPS22965-Q1" H 9850 1850 50  0000 C CNN
+F 2 "VST104_footprints:WSON-8_2.0x2.0mm_EPV" H 9850 2350 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps22965-q1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594827096554&ref_url=https%253A%252F%252Fwww.mouser.sk%252F" H 9850 2350 50  0001 C CNN
+	1    9600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L board_sierra-rescue:R-Device R11
+U 1 1 6027FA99
+P 10000 1200
+F 0 "R11" V 10100 1200 50  0000 C CNN
+F 1 "33 330mW" V 9884 1200 50  0000 C CNN
+F 2 "VST104_footprints:R_SMD_0603" V 9930 1200 50  0001 C CNN
+F 3 "~" H 10000 1200 50  0001 C CNN
+	1    10000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L board_sierra-rescue:R-Device R14
+U 1 1 5FE9ABD4
+P 9950 2200
+F 0 "R14" V 10050 2200 50  0000 C CNN
+F 1 "33 330mW" V 9850 2200 50  0000 C CNN
+F 2 "VST104_footprints:R_SMD_0603" V 9880 2200 50  0001 C CNN
+F 3 "~" H 9950 2200 50  0001 C CNN
+	1    9950 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2050 9500 1850
+Wire Wire Line
+	9300 1450 9500 1450
+Connection ~ 9300 1450
+Wire Wire Line
+	10200 1300 10800 1300
+$Comp
+L board_sierra-rescue:GND-power #PWR035
+U 1 1 5F4D9FF8
+P 9300 1750
+F 0 "#PWR035" H 9300 1500 50  0001 C CNN
+F 1 "GND" H 9305 1577 50  0000 C CNN
+F 2 "" H 9300 1750 50  0001 C CNN
+F 3 "" H 9300 1750 50  0001 C CNN
+	1    9300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L board_sierra-rescue:C-Device C50
+U 1 1 5F4D9FF2
+P 9300 1600
+F 0 "C50" H 9186 1554 50  0000 R CNN
+F 1 "10u" H 9186 1645 50  0000 R CNN
+F 2 "VST104_footprints:C_SMD_0805" H 9338 1450 50  0001 C CNN
+F 3 "~" H 9300 1600 50  0001 C CNN
+	1    9300 1600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9200 2050 9200 2800
+$Comp
+L Connector:TestPoint TP6
+U 1 1 6C073553
+P 9600 3550
+F 0 "TP6" H 9600 3783 50  0000 C CNN
+F 1 "test_point" H 9658 3577 50  0001 L CNN
+F 2 "VST104_footprints:scope_PAD" H 9800 3550 50  0001 C CNN
+F 3 "~" H 9800 3550 50  0001 C CNN
+	1    9600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3850 10200 3850
+Connection ~ 9600 3850
+Wire Wire Line
+	9400 3750 9900 3750
+Connection ~ 9400 3750
+Wire Wire Line
+	9600 3550 9600 3850
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6BE80286
+P 9400 3550
+F 0 "TP5" H 9400 3783 50  0000 C CNN
+F 1 "test_point" H 9458 3577 50  0001 L CNN
+F 2 "VST104_footprints:scope_PAD" H 9600 3550 50  0001 C CNN
+F 3 "~" H 9600 3550 50  0001 C CNN
+	1    9400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3550 9400 3750
+Text Notes 12200 3300 0    39   ~ 0
+*RESERVED
+Wire Wire Line
+	11100 3850 13100 3850
+Wire Wire Line
+	11000 3750 13000 3750
+Wire Wire Line
+	11850 2700 13100 2700
+Wire Notes Line
+	12150 3500 12150 3050
+Wire Notes Line
+	12600 3500 12150 3500
+Wire Notes Line
+	12600 3050 12600 3500
+Wire Notes Line
+	12150 3050 12600 3050
+Connection ~ 13100 2700
+Connection ~ 11850 2700
+Wire Wire Line
+	14900 1850 14900 1950
+Connection ~ 14900 1850
+Wire Wire Line
+	14550 1850 14900 1850
+Connection ~ 14150 1300
+Wire Wire Line
+	14900 1950 14550 1950
+Wire Wire Line
+	14900 1300 14900 1850
+Wire Wire Line
+	14150 1300 14900 1300
+Wire Wire Line
+	13900 1300 13150 1300
+Connection ~ 13900 1300
+Wire Wire Line
+	13900 1950 13900 1300
+Wire Wire Line
+	13550 1950 13900 1950
+Wire Wire Line
+	12900 1300 12150 1300
+Connection ~ 12900 1300
+Wire Wire Line
+	12900 1850 12900 1300
+Wire Wire Line
+	12550 1850 12900 1850
+Wire Wire Line
+	11850 2700 11100 2700
+Wire Wire Line
+	11850 3450 11850 2700
+Wire Wire Line
+	11500 3450 11850 3450
+Connection ~ 13850 3350
+Wire Wire Line
+	13850 3450 13850 3350
+Wire Wire Line
+	13500 3450 13850 3450
+Wire Wire Line
+	13850 2700 13100 2700
+Connection ~ 13850 2700
+Wire Wire Line
+	13850 3350 13500 3350
+Wire Wire Line
+	13850 2700 13850 3350
+Connection ~ 14900 3350
+Wire Wire Line
+	14900 3450 14900 3350
+Wire Wire Line
+	14550 3450 14900 3450
+Connection ~ 14900 3250
+Wire Wire Line
+	14900 3350 14900 3250
+Wire Wire Line
+	14550 3350 14900 3350
+Connection ~ 14150 2700
+Wire Wire Line
+	14900 3250 14550 3250
+Wire Wire Line
+	14900 2700 14900 3250
+Wire Wire Line
+	14150 2700 14900 2700
+Text Label 8950 3650 2    50   ~ 0
+I2C2_EN
+Text Label 8950 3750 2    50   ~ 0
+I2C2_SCL
+Text Label 8950 3850 2    50   ~ 0
+I2C2_SDA
+Wire Wire Line
+	10200 1300 10200 1450
+Connection ~ 10200 1300
+Connection ~ 10800 1300
+Connection ~ 9500 1450
+$Comp
+L board_sierra-rescue:D_Schottky-Device D1
+U 1 1 720B922A
+P 9700 1200
+F 0 "D1" H 9700 1300 50  0000 C CNN
+F 1 "CDBQR40" H 9700 1100 50  0000 C CNN
+F 2 "VST104_footprints:D_SMD_0402" H 9700 1200 50  0001 C CNN
+F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 9700 1200 50  0001 C CNN
+	1    9700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1200 9500 1450
+Wire Wire Line
+	9550 1200 9500 1200
+Wire Wire Line
+	10200 1200 10200 1300
+Wire Wire Line
+	10150 1200 10200 1200
+Wire Wire Line
+	9950 2800 10050 2800
+Wire Wire Line
+	9950 2450 10000 2450
+$Comp
+L board_sierra-rescue:+3V3-power #PWR048
+U 1 1 709648AB
+P 10100 2200
+F 0 "#PWR048" H 10100 2050 50  0001 C CNN
+F 1 "+3V3" V 10115 2328 50  0000 L CNN
+F 2 "" H 10100 2200 50  0001 C CNN
+F 3 "" H 10100 2200 50  0001 C CNN
+	1    10100 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 1650 9500 1650
+Wire Wire Line
+	9400 1650 9400 2200
+Wire Wire Line
+	9200 1450 9300 1450
+$Comp
+L board_sierra-rescue:GND-power #PWR046
+U 1 1 6F3E4CB9
+P 10000 2450
+F 0 "#PWR046" H 10000 2200 50  0001 C CNN
+F 1 "GND" V 10005 2322 50  0000 R CNN
+F 2 "" H 10000 2450 50  0001 C CNN
+F 3 "" H 10000 2450 50  0001 C CNN
+	1    10000 2450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9400 2200
+Wire Wire Line
+	9400 2450 9400 2200
+Wire Wire Line
+	9650 2450 9400 2450
+$Comp
+L board_sierra-rescue:C-Device C14
+U 1 1 6F3E4CAA
+P 9800 2450
+F 0 "C14" V 9750 2600 50  0000 C CNN
+F 1 "100n" V 9850 2600 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 9838 2300 50  0001 C CNN
+F 3 "~" H 9800 2450 50  0001 C CNN
+	1    9800 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 2200 9400 2200
+$Comp
+L board_sierra-rescue:D_Schottky-Device D2
+U 1 1 6F3E4CA1
+P 9650 2200
+F 0 "D2" H 9650 2300 50  0000 C CNN
+F 1 "CDBQR40" H 9650 2100 50  0000 C CNN
+F 2 "VST104_footprints:D_SMD_0402" H 9650 2200 50  0001 C CNN
+F 3 "https://www.mouser.sk/datasheet/2/80/CDBQR40-HF_RevC811666-1481090.pdf" H 9650 2200 50  0001 C CNN
+	1    9650 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 1850
+Wire Wire Line
+	10200 1850 10300 1850
+$Comp
+L board_sierra-rescue:C_Small-Device C9
+U 1 1 6DC6F682
+P 10300 1750
+F 0 "C9" H 10392 1796 50  0000 L CNN
+F 1 "1n" H 10392 1705 50  0000 L CNN
+F 2 "VST104_footprints:C_SMD_0402" H 10300 1750 50  0001 C CNN
+F 3 "~" H 10300 1750 50  0001 C CNN
+	1    10300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR050
+U 1 1 6DC6F67B
+P 10300 1850
+F 0 "#PWR050" H 10300 1600 50  0001 C CNN
+F 1 "GND" H 10305 1677 50  0000 C CNN
+F 2 "" H 10300 1850 50  0001 C CNN
+F 3 "" H 10300 1850 50  0001 C CNN
+	1    10300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 1650 10300 1650
+Wire Wire Line
+	10800 1300 10800 2700
+Connection ~ 11100 3850
+Connection ~ 11000 3750
+Wire Wire Line
+	10600 2350 11000 2350
+$Comp
+L board_sierra-rescue:R-Device R15
+U 1 1 B05C62FB
+P 9800 2800
+F 0 "R15" V 9900 2800 50  0000 C CNN
+F 1 "100k" V 9700 2800 50  0000 C CNN
+F 2 "VST104_footprints:R_SMD_0402" V 9730 2800 50  0001 C CNN
+F 3 "~" H 9800 2800 50  0001 C CNN
+	1    9800 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 2800 9200 3650
+Connection ~ 9200 2800
+$Comp
+L board_sierra-rescue:+3V3-power #PWR034
+U 1 1 62374536
+P 9200 1450
+F 0 "#PWR034" H 9200 1300 50  0001 C CNN
+F 1 "+3V3" V 9300 1500 50  0000 C CNN
+F 2 "" H 9200 1450 50  0001 C CNN
+F 3 "" H 9200 1450 50  0001 C CNN
+	1    9200 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 2050 9500 2050
+Wire Wire Line
+	9650 2800 9200 2800
+Wire Wire Line
+	8950 3750 9400 3750
+Wire Wire Line
+	9900 3550 9900 3750
+$Comp
+L board_sierra-rescue:+3V3-power #PWR042
+U 1 1 5F8F6282
+P 9900 3250
+F 0 "#PWR042" H 9900 3100 50  0001 C CNN
+F 1 "+3V3" H 9915 3423 50  0000 C CNN
+F 2 "" H 9900 3250 50  0001 C CNN
+F 3 "" H 9900 3250 50  0001 C CNN
+	1    9900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L board_sierra-rescue:R-Device R83
+U 1 1 5F2FB296
+P 9900 3400
+F 0 "R83" H 9970 3446 50  0000 L CNN
+F 1 "10k" H 9970 3355 50  0000 L CNN
+F 2 "VST104_footprints:R_SMD_0402" V 9830 3400 50  0001 C CNN
+F 3 "~" H 9900 3400 50  0001 C CNN
+	1    9900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 2450 12150 2450
+Wire Wire Line
+	11000 2350 12050 2350
+Connection ~ 12050 2350
+Wire Wire Line
+	12050 2350 13050 2350
+Connection ~ 12150 2450
+Wire Wire Line
+	12150 2450 13150 2450
+Connection ~ 13050 2350
+Wire Wire Line
+	13050 2350 14050 2350
+Connection ~ 13150 2450
+Wire Wire Line
+	13150 2450 14150 2450
+Wire Wire Line
+	9900 3750 10600 3750
+Wire Wire Line
+	13000 3750 14050 3750
+Connection ~ 11100 2450
+Connection ~ 11000 2350
+Wire Notes Line width 10
+	15000 1000 15000 4000
+Connection ~ 13100 3850
+Wire Wire Line
+	13100 3850 14150 3850
+Connection ~ 13000 3750
+$Comp
+L board_sierra-rescue:R-Device R84
+U 1 1 5F31B6BC
+P 10200 3400
+F 0 "R84" H 10270 3446 50  0000 L CNN
+F 1 "10k" H 10270 3355 50  0000 L CNN
+F 2 "VST104_footprints:R_SMD_0402" V 10130 3400 50  0001 C CNN
+F 3 "~" H 10200 3400 50  0001 C CNN
+	1    10200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L board_sierra-rescue:+3V3-power #PWR049
+U 1 1 5F8F5B24
+P 10200 3250
+F 0 "#PWR049" H 10200 3100 50  0001 C CNN
+F 1 "+3V3" H 10215 3423 50  0000 C CNN
+F 2 "" H 10200 3250 50  0001 C CNN
+F 3 "" H 10200 3250 50  0001 C CNN
+	1    10200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3550 10200 3850
+Wire Wire Line
+	10700 2450 11100 2450
+Wire Wire Line
+	8950 3850 9600 3850
+Text Notes 9000 950  0    65   ~ 13
+Temperature measurement\n
+$Comp
+L board_sierra-rescue:GND-power #PWR061
+U 1 1 5F578F98
+P 11500 1850
+F 0 "#PWR061" H 11500 1600 50  0001 C CNN
+F 1 "GND" V 11505 1722 50  0000 R CNN
+F 2 "" H 11500 1850 50  0001 C CNN
+F 3 "" H 11500 1850 50  0001 C CNN
+	1    11500 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR062
+U 1 1 5F1192C9
+P 11500 1950
+F 0 "#PWR062" H 11500 1700 50  0001 C CNN
+F 1 "GND" V 11505 1822 50  0000 R CNN
+F 2 "" H 11500 1950 50  0001 C CNN
+F 3 "" H 11500 1950 50  0001 C CNN
+	1    11500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR063
+U 1 1 5F11A47A
+P 11500 2050
+F 0 "#PWR063" H 11500 1800 50  0001 C CNN
+F 1 "GND" V 11505 1922 50  0000 R CNN
+F 2 "" H 11500 2050 50  0001 C CNN
+F 3 "" H 11500 2050 50  0001 C CNN
+	1    11500 2050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 11500 1700
+Wire Wire Line
+	11000 2200 11000 2350
+Wire Wire Line
+	11100 2200 11100 2450
+$Comp
+L board_sierra-rescue:GND-power #PWR082
+U 1 1 5F11AE5E
+P 13500 3250
+F 0 "#PWR082" H 13500 3000 50  0001 C CNN
+F 1 "GND" V 13505 3122 50  0000 R CNN
+F 2 "" H 13500 3250 50  0001 C CNN
+F 3 "" H 13500 3250 50  0001 C CNN
+	1    13500 3250
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 13500 3100
+Wire Wire Line
+	13000 3750 13000 3600
+Wire Wire Line
+	13100 3600 13100 3850
+$Comp
+L board_sierra-rescue:GND-power #PWR071
+U 1 1 5F42423D
+P 12550 1950
+F 0 "#PWR071" H 12550 1700 50  0001 C CNN
+F 1 "GND" V 12555 1822 50  0000 R CNN
+F 2 "" H 12550 1950 50  0001 C CNN
+F 3 "" H 12550 1950 50  0001 C CNN
+	1    12550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR072
+U 1 1 5F424249
+P 12550 2050
+F 0 "#PWR072" H 12550 1800 50  0001 C CNN
+F 1 "GND" V 12555 1922 50  0000 R CNN
+F 2 "" H 12550 2050 50  0001 C CNN
+F 3 "" H 12550 2050 50  0001 C CNN
+	1    12550 2050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 12550 1700
+Wire Wire Line
+	12050 2200 12050 2350
+Wire Wire Line
+	12150 2200 12150 2450
+$Comp
+L board_sierra-rescue:GND-power #PWR084
+U 1 1 5F44788F
+P 13550 1850
+F 0 "#PWR084" H 13550 1600 50  0001 C CNN
+F 1 "GND" V 13555 1722 50  0000 R CNN
+F 2 "" H 13550 1850 50  0001 C CNN
+F 3 "" H 13550 1850 50  0001 C CNN
+	1    13550 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR085
+U 1 1 5F447889
+P 13550 2050
+F 0 "#PWR085" H 13550 1800 50  0001 C CNN
+F 1 "GND" V 13555 1922 50  0000 R CNN
+F 2 "" H 13550 2050 50  0001 C CNN
+F 3 "" H 13550 2050 50  0001 C CNN
+	1    13550 2050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 13550 1700
+Wire Wire Line
+	13050 2200 13050 2350
+Wire Wire Line
+	13150 2200 13150 2450
+$Comp
+L board_sierra-rescue:GND-power #PWR0107
+U 1 1 5F46C38A
+P 14550 2050
+F 0 "#PWR0107" H 14550 1800 50  0001 C CNN
+F 1 "GND" V 14555 1922 50  0000 R CNN
+F 2 "" H 14550 2050 50  0001 C CNN
+F 3 "" H 14550 2050 50  0001 C CNN
+	1    14550 2050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 14550 1700
+Wire Wire Line
+	14050 2200 14050 2350
+Wire Wire Line
+	14150 2200 14150 2450
+$Comp
+L board_sierra-rescue:GND-power #PWR065
+U 1 1 5F491529
+P 11500 3250
+F 0 "#PWR065" H 11500 3000 50  0001 C CNN
+F 1 "GND" V 11505 3122 50  0000 R CNN
+F 2 "" H 11500 3250 50  0001 C CNN
+F 3 "" H 11500 3250 50  0001 C CNN
+	1    11500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR066
+U 1 1 5F49151D
+P 11500 3350
+F 0 "#PWR066" H 11500 3100 50  0001 C CNN
+F 1 "GND" V 11505 3222 50  0000 R CNN
+F 2 "" H 11500 3350 50  0001 C CNN
+F 3 "" H 11500 3350 50  0001 C CNN
+	1    11500 3350
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 11500 3100
+Wire Wire Line
+	11000 3600 11000 3750
+Wire Wire Line
+	11100 3600 11100 3850
+NoConn ~ 14550 3100
+Wire Wire Line
+	14050 3600 14050 3750
+Wire Wire Line
+	14150 3600 14150 3850
+$Comp
+L VST104:MCP9804 TS7
+U 1 1 5F050A6F
+P 10950 2100
+F 0 "TS7" H 11350 2600 50  0000 R CNN
+F 1 "MCP9804" H 11500 2050 50  0000 R CNN
+F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 10950 2100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 10950 2100 50  0001 C CNN
+	1    10950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VST104:MCP9804 TS2
+U 1 1 5F05168F
+P 12950 3500
+F 0 "TS2" H 13350 4000 50  0000 R CNN
+F 1 "MCP9804" H 13500 3450 50  0000 R CNN
+F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 12950 3500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12950 3500 50  0001 C CNN
+	1    12950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VST104:MCP9804 TS6
+U 1 1 5F424250
+P 12000 2100
+F 0 "TS6" H 12400 2600 50  0000 R CNN
+F 1 "MCP9804" H 12550 2050 50  0000 R CNN
+F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 12000 2100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 12000 2100 50  0001 C CNN
+	1    12000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VST104:MCP9804 TS1
+U 1 1 5F447896
+P 13000 2100
+F 0 "TS1" H 13400 2600 50  0000 R CNN
+F 1 "MCP9804" H 13550 2050 50  0000 R CNN
+F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 13000 2100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 13000 2100 50  0001 C CNN
+	1    13000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VST104:MCP9804 TS5
+U 1 1 5F46C397
+P 14000 2100
+F 0 "TS5" H 14400 2600 50  0000 R CNN
+F 1 "MCP9804" H 14550 2050 50  0000 R CNN
+F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 14000 2100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 2100 50  0001 C CNN
+	1    14000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VST104:MCP9804 TS4
+U 1 1 5F491530
+P 10950 3500
+F 0 "TS4" H 11350 4000 50  0000 R CNN
+F 1 "MCP9804" H 11500 3450 50  0000 R CNN
+F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 10950 3500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 10950 3500 50  0001 C CNN
+	1    10950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VST104:MCP9804 TS3
+U 1 1 5F4E16A1
+P 14000 3500
+F 0 "TS3" H 14400 4000 50  0000 R CNN
+F 1 "MCP9804" H 14550 3450 50  0000 R CNN
+F 2 "VST104_footprints:DFN-8_3.0x2.0mm_EP" H 14000 3500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/22203C-1020971.pdf" H 14000 3500 50  0001 C CNN
+	1    14000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 1450 11450 1450
+$Comp
+L board_sierra-rescue:GND-power #PWR081
+U 1 1 5F1971E9
+P 13500 2850
+F 0 "#PWR081" H 13500 2600 50  0001 C CNN
+F 1 "GND" V 13500 2650 50  0000 C CNN
+F 2 "" H 13500 2850 50  0001 C CNN
+F 3 "" H 13500 2850 50  0001 C CNN
+	1    13500 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13450 2850 13500 2850
+$Comp
+L board_sierra-rescue:C-Device C53
+U 1 1 5F17C434
+P 13300 2850
+F 0 "C53" V 13250 3000 50  0000 C CNN
+F 1 "100n" V 13350 3000 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 13338 2700 50  0001 C CNN
+F 3 "~" H 13300 2850 50  0001 C CNN
+	1    13300 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L board_sierra-rescue:C-Device C72
+U 1 1 5F140753
+P 11300 1450
+F 0 "C72" V 11350 1300 50  0000 C CNN
+F 1 "100n" V 11250 1300 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 11338 1300 50  0001 C CNN
+F 3 "~" H 11300 1450 50  0001 C CNN
+	1    11300 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR060
+U 1 1 5F57AFB8
+P 11500 1450
+F 0 "#PWR060" H 11500 1200 50  0001 C CNN
+F 1 "GND" V 11505 1322 50  0000 R CNN
+F 2 "" H 11500 1450 50  0001 C CNN
+F 3 "" H 11500 1450 50  0001 C CNN
+	1    11500 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13150 2850 13100 2850
+Connection ~ 13100 2850
+Wire Wire Line
+	13100 2850 13100 2950
+Wire Wire Line
+	11150 1450 11100 1450
+Connection ~ 11100 1450
+Wire Wire Line
+	11100 1450 11100 1550
+Wire Wire Line
+	12550 1450 12500 1450
+$Comp
+L board_sierra-rescue:C-Device C68
+U 1 1 5F42425D
+P 12350 1450
+F 0 "C68" V 12400 1300 50  0000 C CNN
+F 1 "100n" V 12300 1300 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 12388 1300 50  0001 C CNN
+F 3 "~" H 12350 1450 50  0001 C CNN
+	1    12350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR070
+U 1 1 5F424263
+P 12550 1450
+F 0 "#PWR070" H 12550 1200 50  0001 C CNN
+F 1 "GND" V 12555 1322 50  0000 R CNN
+F 2 "" H 12550 1450 50  0001 C CNN
+F 3 "" H 12550 1450 50  0001 C CNN
+	1    12550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR069
+U 1 1 5F42426A
+P 12050 1550
+F 0 "#PWR069" H 12050 1300 50  0001 C CNN
+F 1 "GND" H 12055 1377 50  0000 C CNN
+F 2 "" H 12050 1550 50  0001 C CNN
+F 3 "" H 12050 1550 50  0001 C CNN
+	1    12050 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12200 1450 12150 1450
+Connection ~ 12150 1450
+Wire Wire Line
+	12150 1450 12150 1550
+Wire Wire Line
+	13550 1450 13500 1450
+$Comp
+L board_sierra-rescue:C-Device C51
+U 1 1 5F4478A3
+P 13350 1450
+F 0 "C51" V 13400 1300 50  0000 C CNN
+F 1 "100n" V 13300 1300 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 13388 1300 50  0001 C CNN
+F 3 "~" H 13350 1450 50  0001 C CNN
+	1    13350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR083
+U 1 1 5F4478A9
+P 13550 1450
+F 0 "#PWR083" H 13550 1200 50  0001 C CNN
+F 1 "GND" V 13555 1322 50  0000 R CNN
+F 2 "" H 13550 1450 50  0001 C CNN
+F 3 "" H 13550 1450 50  0001 C CNN
+	1    13550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR080
+U 1 1 5F4478B0
+P 13050 1550
+F 0 "#PWR080" H 13050 1300 50  0001 C CNN
+F 1 "GND" H 13055 1377 50  0000 C CNN
+F 2 "" H 13050 1550 50  0001 C CNN
+F 3 "" H 13050 1550 50  0001 C CNN
+	1    13050 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13200 1450 13150 1450
+Connection ~ 13150 1450
+Wire Wire Line
+	13150 1450 13150 1550
+Wire Wire Line
+	14550 1450 14500 1450
+$Comp
+L board_sierra-rescue:C-Device C59
+U 1 1 5F46C3A4
+P 14350 1450
+F 0 "C59" V 14400 1300 50  0000 C CNN
+F 1 "100n" V 14300 1300 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 14388 1300 50  0001 C CNN
+F 3 "~" H 14350 1450 50  0001 C CNN
+	1    14350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR0106
+U 1 1 5F46C3AA
+P 14550 1450
+F 0 "#PWR0106" H 14550 1200 50  0001 C CNN
+F 1 "GND" V 14555 1322 50  0000 R CNN
+F 2 "" H 14550 1450 50  0001 C CNN
+F 3 "" H 14550 1450 50  0001 C CNN
+	1    14550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR0102
+U 1 1 5F46C3B1
+P 14050 1550
+F 0 "#PWR0102" H 14050 1300 50  0001 C CNN
+F 1 "GND" H 14055 1377 50  0000 C CNN
+F 2 "" H 14050 1550 50  0001 C CNN
+F 3 "" H 14050 1550 50  0001 C CNN
+	1    14050 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14200 1450 14150 1450
+Connection ~ 14150 1450
+Wire Wire Line
+	14150 1450 14150 1550
+Wire Wire Line
+	11500 2850 11450 2850
+$Comp
+L board_sierra-rescue:C-Device C56
+U 1 1 5F49153D
+P 11300 2850
+F 0 "C56" V 11350 2700 50  0000 C CNN
+F 1 "100n" V 11250 2700 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 11338 2700 50  0001 C CNN
+F 3 "~" H 11300 2850 50  0001 C CNN
+	1    11300 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR064
+U 1 1 5F491543
+P 11500 2850
+F 0 "#PWR064" H 11500 2600 50  0001 C CNN
+F 1 "GND" V 11505 2722 50  0000 R CNN
+F 2 "" H 11500 2850 50  0001 C CNN
+F 3 "" H 11500 2850 50  0001 C CNN
+	1    11500 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR059
+U 1 1 5F49154A
+P 11000 2950
+F 0 "#PWR059" H 11000 2700 50  0001 C CNN
+F 1 "GND" H 11005 2777 50  0000 C CNN
+F 2 "" H 11000 2950 50  0001 C CNN
+F 3 "" H 11000 2950 50  0001 C CNN
+	1    11000 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11150 2850 11100 2850
+Connection ~ 11100 2850
+Wire Wire Line
+	11100 2850 11100 2950
+Wire Wire Line
+	14550 2850 14500 2850
+$Comp
+L board_sierra-rescue:C-Device C55
+U 1 1 5F4E16AE
+P 14350 2850
+F 0 "C55" V 14400 2700 50  0000 C CNN
+F 1 "100n" V 14300 2700 50  0000 C CNN
+F 2 "VST104_footprints:C_SMD_0402" H 14388 2700 50  0001 C CNN
+F 3 "~" H 14350 2850 50  0001 C CNN
+	1    14350 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR0108
+U 1 1 5F4E16B4
+P 14550 2850
+F 0 "#PWR0108" H 14550 2600 50  0001 C CNN
+F 1 "GND" V 14555 2722 50  0000 R CNN
+F 2 "" H 14550 2850 50  0001 C CNN
+F 3 "" H 14550 2850 50  0001 C CNN
+	1    14550 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 2850 14150 2850
+Connection ~ 14150 2850
+Wire Wire Line
+	14150 2850 14150 2950
+$Comp
+L board_sierra-rescue:GND-power #PWR079
+U 1 1 5F187C0F
+P 13000 2950
+F 0 "#PWR079" H 13000 2700 50  0001 C CNN
+F 1 "GND" H 13005 2777 50  0000 C CNN
+F 2 "" H 13000 2950 50  0001 C CNN
+F 3 "" H 13000 2950 50  0001 C CNN
+	1    13000 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR0103
+U 1 1 5F4E16BB
+P 14050 2950
+F 0 "#PWR0103" H 14050 2700 50  0001 C CNN
+F 1 "GND" H 14055 2777 50  0000 C CNN
+F 2 "" H 14050 2950 50  0001 C CNN
+F 3 "" H 14050 2950 50  0001 C CNN
+	1    14050 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L board_sierra-rescue:GND-power #PWR058
+U 1 1 80FF84E4
+P 11000 1550
+F 0 "#PWR058" H 11000 1300 50  0001 C CNN
+F 1 "GND" H 11005 1377 50  0000 C CNN
+F 2 "" H 11000 1550 50  0001 C CNN
+F 3 "" H 11000 1550 50  0001 C CNN
+	1    11000 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14150 1300 13900 1300
+Wire Wire Line
+	13150 1300 13150 1450
+Wire Wire Line
+	14150 1300 14150 1450
+Wire Wire Line
+	13150 1300 12900 1300
+Wire Wire Line
+	12150 1300 12150 1450
+Connection ~ 13150 1300
+Wire Wire Line
+	12150 1300 11100 1300
+Wire Wire Line
+	11100 1300 11100 1450
+Connection ~ 12150 1300
+Connection ~ 11100 1300
+Wire Wire Line
+	14150 2700 13850 2700
+Wire Wire Line
+	13100 2700 13100 2850
+Wire Wire Line
+	14150 2700 14150 2850
+Wire Wire Line
+	11100 2700 11100 2850
+Connection ~ 11100 2700
+Wire Wire Line
+	10800 1300 11100 1300
+Wire Wire Line
+	10800 2700 11100 2700
+Wire Wire Line
+	10700 2450 10700 3850
+Connection ~ 10700 3850
+Wire Wire Line
+	10700 3850 11100 3850
+Wire Wire Line
+	10600 2350 10600 3750
+Wire Wire Line
+	10200 3850 10700 3850
+Connection ~ 10600 3750
+Wire Wire Line
+	10600 3750 11000 3750
+Connection ~ 9900 3750
+Connection ~ 10200 3850
+Wire Notes Line width 10
+	15000 1000 9000 1000
+Wire Notes Line width 10
+	9000 1000 9000 4000
+Wire Notes Line width 10
+	9000 4000 15000 4000
+Wire Wire Line
+	8950 3650 9200 3650
+$Comp
+L board_sierra-rescue:GND-power #PWR047
+U 1 1 B05C6301
+P 10050 2800
+F 0 "#PWR047" H 10050 2550 50  0001 C CNN
+F 1 "GND" V 10055 2672 50  0000 R CNN
+F 2 "" H 10050 2800 50  0001 C CNN
+F 3 "" H 10050 2800 50  0001 C CNN
+	1    10050 2800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
