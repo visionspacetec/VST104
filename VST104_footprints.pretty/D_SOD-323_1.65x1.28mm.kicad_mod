@@ -15,8 +15,8 @@
   (fp_line (start 1.75 0.89) (end 1.75 -0.89) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.75 0.89) (end -1.75 0.89) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.75 0.89) (end -1.75 -0.89) (layer F.CrtYd) (width 0.05))
-  (pad 1 smd rect (at -1.07 0) (size 0.86 0.54) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.07 0) (size 0.86 0.54) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -1.07 0) (size 0.86 0.54) (layers F.Cu F.Paste F.Mask))
   (model C:/Users/Filip.Filip/Documents/VST104/VST104_footprints.pretty/3D_models/D_SOD-323_1.65x1.28mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
