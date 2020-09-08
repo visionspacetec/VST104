@@ -2402,7 +2402,7 @@ F 3 "" H 20450 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	21100 6550 20400 6550
+	21100 6550 20600 6550
 Connection ~ 21100 6550
 Wire Wire Line
 	20900 6450 21500 6450
@@ -2535,7 +2535,7 @@ F 3 "~" H 18800 15000 50  0001 C CNN
 $EndComp
 NoConn ~ 19150 15100
 Wire Wire Line
-	20400 7650 20900 7650
+	20400 7650 20500 7650
 Wire Wire Line
 	20400 7750 21100 7750
 Wire Notes Line width 10
@@ -4061,7 +4061,7 @@ WATCHDOG
 Text Label 9450 5350 2    50   ~ 0
 MODE
 Text Label 9450 5150 2    50   ~ 0
-GLO_EN
+CPU_EN
 NoConn ~ 21250 14200
 NoConn ~ 21250 14100
 NoConn ~ 20750 14200
@@ -4160,9 +4160,9 @@ SPI_2_CS2
 Text GLabel 3050 14600 2    50   Input ~ 0
 USER_2_1
 Text Label 1450 12150 2    50   ~ 0
-USER1_EN
-Text Label 1450 12800 2    50   ~ 0
 USER_SPI3_EN
+Text Label 1450 12800 2    50   ~ 0
+USER1_EN
 Text Label 1450 12350 2    50   ~ 0
 USER1_4
 $Comp
@@ -4292,7 +4292,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 5800 9950 5800
 Text Label 9400 5800 2    50   ~ 0
-CPU_EN
+GLO_EN
 Text GLabel 6050 12700 2    50   Input ~ 0
 USER_3_4
 Text GLabel 6050 12400 2    50   Input ~ 0
@@ -4350,11 +4350,11 @@ CAN2_N
 Connection ~ 1650 14800
 Connection ~ 1700 14150
 Text Label 1450 14150 2    50   ~ 0
-USER2_EN
+USER_SPI2_EN
 Wire Wire Line
 	1650 14800 1450 14800
 Text Label 1450 14800 2    50   ~ 0
-USER_SPI2_EN
+USER2_EN
 Wire Wire Line
 	1450 14150 1700 14150
 Wire Wire Line
@@ -4895,7 +4895,7 @@ $EndComp
 Wire Wire Line
 	10800 7300 10800 7500
 Wire Wire Line
-	10800 8000 11050 8000
+	10800 8000 10850 8000
 Wire Wire Line
 	10800 8150 10800 8000
 Wire Wire Line
@@ -4962,18 +4962,6 @@ F 3 "~" H 9700 9450 50  0001 C CNN
 	1    9700 9450
 	-1   0    0    1   
 $EndComp
-$Comp
-L board_sierra-rescue:+3V3-power #PWR045
-U 1 1 670BF8AD
-P 9900 9300
-F 0 "#PWR045" H 9900 9150 50  0001 C CNN
-F 1 "+3V3" H 9915 9473 50  0000 C CNN
-F 2 "" H 9900 9300 50  0001 C CNN
-F 3 "" H 9900 9300 50  0001 C CNN
-	1    9900 9300
-	1    0    0    -1  
-$EndComp
-Connection ~ 9900 9300
 Wire Notes Line width 10
 	11000 7000 9500 7000
 Wire Wire Line
@@ -8047,9 +8035,9 @@ WATCHDOG
 Text Label 1450 10050 2    50   ~ 0
 MODE
 Text Label 1450 9950 2    50   ~ 0
-GLO_EN
-Text Label 1450 10350 2    50   ~ 0
 CPU_EN
+Text Label 1450 10350 2    50   ~ 0
+GLO_EN
 Wire Wire Line
 	1450 9950 2300 9950
 Wire Wire Line
@@ -8205,13 +8193,13 @@ Wire Wire Line
 Wire Wire Line
 	4700 7950 5550 7950
 Text Label 5550 7950 0    50   ~ 0
-USER1_EN
+USER_SPI3_EN
 Wire Wire Line
 	4700 8050 5550 8050
 Text Label 5550 8050 0    50   ~ 0
-USER_SPI3_EN
+USER1_EN
 Text Label 5550 4550 0    50   ~ 0
-USER2_EN
+USER_SPI2_EN
 Wire Wire Line
 	5550 4550 4700 4550
 Text Label 1450 7350 2    50   ~ 0
@@ -8237,7 +8225,7 @@ USER5_2
 Text Label 1450 9450 2    50   ~ 0
 USER4_3
 Text Label 5550 8850 0    50   ~ 0
-USER_SPI2_EN
+USER2_EN
 Wire Wire Line
 	4700 8850 5550 8850
 NoConn ~ 2300 6750
@@ -8578,6 +8566,144 @@ Wire Wire Line
 	9900 7300 9900 7500
 Wire Wire Line
 	1450 7350 2300 7350
+$Comp
+L power:+5V #PWR0182
+U 1 1 5F78E136
+P 9900 9300
+F 0 "#PWR0182" H 9900 9150 50  0001 C CNN
+F 1 "+5V" H 9915 9473 50  0000 C CNN
+F 2 "" H 9900 9300 50  0001 C CNN
+F 3 "" H 9900 9300 50  0001 C CNN
+	1    9900 9300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9900 9300
+$Comp
+L Connector:TestPoint_Small TRC4
+U 1 1 61AD5316
+P 20500 6550
+F 0 "TRC4" H 20548 6596 50  0001 L CNN
+F 1 "trace_0.2mm" H 20548 6505 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.2mm" H 20700 6550 50  0001 C CNN
+F 3 "~" H 20700 6550 50  0001 C CNN
+	1    20500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TRC6
+U 1 1 61AD6F54
+P 20550 6550
+F 0 "TRC6" H 20598 6596 50  0001 L CNN
+F 1 "trace_0.2mm" H 20598 6505 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.2mm" H 20750 6550 50  0001 C CNN
+F 3 "~" H 20750 6550 50  0001 C CNN
+	1    20550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TRC8
+U 1 1 61CE2E33
+P 20600 6550
+F 0 "TRC8" H 20648 6596 50  0001 L CNN
+F 1 "trace_0.2mm" H 20648 6505 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.2mm" H 20800 6550 50  0001 C CNN
+F 3 "~" H 20800 6550 50  0001 C CNN
+	1    20600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TRC5
+U 1 1 61EEFB82
+P 20500 7650
+F 0 "TRC5" H 20548 7696 50  0001 L CNN
+F 1 "trace_0.2mm" H 20548 7605 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.2mm" H 20700 7650 50  0001 C CNN
+F 3 "~" H 20700 7650 50  0001 C CNN
+	1    20500 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TRC7
+U 1 1 61EEFB88
+P 20550 7650
+F 0 "TRC7" H 20598 7696 50  0001 L CNN
+F 1 "trace_0.2mm" H 20598 7605 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.2mm" H 20750 7650 50  0001 C CNN
+F 3 "~" H 20750 7650 50  0001 C CNN
+	1    20550 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TRC9
+U 1 1 61EEFB8E
+P 20600 7650
+F 0 "TRC9" H 20648 7696 50  0001 L CNN
+F 1 "trace_0.2mm" H 20648 7605 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.2mm" H 20800 7650 50  0001 C CNN
+F 3 "~" H 20800 7650 50  0001 C CNN
+	1    20600 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 20500 7650
+Wire Wire Line
+	20500 7650 20550 7650
+Connection ~ 20550 7650
+Wire Wire Line
+	20550 7650 20600 7650
+Connection ~ 20600 7650
+Wire Wire Line
+	20600 7650 20900 7650
+Connection ~ 20500 6550
+Wire Wire Line
+	20500 6550 20400 6550
+Connection ~ 20550 6550
+Wire Wire Line
+	20550 6550 20500 6550
+Connection ~ 20600 6550
+Wire Wire Line
+	20600 6550 20550 6550
+$Comp
+L Connector:TestPoint_Small TRC1
+U 1 1 6273EF17
+P 10850 8000
+F 0 "TRC1" H 10898 8046 50  0001 L CNN
+F 1 "trace_0.173mm" H 10898 7955 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.173mm" H 11050 8000 50  0001 C CNN
+F 3 "~" H 11050 8000 50  0001 C CNN
+	1    10850 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TRC2
+U 1 1 62B603F7
+P 10900 8000
+F 0 "TRC2" H 10948 8046 50  0001 L CNN
+F 1 "trace_0.173mm" H 10948 7955 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.173mm" H 11100 8000 50  0001 C CNN
+F 3 "~" H 11100 8000 50  0001 C CNN
+	1    10900 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TRC3
+U 1 1 62D704F5
+P 10950 8000
+F 0 "TRC3" H 10998 8046 50  0001 L CNN
+F 1 "trace_0.173mm" H 10998 7955 50  0001 L CNN
+F 2 "VST104_footprints:trace_arc_0.173mm" H 11150 8000 50  0001 C CNN
+F 3 "~" H 11150 8000 50  0001 C CNN
+	1    10950 8000
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 8000
+Wire Wire Line
+	10850 8000 10900 8000
+Connection ~ 10900 8000
+Wire Wire Line
+	10900 8000 10950 8000
+Connection ~ 10950 8000
+Wire Wire Line
+	10950 8000 11050 8000
 Wire Bus Line
 	14250 5400 14250 6450
 Wire Bus Line
