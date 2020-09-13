@@ -5852,10 +5852,6 @@ F 3 "https://www.mouser.de/datasheet/2/371/SiT8924-datasheet-1839508.pdf" H 1745
 	1    17250 8750
 	1    0    0    -1  
 $EndComp
-Text Label 20250 9850 0    50   ~ 0
-CAN_1_H
-Text Label 21450 9850 0    50   ~ 0
-CAN_1_L
 Text Label 12450 4850 2    50   ~ 0
 QSPI_CS1
 Text Label 12450 5900 2    50   ~ 0

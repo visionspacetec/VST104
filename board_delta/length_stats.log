@@ -1,0 +1,8 @@
+09-13 19:39:43 length_stats.action_length_stats 271:Plugin executed on: 'win32'
+09-13 19:39:43 length_stats.action_length_stats 272:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+09-13 19:39:43 length_stats.action_length_stats 273:KiCad build version: (5.1.6)-1
+09-13 19:39:43 length_stats.action_length_stats 274:Length stats plugin version: 29 started
+09-13 19:39:43 length_stats.action_length_stats 88:Lenght stats gui initialized
+09-13 19:39:43 length_stats.action_length_stats 89:Nets for stats are;
+[u'CAN_1_P']
+09-13 19:40:12 length_stats.action_length_stats 113:Closing GUI
