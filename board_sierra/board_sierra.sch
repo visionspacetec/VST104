@@ -3672,7 +3672,7 @@ U 1 1 84F5D5D6
 P 16800 10900
 F 0 "ESD1" H 17000 11650 50  0000 C CNN
 F 1 "SP3012-06" H 17000 10850 50  0000 C CNN
-F 2 "VST104_footprints:µDFN-14_3.5x1.35mm" H 16800 10900 50  0001 C CNN
+F 2 "VST104_footprints:uDFN-14_3.5x1.35mm" H 16800 10900 50  0001 C CNN
 F 3 "https://www.mouser.sk/datasheet/2/240/Littelfuse_TVS_Diode_Array_SP3012_Datasheet.pdf-268239.pdf" H 16800 10900 50  0001 C CNN
 	1    16800 10900
 	1    0    0    -1  
