@@ -4,10 +4,10 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "VST104 single OBCboard"
+Date "2020-09-14"
+Rev "1.1"
+Comp "Vision Space Technologies"
 Comment1 ""
 Comment2 ""
 Comment3 ""
