@@ -19,7 +19,7 @@ This board combines two [sierra boards](./board_delta) in parallel design prowid
 <br clear="right"/>
 
 - ### VST104 Flat-Sat board - referred as [element_foxtrot](./element_foxtrot) <img align="right" src="./element_foxtrot/gallery/top.png" width=25%/>
-This auxiliary VST board serves as a flat-sat developement board.  It is capable of hosting four modules with possibility of extention to other flat-sat thru FPC cable. Breakable part on the top serves as external power management circuitry with 2[mm] power plug or USB-C connector. 
+This auxiliary VST board serves as a flat-sat development board.  It is capable of hosting four PC104 modules with the possibility of extension to other flat-sat thru FPC cable. LibreCube PC104 header pinout is expected (important for power lines). The breakable part on the top serves as external power management circuitry (many protection features included) with 2[mm] power plug or USB-C connector. With a voltage range 7-14[V] (same for both inputs) and current up to 6[A], is this auxiliary board quite universal in terms of applicable power source. Please note the 5[V] input possibility for the USB-C.
 <br clear="right"/>
 
 ## Software
