@@ -27,7 +27,7 @@ All of the previously stated boards of this project share these KiCad libraries.
 | Library | Description |
 | :-: | :-- |
 | [`VST104_libraries`](./VST_libraries)  | Just a few new symbols were required so far. All of them are listed in this symbol library. |
-| [`VST104_footprints`](./VST_footprints.pretty) |  This library contains all of the created or modified footprints. A special subfolder contains 3D models of some of the used components. The standard silk line width is 0.2[mm]. |
+| [`VST104_footprints`](./VST_footprints.pretty) |  This library contains all of the created or modified footprints. A special subfolder contains 3D models of some of the used components. The standard silk line width is 0.16[mm]. |
 | [`VST104_logos`](./VST_logos.pretty) |  All of the used silk layer logos and special characters are placed in this library. |
 
 ## Plugins
