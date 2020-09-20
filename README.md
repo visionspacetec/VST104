@@ -8,18 +8,19 @@ The following boards have been developed or are currently under development:
 
 - ### VST104 prototype board - referred as [board_zero](./board_zero) <img align="right" src="./board_zero/gallery/top.png" width=25%/>
 This board is designed to be connected to other LibreCube boards for hardware and software testing and development. The main working area contains a universal THT soldering array and two SO-24 footprints with extended pads. The board should provide an efficient tool for soldering temporary circuits with THT technology (plus the two SMD chips).
+<br clear="right"/>
 
-- ### VST104 single OBC board - referred as [board_sierra](./board_sierra)
-<img align="right" src="./board_sierra/gallery/top.png" width=25%/>
+- ### VST104 single OBC board - referred as [board_sierra](./board_sierra) <img align="right" src="./board_sierra/gallery/top.png" width=25%/>
 This board hosts a single redundant onboard computer designed to fulfill space industry requirements. The main processing unit is STM32L496 microprocessor with access to triple redundant FLASH and F-RAM memories, two CAN-BUS drivers, high and low-speed external oscillators, and seven onboard temperature sensors, all together with many protective features. A large universal soldering array with SO-24 footprints fills the unused parts of the board.
+<br clear="right"/>
 
-- ### VST104 double OBC board - referred as [board_delta](./board_delta)
-<img align="right" src="./board_delta/gallery/top.png" width=25%/>
+- ### VST104 double OBC board - referred as [board_delta](./board_delta) <img align="right" src="./board_delta/gallery/top.png" width=25%/>
 This board combines two [sierra boards](./board_delta) in parallel design prowiding a doble redundancy. User is capable of running the very same code on both of the OBCs (as they have consistent layout) and switching inbetween them with dedicadet kill-switches. Universal soldering array with SO-24 footprints fills the unused lower part of the board.tt
+<br clear="right"/>
 
-- ### VST104 Flat-Sat board - referred as [element_foxtrot](./element_foxtrot)
-<img align="right" src="./element_foxtrot/gallery/top.png" width=25%/>
+- ### VST104 Flat-Sat board - referred as [element_foxtrot](./element_foxtrot) <img align="right" src="./element_foxtrot/gallery/top.png" width=25%/>
 This auxiliary VST board serves as a flat-sat developement board.  It is capable of hosting four modules with possibility of extention to other flat-sat thru FPC cable. Breakable part on the top serves as external power management circuitry with 2[mm] power plug or USB-C connector. 
+<br clear="right"/>
 
 ## Libraries
 All of the previously stated boards of this project share these KiCad libraries. These libraries are located outside individual boards project files. As there is no library management included in KiCad, the user is required to change hardcoded library paths manually.
