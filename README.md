@@ -15,7 +15,7 @@ This board hosts a single redundant onboard computer designed to fulfill space i
 <br clear="right"/>
 
 - ### VST104 double OBC board - referred as [board_delta](./board_delta) <img align="right" src="./board_delta/gallery/top.png" width=25%/>
-This board combines two [sierra boards](./board_delta) in parallel design prowiding a doble redundancy. User is capable of running the very same code on both of the OBCs (as they have consistent layout) and switching inbetween them with dedicadet kill-switches. Universal soldering array with SO-24 footprints fills the unused lower part of the board.tt
+This board combines two [sierra boards](./board_delta) in parallel design prowiding a doble redundancy. User is capable of running the very same code on both of the OBCs (as they have consistent layout) and switching inbetween them with dedicadet kill-switches. Universal soldering array with SO-24 footprints fills the unused lower part of the board.
 <br clear="right"/>
 
 - ### VST104 Flat-Sat board - referred as [element_foxtrot](./element_foxtrot) <img align="right" src="./element_foxtrot/gallery/top.png" width=25%/>
@@ -35,6 +35,6 @@ During development and other works on this project, the following external KiCad
 | Plugin | Description |
 | :-: | :-- |
 | [`Interactive HTML BOM`](https://github.com/openscopeproject/InteractiveHtmlBom) | "Tool designed to assist with hand assembling PCBs. Output is viewable in any modern browser and allows users to easily highlight a specific reference or all components in a group on a visual rendering of PCB. Script works both as Pcbnew action plugin and as a command-line tool."  |
-| [`Teardrops`](https://github.com/NilujePerchut/kicad_scripts/tree/master/teardrops) | "A gui to teardrop the vias, pads and "T" tracks connections in the Pcbnew." |
-| [`Replicate layout`](https://github.com/MitjaNemec/Kicad_action_plugins) | "This Kicad Action plugin replicates layout section. The replication is based upon hiThe basilical sheets. Basic requirement for replication is that the section for replication is completely contained within one hierarchical sheet, and replicated sections are just a copy of the same sheet." |
-| [`RF-Tools for KiCAD`](https://github.com/easyw/RF-toolsPCBCAD) | " A Kicad Action plugin suite to mitered RF and Flex pcb design. Footprint wizards for designing mitred bends, tapered track connectors, and arc tracks (radius bends) for RF layout, included. Round track corners routing, PCB length measurement and a mask expansion tool for direct pcb routing. Via fencing tool for RF via shielding." |
+| [`Teardrops`](https://github.com/NilujePerchut/kicad_scripts/tree/master/teardrops) | "A GUI to teardrop the vias, pads and "T" tracks connections in the Pcbnew." |
+| [`Replicate layout`](https://github.com/MitjaNemec/Kicad_action_plugins) | "This Kicad Action plugin replicates layout section. The replication is based upon hiThe basilical sheets. The basic requirement for replication is that the section for replication is completely contained within one hierarchical sheet, and replicated sections are just a copy of the same sheet." |
+| [`RF-Tools for KiCAD`](https://github.com/easyw/RF-toolsPCBCAD) | "A Kicad Action plugin suite to mitered RF and Flex PCB design. Footprint wizards for designing mitered bends, tapered track connectors, and arc tracks (radius bends) for RF layout, included. Round track corners routing, PCB length measurement, and a mask expansion tool for direct PCB routing. Via fencing tool for RF via shielding." |
