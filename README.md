@@ -2,7 +2,7 @@
 This repository contains all of the PCB boards designed by the company [Vision Space Technologies](https://www.visionspace.com/) as a contribution to an open-source space and earth exploration project [LibreCube](https://librecube.org/). 
 
 ## Boards
-All of the boards are designed with [KiCad software](https://kicad-pcb.org/) and follow the normative specifications of LibreCube boards in PC104 format defined [at this link](https://wiki.librecube.org/index.php?title=LibreCube_Board_Specification). It includes information about the board layout, stacking, components, and other essential parameters.
+All of the boards are designed with [KiCad software](https://kicad-pcb.org/) and follow the normative specifications of LibreCube boards in PC104 format defined [at this link](https://wiki.librecube.org/index.php?title=LibreCube_Board_Specification). It includes information about the board layout, stacking, components, and other essential parameters. All used components of the OBC boards are suitable for space applications as they meet: i). Mechanical failure qualifications AEC-Q100 or AEC-Q200; ii). Military rated operational temperatures (-40°C to +125°C).
 
 The following boards have been developed or are currently under development:
 
@@ -21,6 +21,9 @@ This board combines two [sierra boards](./board_delta) in parallel design prowid
 - ### VST104 Flat-Sat board - referred as [element_foxtrot](./element_foxtrot) <img align="right" src="./element_foxtrot/gallery/top.png" width=25%/>
 This auxiliary VST board serves as a flat-sat developement board.  It is capable of hosting four modules with possibility of extention to other flat-sat thru FPC cable. Breakable part on the top serves as external power management circuitry with 2[mm] power plug or USB-C connector. 
 <br clear="right"/>
+
+## Software
+Only a basic  C++ software dedicated to the test of correct board assembly is available sofar [at this repository](https://github.com/visionspacetec/VST104-Testing).
 
 ## Libraries
 All of the previously stated boards of this project share these KiCad libraries. These libraries are located outside individual boards project files. As there is no library management included in KiCad, the user is required to change hardcoded library paths manually.
