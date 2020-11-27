@@ -1,0 +1,15 @@
+[submodule "VST104-Libraries"]
+	path = VST104-Libraries
+	url = https://github.com/visionspacetec/VST104-Libraries
+[submodule "VST104-Zero"]
+	path = VST104-Zero
+	url = https://github.com/visionspacetec/VST104-Zero
+[submodule "VST104-Sierra"]
+	path = VST104-Sierra
+	url = https://github.com/visionspacetec/VST104-Sierra
+[submodule "VST104-Delta"]
+	path = VST104-Delta
+	url = https://github.com/visionspacetec/VST104-Delta
+[submodule "VST104-Foxtrot"]
+	path = VST104-Foxtrot
+	url = https://github.com/visionspacetec/VST104-Foxtrot
