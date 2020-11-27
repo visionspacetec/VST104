@@ -1,5 +1,0 @@
-09-07 21:20:25 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
-09-07 21:20:25 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
-09-07 21:20:25 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6)-1
-09-07 21:20:25 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
-09-07 21:20:25 replicate_layout.action_replicate_layout 319:wx top level windows: wxWindowList: [<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x35da500> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x35e5780> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xaf09e10> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xa0b1d10> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xa0b4650> >]
