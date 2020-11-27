@@ -14,7 +14,7 @@ This board is designed to be connected to other LibreCube boards for hardware an
 This board hosts a single redundant onboard computer designed to fulfill space industry requirements. The main processing unit is STM32L496 microprocessor with access to triple redundant FLASH and F-RAM memories, two CAN-BUS drivers, high and low-speed external oscillators, and seven onboard temperature sensors, all together with many protective features. A large universal soldering array with SO-24 footprints fills the unused parts of the board.
 <br clear="right"/>
 
-- ### VST104 double OBC board - referred as [Board Delta](https://github.com/visionspacetec/VST104-Sierra) <img align="right" src="https://github.com/visionspacetec/VST104-Delta/blob/main/gallery/3Dexport/top.png?raw=true" width=25%/>
+### VST104 double OBC board - referred as [Board Delta](https://github.com/visionspacetec/VST104-Sierra) <img align="right" src="https://github.com/visionspacetec/VST104-Delta/blob/main/gallery/3Dexport/top.png?raw=true" width=25%/>
 This board combines two [sierra boards](./board_delta) in parallel design prowiding a doble redundancy. User is capable of running the very same code on both of the OBCs (as they have consistent layout) and switching inbetween them with dedicadet kill-switches. Universal soldering array with SO-24 footprints fills the unused lower part of the board.
 <br clear="right"/>
 
