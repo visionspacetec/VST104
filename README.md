@@ -6,19 +6,19 @@ All of the boards are designed with [KiCad software](https://kicad-pcb.org/) and
 
 The following boards have been developed or are currently under development:
 
-- ### VST104 prototype board - referred as [board_zero](./board_zero) <img align="right" src="./board_zero/gallery/top.png" width=25%/>
+- ### VST104 prototype board - referred as [Board Zero](https://github.com/visionspacetec/VST104-Zero) <img align="right" src="https://github.com/visionspacetec/VST104-Zero/blob/main/gallery/top.png?raw=true" width=25%/>
 This board is designed to be connected to other LibreCube boards for hardware and software testing and development. The main working area contains a universal THT soldering array and two SO-24 footprints with extended pads. The board should provide an efficient tool for soldering temporary circuits with THT technology (plus the two SMD chips).
 <br clear="right"/>
 
-- ### VST104 single OBC board - referred as [board_sierra](./board_sierra) <img align="right" src="./board_sierra/gallery/top.png" width=25%/>
+- ### VST104 single OBC board - referred as [Board Sierra](https://github.com/visionspacetec/VST104-Sierra) <img align="right" src="https://github.com/visionspacetec/VST104-Sierra/blob/main/gallery/3Dexport/top.png?raw=true" width=25%/>
 This board hosts a single redundant onboard computer designed to fulfill space industry requirements. The main processing unit is STM32L496 microprocessor with access to triple redundant FLASH and F-RAM memories, two CAN-BUS drivers, high and low-speed external oscillators, and seven onboard temperature sensors, all together with many protective features. A large universal soldering array with SO-24 footprints fills the unused parts of the board.
 <br clear="right"/>
 
-- ### VST104 double OBC board - referred as [board_delta](./board_delta) <img align="right" src="./board_delta/gallery/top.png" width=25%/>
+- ### VST104 double OBC board - referred as [Board Delta](https://github.com/visionspacetec/VST104-Sierra) <img align="right" src="https://github.com/visionspacetec/VST104-Delta/blob/main/gallery/3Dexport/top.png?raw=true" width=25%/>
 This board combines two [sierra boards](./board_delta) in parallel design prowiding a doble redundancy. User is capable of running the very same code on both of the OBCs (as they have consistent layout) and switching inbetween them with dedicadet kill-switches. Universal soldering array with SO-24 footprints fills the unused lower part of the board.
 <br clear="right"/>
 
-- ### VST104 Flat-Sat board - referred as [element_foxtrot](./element_foxtrot) <img align="right" src="./element_foxtrot/gallery/top.png" width=25%/>
+- ### VST104 Flat-Sat board - referred as [Element Foxtrot](https://github.com/visionspacetec/VST104-Sierra) <img align="right" src="https://github.com/visionspacetec/VST104-Foxtrot/blob/main/gallery/3Dexport/top.png?raw=true" width=25%/>
 This auxiliary VST board serves as a flat-sat development board.  It is capable of hosting four PC104 modules with the possibility of extension to other flat-sat thru FPC cable. LibreCube PC104 header pinout is expected (important for power lines). The breakable part on the top serves as external power management circuitry (many protection features included) with 2[mm] power plug or USB-C connector. With a voltage range 7-14[V] (same for both inputs) and current up to 6[A], is this auxiliary board quite universal in terms of applicable power source. Please note the 5[V] input possibility for the USB-C.
 <br clear="right"/>
 
@@ -29,9 +29,9 @@ Only a basic  C++ software dedicated to the test of correct board assembly is av
 All of the previously stated boards of this project share these KiCad libraries. These libraries are located outside individual boards project files. As there is no library management included in KiCad, the user is required to change hardcoded library paths manually.
 | Library | Description |
 | :-: | :-- |
-| [`VST104_libraries`](./VST_libraries)  | Just a few new symbols were required so far. All of them are listed in this symbol library. |
-| [`VST104_footprints`](./VST_footprints.pretty) |  This library contains all of the created or modified footprints. A special subfolder contains 3D models of some of the used components. The standard silk line width is 0.16[mm]. |
-| [`VST104_logos`](./VST_logos.pretty) |  All of the used silk layer logos and special characters are placed in this library. |
+| [`VST104_libraries`](https://github.com/visionspacetec/VST104-Libraries)  | Just a few new symbols were required so far. All of them are listed in this symbol library. |
+| [`VST104_footprints`](https://github.com/visionspacetec/VST104-Libraries) |  This library contains all of the created or modified footprints. A special subfolder contains 3D models of some of the used components. The standard silk line width is 0.16[mm]. |
+| [`VST104_logos`](https://github.com/visionspacetec/VST104-Libraries) |  All of the used silk layer logos and special characters are placed in this library. |
 
 ## Plugins
 During development and other works on this project, the following external KiCad plugins were used:
