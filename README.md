@@ -2,7 +2,7 @@
 This repository contains all of the PCB boards designed by the company [Vision Space Technologies](https://www.visionspace.com/) as a contribution to an open-source space and earth exploration project [LibreCube](https://librecube.org/). 
 
 ## Boards
-All of the boards are designed with [KiCad software](https://kicad-pcb.org/) and follow the normative specifications of LibreCube boards in PC104 format defined [at this link](https://wiki.librecube.org/index.php?title=LibreCube_Board_Specification). It includes information about the board layout, stacking, components, and other essential parameters. All used components of the OBC boards are suitable for space applications as they meet: i). Mechanical failure qualifications AEC-Q100 or AEC-Q200; ii). Military rated operational temperatures (-40°C to +125°C).
+All of the boards are designed with [KiCad software](https://kicad.org/) and follow the normative specifications of LibreCube boards in PC104 format defined [at this link](https://wiki.librecube.org/index.php?title=LibreCube_Board_Specification). It includes information about the board layout, stacking, components, and other essential parameters. All used components of the OBC boards are suitable for space applications as they meet: i). Mechanical failure qualifications AEC-Q100 or AEC-Q200; ii). Military rated operational temperatures (-40°C to +125°C).
 
 The following boards have been developed or are currently under development:
 
